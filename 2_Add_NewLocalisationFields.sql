@@ -20,7 +20,7 @@
             ADD COLUMN `box_text_loc0` TEXT AFTER `option_text_loc9`,
             ADD COLUMN `box_text_loc9` TEXT AFTER `box_text_loc8`;
 
-        ALTER TABLE `locales_npc_text`
+        ALTER TABLE locales_npc_text
             ADD COLUMN `Text0_0_loc0` LONGTEXT AFTER `entry`,
             ADD COLUMN `Text0_0_loc9` LONGTEXT AFTER `Text0_0_loc8`,
             ADD COLUMN `Text0_1_loc0` LONGTEXT AFTER `Text0_0_loc9`,

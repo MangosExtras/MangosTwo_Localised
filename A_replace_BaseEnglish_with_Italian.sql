@@ -50,99 +50,99 @@ WHERE `locales_item`.`description_loc9` <>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc9`
-WHERE `locales_npc_text`.`Text0_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text0_0`=locales_npc_text.`Text0_0_loc9`
+WHERE locales_npc_text.`Text0_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text0_1`=`locales_npc_text`.`Text0_1_loc9`
-WHERE `locales_npc_text`.`Text0_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text0_1`=locales_npc_text.`Text0_1_loc9`
+WHERE locales_npc_text.`Text0_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text1_0`=`locales_npc_text`.`Text1_0_loc9`
-WHERE `locales_npc_text`.`Text1_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text1_0`=locales_npc_text.`Text1_0_loc9`
+WHERE locales_npc_text.`Text1_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text1_1`=`locales_npc_text`.`Text1_1_loc9`
-WHERE `locales_npc_text`.`Text1_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text1_1`=locales_npc_text.`Text1_1_loc9`
+WHERE locales_npc_text.`Text1_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text2_0`=`locales_npc_text`.`Text2_0_loc9`
-WHERE `locales_npc_text`.`Text2_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text2_0`=locales_npc_text.`Text2_0_loc9`
+WHERE locales_npc_text.`Text2_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text2_1`=`locales_npc_text`.`Text2_1_loc9`
-WHERE `locales_npc_text`.`Text2_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text2_1`=locales_npc_text.`Text2_1_loc9`
+WHERE locales_npc_text.`Text2_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text3_0`=`locales_npc_text`.`Text3_0_loc9`
-WHERE `locales_npc_text`.`Text3_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text3_0`=locales_npc_text.`Text3_0_loc9`
+WHERE locales_npc_text.`Text3_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text3_1`=`locales_npc_text`.`Text3_1_loc9`
-WHERE `locales_npc_text`.`Text3_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text3_1`=locales_npc_text.`Text3_1_loc9`
+WHERE locales_npc_text.`Text3_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text4_0`=`locales_npc_text`.`Text4_0_loc9`
-WHERE `locales_npc_text`.`Text4_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text4_0`=locales_npc_text.`Text4_0_loc9`
+WHERE locales_npc_text.`Text4_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text4_1`=`locales_npc_text`.`Text4_1_loc9`
-WHERE `locales_npc_text`.`Text4_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text4_1`=locales_npc_text.`Text4_1_loc9`
+WHERE locales_npc_text.`Text4_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text5_0`=`locales_npc_text`.`Text5_0_loc9`
-WHERE `locales_npc_text`.`Text5_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text5_0`=locales_npc_text.`Text5_0_loc9`
+WHERE locales_npc_text.`Text5_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text5_1`=`locales_npc_text`.`Text5_1_loc9`
-WHERE `locales_npc_text`.`Text5_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text5_1`=locales_npc_text.`Text5_1_loc9`
+WHERE locales_npc_text.`Text5_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text6_0`=`locales_npc_text`.`Text6_0_loc9`
-WHERE `locales_npc_text`.`Text6_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text6_0`=locales_npc_text.`Text6_0_loc9`
+WHERE locales_npc_text.`Text6_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text6_1`=`locales_npc_text`.`Text6_1_loc9`
-WHERE `locales_npc_text`.`Text6_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text6_1`=locales_npc_text.`Text6_1_loc9`
+WHERE locales_npc_text.`Text6_1_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text7_0`=`locales_npc_text`.`Text7_0_loc9`
-WHERE `locales_npc_text`.`Text7_0_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text7_0`=locales_npc_text.`Text7_0_loc9`
+WHERE locales_npc_text.`Text7_0_loc9`<>'';
 
 -- Update npc_text
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text7_1`=`locales_npc_text`.`Text7_1_loc9`
-WHERE `locales_npc_text`.`Text7_1_loc9`<>'';
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text7_1`=locales_npc_text.`Text7_1_loc9`
+WHERE locales_npc_text.`Text7_1_loc9`<>'';
 
 -- Update page_text
 UPDATE `page_text`

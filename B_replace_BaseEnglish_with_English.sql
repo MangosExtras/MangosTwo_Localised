@@ -19,23 +19,23 @@ INNER JOIN `locales_item` ON item_template.`Entry`=`locales_item`.`entry`
 SET item_template.`Name`=`locales_item`.`name_loc0`,item_template.`description`=COALESCE(`locales_item`.`description_loc0`,'');
  
 UPDATE `npc_text`
-INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
-SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc0`,
-    npc_text.`Text0_1`=`locales_npc_text`.`Text0_1_loc0`,
-    npc_text.`Text1_0`=`locales_npc_text`.`Text1_0_loc0`,
-    npc_text.`Text1_1`=`locales_npc_text`.`Text1_1_loc0`,
-    npc_text.`Text2_0`=`locales_npc_text`.`Text2_0_loc0`,
-    npc_text.`Text2_1`=`locales_npc_text`.`Text2_1_loc0`,
-    npc_text.`Text3_0`=`locales_npc_text`.`Text3_0_loc0`,
-    npc_text.`Text3_1`=`locales_npc_text`.`Text3_1_loc0`,
-    npc_text.`Text4_0`=`locales_npc_text`.`Text4_0_loc0`,
-    npc_text.`Text4_1`=`locales_npc_text`.`Text4_1_loc0`,
-    npc_text.`Text5_0`=`locales_npc_text`.`Text5_0_loc0`,
-    npc_text.`Text5_1`=`locales_npc_text`.`Text5_1_loc0`,
-    npc_text.`Text6_0`=`locales_npc_text`.`Text6_0_loc0`,
-    npc_text.`Text6_1`=`locales_npc_text`.`Text6_1_loc0`,
-    npc_text.`Text7_0`=`locales_npc_text`.`Text7_0_loc0`,
-    npc_text.`Text7_1`=`locales_npc_text`.`Text7_1_loc0`;
+INNER JOIN locales_npc_text ON npc_text.`id`=locales_npc_text.`entry` 
+SET npc_text.`Text0_0`=locales_npc_text.`Text0_0_loc0`,
+    npc_text.`Text0_1`=locales_npc_text.`Text0_1_loc0`,
+    npc_text.`Text1_0`=locales_npc_text.`Text1_0_loc0`,
+    npc_text.`Text1_1`=locales_npc_text.`Text1_1_loc0`,
+    npc_text.`Text2_0`=locales_npc_text.`Text2_0_loc0`,
+    npc_text.`Text2_1`=locales_npc_text.`Text2_1_loc0`,
+    npc_text.`Text3_0`=locales_npc_text.`Text3_0_loc0`,
+    npc_text.`Text3_1`=locales_npc_text.`Text3_1_loc0`,
+    npc_text.`Text4_0`=locales_npc_text.`Text4_0_loc0`,
+    npc_text.`Text4_1`=locales_npc_text.`Text4_1_loc0`,
+    npc_text.`Text5_0`=locales_npc_text.`Text5_0_loc0`,
+    npc_text.`Text5_1`=locales_npc_text.`Text5_1_loc0`,
+    npc_text.`Text6_0`=locales_npc_text.`Text6_0_loc0`,
+    npc_text.`Text6_1`=locales_npc_text.`Text6_1_loc0`,
+    npc_text.`Text7_0`=locales_npc_text.`Text7_0_loc0`,
+    npc_text.`Text7_1`=locales_npc_text.`Text7_1_loc0`;
 
 UPDATE `page_text`
 INNER JOIN `locales_page_text` ON page_text.`entry`=`locales_page_text`.`entry`
