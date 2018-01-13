@@ -37,7 +37,6 @@ UPDATE script_texts SET content_loc8='Кирел нарак!' WHERE entry=-10001
 UPDATE script_texts SET content_loc8='Презренная тварь!' WHERE entry=-1000153; /* content: Contemptible wretch! */
 UPDATE script_texts SET content_loc8='Грядет передел вселенной.' WHERE entry=-1000154; /* content: The universe will be remade. */
 UPDATE script_texts SET content_loc8='Легион... никогда... не падет.' WHERE entry=-1000155; /* content: The Legion... will never... fall. */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000156; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Пойло Кровавого Молота? Обожаю!' WHERE entry=-1000156; /* content: Bloodmaul Brew? Me favorite! */
 UPDATE script_texts SET content_loc8='Нахальное отродье, вы лишь отсрочили неизбежное. Где падет один, восстанут десять. Такова воля Каззака.' WHERE entry=-1000158; /* content: Impudent whelps, you only delay the inevitable. Where one has fallen, ten shall rise. Such is the will of Kazzak... */
 UPDATE script_texts SET content_loc8='Начинаю тектоническую дестабилизацию.' WHERE entry=-1000160; /* content: Tectonic disruption commencing. */
@@ -63,7 +62,6 @@ UPDATE script_texts SET content_loc8='Нам что, без тебя пробл�
 UPDATE script_texts SET content_loc8='Я спасен! Спасибо, доктор!' WHERE entry=-1000201; /* content: I\'m saved! Thank you, doctor! */
 UPDATE script_texts SET content_loc8='УРА! Я СПАСЕН!' WHERE entry=-1000202; /* content: HOORAY! I AM SAVED! */
 UPDATE script_texts SET content_loc8='%s недоуменно смотрит на тебя. Может, тебе следует смотреть внимательнее?' WHERE entry=-1000204; /* content: %s looks up at you quizzically. Maybe you should inspect it? */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000207; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Ммм... Пить!' WHERE entry=-1000207; /* content: Mmm. Me thirsty! */
 UPDATE script_texts SET content_loc8='О, глянь-ка! Пойло Кровавого Молота! Ммммм...' WHERE entry=-1000208; /* content: Ohh, look! Bloodmaul Brew! Mmmm... */
 UPDATE script_texts SET content_loc8='Племя Бешеного Сердца убьет тебя, если ты вернешься. Тебе здесь больше не рады!' WHERE entry=-1000208; /* content: Frenzyheart kill you if you come back. You no welcome here no more! */
@@ -298,7 +296,6 @@ UPDATE script_texts SET content_loc8='Выпускай! Я этих тощих �
 UPDATE script_texts SET content_loc8='А, ну наконец-то! Как же приятно будет избавиться от этих бочонков.' WHERE entry=-1000574; /* content: Ah, here at last! It\'s going to feel so good to get rid of these barrels. */
 UPDATE script_texts SET content_loc8='Вместе мы выберемся отсюда. Ты готов?' WHERE entry=-1000575; /* content: Together we will fight our way out of here. Are you ready? */
 UPDATE script_texts SET content_loc8='Этого вполне достаточно. Дальше я сам доберусь.' WHERE entry=-1000577; /* content: This is far enough. I can make it on my own from here. */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000579; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Там! Уничтожьте его! Код необходимо вернуть!' WHERE entry=-1000579; /* content: There! Destroy him! The Cipher must be recovered! */
 UPDATE script_texts SET content_loc8='Отличный экземпляр.' WHERE entry=-1000581; /* content: A wonderful specimen. */
 UPDATE script_texts SET content_loc8='Давай уйдем отсюда.' WHERE entry=-1000583; /* content: Let us leave this place. */
@@ -529,18 +526,11 @@ UPDATE script_texts SET content_loc8='Клянусь вторым солнцем
 UPDATE script_texts SET content_loc8='За Орду!' WHERE entry=-1000895; /* content: For the Horde! */
 UPDATE script_texts SET content_loc8='На защиту бункеров!' WHERE entry=-1000896; /* content: Defend the bunkers! */
 UPDATE script_texts SET content_loc8='Наши враги падут!' WHERE entry=-1000897; /* content: Our foes will fall! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000898; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Защитим границу! Остановим незваных гостей!' WHERE entry=-1000898; /* content: Protect the conduit! Stop the intruders! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000899; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Готово! Сохраняй! Сохраняй!' WHERE entry=-1000899; /* content: Done! Back up! Back up! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000900; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000901; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Большое спасибо. Вы поможете мне выбраться отсюда?' WHERE entry=-1000901; /* content: Thanks, friend. Will you help me get out of here? */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000902; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Мы уже почти дошли до заставы стражей Протектората, $n. Сюда!' WHERE entry=-1000902; /* content: We\'re not too far from the Protectorate Watch Post, $N. This way! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000903; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Командир! Этот смертный спас меня!' WHERE entry=-1000903; /* content: Commander! This fleshling rescued me! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1000904; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='%s принюхивается. Клубень близко!' WHERE entry=-1000907; /* content: %s sniffs at the air. A tuber is near! */
 UPDATE script_texts SET content_loc8='%s начинает копать.' WHERE entry=-1000908; /* content: %s starts to dig. */
 UPDATE script_texts SET content_loc8='%s радостно взвизгивает, увидев находку.' WHERE entry=-1000909; /* content: %s squeals with glee at its discovery. */
@@ -802,7 +792,6 @@ UPDATE script_texts SET content_loc8='Сюда идет $n! К оружию!' WH
 UPDATE script_texts SET content_loc8='Ик! $n идет прямо на нас!' WHERE entry=-1047010; /* content: Eek! $N coming right at us! */
 UPDATE script_texts SET content_loc8='Черт побери! $n!' WHERE entry=-1047011; /* content: Egads! $N on me! */
 UPDATE script_texts SET content_loc8='Помогите! Избавьте меня от |3-1($n)!' WHERE entry=-1047012; /* content: Help! Get this $N off of me! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1070000; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='%s пробуждается от своего каменного сна!' WHERE entry=-1070005; /* content: %s breaks free from his stone slumber! */
 UPDATE script_texts SET content_loc8='С вашей помощью я смогу оценить эти тоннели.' WHERE entry=-1090000; /* content: With your help, I can evaluate these tunnels. */
 UPDATE script_texts SET content_loc8='Посмотрим, откуда берутся эти трогги... и покончим с ними!' WHERE entry=-1090001; /* content: Let\'s see if we can find out where these Troggs are coming from.... and put a stop to the invasion! */
@@ -840,30 +829,16 @@ UPDATE script_texts SET content_loc8='ХАККАР ВОЗРОДИЛСЯ!' WHERE 
 UPDATE script_texts SET content_loc8='Я ВСПОМИНАЮ ВКУС ЖИЗНИ!' WHERE entry=-1109007; /* content: I TASTE THE BLOOD OF LIFE! */
 UPDATE script_texts SET content_loc8='Я СОВСЕМ РЯДОМ!' WHERE entry=-1109009; /* content: I AM NEAR! */
 UPDATE script_texts SET content_loc8='Я совсем рядом.' WHERE entry=-1109010; /* content: I AM HERE! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1129000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1129001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1129002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1129003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1129004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Нас атакует $n! Будьте внимательны!' WHERE entry=-1129008; /* content: Incoming $N - look sharp, friends! */
 UPDATE script_texts SET content_loc8='Клинки света!' WHERE entry=-1189001; /* content: Blades of Light! */
 UPDATE script_texts SET content_loc8='Свет, дай мне силу!' WHERE entry=-1189002; /* content: Light, give me strength! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Нечестивцы! Да покарает их Свет!' WHERE entry=-1189005; /* content: Infidels! They must be purified! */
 UPDATE script_texts SET content_loc8='Пустое место!' WHERE entry=-1189006; /* content: Unworthy! */
 UPDATE script_texts SET content_loc8='Я с вами, миледи!' WHERE entry=-1189007; /* content: At your side, milady! */
 UPDATE script_texts SET content_loc8='Свет изрек свое слово!' WHERE entry=-1189009; /* content: The Light has spoken! */
 UPDATE script_texts SET content_loc8='Восстань, защитник мой!' WHERE entry=-1189010; /* content: Arise, my champion! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189012; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189013; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189014; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189016; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189017; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Вы не оскверните наши таинства!' WHERE entry=-1189019; /* content: You will not defile these mysteries! */
 UPDATE script_texts SET content_loc8='Сгорите в праведном огне!' WHERE entry=-1189020; /* content: Burn in righteous fire! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1189021; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Восстаньте слуги, устремитесь в бой! Пусть павший рыцарь обретет покой!' WHERE entry=-1189027; /* content: Soldiers arise, stand and fight! Bring victory at last to this fallen knight! */
 UPDATE script_texts SET content_loc8='%s смеется.' WHERE entry=-1189030; /* content: %s laughs. */
 UPDATE script_texts SET content_loc8='Всадник встает...' WHERE entry=-1189031; /* content: Horseman rise... */
@@ -949,7 +924,6 @@ UPDATE script_texts SET content_loc8='Откажитесь от своей за�
 UPDATE script_texts SET content_loc8='Я ведь предупреждал тебя о бессмысленности твоей затеи!' WHERE entry=-1269009; /* content: I told you it was a fool\'s quest! */
 UPDATE script_texts SET content_loc8='Уже уходишь? Так быстро?' WHERE entry=-1269010; /* content: Leaving so soon? */
 UPDATE script_texts SET content_loc8='Одной помехой меньше!' WHERE entry=-1269015; /* content: One less obstacle in our way! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1269018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Все мои силы уходят на портал! Я не могу отвлекаться на щит!' WHERE entry=-1269023; /* content: My powers must be concentrated on the portal! I do not have time to hold the shield! */
 UPDATE script_texts SET content_loc8='Щит вот-вот исчезнет! Все мои планы под угрозой!' WHERE entry=-1269024; /* content: The shield is nearly gone! All that I have worked for is in danger! */
 UPDATE script_texts SET content_loc8='Начнем урок!' WHERE entry=-1289000; /* content: School is in session! */
@@ -976,7 +950,6 @@ UPDATE script_texts SET content_loc8='Так ты считаешь возмож�
 UPDATE script_texts SET content_loc8='Пора взять дело в свои руки. Идем. Вступи в мои владения и брось вызов могуществу Плети!' WHERE entry=-1329014; /* content: Time to take matters into my own hands. Come. Enter my domain and challenge the might of the Scourge! */
 UPDATE script_texts SET content_loc8='Сегодня вы загубили то, на что я потратил многие годы! За это я собственными руками убью каждого из вас!' WHERE entry=-1329016; /* content: Today you have unmade what took me years to create! For this you shall all die by my hand! */
 UPDATE script_texts SET content_loc8='Глупцы, вы думаете, что сможете победить меня так легко? Узрите же истинную мощь натрезимов!' WHERE entry=-1329017; /* content: You fools think you can defeat me so easily? Face the true might of the Nathrezim! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1409001; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Прах к праху...' WHERE entry=-1409005; /* content: Ashes to Ashes! */
 UPDATE script_texts SET content_loc8='Придите, мои слуги! Защитите своего хозяина!' WHERE entry=-1409013; /* content: COME FORTH, MY SERVANTS! DEFEND YOUR MASTER! */
 UPDATE script_texts SET content_loc8='Огонь очистит все!' WHERE entry=-1409015; /* content: BY FIRE BE PURGED! */
@@ -1234,7 +1207,6 @@ UPDATE script_texts SET content_loc8='Твои дни сочтены!' WHERE ent
 UPDATE script_texts SET content_loc8='Паразиты! Кровососы! Пейте мою кровь – и захлебнитесь ею!' WHERE entry=-1544001; /* content: Vermin! Leeches! Take my blood and choke on it! */
 UPDATE script_texts SET content_loc8='Вы думаете, что ваша жалкая магия будет удерживать меня вечно?' WHERE entry=-1544004; /* content: How long do you believe your pathetic sorcery can hold me? */
 UPDATE script_texts SET content_loc8='Моя кровь станет вашей погибелью!' WHERE entry=-1544005; /* content: My blood will be the end of you! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1544012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='%s начинает произносить заклинание "Вспышка Огненной звезды"!' WHERE entry=-1544013; /* content: %s begins to cast Blast Nova! */
 UPDATE script_texts SET content_loc8='Сдерживающая сила |3-1(%s) начинает ослабевать!' WHERE entry=-1544014; /* content: %s\'s bonds begin to weaken! */
 UPDATE script_texts SET content_loc8='%s вырывается на свободу!' WHERE entry=-1544015; /* content: %s breaks free! */
@@ -1347,19 +1319,6 @@ UPDATE script_texts SET content_loc8='%s издает странный звук.
 UPDATE script_texts SET content_loc8='Кто посмел вторгнуться в святилище?' WHERE entry=-1553007; /* content: Who disturbs this sanctuary? */
 UPDATE script_texts SET content_loc8='Что я делаю? Почему я?..' WHERE entry=-1553009; /* content: What am I doing? Why do I... */
 UPDATE script_texts SET content_loc8='Ко мне, дети мои!' WHERE entry=-1553010; /* content: Children, come to me! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554004; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554005; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554006; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554007; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554008; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554009; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554010; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1554012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Хм, кажется, вы не слишком-то цените свою жизнь?' WHERE entry=-1554013; /* content: Don\'t value your life very much, do you? */
 UPDATE script_texts SET content_loc8='Я не одна.' WHERE entry=-1554014; /* content: I am not alone. */
 UPDATE script_texts SET content_loc8='Лезете в самое пекло?' WHERE entry=-1554015; /* content: Think you can take the heat? */
@@ -1436,8 +1395,6 @@ UPDATE script_texts SET content_loc8='Он здесь, останови его!'
 UPDATE script_texts SET content_loc8='У нас сколько угодно времени...' WHERE entry=-1560018; /* content: We have all the time in the world.... */
 UPDATE script_texts SET content_loc8='От нас не убежишь' WHERE entry=-1560019; /* content: You cannot escape us! */
 UPDATE script_texts SET content_loc8='Не думайте, что можете победить!' WHERE entry=-1560020; /* content: Do not think you can win! */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1560021; /* content: REUSE ME */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1560022; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Отлично. Вперед!' WHERE entry=-1560023; /* content: Very well then. Let\'s go! */
 UPDATE script_texts SET content_loc8='Я больше никогда не буду скован!' WHERE entry=-1560026; /* content: I\'ll never be chained again! */
 UPDATE script_texts SET content_loc8='Отлично. Мельница Таррен к западу отсюда. У нас мало времени...' WHERE entry=-1560027; /* content: Very well. Tarren Mill lies just west of here. Since time is of the essence... */
@@ -1491,7 +1448,6 @@ UPDATE script_texts SET content_loc8='Не покидай меня!' WHERE entry
 UPDATE script_texts SET content_loc8='Я не просил об этом!' WHERE entry=-1564050; /* content: I didn\'t ask for this! */
 UPDATE script_texts SET content_loc8='Я не хочу обратно!' WHERE entry=-1564052; /* content: I don\'t want to go back! */
 UPDATE script_texts SET content_loc8='Ну, и что мне теперь делать?' WHERE entry=-1564053; /* content: Now what do I do? */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1564054; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Ваши мечты осуществятся... Но за это придется заплатить.' WHERE entry=-1564055; /* content: You can have anything you desire... for a price. */
 UPDATE script_texts SET content_loc8='Твоим возможностям далеко до твоих желаний.' WHERE entry=-1564058; /* content: Your reach exceeds your grasp. */
 UPDATE script_texts SET content_loc8='Берегитесь: я жив!' WHERE entry=-1564062; /* content: Beware: I live! */
@@ -1875,7 +1831,6 @@ UPDATE script_texts SET content_loc8='Эонар, прошу тебя, дару�
 UPDATE script_texts SET content_loc8='Появились союзники природы!' WHERE entry=-1603010; /* content: Allies of Nature have appeared! */
 UPDATE script_texts SET content_loc8='%s падает на землю и начинает восстанавливаться.' WHERE entry=-1603011; /* content: The %s withers into the earth and begins to regenerate. */
 UPDATE script_texts SET content_loc8='Как пожелаешь, $n.' WHERE entry=-1603012; /* content: As you wish, $N. */
-UPDATE script_texts SET content_loc8='Используй меня повторно' WHERE entry=-1603013; /* content: REUSE ME */
 UPDATE script_texts SET content_loc8='Госпожа, враг прорвался в Оранжерею!' WHERE entry=-1603014; /* content: Matron, the Conservatory has been breached! */
 UPDATE script_texts SET content_loc8='На удобрение.' WHERE entry=-1603015; /* content: Fertilizer. */
 UPDATE script_texts SET content_loc8='Госпожа, я умираю.' WHERE entry=-1603017; /* content: Matron, one has fallen! */

@@ -296,7 +296,6 @@ UPDATE mangos_string SET content_loc8='Восторженное' WHERE entry=325
 UPDATE mangos_string SET content_loc8='Фракция %s (%u) не может иметь репутацию.' WHERE entry=326; /* content: Faction %s (%u) can\'not have reputation. */
 UPDATE mangos_string SET content_loc8='[нет репутации]' WHERE entry=327; /* content: [no reputation] */
 UPDATE mangos_string SET content_loc8='Персонажей на аккаунте %s (ID: %u)' WHERE entry=328; /* content: Characters at account %s (Id: %u) */
-UPDATE mangos_string SET content_loc8='  %s (GUID %u)' WHERE entry=329; /* content: %s (GUID %u) */
 UPDATE mangos_string SET content_loc8='Игрок не найден!' WHERE entry=330; /* content: No players found! */
 UPDATE mangos_string SET content_loc8='Специальная цена предмета %u не существует' WHERE entry=331; /* content: Extended item cost %u not exist */
 UPDATE mangos_string SET content_loc8='Режим ГМ включен' WHERE entry=332; /* content: GM mode is ON */
@@ -742,8 +741,8 @@ UPDATE mangos_string SET content_loc8='Ветеран' WHERE entry=813; /* conte
 UPDATE mangos_string SET content_loc8='Участник' WHERE entry=814; /* content: Member */
 UPDATE mangos_string SET content_loc8='Новичок' WHERE entry=815; /* content: Initiate */
 UPDATE mangos_string SET content_loc8='Внимание: вы попали в зону, не предназначенную для полетов, и будете высажены со своего транспорта!' WHERE entry=816; /* content: Warning: You\'ve entered a no-fly zone and are about to be dismounted! */
-UPDATE mangos_string SET content_loc8='Entry %u не найден в таблице creature_template.' WHERE entry=817; /* content: Entry %u not found in creature_template table. */
 UPDATE mangos_string SET content_loc8='Внимание: вы попали в зону, не предназначенную для полетов, и будете высажены со своего транспорта!' WHERE entry=817; /* content: Warning: You\'ve entered a no-fly zone and are about to be dismounted! */
+UPDATE mangos_string SET content_loc8='Entry %u не найден в таблице creature_template.' WHERE entry=817; /* content: Entry %u not found in creature_template table. */
 UPDATE mangos_string SET content_loc8='Завершение подключения...' WHERE entry=1000; /* content: Exiting daemon... */
 UPDATE mangos_string SET content_loc8='Аккаунт: %s удален' WHERE entry=1001; /* content: Account deleted: %s */
 UPDATE mangos_string SET content_loc8='Аккаунт %s не может быть удалён (возможно формат sql файла был обновлён)' WHERE entry=1002; /* content: Account %s NOT deleted (probably sql file format was updated) */

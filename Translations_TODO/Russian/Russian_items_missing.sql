@@ -32,6 +32,6 @@ UPDATE locales_item SET description_loc8='Gives the Tailor an increased chance t
 UPDATE locales_item SET name_loc8='Pattern: Fur Lining - Nature Resist ',description_loc8='Teaches you how to make Fur Lining - Nature Resist.' WHERE entry=44562; /* name: Pattern: Fur Lining - Nature Resist */ .* description: Teaches you how to make Fur Lining - Nature Resist. */
 UPDATE locales_item SET description_loc8='Teaches you how to make Fur Lining - Arcane Resist.' WHERE entry=44563; /* description: Teaches you how to make Fur Lining - Arcane Resist. */
 UPDATE locales_item SET description_loc8='Teaches you how to permanently enchant gloves to increase fishing skill by 5.' WHERE entry=50406; /* description: Teaches you how to permanently enchant gloves to increase fishing skill by 5. */
-UPDATE locales_item SET description_loc8='A lament for the days forever lost to the Banshee Queen' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen */
+UPDATE locales_item SET description_loc8='A lament for the days forever lost to the Banshee Queen.' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen. */
 
 SET NAMES 'latin1';
