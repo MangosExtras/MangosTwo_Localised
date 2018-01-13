@@ -62,6 +62,7 @@ UPDATE gossip_texts SET content_loc5='很好，克羅米。' WHERE entry=-359500
 UPDATE gossip_texts SET content_loc5='為什麼我會被送回這個特殊的地點和時間?' WHERE entry=-3595003; /* content: Why have I been sent back to this particular place and time? */
 UPDATE gossip_texts SET content_loc5='這個決定是什麼呢?' WHERE entry=-3595004; /* content: What was this decision? */
 UPDATE gossip_texts SET content_loc5='所以恆龍軍團打算要怎麼介入呢?' WHERE entry=-3595005; /* content: So how does the Infinite Dragonflight plan to interfere? */
+UPDATE gossip_texts SET content_loc5='克羅米，你和我都知道在這條時間流會發生什麼事情。我們都親眼見過這一切。$B$B你能不能把我們跳到實際採取行動的時間點去?' WHERE entry=-3595006; /* content: Chromie, you and I both know what\'s going to happen in this time stream. We\'ve seen this all before.$B$BCan you just skip us ahead to all the real action? */
 UPDATE gossip_texts SET content_loc5='是，麻煩你了!' WHERE entry=-3595007; /* content: Yes, please! */
 UPDATE gossip_texts SET content_loc5='布萊恩，這是我們的榮幸!' WHERE entry=-3599000; /* content: Brann, it would be our honor! */
 UPDATE gossip_texts SET content_loc5='傳送至遠征隊營地。' WHERE entry=-3603000; /* content: Teleport to the Expedition Base Camp. */
@@ -94,6 +95,7 @@ UPDATE gossip_texts SET content_loc5='這麼難，嗯?' WHERE entry=-3649007; /*
 UPDATE gossip_texts SET content_loc5='感謝您的讚美，大競技場大師。' WHERE entry=-3649009; /* content: Your words of praise are appreciated, Coliseum Master. */
 UPDATE gossip_texts SET content_loc5='這有點奇怪...' WHERE entry=-3649010; /* content: That is strange... */
 UPDATE gossip_texts SET content_loc5='我準備好了。' WHERE entry=-3650000; /* content: I am ready. */
+UPDATE gossip_texts SET content_loc5='我準備好了。但我想略過這場盛會。' WHERE entry=-3650001; /* content: I am ready. However, I\'d like to skip the pageantry. */
 UPDATE gossip_texts SET content_loc5='我準備好要接受下一個挑戰了。' WHERE entry=-3650002; /* content: I am ready for the next challenge. */
 
 SET NAMES 'latin1';
