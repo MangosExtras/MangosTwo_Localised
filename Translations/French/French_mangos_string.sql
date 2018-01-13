@@ -17,7 +17,6 @@ UPDATE mangos_string SET content_loc2='UNUSED' WHERE entry=245; /* content: UNUS
 UPDATE mangos_string SET content_loc2='UNUSED' WHERE entry=251; /* content: UNUSED */
 UPDATE mangos_string SET content_loc2='Neutre' WHERE entry=321; /* content: Neutral */
 UPDATE mangos_string SET content_loc2='Bienveillant' WHERE entry=322; /* content: Friendly */
-UPDATE mangos_string SET content_loc2='  %s (GUID %u)' WHERE entry=329; /* content: %s (GUID %u) */
 UPDATE mangos_string SET content_loc2='[Taverne]' WHERE entry=364; /* content: [Tavern] */
 UPDATE mangos_string SET content_loc2='%s débanni.' WHERE entry=411; /* content: %s unbanned. */
 UPDATE mangos_string SET content_loc2='Oui' WHERE entry=421; /* content: Yes */

@@ -14478,6 +14478,7 @@ UPDATE locales_creature SET name_loc2='Distributeur de dégâts de Walla',subnam
 UPDATE locales_creature SET name_loc2='Raptor Crocs-lames' WHERE entry=20734; /* name: Daggermaw Raptor */
 UPDATE locales_creature SET name_loc2='Archimage Lan\'dalock' WHERE entry=20735; /* name: Archmage Lan\'dalock */
 UPDATE locales_creature SET name_loc2='Tranchantes - Légion - Lapin invisible' WHERE entry=20736; /* name: Blade\'s Edge - Legion - Invis Bunny */
+UPDATE locales_creature SET name_loc2='Aeonus (1)' WHERE entry=20737; /* name: Aeonus (1) */
 UPDATE locales_creature SET name_loc2='Larve d\'aile-de-soie' WHERE entry=20747; /* name: Silkwing Larva */
 UPDATE locales_creature SET name_loc2='Loup redoutable sire-tonnerre' WHERE entry=20748; /* name: Thunderlord Dire Wolf */
 UPDATE locales_creature SET name_loc2='Serpent ailécaille' WHERE entry=20749; /* name: Scalewing Serpent */
@@ -16054,6 +16055,8 @@ UPDATE locales_creature SET name_loc2='Karazhan - Echecs, Medivh TRICHE : visue
 UPDATE locales_creature SET name_loc2='Super Thrall' WHERE entry=22522; /* name: Unkillable Test Dummy 73 Warrior RAID SPECIAL */
 UPDATE locales_creature SET name_loc2='Karazhan - Echecs, mannequin outil de victoire' WHERE entry=22523; /* name: Karazhan - Chess, Victory Dummy Tool */
 UPDATE locales_creature SET name_loc2='Karazhan - Echecs, contrôle de la victoire' WHERE entry=22524; /* name: Karazhan - Chess, Victory Controller */
+UPDATE locales_creature SET name_loc2='Griffon de Nid-de-l\'Aigle (1)' WHERE entry=22525; /* name: Aerie Gryphon (1) */
+UPDATE locales_creature SET name_loc2='Aggi Grondécrase (1)' WHERE entry=22670; /* name: Aggi Rumblestomp (1) */
 UPDATE locales_creature SET name_loc2='Bélier d\'Alterac' WHERE entry=22726; /* name: Alterac Ram */
 UPDATE locales_creature SET name_loc2='Cracheur de feu de l\'Exodar' WHERE entry=22802; /* name: Exodar Firebreather */
 UPDATE locales_creature SET name_loc2='Avaleur de feu de Lune-d\'argent' WHERE entry=22804; /* name: Silvermoon Fireeater */
@@ -23641,6 +23644,7 @@ UPDATE locales_creature SET name_loc2='Talla' WHERE entry=31194; /* name: Talla 
 UPDATE locales_creature SET name_loc2='Eldreth' WHERE entry=31195; /* name: Eldreth */
 UPDATE locales_creature SET name_loc2='Rith' WHERE entry=31196; /* name: Rith */
 UPDATE locales_creature SET name_loc2='Coprous le Profané' WHERE entry=31198; /* name: Coprous the Defiled */
+UPDATE locales_creature SET name_loc2='Acolyte (1)' WHERE entry=31201; /* name: Acolyte (1) */
 UPDATE locales_creature SET name_loc2='Oeuf crépusculaire de Sartharion' WHERE entry=31204; /* name: Sartharion Twilight Egg */
 UPDATE locales_creature SET name_loc2='Soldat de l\'Alliance ressuscité' WHERE entry=31205; /* name: Risen Alliance Soldier */
 UPDATE locales_creature SET name_loc2='Serre-du-ciel argent, neutre (taxi)' WHERE entry=31209; /* name: Riding Argent Skytalon, Neutral (Taxi) */
@@ -23824,6 +23828,8 @@ UPDATE locales_creature SET name_loc2='Traîtresse ravissante' WHERE entry=31529
 UPDATE locales_creature SET name_loc2='Grand apothicaire Putrescin' WHERE entry=31530; /* name: Grand Apothecary Putress */
 UPDATE locales_creature SET name_loc2='Seigneur de l\'effroi perfide' WHERE entry=31531; /* name: Perfidious Dreadlord */
 UPDATE locales_creature SET name_loc2='Gardien félon' WHERE entry=31532; /* name: Treacherous Guardian */
+UPDATE locales_creature SET name_loc2='Acolyte d\'Obscuron (1)' WHERE entry=31541; /* name: Acolyte of Shadron (1) */
+UPDATE locales_creature SET name_loc2='Acolyte de Vespéron (1)' WHERE entry=31543; /* name: Acolyte of Vesperon (1) */
 UPDATE locales_creature SET name_loc2='Arcaniste Peridris',subname_loc2='Intendant de l\'honneur' WHERE entry=31545; /* name: Arcanist Peridris */ /* subname: Honor Quartermaster */
 UPDATE locales_creature SET name_loc2='Arcaniste Baladrialle',subname_loc2='Intendante de l\'honneur vétéran' WHERE entry=31549; /* name: Arcanist Baladrialle */ /* subname: Veteran Honor Quartermaster */
 UPDATE locales_creature SET name_loc2='Magistrice Feyrina',subname_loc2='Intendante de l\'honneur vétéran' WHERE entry=31551; /* name: Magistrix Feyrina */ /* subname: Veteran Honor Quartermaster */
@@ -24078,6 +24084,8 @@ UPDATE locales_creature SET name_loc2='Proto-drake noir' WHERE entry=31912; /* n
 UPDATE locales_creature SET name_loc2='Traqueur invisible (dispersion)' WHERE entry=31913; /* name: Invisible Stalker (Dispersion) */
 UPDATE locales_creature SET name_loc2='Horde Transport Dropoff Bunny' WHERE entry=31915; /* name: Horde Transport Dropoff Bunny */
 UPDATE locales_creature SET name_loc2='Tanaika',subname_loc2='Intendant kalu\'ak' WHERE entry=31916; /* name: Tanaika */ /* subname: Kalu\'ak Quartermaster */
+UPDATE locales_creature SET name_loc2='Griffon de Nid-de-l\'Aigle (2)' WHERE entry=31917; /* name: Aerie Gryphon (2) */
+UPDATE locales_creature SET name_loc2='Aggi Grondécrase (2)' WHERE entry=31918; /* name: Aggi Rumblestomp (2) */
 UPDATE locales_creature SET name_loc2='Esprit de héros défunt' WHERE entry=32149; /* name: Fallen Hero\'s Spirit */
 UPDATE locales_creature SET name_loc2='Maître des traditions Zollinger' WHERE entry=32150; /* name: Loremaster Zollinger */
 UPDATE locales_creature SET name_loc2='Proto-drake bleu' WHERE entry=32151; /* name: Blue Proto-Drake */
@@ -25470,6 +25478,7 @@ UPDATE locales_creature SET name_loc2='Algalon Void Zone Visual Stalker' WHERE e
 UPDATE locales_creature SET name_loc2='Confesseur d\'argent Paletress' WHERE entry=34102; /* name: Argent Confessor Paletress */
 UPDATE locales_creature SET name_loc2='Le Chevalier noir' WHERE entry=34104; /* name: The Black Knight (No helmet) */
 UPDATE locales_creature SET name_loc2='Destrier d\'Argent' WHERE entry=34107; /* name: Argent Charger (No abilities) */
+UPDATE locales_creature SET name_loc2='Unité de commandement aérien (1)' WHERE entry=34109; /* name: Aerial Command Unit (1) */
 UPDATE locales_creature SET name_loc2='Poisson ténébreux' WHERE entry=34116; /* name: Shadowy Fish */
 UPDATE locales_creature SET name_loc2='Brann Barbe-de-Bronze' WHERE entry=34119; /* name: Brann Bronzebeard */
 UPDATE locales_creature SET name_loc2='Machine volante de Brann' WHERE entry=34120; /* name: Brann\'s Flying Machine */
@@ -26077,6 +26086,9 @@ UPDATE locales_creature SET name_loc2='Matilda Maillon-brillant',subname_loc2='M
 UPDATE locales_creature SET name_loc2='Héraut Beluus',subname_loc2='Voix du tournoi d\'Argent' WHERE entry=35501; /* name: Herald Beluus */ /* subname: Voice of the Argent Tournament */
 UPDATE locales_creature SET name_loc2='Enchanteur Isian',subname_loc2='Vendeur d\'héritages' WHERE entry=35507; /* name: Enchanter Isian */ /* subname: Heirloom Vendor */
 UPDATE locales_creature SET name_loc2='Enchanteur Erodin',subname_loc2='Vendeur d\'héritages' WHERE entry=35508; /* name: Enchanter Erodin */ /* subname: Heirloom Vendor */
+UPDATE locales_creature SET name_loc2='Gueule-d\'acide (1)' WHERE entry=35511; /* name: Acidmaw (1) */
+UPDATE locales_creature SET name_loc2='Gueule-d\'acide (2)' WHERE entry=35512; /* name: Acidmaw (2) */
+UPDATE locales_creature SET name_loc2='Gueule-d\'acide (3)' WHERE entry=35513; /* name: Acidmaw (3) */
 UPDATE locales_creature SET name_loc2='Jaeren Ligesol ressuscité',subname_loc2='Serviteur du Chevalier noir' WHERE entry=35545; /* name: Risen Jaeren Sunsworn */ /* subname: Black Knight\'s Minion */
 UPDATE locales_creature SET name_loc2='Le Chevalier noir' WHERE entry=35547; /* name: The Black Knight */
 UPDATE locales_creature SET name_loc2='Le Chevalier noir' WHERE entry=35557; /* name: The Black Knight */
@@ -26521,6 +26533,8 @@ UPDATE locales_creature SET name_loc2='Ensorceleuse Gardegivre' WHERE entry=3722
 UPDATE locales_creature SET name_loc2='Wyrm de givre de la Flèche' WHERE entry=37230; /* name: Spire Frostwyrm */
 UPDATE locales_creature SET name_loc2='Rope Beam Stalker' WHERE entry=37231; /* name: Rope Beam Stalker */
 UPDATE locales_creature SET name_loc2='Rejeton nérub\'ar' WHERE entry=37232; /* name: Nerub\'ar Broodling */
+UPDATE locales_creature SET name_loc2='Griffon de Nid-de-l\'Aigle (3)' WHERE entry=37233; /* name: Aerie Gryphon (3) */
+UPDATE locales_creature SET name_loc2='Aggi Grondécrase (3)' WHERE entry=37234; /* name: Aggi Rumblestomp (3) */
 UPDATE locales_creature SET name_loc2='Sortie de téléportation' WHERE entry=37488; /* name: Teleport Exit */
 UPDATE locales_creature SET name_loc2='Capitaine Arnath' WHERE entry=37491; /* name: Captain Arnath */
 UPDATE locales_creature SET name_loc2='Capitaine Brandon' WHERE entry=37493; /* name: Captain Brandon */

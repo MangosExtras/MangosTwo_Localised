@@ -63,7 +63,6 @@ UPDATE script_texts SET content_loc2='Kirel narak !' WHERE entry=-1000152; /* c
 UPDATE script_texts SET content_loc2='Pitoyable vermine !' WHERE entry=-1000153; /* content: Contemptible wretch! */
 UPDATE script_texts SET content_loc2='L\'univers sera redéfini.' WHERE entry=-1000154; /* content: The universe will be remade. */
 UPDATE script_texts SET content_loc2='La Légion… ne tombera… jamais.' WHERE entry=-1000155; /* content: The Legion... will never... fall. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000156; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='D\'la Masse-sanglante ? Ma préférée !' WHERE entry=-1000156; /* content: Bloodmaul Brew? Me favorite! */
 UPDATE script_texts SET content_loc2='Envahisseurs, vous êtes suspendus au rebord du précipice de l\'oubli ! La Légion ardente arrive, et avec elle votre fin.' WHERE entry=-1000157; /* content: Invaders, you dangle upon the precipice of oblivion! The Burning Legion comes and with it comes your end. */
 UPDATE script_texts SET content_loc2='Petits impudents, vous retardez seulement l\'inévitable. Là où un est tombé, dix se lèveront. Telle est la volonté de Kazzak...' WHERE entry=-1000158; /* content: Impudent whelps, you only delay the inevitable. Where one has fallen, ten shall rise. Such is the will of Kazzak... */
@@ -113,7 +112,6 @@ UPDATE script_texts SET content_loc2='Adieu monde cruel... Je m\'en vais loin de
 UPDATE script_texts SET content_loc2='%s lève les yeux vers vous d\'un air interrogateur. Peut-être devriez vous l\'inspecter ?' WHERE entry=-1000204; /* content: %s looks up at you quizzically. Maybe you should inspect it? */
 UPDATE script_texts SET content_loc2='%s vous regarde avec impatience.' WHERE entry=-1000205; /* content: %s looks at you unexpectadly. */
 UPDATE script_texts SET content_loc2='%s commence à picorer la nourriture.' WHERE entry=-1000206; /* content: %s starts pecking at the feed. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000207; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Mmm… Moi avoir soif !' WHERE entry=-1000207; /* content: Mmm. Me thirsty! */
 UPDATE script_texts SET content_loc2='Oohh, regardez ! Y a bière Masse-sanglante ! Mmm…' WHERE entry=-1000208; /* content: Ohh, look! Bloodmaul Brew! Mmmm... */
 UPDATE script_texts SET content_loc2='Frénécœur va vous tuer si vous revenez. On veut plus vous voir !' WHERE entry=-1000208; /* content: Frenzyheart kill you if you come back. You no welcome here no more! */
@@ -469,7 +467,6 @@ UPDATE script_texts SET content_loc2='Envoyez-les ! Ce ne sont pas quelques bê
 UPDATE script_texts SET content_loc2='Ah, enfin ! Ça va faire tellement de bien de se débarrasser de ces tonneaux.' WHERE entry=-1000574; /* content: Ah, here at last! It\'s going to feel so good to get rid of these barrels. */
 UPDATE script_texts SET content_loc2='Nous allons nous frayer un chemin jusqu\'à l\'extérieur. Êtes-vous $gprêt:prête; ?' WHERE entry=-1000575; /* content: Together we will fight our way out of here. Are you ready? */
 UPDATE script_texts SET content_loc2='On est assez loin. Je peux me débrouiller, maintenant.' WHERE entry=-1000577; /* content: This is far enough. I can make it on my own from here. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000579; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Là ! Détruisez-le ! Il faut récupérer la formule !' WHERE entry=-1000579; /* content: There! Destroy him! The Cipher must be recovered! */
 UPDATE script_texts SET content_loc2='Un merveilleux spécimen.' WHERE entry=-1000581; /* content: A wonderful specimen. */
 UPDATE script_texts SET content_loc2='Quittons cet endroit.' WHERE entry=-1000583; /* content: Let us leave this place. */
@@ -700,18 +697,11 @@ UPDATE script_texts SET content_loc2='Par le second soleil de K\'aresh, regardez
 UPDATE script_texts SET content_loc2='Pour la Horde !' WHERE entry=-1000895; /* content: For the Horde! */
 UPDATE script_texts SET content_loc2='Défendez les fortins !' WHERE entry=-1000896; /* content: Defend the bunkers! */
 UPDATE script_texts SET content_loc2='Nos ennemis mourront !' WHERE entry=-1000897; /* content: Our foes will fall! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000898; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Protégez la canalisation ! Arrêtez les intrus !' WHERE entry=-1000898; /* content: Protect the conduit! Stop the intruders! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000899; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='C\'est fait ! Reculez ! Reculez !' WHERE entry=-1000899; /* content: Done! Back up! Back up! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000900; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000901; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Merci, mon $gami:amie;.M\'aiderez-vous à sortir d\'ici ?' WHERE entry=-1000901; /* content: Thanks, friend. Will you help me get out of here? */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000902; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Nous ne sommes pas très loin du poste de garde du Protectorat, $n. Par là !' WHERE entry=-1000902; /* content: We\'re not too far from the Protectorate Watch Post, $N. This way! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000903; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Commandant ! Cette créature de chair est venue à mon secours !' WHERE entry=-1000903; /* content: Commander! This fleshling rescued me! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1000904; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='%s hume l\'air. Il doit y avoir un tubercule tout près !' WHERE entry=-1000907; /* content: %s sniffs at the air. A tuber is near! */
 UPDATE script_texts SET content_loc2='%s commence à creuser.' WHERE entry=-1000908; /* content: %s starts to dig. */
 UPDATE script_texts SET content_loc2='%s pousse des glapissements de plaisir pour sa découverte.' WHERE entry=-1000909; /* content: %s squeals with glee at its discovery. */
@@ -974,7 +964,6 @@ UPDATE script_texts SET content_loc2='$n se dirige par ici à grande vitesse ! 
 UPDATE script_texts SET content_loc2='Iiiiiii ! $n se dirige vers nous !' WHERE entry=-1047010; /* content: Eek! $N coming right at us! */
 UPDATE script_texts SET content_loc2='Oooh ! $n m\'attaque !' WHERE entry=-1047011; /* content: Egads! $N on me! */
 UPDATE script_texts SET content_loc2='À l\'aide ! Débarrassez-moi de ce $n !' WHERE entry=-1047012; /* content: Help! Get this $N off of me! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1070000; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='%s s\'arrache à son sommeil de plomb !' WHERE entry=-1070005; /* content: %s breaks free from his stone slumber! */
 UPDATE script_texts SET content_loc2='Avec votre aide, je peux mesurer ces tunnels.' WHERE entry=-1090000; /* content: With your help, I can evaluate these tunnels. */
 UPDATE script_texts SET content_loc2='Allons voir si nous pouvons trouver d\'où viennent ces troggs... et mettre un terme à cette invasion !' WHERE entry=-1090001; /* content: Let\'s see if we can find out where these Troggs are coming from.... and put a stop to the invasion! */
@@ -1012,34 +1001,20 @@ UPDATE script_texts SET content_loc2='HAKKAR VIT !' WHERE entry=-1109006; /* co
 UPDATE script_texts SET content_loc2='JE GOÛTE LE SANG DE LA VIE !' WHERE entry=-1109007; /* content: I TASTE THE BLOOD OF LIFE! */
 UPDATE script_texts SET content_loc2='JE SUIS PROCHE !' WHERE entry=-1109009; /* content: I AM NEAR! */
 UPDATE script_texts SET content_loc2='Je SUIS là !' WHERE entry=-1109010; /* content: I AM HERE! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1129000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1129001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1129002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1129003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1129004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='$n arrive - ayez l\'air à votre avantage, les gars !' WHERE entry=-1129008; /* content: Incoming $N - look sharp, friends! */
 UPDATE script_texts SET content_loc2='Ah, j\'espérais un véritable défi !' WHERE entry=-1189000; /* content: Ah, I have been waiting for a real challenge! */
 UPDATE script_texts SET content_loc2='Lames de lumière !' WHERE entry=-1189001; /* content: Blades of Light! */
 UPDATE script_texts SET content_loc2='Lumière, donne-moi la force !' WHERE entry=-1189002; /* content: Light, give me strength! */
 UPDATE script_texts SET content_loc2='Ah ! C\'est tout ?' WHERE entry=-1189003; /* content: Hah, is that all? */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Des infidèles ! Ils doivent être purifiés !' WHERE entry=-1189005; /* content: Infidels! They must be purified! */
 UPDATE script_texts SET content_loc2='Indignes limaces.' WHERE entry=-1189006; /* content: Unworthy! */
 UPDATE script_texts SET content_loc2='À vos côtés, madame !' WHERE entry=-1189007; /* content: At your side, milady! */
 UPDATE script_texts SET content_loc2='Mograine est tombé ? Vous paierez pour cette traîtrise !' WHERE entry=-1189008; /* content: What, Mograine has fallen? You shall pay for this treachery! */
 UPDATE script_texts SET content_loc2='La Lumière a parlé !' WHERE entry=-1189009; /* content: The Light has spoken! */
 UPDATE script_texts SET content_loc2='À moi, mon champion !' WHERE entry=-1189010; /* content: Arise, my champion! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189012; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189013; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189014; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Le monstre a obtenu ce qu\'il méritait.' WHERE entry=-1189015; /* content: The monster got what he deserved. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189016; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189017; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Vous ne profanerez pas ces mystères !' WHERE entry=-1189019; /* content: You will not defile these mysteries! */
 UPDATE script_texts SET content_loc2='Brûlez dans le feu purificateur !' WHERE entry=-1189020; /* content: Burn in righteous fire! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1189021; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Levez-vous, mes recrues ! Au combat sans surseoir ! Au chevalier déchu, donnez enfin victoire !' WHERE entry=-1189027; /* content: Soldiers arise, stand and fight! Bring victory at last to this fallen knight! */
 UPDATE script_texts SET content_loc2='%s rit.' WHERE entry=-1189030; /* content: %s laughs. */
 UPDATE script_texts SET content_loc2='Lève-toi, cavalier...' WHERE entry=-1189031; /* content: Horseman rise... */
@@ -1128,7 +1103,6 @@ UPDATE script_texts SET content_loc2='Si vous n\'abandonnez pas cette quête stu
 UPDATE script_texts SET content_loc2='Je vous avais dit que c\'était une quête idiote !' WHERE entry=-1269009; /* content: I told you it was a fool\'s quest! */
 UPDATE script_texts SET content_loc2='Vous nous quittez déjà ?' WHERE entry=-1269010; /* content: Leaving so soon? */
 UPDATE script_texts SET content_loc2='Un obstacle de moins sur notre passage !' WHERE entry=-1269015; /* content: One less obstacle in our way! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1269018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Mes pouvoirs doivent se concentrer sur la porte ! Je n\'ai pas le temps de renforcer le bouclier !' WHERE entry=-1269023; /* content: My powers must be concentrated on the portal! I do not have time to hold the shield! */
 UPDATE script_texts SET content_loc2='Le bouclier est presque détruit ! Tout ce à quoi j\'ai œuvré est en péril !' WHERE entry=-1269024; /* content: The shield is nearly gone! All that I have worked for is in danger! */
 UPDATE script_texts SET content_loc2='Les cours ont commencé !' WHERE entry=-1289000; /* content: School is in session! */
@@ -1172,7 +1146,6 @@ UPDATE script_texts SET content_loc2='Il est temps que je prenne les choses en m
 UPDATE script_texts SET content_loc2='Vous avez défait aujourd\'hui ce qui m\'a coûté des années d\'efforts ! Pour cela, vous mourrez tous de ma propre main !' WHERE entry=-1329016; /* content: Today you have unmade what took me years to create! For this you shall all die by my hand! */
 UPDATE script_texts SET content_loc2='Pauvres idiots ! Vous croyez pouvoir me battre si facilement ! Affrontez la puissance des nathrezims !' WHERE entry=-1329017; /* content: You fools think you can defeat me so easily? Face the true might of the Nathrezim! */
 UPDATE script_texts SET content_loc2='%s accomplit un dernier service pour Ragnaros...' WHERE entry=-1409000; /* content: %s performs one last service for Ragnaros. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1409001; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='%s refuse de mourir tant que son maître est en danger !' WHERE entry=-1409002; /* content: %s refuses to die while its master is in trouble. */
 UPDATE script_texts SET content_loc2='Imprudents mortels ! Nul ne défie les Fils de la Flamme vivante !' WHERE entry=-1409003; /* content: Reckless mortals, none may challenge the sons of the living flame! */
 UPDATE script_texts SET content_loc2='Les runes de sauvegarde ont été détruites ! Traquez les infidèles, mes frères !' WHERE entry=-1409004; /* content: The runes of warding have been destroyed! Hunt down the infedels my bretheren. */
@@ -1551,7 +1524,6 @@ UPDATE script_texts SET content_loc2='Voici le terme de vos jours !' WHERE entr
 UPDATE script_texts SET content_loc2='Vermines ! Sangsues ! Prenez mon sang et qu\'il vous étouffe !' WHERE entry=-1544001; /* content: Vermin! Leeches! Take my blood and choke on it! */
 UPDATE script_texts SET content_loc2='Vous croyez que votre sorcellerie de bas étage pourra me retenir longtemps ?' WHERE entry=-1544004; /* content: How long do you believe your pathetic sorcery can hold me? */
 UPDATE script_texts SET content_loc2='Mon sang sera votre perte !' WHERE entry=-1544005; /* content: My blood will be the end of you! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1544012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='%s commence à lancer une nova explosive !' WHERE entry=-1544013; /* content: %s begins to cast Blast Nova! */
 UPDATE script_texts SET content_loc2='Les liens de %s commencent à se relâcher !' WHERE entry=-1544014; /* content: %s\'s bonds begin to weaken! */
 UPDATE script_texts SET content_loc2='%s se libère !' WHERE entry=-1544015; /* content: %s breaks free! */
@@ -1661,19 +1633,6 @@ UPDATE script_texts SET content_loc2='%s émet un bruit bizarre.' WHERE entry=-1
 UPDATE script_texts SET content_loc2='Qui trouble ce sanctuaire ?' WHERE entry=-1553007; /* content: Who disturbs this sanctuary? */
 UPDATE script_texts SET content_loc2='Qu\'est-ce que je fais ? Pourquoi est-ce que…' WHERE entry=-1553009; /* content: What am I doing? Why do I... */
 UPDATE script_texts SET content_loc2='À moi, mes enfants !' WHERE entry=-1553010; /* content: Children, come to me! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554004; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554005; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554006; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554007; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554008; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554009; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554010; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1554012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Vous n\'aimez pas la vie, c\'est ça ?' WHERE entry=-1554013; /* content: Don\'t value your life very much, do you? */
 UPDATE script_texts SET content_loc2='Je ne suis pas seule.' WHERE entry=-1554014; /* content: I am not alone. */
 UPDATE script_texts SET content_loc2='Vous supporterez toute cette chaleur ?' WHERE entry=-1554015; /* content: Think you can take the heat? */
@@ -1750,8 +1709,6 @@ UPDATE script_texts SET content_loc2='Il est là, arrêtez-le !' WHERE entry=-1
 UPDATE script_texts SET content_loc2='Nous avons tout notre temps…' WHERE entry=-1560018; /* content: We have all the time in the world.... */
 UPDATE script_texts SET content_loc2='Vous ne pourrez pas vous échapper !' WHERE entry=-1560019; /* content: You cannot escape us! */
 UPDATE script_texts SET content_loc2='Ne pensez pas pouvoir gagner !' WHERE entry=-1560020; /* content: Do not think you can win! */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1560021; /* content: REUSE ME */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1560022; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Très bien. Allons-y !' WHERE entry=-1560023; /* content: Very well then. Let\'s go! */
 UPDATE script_texts SET content_loc2='Je ne serai plus jamais enchaîné !' WHERE entry=-1560026; /* content: I\'ll never be chained again! */
 UPDATE script_texts SET content_loc2='Très bien. Moulin-de-Tarren se trouve plus à l\'ouest. Puisque le temps nous est compté...' WHERE entry=-1560027; /* content: Very well. Tarren Mill lies just west of here. Since time is of the essence... */
@@ -1805,7 +1762,6 @@ UPDATE script_texts SET content_loc2='Ne me laissez pas seul !' WHERE entry=-15
 UPDATE script_texts SET content_loc2='Je n\'ai pas demandé ça !' WHERE entry=-1564050; /* content: I didn\'t ask for this! */
 UPDATE script_texts SET content_loc2='Je ne veux pas y retourner !' WHERE entry=-1564052; /* content: I don\'t want to go back! */
 UPDATE script_texts SET content_loc2='Qu\'est-ce que je fais maintenant ?' WHERE entry=-1564053; /* content: Now what do I do? */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1564054; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Vous pouvez avoir tout ce que vous désirez... en y mettant le prix.' WHERE entry=-1564055; /* content: You can have anything you desire... for a price. */
 UPDATE script_texts SET content_loc2='Vous avez les yeux plus gros que le ventre.' WHERE entry=-1564058; /* content: Your reach exceeds your grasp. */
 UPDATE script_texts SET content_loc2='Prenez garde : je suis vivant !' WHERE entry=-1564062; /* content: Beware: I live! */
@@ -2185,7 +2141,6 @@ UPDATE script_texts SET content_loc2='Eonar, ta servante implore ta bénédictio
 UPDATE script_texts SET content_loc2='Des alliés de la Nature apparaissent !' WHERE entry=-1603010; /* content: Allies of Nature have appeared! */
 UPDATE script_texts SET content_loc2='L\'%s se flétrit et disparaît dans la terre pour se régénérer.' WHERE entry=-1603011; /* content: The %s withers into the earth and begins to regenerate. */
 UPDATE script_texts SET content_loc2='Comme vous voulez, $n.' WHERE entry=-1603012; /* content: As you wish, $N. */
-UPDATE script_texts SET content_loc2='%s est pris de frénésie !' WHERE entry=-1603013; /* content: REUSE ME */
 UPDATE script_texts SET content_loc2='Maîtresse, le jardin a été ouvert !' WHERE entry=-1603014; /* content: Matron, the Conservatory has been breached! */
 UPDATE script_texts SET content_loc2='De l\'engrais.' WHERE entry=-1603015; /* content: Fertilizer. */
 UPDATE script_texts SET content_loc2='Maîtresse, nous sommes abattu !' WHERE entry=-1603017; /* content: Matron, one has fallen! */
