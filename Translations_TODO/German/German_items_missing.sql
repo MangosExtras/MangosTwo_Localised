@@ -1871,8 +1871,8 @@ UPDATE locales_item SET description_loc3='Dark energies swirl within the orb.' W
 UPDATE locales_item SET description_loc3='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=25645; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc3='Used for managing smoke signals.' WHERE entry=25658; /* description: Used for managing smoke signals. */
 UPDATE locales_item SET description_loc3='Doesn\'t look unusual to you.' WHERE entry=25672; /* description: Doesn\'t look unusual to you. */
-UPDATE locales_item SET description_loc3='A document imprinted with a series of sharp, angular characters. The very script itself seems to see0' WHERE entry=25705; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to see0 */
-UPDATE locales_item SET description_loc3='A document imprinted with a series of sharp, angular characters. The very script itself seems to see0' WHERE entry=25706; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to see0 */
+UPDATE locales_item SET description_loc3='A document imprinted with a series of sharp, angular characters. The very script itself seems to seethe with anger.' WHERE entry=25705; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to seethe with anger. */
+UPDATE locales_item SET description_loc3='A document imprinted with a series of sharp, angular characters. The very script itself seems to seethe with anger.' WHERE entry=25706; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to seethe with anger. */
 UPDATE locales_item SET description_loc3='Teaches you how to make Heavy Knothide Leather.' WHERE entry=25720; /* description: Teaches you how to make Heavy Knothide Leather. */
 UPDATE locales_item SET description_loc3='Teaches you how to make a Vindicator\'s Armor Kit.' WHERE entry=25721; /* description: Teaches you how to make a Vindicator\'s Armor Kit. */
 UPDATE locales_item SET description_loc3='Teaches you how to make a Magister\'s Armor Kit.' WHERE entry=25722; /* description: Teaches you how to make a Magister\'s Armor Kit. */
@@ -3824,7 +3824,7 @@ UPDATE locales_item SET description_loc3='Teaches you how to summon this mount. 
 UPDATE locales_item SET description_loc3='I will always count you as a brother' WHERE entry=52201; /* description: I will always count you as a brother */
 UPDATE locales_item SET description_loc3='Once it held her image.  He always wore it close to his heart.' WHERE entry=52251; /* description: Once it held her image.  He always wore it close to his heart. */
 UPDATE locales_item SET description_loc3='May you always bring light into dark places.' WHERE entry=52252; /* description: May you always bring light into dark places. */
-UPDATE locales_item SET description_loc3='A lament for the days forever lost to the Banshee Queen' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen */
+UPDATE locales_item SET description_loc3='A lament for the days forever lost to the Banshee Queen.' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen. */
 UPDATE locales_item SET description_loc3='A lament for the days forever lost to the Banshee Queen.' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen. */
 UPDATE locales_item SET description_loc3='Measures radiation levels, temperature, and makes neat sounds too!' WHERE entry=52541; /* description: Measures radiation levels, temperature, and makes neat sounds too! */
 UPDATE locales_item SET description_loc3='Point, Shoot, Motivate!' WHERE entry=52566; /* description: Point, Shoot, Motivate! */

@@ -10,7 +10,6 @@ UPDATE mangos_string SET content_loc3='UNUSED' WHERE entry=245; /* content: UNUS
 UPDATE mangos_string SET content_loc3='UNUSED' WHERE entry=251; /* content: UNUSED */
 UPDATE mangos_string SET content_loc3='Neutral' WHERE entry=321; /* content: Neutral */
 UPDATE mangos_string SET content_loc3='Befreundet' WHERE entry=322; /* content: Friendly */
-UPDATE mangos_string SET content_loc3='  %s (GUID %u)' WHERE entry=329; /* content: %s (GUID %u) */
 UPDATE mangos_string SET content_loc3='Ja' WHERE entry=421; /* content: Yes */
 UPDATE mangos_string SET content_loc3='Nein' WHERE entry=422; /* content: No */
 UPDATE mangos_string SET content_loc3='Allianz' WHERE entry=457; /* content: alliance */
