@@ -567,6 +567,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc9='The Darkmoon Faire has a
 UPDATE locales_gossip_menu_option SET option_text_loc9='[ph]Learn recipe...' WHERE menu_id=6443 AND id=0; /* option_text: [ph]Learn recipe... */
 UPDATE locales_gossip_menu_option SET option_text_loc9='Learn recipe...' WHERE menu_id=6443 AND id=0; /* option_text: Learn recipe... */
 UPDATE locales_gossip_menu_option SET option_text_loc9='Yes, please do.' WHERE menu_id=6520 AND id=0; /* option_text: Yes, please do. */
+UPDATE locales_gossip_menu_option SET option_text_loc9='Smear the ash on my face like war paint!' WHERE menu_id=6535 AND id=0; /* option_text: Smear the ash on my face like war paint! */
 UPDATE locales_gossip_menu_option SET option_text_loc9='I would like to enter the secret code to receive my Murloc costume.' WHERE menu_id=6565 AND id=1; /* option_text: I would like to enter the secret code to receive my Murloc costume. */
 UPDATE locales_gossip_menu_option SET option_text_loc9='I would like to enter the secret code to receive my Big Blizzard Bear.' WHERE menu_id=6565 AND id=2; /* option_text: I would like to enter the secret code to receive my Big Blizzard Bear. */
 UPDATE locales_gossip_menu_option SET option_text_loc9='Redeem marks the battlefield to honor.' WHERE menu_id=6597 AND id=0; /* option_text: Redeem marks the battlefield to honor. */
@@ -654,7 +655,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc9='Master chef, can you tra
 UPDATE locales_gossip_menu_option SET option_text_loc9='Have you any cooking supplies?' WHERE menu_id=7171 AND id=1; /* option_text: Have you any cooking supplies? */
 UPDATE locales_gossip_menu_option SET option_text_loc9='You\'re free to go now. The way out is safe.' WHERE menu_id=7176 AND id=0; /* option_text: You\'re free to go now. The way out is safe. */
 UPDATE locales_gossip_menu_option SET option_text_loc9='<Administer the restorative draught.>' WHERE menu_id=7177 AND id=0; /* option_text: <Administer the restorative draught.> */
-UPDATE locales_gossip_menu_option SET option_text_loc9='A bit ungrateful, aren\'t we? The way out is clear, flee quickly!' WHERE menu_id=7179 AND id=0; /* option_text: A bit ungrateful, aren\'t we? The way out is clear, flee quickly! */
+UPDATE locales_gossip_menu_option SET option_text_loc9='A bit ungrateful, aren\'t we?  The way out is clear, flee quickly!' WHERE menu_id=7179 AND id=0; /* option_text: A bit ungrateful, aren\'t we?  The way out is clear, flee quickly! */
 UPDATE locales_gossip_menu_option SET option_text_loc9='A bit ungrateful, aren\'t we?  The way out is clear, flee quickly!' WHERE menu_id=7179 AND id=0; /* option_text: A bit ungrateful, aren\'t we?  The way out is clear, flee quickly! */
 UPDATE locales_gossip_menu_option SET option_text_loc9='<Administer the restorative draught.>' WHERE menu_id=7182 AND id=0; /* option_text: <Administer the restorative draught.> */
 UPDATE locales_gossip_menu_option SET option_text_loc9='<Administer the restorative draught.>' WHERE menu_id=7185 AND id=0; /* option_text: <Administer the restorative draught.> */

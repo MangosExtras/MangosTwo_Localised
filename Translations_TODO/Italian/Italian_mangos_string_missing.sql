@@ -802,8 +802,8 @@ UPDATE mangos_string SET content_loc9='Member' WHERE entry=814; /* content: Memb
 UPDATE mangos_string SET content_loc9='Initiate' WHERE entry=815; /* content: Initiate */
 UPDATE mangos_string SET content_loc9='Your body is too exhausted to travel to the Spectral Realm.' WHERE entry=816; /* content: Your body is too exhausted to travel to the Spectral Realm. */
 UPDATE mangos_string SET content_loc9='Warning: You\'ve entered a no-fly zone and are about to be dismounted!' WHERE entry=816; /* content: Warning: You\'ve entered a no-fly zone and are about to be dismounted! */
-UPDATE mangos_string SET content_loc9='Entry %u not found in creature_template table.' WHERE entry=817; /* content: Entry %u not found in creature_template table. */
 UPDATE mangos_string SET content_loc9='Warning: You\'ve entered a no-fly zone and are about to be dismounted!' WHERE entry=817; /* content: Warning: You\'ve entered a no-fly zone and are about to be dismounted! */
+UPDATE mangos_string SET content_loc9='Entry %u not found in creature_template table.' WHERE entry=817; /* content: Entry %u not found in creature_template table. */
 UPDATE mangos_string SET content_loc9='You can\'t enter Black Morass until you rescue Thrall from Durnholde Keep.' WHERE entry=818; /* content: You can\'t enter Black Morass until you rescue Thrall from Durnholde Keep. */
 UPDATE mangos_string SET content_loc9='Entry %u not found in sCreatureStorage. Possible new line in creature_template, but you can not add new creatures without restarting. Only modifing is allowed.' WHERE entry=818; /* content: Entry %u not found in sCreatureStorage. Possible new line in creature_template, but you can not add new creatures without restarting. Only modifing is allowed. */
 UPDATE mangos_string SET content_loc9='Exiting daemon...' WHERE entry=1000; /* content: Exiting daemon... */
