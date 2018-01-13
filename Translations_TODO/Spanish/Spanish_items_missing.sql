@@ -427,7 +427,6 @@ UPDATE locales_item SET description_loc6='His eyes are full of hatred.' WHERE en
 UPDATE locales_item SET description_loc6='A box filled with a variety of building materials, first aid supplies, and other items for the Blood Watch inn.' WHERE entry=23903; /* description: A box filled with a variety of building materials, first aid supplies, and other items for the Blood Watch inn. */
 UPDATE locales_item SET description_loc6='The reports are all signed by Keltus Darkleaf.' WHERE entry=23919; /* description: The reports are all signed by Keltus Darkleaf. */
 UPDATE locales_item SET description_loc6='The handkerchief is covered in blood and dirt, ruining its scent.' WHERE entry=23920; /* description: The handkerchief is covered in blood and dirt, ruining its scent. */
-UPDATE locales_item SET description_loc6='A bright, juicy fruit favored by the elekk.' WHERE entry=23927; /* description: A bright, juicy fruit favored by the elekk. */
 UPDATE locales_item SET description_loc6='Sealed.' WHERE entry=23928; /* description: Sealed. */
 UPDATE locales_item SET description_loc6='A draenei crystal containing information on the eastern part of Bloodmyst Isle.' WHERE entry=23932; /* description: A draenei crystal containing information on the eastern part of Bloodmyst Isle. */
 UPDATE locales_item SET description_loc6='A letter written by Anchorite Paetheus.' WHERE entry=23937; /* description: A letter written by Anchorite Paetheus. */
@@ -583,8 +582,6 @@ UPDATE locales_item SET description_loc6='Dark energies swirl within the orb.' W
 UPDATE locales_item SET description_loc6='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=25645; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc6='Used for managing smoke signals.' WHERE entry=25658; /* description: Used for managing smoke signals. */
 UPDATE locales_item SET description_loc6='Doesn\'t look unusual to you.' WHERE entry=25672; /* description: Doesn\'t look unusual to you. */
-UPDATE locales_item SET description_loc6='A document imprinted with a series of sharp, angular characters. The very script itself seems to see0' WHERE entry=25705; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to see0 */
-UPDATE locales_item SET description_loc6='A document imprinted with a series of sharp, angular characters. The very script itself seems to see0' WHERE entry=25706; /* description: A document imprinted with a series of sharp, angular characters. The very script itself seems to see0 */
 UPDATE locales_item SET description_loc6='Teaches you how to make Heavy Knothide Leather.' WHERE entry=25720; /* description: Teaches you how to make Heavy Knothide Leather. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Vindicator\'s Armor Kit.' WHERE entry=25721; /* description: Teaches you how to make a Vindicator\'s Armor Kit. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Magister\'s Armor Kit.' WHERE entry=25722; /* description: Teaches you how to make a Magister\'s Armor Kit. */
@@ -1532,11 +1529,9 @@ UPDATE locales_item SET description_loc6='Stitched together with flesh and bone.
 UPDATE locales_item SET description_loc6='It\'s odd-looking and definitely magical.' WHERE entry=36746; /* description: It\'s odd-looking and definitely magical. */
 UPDATE locales_item SET description_loc6='Dried tear drops are easily discerned amongst the hurried writing.' WHERE entry=36756; /* description: Dried tear drops are easily discerned amongst the hurried writing. */
 UPDATE locales_item SET description_loc6='The characters on this tablet can still be made out, barely.' WHERE entry=36757; /* description: The characters on this tablet can still be made out, barely. */
-UPDATE locales_item SET description_loc6='A bit stickier than your average mojo.' WHERE entry=36758; /* description: A bit stickier than your average mojo. */
 UPDATE locales_item SET description_loc6='The stopper appears to be stuck...' WHERE entry=36769; /* description: The stopper appears to be stuck... */
 UPDATE locales_item SET description_loc6='With little holes punched in them.' WHERE entry=36771; /* description: With little holes punched in them. */
 UPDATE locales_item SET description_loc6='The writing is rushed and barely legible.' WHERE entry=36780; /* description: The writing is rushed and barely legible. */
-UPDATE locales_item SET description_loc6='A bit off' WHERE entry=36805; /* description: A bit off */
 UPDATE locales_item SET description_loc6='If only you had an umbrella.' WHERE entry=36806; /* description: If only you had an umbrella. */
 UPDATE locales_item SET description_loc6='Nobody cares!' WHERE entry=36812; /* description: Nobody cares! */
 UPDATE locales_item SET description_loc6='Stitched together with flesh and bone.' WHERE entry=36820; /* description: Stitched together with flesh and bone. */
@@ -2003,7 +1998,6 @@ UPDATE locales_item SET description_loc6='For the cleanest chelicerae around!' W
 UPDATE locales_item SET description_loc6='Medal awarded for fighting in Lake Wintergrasp' WHERE entry=43589; /* description: Medal awarded for fighting in Lake Wintergrasp */
 UPDATE locales_item SET description_loc6='Teaches you how to craft a Titanium Frostguard Ring' WHERE entry=43597; /* description: Teaches you how to craft a Titanium Frostguard Ring */
 UPDATE locales_item SET description_loc6='A fallen soldier, stripped of flesh.' WHERE entry=43609; /* description: A fallen soldier, stripped of flesh. */
-UPDATE locales_item SET description_loc6='A battleworn Alliance helm.' WHERE entry=43610; /* description: A battleworn Alliance helm. */
 UPDATE locales_item SET description_loc6='A pierced Alliance breastplate.' WHERE entry=43616; /* description: A pierced Alliance breastplate. */
 UPDATE locales_item SET description_loc6='Grom, may you rest well, old friend.' WHERE entry=43627; /* description: Grom, may you rest well, old friend. */
 UPDATE locales_item SET description_loc6='Arthas, my love, please come back to me.' WHERE entry=43628; /* description: Arthas, my love, please come back to me. */
@@ -2253,7 +2247,6 @@ UPDATE locales_item SET description_loc6='The fragments of this ancient hammer g
 UPDATE locales_item SET description_loc6='The fragments of this ancient hammer glow with a cool, soothing light.' WHERE entry=45039; /* description: The fragments of this ancient hammer glow with a cool, soothing light. */
 UPDATE locales_item SET description_loc6='The properties of this gem are unknown until it is cut.' WHERE entry=45054; /* description: The properties of this gem are unknown until it is cut. */
 UPDATE locales_item SET description_loc6='Teaches you how to permanently enchant a staff to increase spell power by 81.  Requires a level 60 or higher item.' WHERE entry=45059; /* description: Teaches you how to permanently enchant a staff to increase spell power by 81.  Requires a level 60 or higher item. */
-UPDATE locales_item SET description_loc6='A bag full of ropes, bloody knives, poisons, gags, and fire starting materials.' WHERE entry=45082; /* description: A bag full of ropes, bloody knives, poisons, gags, and fire starting materials. */
 UPDATE locales_item SET description_loc6='Teaches you how to forge a Belt of the Titans.' WHERE entry=45088; /* description: Teaches you how to forge a Belt of the Titans. */
 UPDATE locales_item SET description_loc6='Teaches you how to forge Battlelord\'s Plate Boots.' WHERE entry=45089; /* description: Teaches you how to forge Battlelord\'s Plate Boots. */
 UPDATE locales_item SET description_loc6='Teaches you how to forge a Plate Girdle of Righteousness.' WHERE entry=45090; /* description: Teaches you how to forge a Plate Girdle of Righteousness. */
@@ -2511,7 +2504,7 @@ UPDATE locales_item SET description_loc6='Teaches you how to summon this mount. 
 UPDATE locales_item SET description_loc6='I will always count you as a brother' WHERE entry=52201; /* description: I will always count you as a brother */
 UPDATE locales_item SET description_loc6='Once it held her image.  He always wore it close to his heart.' WHERE entry=52251; /* description: Once it held her image.  He always wore it close to his heart. */
 UPDATE locales_item SET description_loc6='May you always bring light into dark places.' WHERE entry=52252; /* description: May you always bring light into dark places. */
-UPDATE locales_item SET description_loc6='A lament for the days forever lost to the Banshee Queen' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen */
+UPDATE locales_item SET description_loc6='A lament for the days forever lost to the Banshee Queen.' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen. */
 UPDATE locales_item SET description_loc6='A lament for the days forever lost to the Banshee Queen.' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen. */
 UPDATE locales_item SET description_loc6='Measures radiation levels, temperature, and makes neat sounds too!' WHERE entry=52541; /* description: Measures radiation levels, temperature, and makes neat sounds too! */
 UPDATE locales_item SET description_loc6='Point, Shoot, Motivate!' WHERE entry=52566; /* description: Point, Shoot, Motivate! */

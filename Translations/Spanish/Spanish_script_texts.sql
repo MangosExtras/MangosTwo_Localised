@@ -37,7 +37,6 @@ UPDATE script_texts SET content_loc6='¡Kirel narak!' WHERE entry=-1000152; /* c
 UPDATE script_texts SET content_loc6='¡Despojo miserable!' WHERE entry=-1000153; /* content: Contemptible wretch! */
 UPDATE script_texts SET content_loc6='Se rehará el universo.' WHERE entry=-1000154; /* content: The universe will be remade. */
 UPDATE script_texts SET content_loc6='La Legión... jamás... caerá.' WHERE entry=-1000155; /* content: The Legion... will never... fall. */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000156; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¿Cerveza Machacasangre? ¡Mi preferida!' WHERE entry=-1000156; /* content: Bloodmaul Brew? Me favorite! */
 UPDATE script_texts SET content_loc6='Insolentes crías... Solo retrasáis lo inevitable. Donde cae uno, saldrán diez más. Tal es la voluntad de Kazzak...' WHERE entry=-1000158; /* content: Impudent whelps, you only delay the inevitable. Where one has fallen, ten shall rise. Such is the will of Kazzak... */
 UPDATE script_texts SET content_loc6='Iniciando perturbación tectónica.' WHERE entry=-1000160; /* content: Tectonic disruption commencing. */
@@ -63,7 +62,6 @@ UPDATE script_texts SET content_loc6='Como si no tuviéramos bastantes problemas
 UPDATE script_texts SET content_loc6='¡Estoy salvado! ¡Gracias, doctor!' WHERE entry=-1000201; /* content: I\'m saved! Thank you, doctor! */
 UPDATE script_texts SET content_loc6='¡HURRA! ¡ME HA SALVADO!' WHERE entry=-1000202; /* content: HOORAY! I AM SAVED! */
 UPDATE script_texts SET content_loc6='%s te mira socarronamente. ¿Tal vez deberías examinarlo?' WHERE entry=-1000204; /* content: %s looks up at you quizzically. Maybe you should inspect it? */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000207; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='Mmm. ¡Tengo sed!' WHERE entry=-1000207; /* content: Mmm. Me thirsty! */
 UPDATE script_texts SET content_loc6='¡Ohh, mira! ¡Cerveza Machacasangre! Mmmm...' WHERE entry=-1000208; /* content: Ohh, look! Bloodmaul Brew! Mmmm... */
 UPDATE script_texts SET content_loc6='Corazón Frenético matarte si tú volver. ¡Tú ya no $gbienvenido:bienvenida; aquí!' WHERE entry=-1000208; /* content: Frenzyheart kill you if you come back. You no welcome here no more! */
@@ -119,6 +117,7 @@ UPDATE script_texts SET content_loc6='¡Ajjjjj! ¡Esto no está bien!' WHERE ent
 UPDATE script_texts SET content_loc6='Vale, creo que ahora sí lo he logrado. ¡Sígueme, $n!' WHERE entry=-1000300; /* content: Okay, I think I\'ve got it, now. Follow me, $n! */
 UPDATE script_texts SET content_loc6='¡Ahí hay una trituradora robada! ¡Basta ya o Palarrastre encontrará nuestro escondite!' WHERE entry=-1000301; /* content: There\'s the stolen shredder! Stop it or Lugwizzle will have our hides! */
 UPDATE script_texts SET content_loc6='¡Vamos, no te averíes ahora conmigo!' WHERE entry=-1000303; /* content: Come on, don\'t break down on me now! */
+UPDATE script_texts SET content_loc6='Un $C attaca!' WHERE entry=-1000308; /* content: A $C attacks! */
 UPDATE script_texts SET content_loc6='¡Falta poco para llegar!' WHERE entry=-1000311; /* content: We\'re almost there! */
 UPDATE script_texts SET content_loc6='Hay masas de lobos en el Este, y quienquiera que viviera en la Huerta de Malden se ha ido.' WHERE entry=-1000314; /* content: Masses of wolves are to the east, and whoever lived at Malden\'s Orchard is gone. */
 UPDATE script_texts SET content_loc6='Si se me permite, me gustaría ver a Quinn...' WHERE entry=-1000315; /* content: If I am excused, then I\'d like to check on Quinn... */
@@ -298,7 +297,6 @@ UPDATE script_texts SET content_loc6='¡Traédmelos! ¡No me asustan esas bestia
 UPDATE script_texts SET content_loc6='¡Ah, al fin hemos llegado! Qué alivio poder librarnos de todos esos cañones.' WHERE entry=-1000574; /* content: Ah, here at last! It\'s going to feel so good to get rid of these barrels. */
 UPDATE script_texts SET content_loc6='Juntos nos abriremos camino para salir de aquí. ¿Estás $gpreparado:preparada;?' WHERE entry=-1000575; /* content: Together we will fight our way out of here. Are you ready? */
 UPDATE script_texts SET content_loc6='Ya estamos bastante lejos. Puedo ir solo desde aquí.' WHERE entry=-1000577; /* content: This is far enough. I can make it on my own from here. */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000579; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Ahí! ¡Destruidle! ¡Hay que recuperar la clave!' WHERE entry=-1000579; /* content: There! Destroy him! The Cipher must be recovered! */
 UPDATE script_texts SET content_loc6='Un espécimen fabuloso.' WHERE entry=-1000581; /* content: A wonderful specimen. */
 UPDATE script_texts SET content_loc6='Vámonos de aquí.' WHERE entry=-1000583; /* content: Let us leave this place. */
@@ -428,6 +426,7 @@ UPDATE script_texts SET content_loc6='%s sacude la cabeza en un gesto de decepci
 UPDATE script_texts SET content_loc6='Al parecer, tenemos problemas. ¡Anímate, aquí vienen!' WHERE entry=-1000772; /* content: It looks like we\'re in trouble. Look lively, here they come! */
 UPDATE script_texts SET content_loc6='Asesinos de esa secta que habéis encontrado... Vámonos antes de que otro nos encuentre aquí.' WHERE entry=-1000773; /* content: Assassins from that cult you found... Let\'s get moving before someone else finds us out here. */
 UPDATE script_texts SET content_loc6='¡Espera! Presiento una presencia maligna... ¡No-muertos!' WHERE entry=-1000774; /* content: Hold! I sense an evil presence... Undead! */
+UPDATE script_texts SET content_loc6='Un $C! Matarlo complaceria al maestro.' WHERE entry=-1000775; /* content: A $C! Slaying him would please the master. Attack! */
 UPDATE script_texts SET content_loc6='Están reapareciendo tras un largo periodo de inactividad. Vamos a seguir adelante o daremos con más seres que quieren verme muerto.' WHERE entry=-1000776; /* content: They\'re coming out of the woodwork today. Let\'s keep moving or we may find more things that want me dead. */
 UPDATE script_texts SET content_loc6='¿Otra vez estos tres?' WHERE entry=-1000777; /* content: These three again? */
 UPDATE script_texts SET content_loc6='¿No estás tan seguro de ti mismo sin el Purificador, eh?' WHERE entry=-1000778; /* content: Not quite so sure of yourself without the Purifier, hm? */
@@ -484,6 +483,7 @@ UPDATE script_texts SET content_loc6='Que la Luz sea contigo, señor.' WHERE ent
 UPDATE script_texts SET content_loc6='Solo somos suciedad bajo sus pies, señor.' WHERE entry=-1000843; /* content: We are but dirt beneath your feet, sir. */
 UPDATE script_texts SET content_loc6='... coraje de torio.' WHERE entry=-1000844; /* content: ...nerves of thorium. */
 UPDATE script_texts SET content_loc6='¡Haced sitio!' WHERE entry=-1000845; /* content: Make way! */
+UPDATE script_texts SET content_loc6='Una legenda...' WHERE entry=-1000846; /* content: A living legend... */
 UPDATE script_texts SET content_loc6='Un momento que recordaré eternamente.' WHERE entry=-1000847; /* content: A moment I shall remember for always. */
 UPDATE script_texts SET content_loc6='Eres una inspiración para todos nosotros, señor.' WHERE entry=-1000848; /* content: You are an inspiration to us all, sir. */
 UPDATE script_texts SET content_loc6='Sed valientes, amigos. El reptil se sacudirá violentamente. Es un acto de desesperación. Cuando estéis listos, avisad.' WHERE entry=-1000849; /* content: Be brave, friends. The reptile will thrash wildly. It is an act of desperation. When you are ready, give me the word. */
@@ -529,18 +529,11 @@ UPDATE script_texts SET content_loc6='¡Por el segundo sol de K\'aresh, mira est
 UPDATE script_texts SET content_loc6='¡Por la Horda!' WHERE entry=-1000895; /* content: For the Horde! */
 UPDATE script_texts SET content_loc6='¡Defended los búnkeres!' WHERE entry=-1000896; /* content: Defend the bunkers! */
 UPDATE script_texts SET content_loc6='¡Nuestros enemigos caerán!' WHERE entry=-1000897; /* content: Our foes will fall! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000898; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Proteged el conducto! ¡Detened a los intrusos!' WHERE entry=-1000898; /* content: Protect the conduit! Stop the intruders! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000899; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Hecho! ¡Cúbreme! ¡Cúbreme!' WHERE entry=-1000899; /* content: Done! Back up! Back up! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000900; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000901; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='Gracias, $gamigo:amiga;. ¿Me ayudarás a salir de aquí?' WHERE entry=-1000901; /* content: Thanks, friend. Will you help me get out of here? */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000902; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='No estamos demasiado lejos de la Avanzada del Protectorado, $n. ¡Por aquí!' WHERE entry=-1000902; /* content: We\'re not too far from the Protectorate Watch Post, $N. This way! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000903; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Comandante! ¡Este ser de carne me ha rescatado!' WHERE entry=-1000903; /* content: Commander! This fleshling rescued me! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1000904; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='%s husmea el aire. ¡Hay un tubérculo cerca!' WHERE entry=-1000907; /* content: %s sniffs at the air. A tuber is near! */
 UPDATE script_texts SET content_loc6='%s empieza a cavar.' WHERE entry=-1000908; /* content: %s starts to dig. */
 UPDATE script_texts SET content_loc6='%s gime de satisfacción por su descubrimiento.' WHERE entry=-1000909; /* content: %s squeals with glee at its discovery. */
@@ -801,7 +794,6 @@ UPDATE script_texts SET content_loc6='¡$n viene en esta dirección a gran veloc
 UPDATE script_texts SET content_loc6='¡Uyy! ¡$n viene directo hacia nosotros!' WHERE entry=-1047010; /* content: Eek! $N coming right at us! */
 UPDATE script_texts SET content_loc6='¡Pardiez! ¡Tengo a $n sobre mí!' WHERE entry=-1047011; /* content: Egads! $N on me! */
 UPDATE script_texts SET content_loc6='¡Socorro! ¡Sacadme a $n de encima!' WHERE entry=-1047012; /* content: Help! Get this $N off of me! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1070000; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡%s escapa de su sueño de piedra!' WHERE entry=-1070005; /* content: %s breaks free from his stone slumber! */
 UPDATE script_texts SET content_loc6='Con tu ayuda, podré evaluar estos túneles.' WHERE entry=-1090000; /* content: With your help, I can evaluate these tunnels. */
 UPDATE script_texts SET content_loc6='Veamos si podemos descubrir de dónde vienen estos troggs... ¡y detener esta invasión!' WHERE entry=-1090001; /* content: Let\'s see if we can find out where these Troggs are coming from.... and put a stop to the invasion! */
@@ -839,30 +831,16 @@ UPDATE script_texts SET content_loc6='¡HAKKAR VIVE!' WHERE entry=-1109006; /* c
 UPDATE script_texts SET content_loc6='¡SABOREO LA SANGRE DE LA VIDA!' WHERE entry=-1109007; /* content: I TASTE THE BLOOD OF LIFE! */
 UPDATE script_texts SET content_loc6='¡ESTOY CERCA!' WHERE entry=-1109009; /* content: I AM NEAR! */
 UPDATE script_texts SET content_loc6='¡ESTOY aquí!' WHERE entry=-1109010; /* content: I AM HERE! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1129000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1129001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1129002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1129003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1129004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='$n aproximándose. ¡Atentos, amigos!' WHERE entry=-1129008; /* content: Incoming $N - look sharp, friends! */
 UPDATE script_texts SET content_loc6='¡Espadas de luz!' WHERE entry=-1189001; /* content: Blades of Light! */
 UPDATE script_texts SET content_loc6='¡Luz, dame tu fuerza!' WHERE entry=-1189002; /* content: Light, give me strength! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189004; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Infieles! ¡Hay que purificarlos!' WHERE entry=-1189005; /* content: Infidels! They must be purified! */
 UPDATE script_texts SET content_loc6='¡Indigno!' WHERE entry=-1189006; /* content: Unworthy! */
 UPDATE script_texts SET content_loc6='¡A su lado, mi señora!' WHERE entry=-1189007; /* content: At your side, milady! */
 UPDATE script_texts SET content_loc6='¡La Luz ha hablado!' WHERE entry=-1189009; /* content: The Light has spoken! */
 UPDATE script_texts SET content_loc6='¡Levántate, mi campeón!' WHERE entry=-1189010; /* content: Arise, my champion! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189012; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189013; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189014; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189016; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189017; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡No profanaréis estos misterios!' WHERE entry=-1189019; /* content: You will not defile these mysteries! */
 UPDATE script_texts SET content_loc6='¡Arded en el fuego de la justicia!' WHERE entry=-1189020; /* content: Burn in righteous fire! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1189021; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='Soldados, alzaos y luchad, tomad vuestro acero. Dad la victoria a este deshonrado caballero.' WHERE entry=-1189027; /* content: Soldiers arise, stand and fight! Bring victory at last to this fallen knight! */
 UPDATE script_texts SET content_loc6='%s ríe.' WHERE entry=-1189030; /* content: %s laughs. */
 UPDATE script_texts SET content_loc6='Jinete álzate...' WHERE entry=-1189031; /* content: Horseman rise... */
@@ -948,7 +926,6 @@ UPDATE script_texts SET content_loc6='¡Si no abandonáis esta estúpida misión
 UPDATE script_texts SET content_loc6='¡Ya te dije que era una misión estúpida!' WHERE entry=-1269009; /* content: I told you it was a fool\'s quest! */
 UPDATE script_texts SET content_loc6='¿Ya te vas?' WHERE entry=-1269010; /* content: Leaving so soon? */
 UPDATE script_texts SET content_loc6='¡Un estorbo menos el nuestro camino!' WHERE entry=-1269015; /* content: One less obstacle in our way! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1269018; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡He de concentrar mis poderes en el portal! ¡No hay tiempo para retener el escudo!' WHERE entry=-1269023; /* content: My powers must be concentrated on the portal! I do not have time to hold the shield! */
 UPDATE script_texts SET content_loc6='¡Casi ha desparecido el escudo! ¡Peligra todo mi trabajo!' WHERE entry=-1269024; /* content: The shield is nearly gone! All that I have worked for is in danger! */
 UPDATE script_texts SET content_loc6='¡Estamos dando clase!' WHERE entry=-1289000; /* content: School is in session! */
@@ -975,7 +952,6 @@ UPDATE script_texts SET content_loc6='¿Así que crees que es adecuado juguetear
 UPDATE script_texts SET content_loc6='Ya es hora de tomar el asunto en mis propias manos. Ven. ¡Entra en mis dominios y desafía el poder de la Plaga!' WHERE entry=-1329014; /* content: Time to take matters into my own hands. Come. Enter my domain and challenge the might of the Scourge! */
 UPDATE script_texts SET content_loc6='¡Has deshecho en un solo día lo que me ha costado crear años! ¡Mereces que te mate con mis propias manos!' WHERE entry=-1329016; /* content: Today you have unmade what took me years to create! For this you shall all die by my hand! */
 UPDATE script_texts SET content_loc6='Idiotas, ¿pensabais que podríais derrotarme tan fácilmente? ¡Enfrentaos al verdadero poder de Nathrezim!' WHERE entry=-1329017; /* content: You fools think you can defeat me so easily? Face the true might of the Nathrezim! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1409001; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Polvo al polvo!' WHERE entry=-1409005; /* content: Ashes to Ashes! */
 UPDATE script_texts SET content_loc6='¡Adelante, siervos míos! ¡Defended a vuestro maestro!' WHERE entry=-1409013; /* content: COME FORTH, MY SERVANTS! DEFEND YOUR MASTER! */
 UPDATE script_texts SET content_loc6='¡Que el fuego os purifique!' WHERE entry=-1409015; /* content: BY FIRE BE PURGED! */
@@ -1175,6 +1151,7 @@ UPDATE script_texts SET content_loc6='¡%s pierde el vínculo!' WHERE entry=-153
 UPDATE script_texts SET content_loc6='¡%s se sobrecarga!' WHERE entry=-1533150; /* content: %s overloads! */
 UPDATE script_texts SET content_loc6='¡La polaridad ha cambiado!' WHERE entry=-1533151; /* content: The polarity has shifted! */
 UPDATE script_texts SET content_loc6='¡%s diezma toda la carne cercana!' WHERE entry=-1533152; /* content: %s decimates all nearby flesh! */
+UPDATE script_texts SET content_loc6='Un %s se une a la pelea!' WHERE entry=-1533153; /* content: A %s joins the fight! */
 UPDATE script_texts SET content_loc6='¡Cadáveres de escarabajos salen del cadáver del guardia de la cripta!' WHERE entry=-1533155; /* content: Corpse Scarabs appear from a Crypt Guard\'s corpse! */
 UPDATE script_texts SET content_loc6='%s lanza Dolor implacable sobre todos.' WHERE entry=-1533156; /* content: %s casts Unyielding Pain on everyone! */
 UPDATE script_texts SET content_loc6='¡%s te inyecta un mutagen!' WHERE entry=-1533158; /* content: %s injects you with a mutagen! */
@@ -1232,7 +1209,6 @@ UPDATE script_texts SET content_loc6='¡Se han acabado tus días!' WHERE entry=-
 UPDATE script_texts SET content_loc6='¡Alimañas! ¡Sanguijuelas! ¡Tomad mi sangre y atragantaos con ella!' WHERE entry=-1544001; /* content: Vermin! Leeches! Take my blood and choke on it! */
 UPDATE script_texts SET content_loc6='¿Cuánto creéis que podéis retenerme con vuestra patética brujería?' WHERE entry=-1544004; /* content: How long do you believe your pathetic sorcery can hold me? */
 UPDATE script_texts SET content_loc6='¡Mi sangre acabará con vosotros!' WHERE entry=-1544005; /* content: My blood will be the end of you! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1544012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡%s comienza a lanzar una Nova explosiva!' WHERE entry=-1544013; /* content: %s begins to cast Blast Nova! */
 UPDATE script_texts SET content_loc6='¡Las cuerdas de %s empiezan a aflojarse!' WHERE entry=-1544014; /* content: %s\'s bonds begin to weaken! */
 UPDATE script_texts SET content_loc6='¡%s se libera!' WHERE entry=-1544015; /* content: %s breaks free! */
@@ -1342,19 +1318,6 @@ UPDATE script_texts SET content_loc6='%s emite un extraño sonido.' WHERE entry=
 UPDATE script_texts SET content_loc6='¿Quién perturba este santuario?' WHERE entry=-1553007; /* content: Who disturbs this sanctuary? */
 UPDATE script_texts SET content_loc6='¿Qué estoy haciendo? Qué...' WHERE entry=-1553009; /* content: What am I doing? Why do I... */
 UPDATE script_texts SET content_loc6='¡Pequeños, acudid a mí!' WHERE entry=-1553010; /* content: Children, come to me! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554000; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554001; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554002; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554003; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554004; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554005; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554006; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554007; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554008; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554009; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554010; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554011; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1554012; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¿No valoráis mucho vuestras vidas, verdad?' WHERE entry=-1554013; /* content: Don\'t value your life very much, do you? */
 UPDATE script_texts SET content_loc6='No estoy sola.' WHERE entry=-1554014; /* content: I am not alone. */
 UPDATE script_texts SET content_loc6='¿Creéis que podéis resistir el calor?' WHERE entry=-1554015; /* content: Think you can take the heat? */
@@ -1431,8 +1394,6 @@ UPDATE script_texts SET content_loc6='¡Está aquí! ¡Hay que detenerle!' WHERE
 UPDATE script_texts SET content_loc6='Tenemos todo el tiempo del mundo...' WHERE entry=-1560018; /* content: We have all the time in the world.... */
 UPDATE script_texts SET content_loc6='¡No puedes escapar de nosotros!' WHERE entry=-1560019; /* content: You cannot escape us! */
 UPDATE script_texts SET content_loc6='¡No pienses que puedes ganar!' WHERE entry=-1560020; /* content: Do not think you can win! */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1560021; /* content: REUSE ME */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1560022; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='Muy bien pues. ¡Vamos!' WHERE entry=-1560023; /* content: Very well then. Let\'s go! */
 UPDATE script_texts SET content_loc6='¡No me encadenarán de nuevo!' WHERE entry=-1560026; /* content: I\'ll never be chained again! */
 UPDATE script_texts SET content_loc6='Muy bien. El Molino Tarren se encuentra al oeste. El tiempo es fundamental...' WHERE entry=-1560027; /* content: Very well. Tarren Mill lies just west of here. Since time is of the essence... */
@@ -1486,7 +1447,6 @@ UPDATE script_texts SET content_loc6='¡No me dejéis solo!' WHERE entry=-156404
 UPDATE script_texts SET content_loc6='¡Yo no pedí esto!' WHERE entry=-1564050; /* content: I didn\'t ask for this! */
 UPDATE script_texts SET content_loc6='¡No quiero volver!' WHERE entry=-1564052; /* content: I don\'t want to go back! */
 UPDATE script_texts SET content_loc6='¿Y ahora qué hago yo?' WHERE entry=-1564053; /* content: Now what do I do? */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1564054; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='Puedes tener todo lo que desees... pagando su precio.' WHERE entry=-1564055; /* content: You can have anything you desire... for a price. */
 UPDATE script_texts SET content_loc6='Podrías haber llegado lejos.' WHERE entry=-1564058; /* content: Your reach exceeds your grasp. */
 UPDATE script_texts SET content_loc6='¡Cuidado: estoy vivo!' WHERE entry=-1564062; /* content: Beware: I live! */
@@ -1866,7 +1826,6 @@ UPDATE script_texts SET content_loc6='¡Eonar, tus sirvientes piden tu bendició
 UPDATE script_texts SET content_loc6='¡Han aparecido los aliados de la naturaleza!' WHERE entry=-1603010; /* content: Allies of Nature have appeared! */
 UPDATE script_texts SET content_loc6='El %s se marchita en la tierra y comienza a regenerarse.' WHERE entry=-1603011; /* content: The %s withers into the earth and begins to regenerate. */
 UPDATE script_texts SET content_loc6='Como desees, $n.' WHERE entry=-1603012; /* content: As you wish, $N. */
-UPDATE script_texts SET content_loc6='REUSE ME' WHERE entry=-1603013; /* content: REUSE ME */
 UPDATE script_texts SET content_loc6='¡Matrona, han penetrado en el Invernadero!' WHERE entry=-1603014; /* content: Matron, the Conservatory has been breached! */
 UPDATE script_texts SET content_loc6='Fertilizante.' WHERE entry=-1603015; /* content: Fertilizer. */
 UPDATE script_texts SET content_loc6='¡Matrona, ha caído uno!' WHERE entry=-1603017; /* content: Matron, one has fallen! */
