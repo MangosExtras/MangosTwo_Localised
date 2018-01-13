@@ -34,8 +34,6 @@ UPDATE mangos_string SET content_loc4='on' WHERE entry=38; /* content: on */
 UPDATE mangos_string SET content_loc4='off' WHERE entry=39; /* content: off */
 UPDATE mangos_string SET content_loc4='You are: %s' WHERE entry=40; /* content: You are: %s */
 UPDATE mangos_string SET content_loc4='visible' WHERE entry=41; /* content: visible */
-UPDATE mangos_string SET content_loc4='invisible' WHERE entry=42; /* content: invisible */
-UPDATE mangos_string SET content_loc4='done' WHERE entry=43; /* content: done */
 UPDATE mangos_string SET content_loc4='You' WHERE entry=44; /* content: You */
 UPDATE mangos_string SET content_loc4=' <unknown> ' WHERE entry=45; /* content: <unknown> */
 UPDATE mangos_string SET content_loc4='<error>' WHERE entry=46; /* content: <error> */
@@ -277,8 +275,6 @@ UPDATE mangos_string SET content_loc4=' [inactive]' WHERE entry=317; /* content:
 UPDATE mangos_string SET content_loc4='Hated' WHERE entry=318; /* content: Hated */
 UPDATE mangos_string SET content_loc4='Hostile' WHERE entry=319; /* content: Hostile */
 UPDATE mangos_string SET content_loc4='Unfriendly' WHERE entry=320; /* content: Unfriendly */
-UPDATE mangos_string SET content_loc4='Neutral' WHERE entry=321; /* content: Neutral */
-UPDATE mangos_string SET content_loc4='Friendly' WHERE entry=322; /* content: Friendly */
 UPDATE mangos_string SET content_loc4='Honored' WHERE entry=323; /* content: Honored */
 UPDATE mangos_string SET content_loc4='Revered' WHERE entry=324; /* content: Revered */
 UPDATE mangos_string SET content_loc4='Exalted' WHERE entry=325; /* content: Exalted */
@@ -381,8 +377,6 @@ UPDATE mangos_string SET content_loc4='Ban history for account %s:' WHERE entry=
 UPDATE mangos_string SET content_loc4='Ban Date: %s Bantime: %s Still active: %s  Reason: %s Set by: %s' WHERE entry=418; /* content: Ban Date: %s Bantime: %s Still active: %s  Reason: %s Set by: %s */
 UPDATE mangos_string SET content_loc4='Inf.' WHERE entry=419; /* content: Inf. */
 UPDATE mangos_string SET content_loc4='Never' WHERE entry=420; /* content: Never */
-UPDATE mangos_string SET content_loc4='Yes' WHERE entry=421; /* content: Yes */
-UPDATE mangos_string SET content_loc4='No' WHERE entry=422; /* content: No */
 UPDATE mangos_string SET content_loc4='IP: %s
 Ban Date: %s
 Unban Date: %s
