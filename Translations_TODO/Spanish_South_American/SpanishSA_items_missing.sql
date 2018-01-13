@@ -111,6 +111,5 @@ UPDATE locales_item SET description_loc7='Counts as an Air, Earth, Fire, and Wat
 UPDATE locales_item SET description_loc7='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=51507; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc7='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=51513; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc7='May you always bring light into dark places.' WHERE entry=52252; /* description: May you always bring light into dark places. */
-UPDATE locales_item SET description_loc7='A lament for the days forever lost to the Banshee Queen' WHERE entry=52253; /* description: A lament for the days forever lost to the Banshee Queen */
 
 SET NAMES 'latin1';

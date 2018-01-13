@@ -1959,20 +1959,14 @@ UPDATE locales_page_text SET text_loc7='Jin\'Zil,
 
 -Darsok Swiftdagger */
 UPDATE locales_page_text SET text_loc7='Jin\'Zil,
+It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.
+Take care old friend.
 
-It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.
+-Darsok Swiftdagger' WHERE entry=415; /* text: Jin\'Zil,
+It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.
+Take care old friend.
 
-Take care old friend.
-
-
--Darsok Swiftdagger' WHERE entry=415; /* text: Jin\'Zil,
-
-It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.
-
-Take care old friend.
-
-
--Darsok Swiftdagger */
+-Darsok Swiftdagger */
 UPDATE locales_page_text SET text_loc7='Jin\'Zil,    It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.    Take care old friend. -Darsok Swiftdagger ' WHERE entry=416; /* text: Jin\'Zil,    It has been a while, but I thought you would like to know that the last of the Bloodfeather\'s have been slain. Don\'t thank me though, the person delivering the letter is the slayer. If you\'d like, I can have her head delivered to you after the caravan makes its rounds through the Barrens. I know you like that sort of stuff for your voodoo magics.    Take care old friend. -Darsok Swiftdagger */
 UPDATE locales_page_text SET text_loc7='Okay, you should have your NG-5 charges and detonators ready. I\'ve labeled them for you... Blue is for the lumber mill. Red is for Windshear Mine. I did some scouting, and there are enough explosives throughout Windshear Crag that it shouldn\'t be a problem at all for you to get in, plant the explosives, and then get out before detonating them. Remember, this is a distraction. Get far from the wagons before the goblins get there to check out what happened, then sneak in behind them. ' WHERE entry=417; /* text: Okay, you should have your NG-5 charges and detonators ready. I\'ve labeled them for you... Blue is for the lumber mill. Red is for Windshear Mine. I did some scouting, and there are enough explosives throughout Windshear Crag that it shouldn\'t be a problem at all for you to get in, plant the explosives, and then get out before detonating them. Remember, this is a distraction. Get far from the wagons before the goblins get there to check out what happened, then sneak in behind them. */
 UPDATE locales_page_text SET text_loc7='Be careful with them by the way. The Nitromirglyceronium alone could reduce you to dust. I\'ve encased some of the liquid in copper tubes which should keep it stable and safe. The scroll you got from Collin I used on the detonator boxes. They will now send a silent message to the NG-5 charges after you\'ve set them. I used a simple Stalthwargon mechanism to make sure the wire conductivity is optimal and the flow of the Nitroglyceronium between the differential fluid is better than average. ' WHERE entry=418; /* text: Be careful with them by the way. The Nitromirglyceronium alone could reduce you to dust. I\'ve encased some of the liquid in copper tubes which should keep it stable and safe. The scroll you got from Collin I used on the detonator boxes. They will now send a silent message to the NG-5 charges after you\'ve set them. I used a simple Stalthwargon mechanism to make sure the wire conductivity is optimal and the flow of the Nitroglyceronium between the differential fluid is better than average. */
@@ -2325,16 +2319,12 @@ Uleg and Thargil returned from their mission to the Theramore docks.  They saw a
 
 Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance. */
 UPDATE locales_page_text SET text_loc7='--Day 16
+Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth.
 
-Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth.
+Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance.' WHERE entry=548; /* text: --Day 16
+Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth.
 
-
-Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance.' WHERE entry=548; /* text: --Day 16
-
-Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth.
-
-
-Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance. */
+Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance. */
 UPDATE locales_page_text SET text_loc7='--Day 16 Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth. Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance. ' WHERE entry=571; /* text: --Day 16 Uleg and Thargil returned from their mission to the Theramore docks.  They saw a new ship in port: the Bleeding Sparrow.  The ship arrived from Menethil Harbor in Azeroth. Tomorrow Uleg and Thargil will return to the docks and steal aboard the ship.  They hope to find political documents, ones that reveal the relations between Theramore and the Alliance. */
 UPDATE locales_page_text SET text_loc7='With Kel\'Thuzad\'s success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague energies into a number of portable artifacts called plague cauldrons, Ner\'zhul ordered Kel\'Thuzad to transport the cauldrons to Lordaeron where they would be hidden within various cult-controlled villages. ' WHERE entry=572; /* text: With Kel\'Thuzad\'s success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague energies into a number of portable artifacts called plague cauldrons, Ner\'zhul ordered Kel\'Thuzad to transport the cauldrons to Lordaeron where they would be hidden within various cult-controlled villages. */
 UPDATE locales_page_text SET text_loc7='The cauldrons, protected by the loyal cultists, would then act as plague generators, sending the plague seeping out across the unsuspecting farmlands and cities of northern Lordaeron. The Lich King\'s plan worked perfectly. Many of Lordaeron\'s northern villages were contaminated almost immediately. Just as in Northrend, the citizens who contracted the plague died and arose as the Lich King\'s willing slaves. ' WHERE entry=573; /* text: The cauldrons, protected by the loyal cultists, would then act as plague generators, sending the plague seeping out across the unsuspecting farmlands and cities of northern Lordaeron. The Lich King\'s plan worked perfectly. Many of Lordaeron\'s northern villages were contaminated almost immediately. Just as in Northrend, the citizens who contracted the plague died and arose as the Lich King\'s willing slaves. */
@@ -4787,8 +4777,7 @@ UPDATE locales_page_text SET text_loc7='Cenarius taught the children of the eart
 UPDATE locales_page_text SET text_loc7='This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. 
 ' WHERE entry=2311; /* text: This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. */
 UPDATE locales_page_text SET text_loc7='This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil.
-
-' WHERE entry=2311; /* text: This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. */
+' WHERE entry=2311; /* text: This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. */
 UPDATE locales_page_text SET text_loc7='This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. ' WHERE entry=2350; /* text: This intact pteradon skeleton was recovered from the remote Un\'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region\'s rich soil. */
 UPDATE locales_page_text SET text_loc7='The Annals of Darrowshire
 
