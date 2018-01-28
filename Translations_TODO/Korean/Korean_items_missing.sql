@@ -44,6 +44,7 @@ UPDATE locales_item SET description_loc1='Counts as an Air, Earth, Fire, and Wat
 UPDATE locales_item SET description_loc1='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=31031; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc1='Required by jewelcrafters to transmute mercurial adamantite.' WHERE entry=31080; /* description: Required by jewelcrafters to transmute mercurial adamantite. */
 UPDATE locales_item SET description_loc1='Wearing this would be a bad idea, as it would severely hinder your vision.' WHERE entry=31529; /* description: Wearing this would be a bad idea, as it would severely hinder your vision. */
+UPDATE locales_item SET description_loc1='A crystalline key that is seemingly held together by beams of light.' WHERE entry=31704; /* description: A crystalline key that is seemingly held together by beams of light. */
 UPDATE locales_item SET description_loc1='Cut cleanly off at the shoulders.' WHERE entry=31706; /* description: Cut cleanly off at the shoulders. */
 UPDATE locales_item SET description_loc1='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=32330; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc1='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=33078; /* description: Counts as an Air, Earth, Fire, and Water totem. */
