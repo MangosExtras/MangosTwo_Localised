@@ -264,7 +264,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=322;
 UPDATE locales_quest SET RequestItemsText_loc8='Battle hard, $Nn. And do not despair, for despair is evil\'s greatest weapon.' WHERE entry=323; /* RequestItemsText: Battle hard, $Nn. And do not despair, for despair is evil\'s greatest weapon. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=324;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=325;
-UPDATE locales_quest SET details_loc8='' WHERE entry=327;
+ WHERE entry=327;
 UPDATE locales_quest SET RequestItemsText_loc8='The strongbox is bound in bronze, very sturdy, and very heavy.' WHERE entry=328; /* RequestItemsText: The strongbox is bound in bronze, very sturdy, and very heavy. */
 UPDATE locales_quest SET RequestItemsText_loc8='Did you discover who knew Thorsen\'s secret? Is there a traitor among us?' WHERE entry=329; /* RequestItemsText: Did you discover who knew Thorsen\'s secret? Is there a traitor among us? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=332;
@@ -315,7 +315,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=385;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=386;
 UPDATE locales_quest SET RequestItemsText_loc8='The Stockade is still overrun! These Defias Rats must be shown that their actions will not be tolerated. Now get back down there and show some force!' WHERE entry=387; /* RequestItemsText: The Stockade is still overrun! These Defias Rats must be shown that their actions will not be tolerated. Now get back down there and show some force! */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=388;
-UPDATE locales_quest SET details_loc8='' WHERE entry=390;
+ WHERE entry=390;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=391;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=392;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=393;
@@ -326,7 +326,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=400;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='This barrel of ale is guarded by Jarven Thunderbrew.  As long as he\'s in the basement, no barrels may be disturbed.' WHERE entry=403; /* offerrewardtext: This barrel of ale is guarded by Jarven Thunderbrew.  As long as he\'s in the basement, no barrels may be disturbed. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=404;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=405;
-UPDATE locales_quest SET details_loc8='' WHERE entry=406;
+ WHERE entry=406;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=407;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=408;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=409;
@@ -430,7 +430,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=530;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=531;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=532;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=533;
-UPDATE locales_quest SET details_loc8='' WHERE entry=534;
+ WHERE entry=534;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=535;
 UPDATE locales_quest SET RequestItemsText_loc8='Another ale, please, the last one just seemed to have disappeared!$B$BLight, how much longer am I going to be stuck out here?$B$BOh, it\'s you, $N. Have you killed those murlocs yet?' WHERE entry=536; /* RequestItemsText: Another ale, please, the last one just seemed to have disappeared!$B$BLight, how much longer am I going to be stuck out here?$B$BOh, it\'s you, $N. Have you killed those murlocs yet? */
 UPDATE locales_quest SET RequestItemsText_loc8='Did you find the envoys of The Argus Wake?' WHERE entry=537; /* RequestItemsText: Did you find the envoys of The Argus Wake? */
@@ -619,7 +619,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=766;
 UPDATE locales_quest SET RequestItemsText_loc8='Hello again. Have you been hunting? Do you have skins for me?' WHERE entry=768; /* RequestItemsText: Hello again. Have you been hunting? Do you have skins for me? */
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have my supplies, $N?' WHERE entry=769; /* RequestItemsText: Do you have my supplies, $N? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=771;
-UPDATE locales_quest SET details_loc8='' WHERE entry=774;
+ WHERE entry=774;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=776;
 UPDATE locales_quest SET RequestItemsText_loc8='<Without looking up from the shackles, Lotwil holds out a hand and waggles his fingers impatiently.>$B$BThe cog, $N, the cog!' WHERE entry=777; /* RequestItemsText: <Without looking up from the shackles, Lotwil holds out a hand and waggles his fingers impatiently.>$B$BThe cog, $N, the cog! */
 UPDATE locales_quest SET RequestItemsText_loc8='Not quite the outcome I was expecting. Could you get my shackles back?' WHERE entry=778; /* RequestItemsText: Not quite the outcome I was expecting. Could you get my shackles back? */
@@ -639,14 +639,14 @@ UPDATE locales_quest SET RequestItemsText_loc8='There are few enemies more deadl
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=794;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='As you place the Runestones into the matching recesses, a violent rumbling shakes the earth as the Seal is broken.' WHERE entry=795; /* offerrewardtext: As you place the Runestones into the matching recesses, a violent rumbling shakes the earth as the Seal is broken. */
 UPDATE locales_quest SET RequestItemsText_loc8='The Seal of the Earth lies here, with three recessed alcoves for the Amethyst Runestone, the Opal Runestone, and the Diamond Runestone.' WHERE entry=795; /* RequestItemsText: The Seal of the Earth lies here, with three recessed alcoves for the Amethyst Runestone, the Opal Runestone, and the Diamond Runestone. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=796;
-UPDATE locales_quest SET details_loc8='' WHERE entry=797;
-UPDATE locales_quest SET details_loc8='' WHERE entry=798;
-UPDATE locales_quest SET details_loc8='' WHERE entry=799;
-UPDATE locales_quest SET details_loc8='' WHERE entry=800;
-UPDATE locales_quest SET details_loc8='' WHERE entry=801;
-UPDATE locales_quest SET details_loc8='' WHERE entry=802;
-UPDATE locales_quest SET details_loc8='' WHERE entry=803;
+ WHERE entry=796;
+ WHERE entry=797;
+ WHERE entry=798;
+ WHERE entry=799;
+ WHERE entry=800;
+ WHERE entry=801;
+ WHERE entry=802;
+ WHERE entry=803;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=806;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=808;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=812;
@@ -671,7 +671,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=834;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=835;
 UPDATE locales_quest SET EndText_loc8='Escort OOX-09/HL to the shoreline beyond Overlook Cliff' WHERE entry=836; /* EndText: Escort OOX-09/HL to the shoreline beyond Overlook Cliff */
 UPDATE locales_quest SET RequestItemsText_loc8='Though they do possess some intelligence and some organization, I find it constantly amazing that the quilboars were able to capture and hold so much territory in Kalimdor. Perhaps they are more crafty an enemy than I give them credit for...' WHERE entry=837; /* RequestItemsText: Though they do possess some intelligence and some organization, I find it constantly amazing that the quilboars were able to capture and hold so much territory in Kalimdor. Perhaps they are more crafty an enemy than I give them credit for... */
-UPDATE locales_quest SET details_loc8='' WHERE entry=839;
+ WHERE entry=839;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=840;
 UPDATE locales_quest SET RequestItemsText_loc8='Well, have you got the ten water pouches?' WHERE entry=841; /* RequestItemsText: Well, have you got the ten water pouches? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=842;
@@ -688,7 +688,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=853;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=855;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=857;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=858;
-UPDATE locales_quest SET details_loc8='' WHERE entry=859;
+ WHERE entry=859;
 UPDATE locales_quest SET RequestItemsText_loc8='Greetings. There is an air about you that tells me much. Do we have business, you and I?' WHERE entry=861; /* RequestItemsText: Greetings. There is an air about you that tells me much. Do we have business, you and I? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=862;
 UPDATE locales_quest SET RequestItemsText_loc8='Welcome back. At least, welcome back if you have returned with a sealed testing kit. Otherwise, I will pretend not to notice your utter incompetence and spare my wrath from you until you do as you have been tasked and accomplish my task.' WHERE entry=864; /* RequestItemsText: Welcome back. At least, welcome back if you have returned with a sealed testing kit. Otherwise, I will pretend not to notice your utter incompetence and spare my wrath from you until you do as you have been tasked and accomplish my task. */
@@ -728,7 +728,7 @@ UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Shut off Main Con
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=901;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=902;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=903;
-UPDATE locales_quest SET details_loc8='' WHERE entry=904;
+ WHERE entry=904;
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText2_loc8='Visit Blue Raptor Nest' WHERE entry=905; /* ObjectiveText2: Visit Blue Raptor Nest */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=906;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=907;
@@ -767,7 +767,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=942;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=943;
 UPDATE locales_quest SET RequestItemsText_loc8='The Master\'s Glaive, $N.$B$BGo there, then speak with me again.' WHERE entry=944; /* RequestItemsText: The Master\'s Glaive, $N.$B$BGo there, then speak with me again. */ /* EndText: Enter the Master\'s Glaive */
 UPDATE locales_quest SET  WHERE entry=945; /* EndText: Escort Therylune away from the Master\'s Glaive */
-UPDATE locales_quest SET details_loc8='' WHERE entry=946;
+ WHERE entry=946;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=947;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=950;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=951;
@@ -799,7 +799,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=982;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=983;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=985;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=986;
-UPDATE locales_quest SET details_loc8='' WHERE entry=987;
+ WHERE entry=987;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=992;
 UPDATE locales_quest SET  WHERE entry=994; /* EndText: Help Volcor to the road */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.' WHERE entry=996; /* offerrewardtext: You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant. */
@@ -1062,7 +1062,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=1434;
 UPDATE locales_quest SET RequestItemsText_loc8='I have tried to make the magics as simple as possible. Drawing the spirit of your victim out of its injured form should be child\'s play. Do not rely on the gem\'s power to slay your foe completely. You must only activate the gem when they are close to death, or it will be useless.' WHERE entry=1435; /* RequestItemsText: I have tried to make the magics as simple as possible. Drawing the spirit of your victim out of its injured form should be child\'s play. Do not rely on the gem\'s power to slay your foe completely. You must only activate the gem when they are close to death, or it will be useless. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1439;
 UPDATE locales_quest SET  WHERE entry=1440; /* EndText: Rescue Dalinda Malem */
-UPDATE locales_quest SET details_loc8='' WHERE entry=1441;
+ WHERE entry=1441;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1442;
 UPDATE locales_quest SET details_loc8='' WHERE entry=1443;
 UPDATE locales_quest SET RequestItemsText_loc8='If the Atal\'ai fetishes hold the power to summon Hakkar and fulfill Jammal\'an\'s prophecy they must be seized. Such powers must be understood by the Horde!' WHERE entry=1445; /* RequestItemsText: If the Atal\'ai fetishes hold the power to summon Hakkar and fulfill Jammal\'an\'s prophecy they must be seized. Such powers must be understood by the Horde! */
@@ -1074,8 +1074,8 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=1456;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1457;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1458;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1459;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1460;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1461;
+ WHERE entry=1460;
+ WHERE entry=1461;
 UPDATE locales_quest SET details_loc8='', objectives_loc8='Speak to Seer Ravenfeather for another Earth Sapta.', WHERE entry=1462; /* objectives: Speak to Seer Ravenfeather for another Earth Sapta. */
 UPDATE locales_quest SET details_loc8='', objectives_loc8='Speak to Canaga Earthcaller for another Earth Sapta.', WHERE entry=1463; /* objectives: Speak to Canaga Earthcaller for another Earth Sapta. */
 UPDATE locales_quest SET details_loc8='', objectives_loc8='Speak to Telf Joolam for another Fire Sapta.',, offerrewardtext_loc8='May fire burn within your heart, $N.$B$BThe elements await you.' WHERE entry=1464; /* objectives: Speak to Telf Joolam for another Fire Sapta. */ /* offerrewardtext: May fire burn within your heart, $N.$B$BThe elements await you. */
@@ -1146,11 +1146,11 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=1656;
 UPDATE locales_quest SET RequestItemsText_loc8='Have you delivered our "gift" to the people of Southshore?$B$B<Darkcaller Yanka laughs wickedly.>' WHERE entry=1657; /* RequestItemsText: Have you delivered our "gift" to the people of Southshore?$B$B<Darkcaller Yanka laughs wickedly.> */ /* ObjectiveText1: Toss Stink Bomb into Southshore */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Toss Stink Bomb into Southshore', WHERE entry=1657; /* ObjectiveText1: Toss Stink Bomb into Southshore */
 UPDATE locales_quest SET  WHERE entry=1658; /* EndText: Scout out the Forsaken\'s Wickerman Festival. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=1659;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1660;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1662;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1663;
-UPDATE locales_quest SET details_loc8='' WHERE entry=1664;
+ WHERE entry=1659;
+ WHERE entry=1660;
+ WHERE entry=1662;
+ WHERE entry=1663;
+ WHERE entry=1664;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1665;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1667;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=1678;
@@ -1468,7 +1468,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='Keeping the Highvale elves isola
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Burn the Highvale Records',, ObjectiveText2_loc8='Burn the Highvale Notes' WHERE entry=2995; /* ObjectiveText1: Burn the Highvale Records */ /* ObjectiveText2: Burn the Highvale Notes */
 UPDATE locales_quest SET RequestItemsText_loc8='What have you brought me, $R?' WHERE entry=3002; /* RequestItemsText: What have you brought me, $R? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=3022;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3023;
+ WHERE entry=3023;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=3042;
 UPDATE locales_quest SET RequestItemsText_loc8='The hate that Edana spreads across the land must be stopped.' WHERE entry=3062; /* RequestItemsText: The hate that Edana spreads across the land must be stopped. */
 UPDATE locales_quest SET RequestItemsText_loc8='The wings of the Northspring harpies are black as the night; do not take your eyes off of them, lest they disappear into darkness.' WHERE entry=3063; /* RequestItemsText: The wings of the Northspring harpies are black as the night; do not take your eyes off of them, lest they disappear into darkness. */
@@ -1549,18 +1549,18 @@ UPDATE locales_quest SET RequestItemsText_loc8='What brings you to the Temple of
 UPDATE locales_quest SET RequestItemsText_loc8='What information do you have?' WHERE entry=3379; /* RequestItemsText: What information do you have? */
 UPDATE locales_quest SET RequestItemsText_loc8='I remain here at my master\'s bidding. I\'ve been given leave to ask any price I wish for transportation up to his tower. For now, I ask for only the two feathers from each traveler so I can continue to make my signature arrows.$b$bIf you\'re not careful, I\'ll up the price. How does half a dozen gold sound?$b$bYeah, I thought as much. Just mind yourself and I\'ll keep the price where it is.' WHERE entry=3381; /* RequestItemsText: I remain here at my master\'s bidding. I\'ve been given leave to ask any price I wish for transportation up to his tower. For now, I ask for only the two feathers from each traveler so I can continue to make my signature arrows.$b$bIf you\'re not careful, I\'ll up the price. How does half a dozen gold sound?$b$bYeah, I thought as much. Just mind yourself and I\'ll keep the price where it is. */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you met with Andron yet? He rarely leaves Undercity, so I don\'t think it\'d be too hard to find him.' WHERE entry=3382; /* RequestItemsText: Have you met with Andron yet? He rarely leaves Undercity, so I don\'t think it\'d be too hard to find him. */ /* EndText: Protect Captain Vanessa Beltis from the naga attack */
-UPDATE locales_quest SET details_loc8='' WHERE entry=3383;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3384;
+ WHERE entry=3383;
+ WHERE entry=3384;
 UPDATE locales_quest SET RequestItemsText_loc8='The Trade Master still lives?' WHERE entry=3385; /* RequestItemsText: The Trade Master still lives? */
-UPDATE locales_quest SET details_loc8='' WHERE entry=3401;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3403;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3404;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3405;
+ WHERE entry=3401;
+ WHERE entry=3403;
+ WHERE entry=3404;
+ WHERE entry=3405;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='I will return you to Sanath\'s camp now.$B$BDo not mind his bad manners--he is rude to everyone save for the master. Perhaps he shall learn his lesson one day.' WHERE entry=3421; /* offerrewardtext: I will return you to Sanath\'s camp now.$B$BDo not mind his bad manners--he is rude to everyone save for the master. Perhaps he shall learn his lesson one day. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=3422;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3423;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3424;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3425;
+ WHERE entry=3422;
+ WHERE entry=3423;
+ WHERE entry=3424;
+ WHERE entry=3425;
 UPDATE locales_quest SET RequestItemsText_loc8='Allow me to finish mo... $r.' WHERE entry=3441; /* RequestItemsText: Allow me to finish mo... $r. */ /* EndText: Kalaran Story */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you collected the materials?' WHERE entry=3442; /* RequestItemsText: Have you collected the materials? */
 UPDATE locales_quest SET RequestItemsText_loc8='Eight, $N. I need eight!' WHERE entry=3443; /* RequestItemsText: Eight, $N. I need eight! */
@@ -1584,8 +1584,8 @@ UPDATE locales_quest SET RequestItemsText_loc8='<Lord Arkkoroc bends down to ins
 UPDATE locales_quest SET RequestItemsText_loc8='You return! Astounding, $R. Did you discover the true name?$B$B' WHERE entry=3511; /* RequestItemsText: You return! Astounding, $R. Did you discover the true name?$B$B */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=3513;
 UPDATE locales_quest SET RequestItemsText_loc8='We cannot allow the Alliance on our land, $N. Make this known.' WHERE entry=3514; /* RequestItemsText: We cannot allow the Alliance on our land, $N. Make this known. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=3515;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3516;
+ WHERE entry=3515;
+ WHERE entry=3516;
 UPDATE locales_quest SET RequestItemsText_loc8='The tablets I\'m having you gather should bring in a pretty copper or two to the right parties. I\'ll tell you who we need to deliver them to after you\'ve found them. But I\'m no fool... you\'ll get your share after I have proof that they\'ve been delivered.$B$BSo get to it--we don\'t have all day. I might have to find someone else to help me.' WHERE entry=3517; /* RequestItemsText: The tablets I\'m having you gather should bring in a pretty copper or two to the right parties. I\'ll tell you who we need to deliver them to after you\'ve found them. But I\'m no fool... you\'ll get your share after I have proof that they\'ve been delivered.$B$BSo get to it--we don\'t have all day. I might have to find someone else to help me. */
 UPDATE locales_quest SET RequestItemsText_loc8='Yes, $N. What can I do for you? I have many matters I must attend to, so please, be quick.' WHERE entry=3518; /* RequestItemsText: Yes, $N. What can I do for you? I have many matters I must attend to, so please, be quick. */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Screecher Spirits Collected', WHERE entry=3520; /* ObjectiveText1: Screecher Spirits Collected */
@@ -1597,9 +1597,9 @@ UPDATE locales_quest SET  WHERE entry=3525; /* EndText: Protect Belnistrasz whil
 UPDATE locales_quest SET RequestItemsText_loc8='I can smell fresh recruits much like I can an excellent blasting powder - from a mile away. Have you come seeking to learn about the mastery of the explosion?' WHERE entry=3526; /* RequestItemsText: I can smell fresh recruits much like I can an excellent blasting powder - from a mile away. Have you come seeking to learn about the mastery of the explosion? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=3527;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=3528;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3529;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3530;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3531;
+ WHERE entry=3529;
+ WHERE entry=3530;
+ WHERE entry=3531;
 UPDATE locales_quest SET RequestItemsText_loc8='Yes, what you be needin\', $gdad:mon? I got many tings to be takin\' care of today, and you not be on me agenda as one of them. Pester me, and I make sure that changes.' WHERE entry=3541; /* RequestItemsText: Yes, what you be needin\', $gdad:mon? I got many tings to be takin\' care of today, and you not be on me agenda as one of them. Pester me, and I make sure that changes. */
 UPDATE locales_quest SET RequestItemsText_loc8='Well... ... isn\'t this a surprise? An adventurererere... !$B$BWhat c\'n I do for you... ?' WHERE entry=3542; /* RequestItemsText: Well... ... isn\'t this a surprise? An adventurererere... !$B$BWhat c\'n I do for you... ? */
 UPDATE locales_quest SET RequestItemsText_loc8='What can help you with, $N?' WHERE entry=3561; /* RequestItemsText: What can help you with, $N? */
@@ -1616,9 +1616,9 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=3570;
 UPDATE locales_quest SET RequestItemsText_loc8='Those stinkin\' Blood elves. I tell ya, if I was as strong as you are, I\'d go down there and teach them a thing or two myself! But I\'ll have to settle with payin\' you to take care of \'em for me.' WHERE entry=3601; /* RequestItemsText: Those stinkin\' Blood elves. I tell ya, if I was as strong as you are, I\'d go down there and teach them a thing or two myself! But I\'ll have to settle with payin\' you to take care of \'em for me. */
 UPDATE locales_quest SET RequestItemsText_loc8='Evil does not sleep, fool. You will have time for rest when you are finally dead. Now, bring me those crystals.' WHERE entry=3602; /* RequestItemsText: Evil does not sleep, fool. You will have time for rest when you are finally dead. Now, bring me those crystals. */
 UPDATE locales_quest SET RequestItemsText_loc8='Loramus, eh? It has been many years since I have heard that name.' WHERE entry=3621; /* RequestItemsText: Loramus, eh? It has been many years since I have heard that name. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=3622;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3623;
-UPDATE locales_quest SET details_loc8='' WHERE entry=3624;
+ WHERE entry=3622;
+ WHERE entry=3623;
+ WHERE entry=3624;
 UPDATE locales_quest SET RequestItemsText_loc8='To interrupt the forging process could result in an imperfect weapon. Be patient, $n.' WHERE entry=3625; /* RequestItemsText: To interrupt the forging process could result in an imperfect weapon. Be patient, $n. */ /* EndText: Weaponry Creation */
 UPDATE locales_quest SET RequestItemsText_loc8='The three shall form the one, the one shall light the way.' WHERE entry=3627; /* RequestItemsText: The three shall form the one, the one shall light the way. */
 UPDATE locales_quest SET RequestItemsText_loc8='There is nothing left to fear.$B$B' WHERE entry=3628; /* RequestItemsText: There is nothing left to fear.$B$B */
@@ -1640,7 +1640,6 @@ UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Since you\'re a 
 UPDATE locales_quest SET RequestItemsText_loc8='In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.' WHERE entry=3644; /* RequestItemsText: In order to renew your membership card, you will need to pay the renewal fee of two gold pieces. */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Since you\'re a practitioner of Gnomish engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Gnomish engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears.' WHERE entry=3645; /* offerrewardtext: Since you\'re a practitioner of Gnomish engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Gnomish engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears. */
 UPDATE locales_quest SET RequestItemsText_loc8='In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.' WHERE entry=3645; /* RequestItemsText: In order to renew your membership card, you will need to pay the renewal fee of two gold pieces. */
-UPDATE locales_quest SET details_loc8='$B', offerrewardtext_loc8='Since you\'re a practitioner of Goblin engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Goblin engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears.' WHERE entry=3646; /* details: $B */ /* offerrewardtext: Since you\'re a practitioner of Goblin engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Goblin engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears. */
 UPDATE locales_quest SET RequestItemsText_loc8='In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.' WHERE entry=3646; /* RequestItemsText: In order to renew your membership card, you will need to pay the renewal fee of two gold pieces. */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Since you\'re a practitioner of Gnomish engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Gnomish engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears.' WHERE entry=3647; /* offerrewardtext: Since you\'re a practitioner of Gnomish engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to Gnomish engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you\'ll need to bring your dues out of arrears. */
 UPDATE locales_quest SET RequestItemsText_loc8='In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.' WHERE entry=3647; /* RequestItemsText: In order to renew your membership card, you will need to pay the renewal fee of two gold pieces. */
@@ -1889,7 +1888,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='Zug zug!  What may I help you wi
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=4512;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=4513;
 UPDATE locales_quest SET RequestItemsText_loc8='Report back to me after you have completed the task I gave you.' WHERE entry=4521; /* RequestItemsText: Report back to me after you have completed the task I gave you. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=4541;
+ WHERE entry=4541;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=4542;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='You pick up the petri dish with the slime sample in it. The only way to discern if the samples is pure enough is to open it and examine the contents yourself. Ideally you\'ll find a sample that fits Chemist Fuely\'s criteria.' WHERE entry=4561; /* offerrewardtext: You pick up the petri dish with the slime sample in it. The only way to discern if the samples is pure enough is to open it and examine the contents yourself. Ideally you\'ll find a sample that fits Chemist Fuely\'s criteria. */
 UPDATE locales_quest SET RequestItemsText_loc8='You take a sample of slime from Un\'Goro Crater and place some of it into the various tubes and beakers on the table. As things begin to boil and spurt, the slime changes colors. When the process slows down and the liquids calm, you see a small petri dish with your purified Un\'Goro slime samples in it along with some other remnants.' WHERE entry=4561; /* RequestItemsText: You take a sample of slime from Un\'Goro Crater and place some of it into the various tubes and beakers on the table. As things begin to boil and spurt, the slime changes colors. When the process slows down and the liquids calm, you see a small petri dish with your purified Un\'Goro slime samples in it along with some other remnants. */
@@ -2029,7 +2028,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=5064;
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have the tablets?  I fear their texts will reveal a great threat to our world.' WHERE entry=5065; /* RequestItemsText: Do you have the tablets?  I fear their texts will reveal a great threat to our world. */
 UPDATE locales_quest SET RequestItemsText_loc8='Unless you\'ve got everything I need, you\'re wasting my time.' WHERE entry=5067; /* RequestItemsText: Unless you\'ve got everything I need, you\'re wasting my time. */
 UPDATE locales_quest SET RequestItemsText_loc8='Unless you\'ve got everything I need, you\'re wasting my time.' WHERE entry=5068; /* RequestItemsText: Unless you\'ve got everything I need, you\'re wasting my time. */
-UPDATE locales_quest SET RequestItemsText_loc8='Status?' WHERE entry=5081; /* RequestItemsText: Status? */
+UPDATE locales_quest SET EndText_loc8='' WHERE entry=5081;
 UPDATE locales_quest SET RequestItemsText_loc8='I appreciate your help!' WHERE entry=5082; /* RequestItemsText: I appreciate your help! */
 UPDATE locales_quest SET RequestItemsText_loc8='What is that you have found?' WHERE entry=5083; /* RequestItemsText: What is that you have found? */
 UPDATE locales_quest SET RequestItemsText_loc8='I hope you found something, $N. The Winterfall are becoming increasingly aggressive!' WHERE entry=5085; /* RequestItemsText: I hope you found something, $N. The Winterfall are becoming increasingly aggressive! */
@@ -2083,11 +2082,11 @@ UPDATE locales_quest SET RequestItemsText_loc8='The furbolgs seem to suffer from
 UPDATE locales_quest SET RequestItemsText_loc8='I begin to wonder if I\'ll ever escape this cage.$B$BIt\'s only a matter of time before they sacrifice me to whatever demons they worship. The monsters!' WHERE entry=5202; /* RequestItemsText: I begin to wonder if I\'ll ever escape this cage.$B$BIt\'s only a matter of time before they sacrifice me to whatever demons they worship. The monsters! */
 UPDATE locales_quest SET RequestItemsText_loc8='You look winded, $n. Are you all right, or is something wrong?' WHERE entry=5203; /* RequestItemsText: You look winded, $n. Are you all right, or is something wrong? */ /* EndText: Protect Arko\'narin out of Shadow Hold */
 UPDATE locales_quest SET RequestItemsText_loc8='You inspect the body, and there is no doubt that these are the remains of the Knight of the Silver Hand, Trey Lightforge. For a moment you think of Arko\'narin and question if anyone in your life meant as much to you as this man meant to the Night elf captive you recently helped escape Shadow Hold.$B$BAfter taking another moment to gather your thoughts, you know that you cannot take the paladin\'s remains back to Jessir without killing his torturer first.' WHERE entry=5204; /* RequestItemsText: You inspect the body, and there is no doubt that these are the remains of the Knight of the Silver Hand, Trey Lightforge. For a moment you think of Arko\'narin and question if anyone in your life meant as much to you as this man meant to the Night elf captive you recently helped escape Shadow Hold.$B$BAfter taking another moment to gather your thoughts, you know that you cannot take the paladin\'s remains back to Jessir without killing his torturer first. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5205;
+ WHERE entry=5205;
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have the skulls? Chromie said they will be critical for her spell, and that spell will give us the chance to save Darrowshire.' WHERE entry=5206; /* RequestItemsText: Do you have the skulls? Chromie said they will be critical for her spell, and that spell will give us the chance to save Darrowshire. */
 UPDATE locales_quest SET details_loc8='' WHERE entry=5207;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5208;
-UPDATE locales_quest SET details_loc8='' WHERE entry=5209;
+ WHERE entry=5209;
 UPDATE locales_quest SET RequestItemsText_loc8='You\'ve come from the west? How fare the rest of Lordaeron? I know that Anderhol is lost, but has the Scourge yet reached fair Tirisfal?' WHERE entry=5210; /* RequestItemsText: You\'ve come from the west? How fare the rest of Lordaeron? I know that Anderhol is lost, but has the Scourge yet reached fair Tirisfal? */
 UPDATE locales_quest SET RequestItemsText_loc8='The poor defenders of Darrowshire cry out to me in my dreams, $N. You must free them!' WHERE entry=5211; /* RequestItemsText: The poor defenders of Darrowshire cry out to me in my dreams, $N. You must free them! */ /* ObjectiveText1: Darrowshire Spirits Freed */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Darrowshire Spirits Freed', WHERE entry=5211; /* ObjectiveText1: Darrowshire Spirits Freed */
@@ -2138,8 +2137,8 @@ UPDATE locales_quest SET RequestItemsText_loc8='Ah, ain\'t nothing like a good f
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5284;
 UPDATE locales_quest SET RequestItemsText_loc8='I will pound the steel until the breath itself has been taken from me.' WHERE entry=5301; /* RequestItemsText: I will pound the steel until the breath itself has been taken from me. */
 UPDATE locales_quest SET RequestItemsText_loc8='For the glory of the Horde!' WHERE entry=5302; /* RequestItemsText: For the glory of the Horde! */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5303;
-UPDATE locales_quest SET details_loc8='' WHERE entry=5304;
+ WHERE entry=5303;
+ WHERE entry=5304;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5305;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5306;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5307;
@@ -2185,7 +2184,7 @@ UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='All who fight ev
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5504;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Good luck, mighty hero. May your victories continue to bring you fame and power as you lay waste to Scholomance!' WHERE entry=5505; /* offerrewardtext: Good luck, mighty hero. May your victories continue to bring you fame and power as you lay waste to Scholomance! */
 UPDATE locales_quest SET RequestItemsText_loc8='Well, here you are, $n - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There\'s only one way to be absolutely sure it works, though. Waste no time in trying it out, I say.' WHERE entry=5505; /* RequestItemsText: Well, here you are, $n - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There\'s only one way to be absolutely sure it works, though. Waste no time in trying it out, I say. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5506;
+ WHERE entry=5506;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5507;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BTo acquire a valor token in such a manner indicates that you are a true hero in the cause of good. We value all effort brought to bear against the Scourge, but to take down one of their leaders is to truly deliver onto them a crushing defeat!$B$BFor the Dawn, my g$sister:brother;!' WHERE entry=5508; /* offerrewardtext: Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BTo acquire a valor token in such a manner indicates that you are a true hero in the cause of good. We value all effort brought to bear against the Scourge, but to take down one of their leaders is to truly deliver onto them a crushing defeat!$B$BFor the Dawn, my g$sister:brother;! */
 UPDATE locales_quest SET RequestItemsText_loc8='A Corruptor\'s Scourgestone is the insignia of the Scourge\'s overlords.  A powerful being that holds a position of authority over the Scourge will always possess one.  To slay such a malevolent creature would surely advance the cause of the Argent Dawn, and all good causes!$B$BOn behalf of the Argent Dawn, I will give you a valor token in exchange for just a single one of these insignia.  Use caution in acquiring one, $N - such powerful beings are not to be trifled with.' WHERE entry=5508; /* RequestItemsText: A Corruptor\'s Scourgestone is the insignia of the Scourge\'s overlords.  A powerful being that holds a position of authority over the Scourge will always possess one.  To slay such a malevolent creature would surely advance the cause of the Argent Dawn, and all good causes!$B$BOn behalf of the Argent Dawn, I will give you a valor token in exchange for just a single one of these insignia.  Use caution in acquiring one, $N - such powerful beings are not to be trifled with. */
@@ -2195,19 +2194,19 @@ UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Congratulations,
 UPDATE locales_quest SET RequestItemsText_loc8='A Minion\'s Scourgestone is the insignia of the Scourge rank and file.  These are sometimes found on the weaker of their troops positioned in the Plaguelands, though the term "weaker" is certainly to be considered in context.  The Scourge, no matter where they are, should never be underestimated.$B$BThe Argent Dawn currently offers a valor token in exchange for twenty of these insignia - an exchange I\'m happy to do, provided you have earned enough scourgestones!' WHERE entry=5510; /* RequestItemsText: A Minion\'s Scourgestone is the insignia of the Scourge rank and file.  These are sometimes found on the weaker of their troops positioned in the Plaguelands, though the term "weaker" is certainly to be considered in context.  The Scourge, no matter where they are, should never be underestimated.$B$BThe Argent Dawn currently offers a valor token in exchange for twenty of these insignia - an exchange I\'m happy to do, provided you have earned enough scourgestones! */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Good luck, mighty hero. May your victories continue to bring you fame and power as you lay waste to Scholomance!' WHERE entry=5511; /* offerrewardtext: Good luck, mighty hero. May your victories continue to bring you fame and power as you lay waste to Scholomance! */
 UPDATE locales_quest SET RequestItemsText_loc8='Well, here you are, $n - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There\'s only one way to be absolutely sure it works, though. Waste no time in trying it out, I say.' WHERE entry=5511; /* RequestItemsText: Well, here you are, $n - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There\'s only one way to be absolutely sure it works, though. Waste no time in trying it out, I say. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5512;
+ WHERE entry=5512;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5513;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5514;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5515;
-UPDATE locales_quest SET details_loc8='' WHERE entry=5516;
+ WHERE entry=5516;
 UPDATE locales_quest SET RequestItemsText_loc8='Salutations, mighty priest! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn.' WHERE entry=5517; /* RequestItemsText: Salutations, mighty priest! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn. */
 UPDATE locales_quest SET RequestItemsText_loc8='The Ogre Tannin is probably the toughest thing to find for what I need to make the suit - I think they have some upstairs?  It\'s hard to tell, since this ball and chain doesn\'t make movement that easy to do...$B$BAnyway, bring me the things I need, and I\'ll whip you up an ogre suit that will fool Captain Kromcrush into thinking you\'re one of his men.' WHERE entry=5518; /* RequestItemsText: The Ogre Tannin is probably the toughest thing to find for what I need to make the suit - I think they have some upstairs?  It\'s hard to tell, since this ball and chain doesn\'t make movement that easy to do...$B$BAnyway, bring me the things I need, and I\'ll whip you up an ogre suit that will fool Captain Kromcrush into thinking you\'re one of his men. */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Here ya go $N - put this thing on, and you\'ll have ten minutes to do whatever.  Good luck!$B$BOh, and if you happen to find a key to get me out of here, BY ALL MEANS LET ME KNOW!!!' WHERE entry=5519; /* offerrewardtext: Here ya go $N - put this thing on, and you\'ll have ten minutes to do whatever.  Good luck!$B$BOh, and if you happen to find a key to get me out of here, BY ALL MEANS LET ME KNOW!!! */
 UPDATE locales_quest SET RequestItemsText_loc8='Need another suit, do ya? Well, I\'m not going anywhere soon it seems - bring me the same things I asked for from before, and I\'ll make you another ogre suit.' WHERE entry=5519; /* RequestItemsText: Need another suit, do ya? Well, I\'m not going anywhere soon it seems - bring me the same things I asked for from before, and I\'ll make you another ogre suit. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5520;
+ WHERE entry=5520;
 UPDATE locales_quest SET RequestItemsText_loc8='Salutations, mighty $C! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn.' WHERE entry=5521; /* RequestItemsText: Salutations, mighty $C! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn. */
 UPDATE locales_quest SET RequestItemsText_loc8='You are the one up to mischief in Blackrock Spire, yes? Do you have what I asked for?' WHERE entry=5522; /* RequestItemsText: You are the one up to mischief in Blackrock Spire, yes? Do you have what I asked for? */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5523;
+ WHERE entry=5523;
 UPDATE locales_quest SET RequestItemsText_loc8='Salutations, mighty $C! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn.' WHERE entry=5524; /* RequestItemsText: Salutations, mighty $C! Have you brought the valor tokens I asked of you? Once you hand them to me, I will issue you your own Chromatic Mantle of the Dawn. */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Oh, thank you for freeing me! You - ranked number one. Everyone else - ranked number two or lower.$B$BI knew my life was destined for more than just being an appetizer to some ogre!' WHERE entry=5525; /* offerrewardtext: Oh, thank you for freeing me! You - ranked number one. Everyone else - ranked number two or lower.$B$BI knew my life was destined for more than just being an appetizer to some ogre! */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=5525;
@@ -2244,16 +2243,16 @@ UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Heal and fortify 
 UPDATE locales_quest SET RequestItemsText_loc8='Our powers make us ideal for so many situations, $N. You\'ll find that no matter what though, our ability to mend wounds and increase the amount of damage our companions can take will always be the most desired talents we have access to. Do not let that dissuade you from pursuing other paths as a $C--you can be effective in many ways. But... if you truly wish to destroy your enemies with magical energy, perhaps the arcane is more to your liking.' WHERE entry=5650; /* RequestItemsText: Our powers make us ideal for so many situations, $N. You\'ll find that no matter what though, our ability to mend wounds and increase the amount of damage our companions can take will always be the most desired talents we have access to. Do not let that dissuade you from pursuing other paths as a $C--you can be effective in many ways. But... if you truly wish to destroy your enemies with magical energy, perhaps the arcane is more to your liking. */ /* ObjectiveText1: Heal and fortify Deathguard Kel */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Heal and fortify Deathguard Kel', WHERE entry=5650; /* ObjectiveText1: Heal and fortify Deathguard Kel */
 UPDATE locales_quest SET details_loc8='I sent here to make sure that you not wander too far from home, $N. They send me to make sure you return home because Ur\'kyo, greatest of our priests, wish to speak to you. You go there. You got to the Valley of Spirits in the orc city and you speak to Ur\'kyo. He wait for you now.', objectives_loc8='Speak to Ur\'kyo in Orgrimmar.',, offerrewardtext_loc8='You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.' WHERE entry=5652; /* details: I sent here to make sure that you not wander too far from home, $N. They send me to make sure you return home because Ur\'kyo, greatest of our priests, wish to speak to you. You go there. You got to the Valley of Spirits in the orc city and you speak to Ur\'kyo. He wait for you now. */ /* objectives: Speak to Ur\'kyo in Orgrimmar. */ /* offerrewardtext: You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5664;
+ WHERE entry=5664;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5668;
 UPDATE locales_quest SET details_loc8='A wonderful day has come, $N. You\'ve reached the age in which our <priests or priestesses> are trained in abilities only Night elves know. But it is not for me to train you. You must return to the Temple of the Moon and speak to Priestess Alathea as soon as your business here is concluded. She will test you to ensure you\'re prepared, and only then will she teach you Elune\'s Grace.', objectives_loc8='Speak to Priestess Alathea in Darnassus.',, offerrewardtext_loc8='By devoting yourself to Elune and our people, you have attained a state that not all of us can achieve. It is tradition that you then be taught even greater abilities for your devotion. Do you accept?' WHERE entry=5672; /* details: A wonderful day has come, $N. You\'ve reached the age in which our <priests or priestesses> are trained in abilities only Night elves know. But it is not for me to train you. You must return to the Temple of the Moon and speak to Priestess Alathea as soon as your business here is concluded. She will test you to ensure you\'re prepared, and only then will she teach you Elune\'s Grace. */ /* objectives: Speak to Priestess Alathea in Darnassus. */ /* offerrewardtext: By devoting yourself to Elune and our people, you have attained a state that not all of us can achieve. It is tradition that you then be taught even greater abilities for your devotion. Do you accept? */
 UPDATE locales_quest SET details_loc8='It is time for you to return to Stormwind, young one. Your superiors there have called you back for more training. And although it disturbs me some, your race and mine are allies and I would not betray that.$B$B I do not mean to be so coy with you--my distrust of arcane magics, be they divine inspired or not, is still strong within me.$B$B You will know of what I speak after you return to your Cathedral of Light. Speak to High Priestess Laurena when you arrive.', objectives_loc8='Speak to High Priestess Laurena in Stormwind.',, offerrewardtext_loc8='We were forced to learn some magics to protect us from what is commonly called our greatest enemy: the arcane.$B$BI would teach you a spell to help you defend yourself and your companions from those who would wield such power.' WHERE entry=5676; /* details: It is time for you to return to Stormwind, young one. Your superiors there have called you back for more training. And although it disturbs me some, your race and mine are allies and I would not betray that.$B$B I do not mean to be so coy with you--my distrust of arcane magics, be they divine inspired or not, is still strong within me.$B$B You will know of what I speak after you return to your Cathedral of Light. Speak to High Priestess Laurena when you arrive. */ /* objectives: Speak to High Priestess Laurena in Stormwind. */ /* offerrewardtext: We were forced to learn some magics to protect us from what is commonly called our greatest enemy: the arcane.$B$BI would teach you a spell to help you defend yourself and your companions from those who would wield such power. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=5681;
+ WHERE entry=5681;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5685;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5688;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5690;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5691;
-UPDATE locales_quest SET details_loc8='' WHERE entry=5694;
+ WHERE entry=5694;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5698;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5701;
 UPDATE locales_quest SET details_loc8='' WHERE entry=5704;
@@ -2537,7 +2536,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='I feel the weight of imposing my
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=7066;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=7067;
 UPDATE locales_quest SET RequestItemsText_loc8='You find the crystals yet? Rituals of power, spells of great strength - those shadowshards maybe very helpful in all kind of arcane magics.' WHERE entry=7068; /* RequestItemsText: You find the crystals yet? Rituals of power, spells of great strength - those shadowshards maybe very helpful in all kind of arcane magics. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=7069;
+ WHERE entry=7069;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=7070;
 UPDATE locales_quest SET RequestItemsText_loc8='$N, you have not yet assaulted a graveyard. Return to me when this task is complete!' WHERE entry=7081; /* RequestItemsText: $N, you have not yet assaulted a graveyard. Return to me when this task is complete! */ /* ObjectiveText1: Graveyard Assaulted */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Graveyard Assaulted', WHERE entry=7081; /* ObjectiveText1: Graveyard Assaulted */
@@ -2905,7 +2904,7 @@ UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Ah, the plumes! 
 UPDATE locales_quest SET RequestItemsText_loc8='A person\'s imagination is an incredible thing. It can make the smallest hill seem like the largest mountain. It can make the most innocuous shadow appear cast by a horrible nightmare!$B$BWe at the Darkmoon Faire let our visitor\'s imaginations blossom! But to help stretch their imaginations... sometimes we have to get tricky.$B$BI need vibrant plumes for one of my attractions. You can get them from the birds of the more dangerous areas of Azeroth. Bring me the plumes and many tickets will be yours!' WHERE entry=7902; /* RequestItemsText: A person\'s imagination is an incredible thing. It can make the smallest hill seem like the largest mountain. It can make the most innocuous shadow appear cast by a horrible nightmare!$B$BWe at the Darkmoon Faire let our visitor\'s imaginations blossom! But to help stretch their imaginations... sometimes we have to get tricky.$B$BI need vibrant plumes for one of my attractions. You can get them from the birds of the more dangerous areas of Azeroth. Bring me the plumes and many tickets will be yours! */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='Great!  You got the eyes!  I hope hunting those bats was frightening for you, because if it scared a brave $C like yourself, then those eyes will certainly scare our Faire visitors.$B$BTake these tickets, $N, and thank you for your service.' WHERE entry=7903; /* offerrewardtext: Great!  You got the eyes!  I hope hunting those bats was frightening for you, because if it scared a brave $C like yourself, then those eyes will certainly scare our Faire visitors.$B$BTake these tickets, $N, and thank you for your service. */
 UPDATE locales_quest SET RequestItemsText_loc8='Do you ever find yourself wandering in a cave, late at night, looking for adventure? You do? Really? Well, then you\'ve seen the creepy eyes of bats staring at you from high up, waiting for you to let down your guard so they can suck your blood!$B$BScary thought, don\'t you think? Of course! It\'s no doubt that bat eyes are scary!$B$BWill you bring me some evil bat eyes, $N? I want them for... something I\'m designing. Something scary.$B$BYou can get them from the bats of the Eastern Plaguelands.' WHERE entry=7903; /* RequestItemsText: Do you ever find yourself wandering in a cave, late at night, looking for adventure? You do? Really? Well, then you\'ve seen the creepy eyes of bats staring at you from high up, waiting for you to let down your guard so they can suck your blood!$B$BScary thought, don\'t you think? Of course! It\'s no doubt that bat eyes are scary!$B$BWill you bring me some evil bat eyes, $N? I want them for... something I\'m designing. Something scary.$B$BYou can get them from the bats of the Eastern Plaguelands. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=7904;
+ WHERE entry=7904;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=7905;
 UPDATE locales_quest SET details_loc8='' WHERE entry=7906;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=7907;
@@ -3154,12 +3153,12 @@ UPDATE locales_quest SET details_loc8='Let\'s not waste more of my precious time
 UPDATE locales_quest SET RequestItemsText_loc8='Let\'s not waste more of my precious time with jibber jabber, $r. It\'s time to focus on replenishing our dwindling fiery flux supply.$B$BWhat I\'m gonna need from you is the following:$B$B*Incendosaur scales.$B$B*Heavy Leather.$B$B*Coal.$B$BI\'ll take all that you can offer!$B$BAnd you\'ll do it fast if you wanna get in good with the Brotherhood.$B$B' WHERE entry=8242; /* RequestItemsText: Let\'s not waste more of my precious time with jibber jabber, $r. It\'s time to focus on replenishing our dwindling fiery flux supply.$B$BWhat I\'m gonna need from you is the following:$B$B*Incendosaur scales.$B$B*Heavy Leather.$B$B*Coal.$B$BI\'ll take all that you can offer!$B$BAnd you\'ll do it fast if you wanna get in good with the Brotherhood.$B$B */
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='A fair trade, my friend - please enjoy the blessings of Zanza with our compliments!' WHERE entry=8243; /* offerrewardtext: A fair trade, my friend - please enjoy the blessings of Zanza with our compliments! */
 UPDATE locales_quest SET RequestItemsText_loc8='With your increased status amongst the tribe comes access to some of our more potent potables. Behold... these brews are strong in the mojo - blessed by Zanza and fit for adventurers from all walks of life!$b$bI will allow you to choose one from the three I offer; in exchange, I require three Zandalar Honor Tokens. Note that only the effects of a single one may course through your spirit at any given time.' WHERE entry=8243; /* RequestItemsText: With your increased status amongst the tribe comes access to some of our more potent potables. Behold... these brews are strong in the mojo - blessed by Zanza and fit for adventurers from all walks of life!$b$bI will allow you to choose one from the three I offer; in exchange, I require three Zandalar Honor Tokens. Note that only the effects of a single one may course through your spirit at any given time. */
-UPDATE locales_quest SET details_loc8='' WHERE entry=8244;
-UPDATE locales_quest SET details_loc8='' WHERE entry=8245;
+ WHERE entry=8244;
+ WHERE entry=8245;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='A fair trade, my friend - please accept your signet with the blessing of the tribe!' WHERE entry=8246; /* offerrewardtext: A fair trade, my friend - please accept your signet with the blessing of the tribe! */
 UPDATE locales_quest SET RequestItemsText_loc8='$n - for someone as exalted among the Zandalar as you are, I have something very special for you. Direct from our home in the South Seas... the Signets of the Zandalar! These signets are used to enhance any shoulder item you may possess. Should you seek might, mojo, or serenity - I have what you need!$b$bI ask for fifteen Zandalar Honor Tokens in exchange for your choice of one signet. If you have the tokens ready, then I\'m ready to make a deal!' WHERE entry=8246; /* RequestItemsText: $n - for someone as exalted among the Zandalar as you are, I have something very special for you. Direct from our home in the South Seas... the Signets of the Zandalar! These signets are used to enhance any shoulder item you may possess. Should you seek might, mojo, or serenity - I have what you need!$b$bI ask for fifteen Zandalar Honor Tokens in exchange for your choice of one signet. If you have the tokens ready, then I\'m ready to make a deal! */
-UPDATE locales_quest SET details_loc8='' WHERE entry=8247;
-UPDATE locales_quest SET details_loc8='' WHERE entry=8248;
+ WHERE entry=8247;
+ WHERE entry=8248;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='May these knives find a place in someone\'s heart.$B$BLiterally.' WHERE entry=8249; /* offerrewardtext: May these knives find a place in someone\'s heart.$B$BLiterally. */
 UPDATE locales_quest SET RequestItemsText_loc8='My rogues need to hone their lockpicking skills, and I need locks of adequate difficulty -- the stuff Zan makes us is unfit for all but the lowliest neophytes.$B$BTell ya what, if you bring me 5 Heavy Junkboxes, I\'ll provide you with some of the finest throwing knives known to roguekind.$B$BYou can unlock the boxes and rifle through them, but you\'ll have to leave at least a few coins in them... even a rogue in training needs motivation.' WHERE entry=8249; /* RequestItemsText: My rogues need to hone their lockpicking skills, and I need locks of adequate difficulty -- the stuff Zan makes us is unfit for all but the lowliest neophytes.$B$BTell ya what, if you bring me 5 Heavy Junkboxes, I\'ll provide you with some of the finest throwing knives known to roguekind.$B$BYou can unlock the boxes and rifle through them, but you\'ll have to leave at least a few coins in them... even a rogue in training needs motivation. */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you the dust?' WHERE entry=8251; /* RequestItemsText: Have you the dust? */
@@ -3238,7 +3237,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='If you need another Twilight cul
 UPDATE locales_quest SET RequestItemsText_loc8='It is better you learn about survival - and the costs of survival - now rather than later. Making hard choices is something you\'re going to have to get used to as a blood elf.$B$BNo one was there for us when the Scourge ripped our home in two. It was us and us alone who pulled ourselves up by the bootstraps.' WHERE entry=8334; /* RequestItemsText: It is better you learn about survival - and the costs of survival - now rather than later. Making hard choices is something you\'re going to have to get used to as a blood elf.$B$BNo one was there for us when the Scourge ripped our home in two. It was us and us alone who pulled ourselves up by the bootstraps. */
 UPDATE locales_quest SET RequestItemsText_loc8='Heed well this warning - Felendren the Banished is only a symptom of a much larger problem.  His demise will solve our immediate concerns, but all blood elves share the potential same fate as him if we let our addictions get the best of us.' WHERE entry=8335; /* RequestItemsText: Heed well this warning - Felendren the Banished is only a symptom of a much larger problem.  His demise will solve our immediate concerns, but all blood elves share the potential same fate as him if we let our addictions get the best of us. */
 UPDATE locales_quest SET RequestItemsText_loc8='Many of the creatures here on the isle were at one point bound into non-aggression and complacency by our magical skills.  When the Scourge destroyed the Sunwell, our hold over these creatures shattered.  Arcane slivers are the remnants of the control we once had, and as such might be usable in fashioning a new device to aid us in regaining their control.$B$BBetter still, perhaps the slivers could be used to see what malaise the isle truly suffers under...' WHERE entry=8336; /* RequestItemsText: Many of the creatures here on the isle were at one point bound into non-aggression and complacency by our magical skills.  When the Scourge destroyed the Sunwell, our hold over these creatures shattered.  Arcane slivers are the remnants of the control we once had, and as such might be usable in fashioning a new device to aid us in regaining their control.$B$BBetter still, perhaps the slivers could be used to see what malaise the isle truly suffers under... */
-UPDATE locales_quest SET details_loc8='' WHERE entry=8337;
+ WHERE entry=8337;
 UPDATE locales_quest SET RequestItemsText_loc8='From your demeanor, you seem to be on a matter of some urgency.  Is there something specific I can assist you with?' WHERE entry=8338; /* RequestItemsText: From your demeanor, you seem to be on a matter of some urgency.  Is there something specific I can assist you with? */
 UPDATE locales_quest SET details_loc8='' WHERE entry=8340;
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have the shards and the signets, $N? I will need them to create the ring of lordship. ' WHERE entry=8341; /* RequestItemsText: Do you have the shards and the signets, $N? I will need them to create the ring of lordship. */
@@ -3800,7 +3799,7 @@ UPDATE locales_quest SET details_loc8='' WHERE entry=8853;
 UPDATE locales_quest SET details_loc8='' WHERE entry=8854;
 UPDATE locales_quest SET details_loc8='' WHERE entry=8855;
 UPDATE locales_quest SET RequestItemsText_loc8='Yes? What have you got there?' WHERE entry=8857; /* RequestItemsText: Yes? What have you got there? */
-UPDATE locales_quest SET RequestItemsText_loc8='Hmmm...' WHERE entry=8858; /* RequestItemsText: Hmmm... */
+UPDATE locales_quest SET EndText_loc8='' WHERE entry=8858;
 UPDATE locales_quest SET RequestItemsText_loc8='You look a bit heavy in the boots, friend.' WHERE entry=8859; /* RequestItemsText: You look a bit heavy in the boots, friend. */
 UPDATE locales_quest SET RequestItemsText_loc8='Greetings! Are you here for the party! Or perhaps you just need to rest those weary feet of yours...' WHERE entry=8860; /* RequestItemsText: Greetings! Are you here for the party! Or perhaps you just need to rest those weary feet of yours... */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=8861;
@@ -4601,7 +4600,6 @@ UPDATE locales_quest SET RequestItemsText_loc8='<Kialon eyes you suspiciously.>$
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=9798;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=9799;
 UPDATE locales_quest SET RequestItemsText_loc8='<Elementalist Lo\'ap makes two fists and shakes his head in disapproval.>$B$BOgre sized...' WHERE entry=9800; /* RequestItemsText: <Elementalist Lo\'ap makes two fists and shakes his head in disapproval.>$B$BOgre sized... */
-UPDATE locales_quest SET details_loc8='I have a feeling that these Lost Ones may not respond well to a draenei, but would welcome an arakkoa. I can create a potion that will allow you to take on the form of an arakkoa for a short time. It requires a couple of reagents which cannot be stored and must be used within hours of being gathered.$B$BYou will need to bring me a handful of spore bat eyes and some fen strider tentacles. Both species dwell in the wilderness surrounding Telredor.', objectives_loc8='Anchorite Ahuurn at Telredor wants you to bring him 4 Spore Bat Eyes and 4 Fen Strider Tentacles.',, offerrewardtext_loc8='These will do quite nicely. Allow me a moment to mix up the potion.' WHERE entry=9801; /* details: I have a feeling that these Lost Ones may not respond well to a draenei, but would welcome an arakkoa. I can create a potion that will allow you to take on the form of an arakkoa for a short time. It requires a couple of reagents which cannot be stored and must be used within hours of being gathered.$B$BYou will need to bring me a handful of spore bat eyes and some fen strider tentacles. Both species dwell in the wilderness surrounding Telredor. */ /* objectives: Anchorite Ahuurn at Telredor wants you to bring him 4 Spore Bat Eyes and 4 Fen Strider Tentacles. */ /* offerrewardtext: These will do quite nicely. Allow me a moment to mix up the potion. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=9801;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=9802;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=9803;
@@ -4963,7 +4961,7 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=10261;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=10262;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=10265;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=10267;
-UPDATE locales_quest SET RequestItemsText_loc8='Approach.' WHERE entry=10268; /* RequestItemsText: Approach. */
+UPDATE locales_quest SET EndText_loc8='' WHERE entry=10268;
 UPDATE locales_quest SET RequestItemsText_loc8='Hello, traveler. You come to Hazzin because you are in need of my goods?' WHERE entry=10269; /* RequestItemsText: Hello, traveler. You come to Hazzin because you are in need of my goods? */ /* EndText: First triangulation point discovered */
 UPDATE locales_quest SET RequestItemsText_loc8='Are you prepared to discuss business now, $N?' WHERE entry=10270; /* RequestItemsText: Are you prepared to discuss business now, $N? */
 UPDATE locales_quest SET RequestItemsText_loc8='I\'m certain you have many questions, all of which will be answered in due time.' WHERE entry=10271; /* RequestItemsText: I\'m certain you have many questions, all of which will be answered in due time. */
@@ -5091,7 +5089,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='You close down that war-portal y
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText2_loc8='Close Burning Legion Gate' WHERE entry=10397; /* ObjectiveText2: Close Burning Legion Gate */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=10399;
 UPDATE locales_quest SET RequestItemsText_loc8='Tell me, $N, has the deed been done? Has the Legionlord been vanquished?' WHERE entry=10400; /* RequestItemsText: Tell me, $N, has the deed been done? Has the Legionlord been vanquished? */
-UPDATE locales_quest SET title_loc8='<TXT>' WHERE entry=10402; /* title: <TXT> */
+ WHERE entry=10402;
 UPDATE locales_quest SET RequestItemsText_loc8='Have you recovered the wrapping?' WHERE entry=10405; /* RequestItemsText: Have you recovered the wrapping? */
 UPDATE locales_quest SET RequestItemsText_loc8='He must succeed!' WHERE entry=10406; /* RequestItemsText: He must succeed! */ /* EndText: Ethereum Conduit Sabotaged */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you obtained Socrethar\'s teleportation stone, $N?' WHERE entry=10407; /* RequestItemsText: Have you obtained Socrethar\'s teleportation stone, $N? */
@@ -5671,7 +5669,6 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=11035;
 UPDATE locales_quest SET RequestItemsText_loc8='Is that the delivery from Old Orok?' WHERE entry=11036; /* RequestItemsText: Is that the delivery from Old Orok? */
 UPDATE locales_quest SET RequestItemsText_loc8='That crate has the look of a master gnomish engineer about it. Did Bossi send you?' WHERE entry=11040; /* RequestItemsText: That crate has the look of a master gnomish engineer about it. Did Bossi send you? */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=11041;
-UPDATE locales_quest SET details_loc8='My original orders were to remain in Garadar for a short time, then continue on and report to Blood Guard Gulmok at Shadowmoon Village. What I\'ve seen in my time here is that Garadar could benefit from a long term Horde liaison.$B$BI know that Blood Guard Gulmok needs all the troops he can get, but I know he\'ll understand that my mission here isn\'t yet complete. Travel to Shadowmoon Village, in northwestern Shadowmoon Valley, and inform Blood Guard Gulmok of my delayed arrival. ', objectives_loc8='Speak with Blood Guard Gulmok at Shadowmoon Village. ',, offerrewardtext_loc8='<Gulmok grumbles upon hearing of Kroghan\'s decision.>$B$BI understand his point of view, but we need warm bodies in the trenches here too! The Legion\'s bombarding us with infernals day and night. If Kroghan\'s going to be delayed, you can take his place on the field!' WHERE entry=11048; /* details: My original orders were to remain in Garadar for a short time, then continue on and report to Blood Guard Gulmok at Shadowmoon Village. What I\'ve seen in my time here is that Garadar could benefit from a long term Horde liaison.$B$BI know that Blood Guard Gulmok needs all the troops he can get, but I know he\'ll understand that my mission here isn\'t yet complete. Travel to Shadowmoon Village, in northwestern Shadowmoon Valley, and inform Blood Guard Gulmok of my delayed arrival. */ /* objectives: Speak with Blood Guard Gulmok at Shadowmoon Village. */ /* offerrewardtext: <Gulmok grumbles upon hearing of Kroghan\'s decision.>$B$BI understand his point of view, but we need warm bodies in the trenches here too! The Legion\'s bombarding us with infernals day and night. If Kroghan\'s going to be delayed, you can take his place on the field! */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=11049;
 UPDATE locales_quest SET details_loc8='', offerrewardtext_loc8='You are a true hero, $N.' WHERE entry=11050; /* offerrewardtext: You are a true hero, $N. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=11050;
@@ -6662,7 +6659,6 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=12190;
 UPDATE locales_quest SET details_loc8='Those pesky Dark Irons are back! We need to make sure that you can defend yourself if needed. More importantly, we need to know that you can defend our property!$B$BS.T.O.U.T. here is ready for action, are you? Drink from the Complimentary Brewfest Samplers then throw the mug at S.T.O.U.T.! Hit the target 5 times then talk to me.', objectives_loc8='Use the Complimentary Brewfest Sampler to hit S.T.O.U.T. 5 times, then talk to Bizzle Quicklift.',, offerrewardtext_loc8='Wow... S.T.O.U.T. didn\'t break... Hmm... Who would have guessed?$b$bI mean, hey, you did it! Your aim is true, or at least true enough to help guard the camp. I think you\'re ready now to take on the Dark Irons if they show up again.' WHERE entry=12191; /* details: Those pesky Dark Irons are back! We need to make sure that you can defend yourself if needed. More importantly, we need to know that you can defend our property!$B$BS.T.O.U.T. here is ready for action, are you? Drink from the Complimentary Brewfest Samplers then throw the mug at S.T.O.U.T.! Hit the target 5 times then talk to me. */ /* objectives: Use the Complimentary Brewfest Sampler to hit S.T.O.U.T. 5 times, then talk to Bizzle Quicklift. */ /* offerrewardtext: Wow... S.T.O.U.T. didn\'t break... Hmm... Who would have guessed?$b$bI mean, hey, you did it! Your aim is true, or at least true enough to help guard the camp. I think you\'re ready now to take on the Dark Irons if they show up again. */
 UPDATE locales_quest SET RequestItemsText_loc8='Chug from the mug, then chuck the mug at S.T.O.U.T. I think he can withstand the pounding. I wouldn\'t have stol.. er... built him if he couldn\'t!' WHERE entry=12191; /* RequestItemsText: Chug from the mug, then chuck the mug at S.T.O.U.T. I think he can withstand the pounding. I wouldn\'t have stol.. er... built him if he couldn\'t! */ /* ObjectiveText1: S.T.O.U.T. Hit */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='S.T.O.U.T. Hit', WHERE entry=12191; /* ObjectiveText1: S.T.O.U.T. Hit */
-UPDATE locales_quest SET details_loc8='Not only are we supplying brew to everyone, we also have steins to give out! Beautiful, commemorative steins all obtained by the most legal of means! Here\'s a voucher for one.$B$BTalk to Blix near the back of the Brewfest camp. He\'s pretty strange, even more so now that he\'s always wearing those goggles. He\'ll handle the voucher for you, and any other Brewfest transaction.', objectives_loc8='Redeem the Brewfest Stein Voucher with Blix Fixwidget in the back of the Brewfest camp.',, offerrewardtext_loc8='What\'s this? A stein voucher? So you like drinking? Great! After I give you this stein, go have a few drinks! Then a few more. Maybe have a few more after that... Then, now this is important, come see me.$b$bLook, I know you\'ll be back eventually. If you want your Brewfest tokens redeemed you have to see me.$b$bAnyways, here\'s the stein, and remember to talk to me later.' WHERE entry=12194; /* details: Not only are we supplying brew to everyone, we also have steins to give out! Beautiful, commemorative steins all obtained by the most legal of means! Here\'s a voucher for one.$B$BTalk to Blix near the back of the Brewfest camp. He\'s pretty strange, even more so now that he\'s always wearing those goggles. He\'ll handle the voucher for you, and any other Brewfest transaction. */ /* objectives: Redeem the Brewfest Stein Voucher with Blix Fixwidget in the back of the Brewfest camp. */ /* offerrewardtext: What\'s this? A stein voucher? So you like drinking? Great! After I give you this stein, go have a few drinks! Then a few more. Maybe have a few more after that... Then, now this is important, come see me.$b$bLook, I know you\'ll be back eventually. If you want your Brewfest tokens redeemed you have to see me.$b$bAnyways, here\'s the stein, and remember to talk to me later. */
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=12195;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=12196;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=12197;
@@ -6748,7 +6744,6 @@ UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Shredder Delivere
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=12271;
 UPDATE locales_quest SET RequestItemsText_loc8='Have you recovered samples of the strange ore?
 ' WHERE entry=12272; /* RequestItemsText: Have you recovered samples of the strange ore? */
-UPDATE locales_quest SET RequestItemsText_loc8='Well?!' WHERE entry=12273; /* RequestItemsText: Well?! */ /* ObjectiveText1: Commander Jordan\'s denouncement & death */ /* ObjectiveText2: Lead Cannoneer Zierhut\'s denouncement & death */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Commander Jordan\'s denouncement & death',, ObjectiveText2_loc8='Lead Cannoneer Zierhut\'s denouncement & death' WHERE entry=12273; /* ObjectiveText1: Commander Jordan\'s denouncement & death */ /* ObjectiveText2: Lead Cannoneer Zierhut\'s denouncement & death */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Abbey bell rung',, ObjectiveText2_loc8='High Abbot spoken with' WHERE entry=12274; /* ObjectiveText1: Abbey bell rung */ /* ObjectiveText2: High Abbot spoken with */
 UPDATE locales_quest SET RequestItemsText_loc8='<Quarterflash nods.>$B$BHe was a good gnome, one of our best. Slinkin will be missed.' WHERE entry=12277; /* RequestItemsText: <Quarterflash nods.>$B$BHe was a good gnome, one of our best. Slinkin will be missed. */ /* ObjectiveText1: Upper Wintergarde Mine Shaft Destroyed */ /* ObjectiveText2: Lower Wintergarde Mine Shaft Destroyed */
@@ -6957,7 +6952,6 @@ UPDATE locales_quest SET EndText_loc8='' WHERE entry=12482;
 UPDATE locales_quest SET EndText_loc8='' WHERE entry=12483;
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Mummified Carcass Burned', WHERE entry=12484; /* ObjectiveText1: Mummified Carcass Burned */
 UPDATE locales_quest SET details_loc8='' WHERE entry=12485;
-UPDATE locales_quest SET details_loc8='Coren Direbrew\'s corpse clutched this small cask tightly to its gut. This must be his infamous Dire Brew!', objectives_loc8='Give Direbrew\'s Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar.', WHERE entry=12492; /* details: Coren Direbrew\'s corpse clutched this small cask tightly to its gut. This must be his infamous Dire Brew! */ /* objectives: Give Direbrew\'s Dire Brew to Tapper Swindlekeg at the Brewfest camp near Orgrimmar. */
 UPDATE locales_quest SET details_loc8='' WHERE entry=12494;
 UPDATE locales_quest SET RequestItemsText_loc8='Destroy the Scourge at Galakrond\'s Rest before it is too late!' WHERE entry=12498; /* RequestItemsText: Destroy the Scourge at Galakrond\'s Rest before it is too late! */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Captain Brandon\'s Task',, ObjectiveText2_loc8='Captain Rupert\'s Task' WHERE entry=12501; /* ObjectiveText1: Captain Brandon\'s Task */ /* ObjectiveText2: Captain Rupert\'s Task */
@@ -6977,7 +6971,6 @@ UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Recruit\'s Courag
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have the precious fluids?' WHERE entry=12510; /* RequestItemsText: Do you have the precious fluids? */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you rescued our veterans, $N?' WHERE entry=12512; /* RequestItemsText: Have you rescued our veterans, $N? */ /* ObjectiveText1: Saved Crusader Jonathan */ /* ObjectiveText2: Saved Crusader Lamoof */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Saved Crusader Jonathan',, ObjectiveText2_loc8='Saved Crusader Lamoof' WHERE entry=12512; /* ObjectiveText1: Saved Crusader Jonathan */ /* ObjectiveText2: Saved Crusader Lamoof */
-UPDATE locales_quest SET details_loc8='My hat? Yes, it\'s an unusual style, I know, from far away... few tailors here know how to make them.$B$BWhen I was young and hot-blooded, I wore it as a standing challenge. Many came seeking to defeat me and win it for themselves... but no one ever did.$B$BAh, but those days are long past. I\'m an old man, now: I drink, I fish, but I no longer duel. ', objectives_loc8='Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos\' Hat to him in Tanaris as proof. ',, offerrewardtext_loc8='My... my hat! But... how did you...?$B$BWell... no matter. So, now you know my secret. I WAS beaten... once. Here: take this hat, in return for mine. You\'ve earned it.' WHERE entry=12513; /* details: My hat? Yes, it\'s an unusual style, I know, from far away... few tailors here know how to make them.$B$BWhen I was young and hot-blooded, I wore it as a standing challenge. Many came seeking to defeat me and win it for themselves... but no one ever did.$B$BAh, but those days are long past. I\'m an old man, now: I drink, I fish, but I no longer duel. */ /* objectives: Don Carlos has inadvertently challenged you to defeat his younger self in Old Hillsbrad. Afterwards, bring Don Carlos\' Hat to him in Tanaris as proof. */ /* offerrewardtext: My... my hat! But... how did you...?$B$BWell... no matter. So, now you know my secret. I WAS beaten... once. Here: take this hat, in return for mine. You\'ve earned it. */
 UPDATE locales_quest SET RequestItemsText_loc8='I was unbeatable, in those days... proud, and rightly so. No challenger ever won this fine hat...$B' WHERE entry=12513; /* RequestItemsText: I was unbeatable, in those days... proud, and rightly so. No challenger ever won this fine hat...$B */
 UPDATE locales_quest SET RequestItemsText_loc8='Do you have all of the fungus?$B$BOh, and watch out for the basilisks lurking over there.' WHERE entry=12514; /* RequestItemsText: Do you have all of the fungus?$B$BOh, and watch out for the basilisks lurking over there. */
 UPDATE locales_quest SET RequestItemsText_loc8='I was unbeatable, in those days... proud, and rightly so. No challenger ever won this fine hat...' WHERE entry=12515; /* RequestItemsText: I was unbeatable, in those days... proud, and rightly so. No challenger ever won this fine hat... */
@@ -7816,7 +7809,7 @@ UPDATE locales_quest SET RequestItemsText_loc8='Have you intercepted those dispa
 UPDATE locales_quest SET RequestItemsText_loc8='Have you scouted the gate of desolation, $c?' WHERE entry=13315; /* RequestItemsText: Have you scouted the gate of desolation, $c? */ /* ObjectiveText1: Aldur\'thar South Visited */ /* ObjectiveText2: Aldur\'thar Central Visited */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Aldur\'thar South Visited',, ObjectiveText2_loc8='Aldur\'thar Central Visited' WHERE entry=13315; /* ObjectiveText1: Aldur\'thar South Visited */ /* ObjectiveText2: Aldur\'thar Central Visited */
 UPDATE locales_quest SET RequestItemsText_loc8='Have you crippled Corp\'rethar\'s defenders?' WHERE entry=13316; /* RequestItemsText: Have you crippled Corp\'rethar\'s defenders? */
-UPDATE locales_quest SET details_loc8='' WHERE entry=13317;
+ WHERE entry=13317;
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Dark Subjugator dragged and dropped', WHERE entry=13318; /* ObjectiveText1: Dark Subjugator dragged and dropped */
 UPDATE locales_quest SET EndText_loc8='', ObjectiveText1_loc8='Overseer Faedris Killed',, ObjectiveText2_loc8='Overseer Jhaeqon Killed' WHERE entry=13319; /* ObjectiveText1: Overseer Faedris Killed */ /* ObjectiveText2: Overseer Jhaeqon Killed */
 UPDATE locales_quest SET RequestItemsText_loc8='Whatdya got there, $r?' WHERE entry=13320; /* RequestItemsText: Whatdya got there, $r? */ /* ObjectiveText1: Blue Sample Collected */ /* ObjectiveText2: Green Sample Collected */
