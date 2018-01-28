@@ -427,7 +427,6 @@ UPDATE locales_item SET description_loc6='His eyes are full of hatred.' WHERE en
 UPDATE locales_item SET description_loc6='A box filled with a variety of building materials, first aid supplies, and other items for the Blood Watch inn.' WHERE entry=23903; /* description: A box filled with a variety of building materials, first aid supplies, and other items for the Blood Watch inn. */
 UPDATE locales_item SET description_loc6='The reports are all signed by Keltus Darkleaf.' WHERE entry=23919; /* description: The reports are all signed by Keltus Darkleaf. */
 UPDATE locales_item SET description_loc6='The handkerchief is covered in blood and dirt, ruining its scent.' WHERE entry=23920; /* description: The handkerchief is covered in blood and dirt, ruining its scent. */
-UPDATE locales_item SET description_loc6='Sealed.' WHERE entry=23928; /* description: Sealed. */
 UPDATE locales_item SET description_loc6='A draenei crystal containing information on the eastern part of Bloodmyst Isle.' WHERE entry=23932; /* description: A draenei crystal containing information on the eastern part of Bloodmyst Isle. */
 UPDATE locales_item SET description_loc6='A letter written by Anchorite Paetheus.' WHERE entry=23937; /* description: A letter written by Anchorite Paetheus. */
 UPDATE locales_item SET description_loc6='A little rusty, but it appears to be in working order.' WHERE entry=23981; /* description: A little rusty, but it appears to be in working order. */
@@ -565,7 +564,6 @@ UPDATE locales_item SET description_loc6='A politely worded, but firm refusal of
 UPDATE locales_item SET description_loc6='It\'s still oozing venom.' WHERE entry=25448; /* description: It\'s still oozing venom. */
 UPDATE locales_item SET description_loc6='Heavy and slightly damp from the marsh.' WHERE entry=25449; /* description: Heavy and slightly damp from the marsh. */
 UPDATE locales_item SET description_loc6='Giant mandibles indicative of provincial insect nobility.' WHERE entry=25459; /* description: Giant mandibles indicative of provincial insect nobility. */
-UPDATE locales_item SET description_loc6='Pristine!' WHERE entry=25463; /* description: Pristine! */
 UPDATE locales_item SET description_loc6='Smudged with food, blood, and unidentifiable liquids and substances.' WHERE entry=25468; /* description: Smudged with food, blood, and unidentifiable liquids and substances. */
 UPDATE locales_item SET description_loc6='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.' WHERE entry=25472; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend. */
 UPDATE locales_item SET description_loc6='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.' WHERE entry=25474; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend. */
@@ -767,9 +765,6 @@ UPDATE locales_item SET description_loc6='Drinking may cause brain damage.' WHER
 UPDATE locales_item SET description_loc6='Trick it is...' WHERE entry=29575; /* description: Trick it is... */
 UPDATE locales_item SET description_loc6='Just keep swimming...' WHERE entry=29576; /* description: Just keep swimming... */
 UPDATE locales_item SET description_loc6='The head of the leader of Forge Base Mageddon.' WHERE entry=29586; /* description: The head of the leader of Forge Base Mageddon. */
-UPDATE locales_item SET description_loc6='A coded message.' WHERE entry=29588; /* description: A coded message. */
-UPDATE locales_item SET description_loc6='A coded message.' WHERE entry=29589; /* description: A coded message. */
-UPDATE locales_item SET description_loc6='A coded message.' WHERE entry=29590; /* description: A coded message. */
 UPDATE locales_item SET description_loc6='Coated in some type of slick substance.' WHERE entry=29591; /* description: Coated in some type of slick substance. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Reinforced Mining Bag.' WHERE entry=29664; /* description: Teaches you how to make a Reinforced Mining Bag. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Shadow Armor Kit.' WHERE entry=29669; /* description: Teaches you how to make a Shadow Armor Kit. */
@@ -866,7 +861,6 @@ UPDATE locales_item SET description_loc6='It smells a little funny.' WHERE entry
 UPDATE locales_item SET description_loc6='Teaches you how to summon Attumen the Huntsman\'s steed.  This is a very fast mount.' WHERE entry=30480; /* description: Teaches you how to summon Attumen the Huntsman\'s steed.  This is a very fast mount. */
 UPDATE locales_item SET description_loc6='Rokgah\'s soul fragment is searing hot, yet does not burn your hand.' WHERE entry=30481; /* description: Rokgah\'s soul fragment is searing hot, yet does not burn your hand. */
 UPDATE locales_item SET description_loc6='Teaches you how to sew Shadowcloth.' WHERE entry=30483; /* description: Teaches you how to sew Shadowcloth. */
-UPDATE locales_item SET description_loc6='Disgusting...' WHERE entry=30500; /* description: Disgusting... */
 UPDATE locales_item SET description_loc6='Take this crystal to the Vekh\'nir Spell Circle to charge it.' WHERE entry=30561; /* description: Take this crystal to the Vekh\'nir Spell Circle to charge it. */
 UPDATE locales_item SET description_loc6='A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan.' WHERE entry=30579; /* description: A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan. */
 UPDATE locales_item SET description_loc6='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely mount.' WHERE entry=30609; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely mount. */
@@ -1023,7 +1017,6 @@ UPDATE locales_item SET description_loc6='This polished trophy is huge!' WHERE e
 UPDATE locales_item SET description_loc6='Darn, it\'s empty.' WHERE entry=32380; /* description: Darn, it\'s empty. */
 UPDATE locales_item SET description_loc6='Teaches you how to make Fused Wiring.' WHERE entry=32381; /* description: Teaches you how to make Fused Wiring. */
 UPDATE locales_item SET description_loc6='Torn and dirty, it smells as bad as Slaag.' WHERE entry=32382; /* description: Torn and dirty, it smells as bad as Slaag. */
-UPDATE locales_item SET description_loc6='EVIL!' WHERE entry=32383; /* description: EVIL! */
 UPDATE locales_item SET description_loc6='All that remains of the hellspawn, Magtheridon.' WHERE entry=32385; /* description: All that remains of the hellspawn, Magtheridon. */
 UPDATE locales_item SET description_loc6='All that remains of the hellspawn, Magtheridon.' WHERE entry=32386; /* description: All that remains of the hellspawn, Magtheridon. */
 UPDATE locales_item SET description_loc6='Used to create an Elixir of Shadows.' WHERE entry=32388; /* description: Used to create an Elixir of Shadows. */
@@ -1206,13 +1199,11 @@ UPDATE locales_item SET description_loc6='Very odd-looking ore.' WHERE entry=331
 UPDATE locales_item SET description_loc6='Teaches you how to make Shadowprowler\'s Chestguard.' WHERE entry=33205; /* description: Teaches you how to make Shadowprowler\'s Chestguard. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Flask of Chromatic Wonder.' WHERE entry=33209; /* description: Teaches you how to make a Flask of Chromatic Wonder. */
 UPDATE locales_item SET description_loc6='Accepting donations.' WHERE entry=33211; /* description: Accepting donations. */
-UPDATE locales_item SET description_loc6='Chilling!' WHERE entry=33234; /* description: Chilling! */
 UPDATE locales_item SET description_loc6='Because, Let\'s Face it, \'New Fizzy Faire Drink\' Was Awful' WHERE entry=33236; /* description: Because, Let\'s Face it, \'New Fizzy Faire Drink\' Was Awful */
 UPDATE locales_item SET description_loc6='It\'s... HUGE!' WHERE entry=33254; /* description: It\'s... HUGE! */
 UPDATE locales_item SET description_loc6='Detailing plans of an attack upon Westguard Keep by Glacion the frost wyrm.' WHERE entry=33289; /* description: Detailing plans of an attack upon Westguard Keep by Glacion the frost wyrm. */
 UPDATE locales_item SET description_loc6='There\'s a hole for your head...' WHERE entry=33292; /* description: There\'s a hole for your head... */
 UPDATE locales_item SET description_loc6='Teaches you how to cut Don Julio\'s Heart.' WHERE entry=33305; /* description: Teaches you how to cut Don Julio\'s Heart. */
-UPDATE locales_item SET description_loc6='Giddyup!' WHERE entry=33306; /* description: Giddyup! */
 UPDATE locales_item SET description_loc6='Teaches you how to permanently enchant a melee weapon to occasionally ignore 840 of your enemy\'s armor.  Requires a level 60 or higher item.' WHERE entry=33307; /* description: Teaches you how to permanently enchant a melee weapon to occasionally ignore 840 of your enemy\'s armor.  Requires a level 60 or higher item. */
 UPDATE locales_item SET description_loc6='A painted dragon skin depicting a mysterious vrykul ritual.' WHERE entry=33314; /* description: A painted dragon skin depicting a mysterious vrykul ritual. */
 UPDATE locales_item SET description_loc6='You wonder to yourself about the proper etiquette for holding the disembodied head of another...' WHERE entry=33330; /* description: You wonder to yourself about the proper etiquette for holding the disembodied head of another... */
@@ -1351,7 +1342,6 @@ UPDATE locales_item SET description_loc6='Probably contains something good, but 
 UPDATE locales_item SET description_loc6='Better get this back to Glrglrglr a.s.a.p.!' WHERE entry=34600; /* description: Better get this back to Glrglrglr a.s.a.p.! */
 UPDATE locales_item SET description_loc6='It\'s dripping... ewww!' WHERE entry=34617; /* description: It\'s dripping... ewww! */
 UPDATE locales_item SET description_loc6='It\'s roomy.' WHERE entry=34619; /* description: It\'s roomy. */
-UPDATE locales_item SET description_loc6='Click-clack!' WHERE entry=34621; /* description: Click-clack! */
 UPDATE locales_item SET description_loc6='Hot potato!' WHERE entry=34623; /* description: Hot potato! */
 UPDATE locales_item SET description_loc6='Holds the staff, heart, shield and armor of the Vrykul.' WHERE entry=34624; /* description: Holds the staff, heart, shield and armor of the Vrykul. */
 UPDATE locales_item SET description_loc6='Azerothian diamonds are eternal.' WHERE entry=34625; /* description: Azerothian diamonds are eternal. */
@@ -1363,7 +1353,6 @@ UPDATE locales_item SET description_loc6='Drop one and find some cover!' WHERE e
 UPDATE locales_item SET description_loc6='You handle them with reverence and care.' WHERE entry=34773; /* description: You handle them with reverence and care. */
 UPDATE locales_item SET description_loc6='All that remains of Ith\'rix' WHERE entry=34777; /* description: All that remains of Ith\'rix */
 UPDATE locales_item SET description_loc6='It howls with the intensity of a hurricane.' WHERE entry=34778; /* description: It howls with the intensity of a hurricane. */
-UPDATE locales_item SET description_loc6='P.T.T.' WHERE entry=34785; /* description: P.T.T. */
 UPDATE locales_item SET description_loc6='This looks sturdy enough for a tank.' WHERE entry=34786; /* description: This looks sturdy enough for a tank. */
 UPDATE locales_item SET description_loc6='Such a big box for such a tiny person.' WHERE entry=34787; /* description: Such a big box for such a tiny person. */
 UPDATE locales_item SET description_loc6='A tiny susurrus of energy.' WHERE entry=34800; /* description: A tiny susurrus of energy. */
@@ -1485,7 +1474,6 @@ UPDATE locales_item SET description_loc6='You cannot identify this item or deter
 UPDATE locales_item SET description_loc6='These metal scraps are covered with glowing blue runes.' WHERE entry=35668; /* description: These metal scraps are covered with glowing blue runes. */
 UPDATE locales_item SET description_loc6='A powerful aura surrounds this device.' WHERE entry=35669; /* description: A powerful aura surrounds this device. */
 UPDATE locales_item SET description_loc6='Forged for T.S.' WHERE entry=35683; /* description: Forged for T.S. */
-UPDATE locales_item SET description_loc6='Heavy.' WHERE entry=35686; /* description: Heavy. */
 UPDATE locales_item SET description_loc6='Oh so cute. Too bad they grow up to be such little monsters!' WHERE entry=35692; /* description: Oh so cute. Too bad they grow up to be such little monsters! */
 UPDATE locales_item SET description_loc6='Teaches you how to create a Figurine - Empyrean Tortoise.' WHERE entry=35695; /* description: Teaches you how to create a Figurine - Empyrean Tortoise. */
 UPDATE locales_item SET description_loc6='Teaches you how to create a Figure - Khorium Boar.' WHERE entry=35696; /* description: Teaches you how to create a Figure - Khorium Boar. */
@@ -1516,10 +1504,7 @@ UPDATE locales_item SET description_loc6='Let\'s see what this mage hunter had o
 UPDATE locales_item SET description_loc6='The flesh is covered with claw marks.' WHERE entry=35794; /* description: The flesh is covered with claw marks. */
 UPDATE locales_item SET description_loc6='Summons the image of Drakuru for a short time.' WHERE entry=35797; /* description: Summons the image of Drakuru for a short time. */
 UPDATE locales_item SET description_loc6='Cold, concentrated troll mojo.' WHERE entry=35799; /* description: Cold, concentrated troll mojo. */
-UPDATE locales_item SET description_loc6='Clickety-clack!' WHERE entry=35802; /* description: Clickety-clack! */
-UPDATE locales_item SET description_loc6='Ribbit!' WHERE entry=35803; /* description: Ribbit! */
 UPDATE locales_item SET description_loc6='A strange mist swirls just beneath the gem\'s surface.' WHERE entry=35806; /* description: A strange mist swirls just beneath the gem\'s surface. */
-UPDATE locales_item SET description_loc6='Succulent!' WHERE entry=35831; /* description: Succulent! */
 UPDATE locales_item SET description_loc6='Dark, wet, and smells like fish...' WHERE entry=35908; /* description: Dark, wet, and smells like fish... */
 UPDATE locales_item SET description_loc6='There\'s something shiny inside....' WHERE entry=35945; /* description: There\'s something shiny inside.... */
 UPDATE locales_item SET description_loc6='This gem seems to be pulsating.' WHERE entry=36739; /* description: This gem seems to be pulsating. */
@@ -1630,7 +1615,6 @@ UPDATE locales_item SET description_loc6='For those extra long days.' WHERE entr
 UPDATE locales_item SET description_loc6='This extracted soul has been pressed into service as entertainment for you.' WHERE entry=38308; /* description: This extracted soul has been pressed into service as entertainment for you. */
 UPDATE locales_item SET description_loc6='The sergeant is being ordered to bring his men back to reinforce the courtyard at The Argent Stand.' WHERE entry=38319; /* description: The sergeant is being ordered to bring his men back to reinforce the courtyard at The Argent Stand. */
 UPDATE locales_item SET description_loc6='The decanter shimmers with an unearthly glow.' WHERE entry=38321; /* description: The decanter shimmers with an unearthly glow. */
-UPDATE locales_item SET description_loc6='Pure.' WHERE entry=38325; /* description: Pure. */
 UPDATE locales_item SET description_loc6='Smells nasty. People actually eat these?' WHERE entry=38326; /* description: Smells nasty. People actually eat these? */
 UPDATE locales_item SET description_loc6='Teaches you how to sew a Haliscan Jacket.' WHERE entry=38327; /* description: Teaches you how to sew a Haliscan Jacket. */
 UPDATE locales_item SET description_loc6='Teaches you how to sew Haliscan Pantaloons.' WHERE entry=38328; /* description: Teaches you how to sew Haliscan Pantaloons. */
@@ -1661,8 +1645,6 @@ UPDATE locales_item SET description_loc6='Painstakingly pilfered, patiently poli
 UPDATE locales_item SET description_loc6='Cures what ails ya.' WHERE entry=38381; /* description: Cures what ails ya. */
 UPDATE locales_item SET description_loc6='Keep them in a safe place so that they don\'t fracture!' WHERE entry=38382; /* description: Keep them in a safe place so that they don\'t fracture! */
 UPDATE locales_item SET description_loc6='Smells of halitosis.' WHERE entry=38384; /* description: Smells of halitosis. */
-UPDATE locales_item SET description_loc6='Mmmm!' WHERE entry=38386; /* description: Mmmm! */
-UPDATE locales_item SET description_loc6='Half-hatched.' WHERE entry=38393; /* description: Half-hatched. */
 UPDATE locales_item SET description_loc6='Parted to the left...' WHERE entry=38396; /* description: Parted to the left... */
 UPDATE locales_item SET description_loc6='Imported from the South Seas.' WHERE entry=38397; /* description: Imported from the South Seas. */
 UPDATE locales_item SET description_loc6='Drinking water. Exclusively for the elite.' WHERE entry=38398; /* description: Drinking water. Exclusively for the elite. */
@@ -1686,8 +1668,6 @@ UPDATE locales_item SET description_loc6='For an aspiring student of the wasp hu
 UPDATE locales_item SET description_loc6='It squirms!' WHERE entry=38622; /* description: It squirms! */
 UPDATE locales_item SET description_loc6='Well worn.' WHERE entry=38624; /* description: Well worn. */
 UPDATE locales_item SET description_loc6='Uncut but full of possibility.' WHERE entry=38637; /* description: Uncut but full of possibility. */
-UPDATE locales_item SET description_loc6='Candybars?!' WHERE entry=38638; /* description: Candybars?! */
-UPDATE locales_item SET description_loc6='Gold!' WHERE entry=38639; /* description: Gold! */
 UPDATE locales_item SET description_loc6='Crafted of bone and dripping with blood...' WHERE entry=38660; /* description: Crafted of bone and dripping with blood... */
 UPDATE locales_item SET description_loc6='Crafted of bone and dripping with blood...' WHERE entry=38673; /* description: Crafted of bone and dripping with blood... */
 UPDATE locales_item SET description_loc6='Intricate pictograms adorn these tablets.' WHERE entry=38677; /* description: Intricate pictograms adorn these tablets. */
@@ -1730,7 +1710,6 @@ UPDATE locales_item SET description_loc6='No longer possesses its original prope
 UPDATE locales_item SET description_loc6='Flawless unlike all of the others.' WHERE entry=39540; /* description: Flawless unlike all of the others. */
 UPDATE locales_item SET description_loc6='Its winds swirl in a seething vortex.' WHERE entry=39541; /* description: Its winds swirl in a seething vortex. */
 UPDATE locales_item SET description_loc6='Bulbous, bluish and somewhat bitter.' WHERE entry=39668; /* description: Bulbous, bluish and somewhat bitter. */
-UPDATE locales_item SET description_loc6='Mouthwatering!' WHERE entry=39669; /* description: Mouthwatering! */
 UPDATE locales_item SET description_loc6='Sticky, but brittle.' WHERE entry=39670; /* description: Sticky, but brittle. */
 UPDATE locales_item SET description_loc6='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=39728; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc6='You were asked to deliver this to Archmage Celindra in Dalaran.' WHERE entry=39740; /* description: You were asked to deliver this to Archmage Celindra in Dalaran. */
@@ -1789,7 +1768,6 @@ UPDATE locales_item SET description_loc6='You don\'t want to know.' WHERE entry=
 UPDATE locales_item SET description_loc6='The Real Power Source' WHERE entry=41373; /* description: The Real Power Source */
 UPDATE locales_item SET description_loc6='Far heavier than it looks.' WHERE entry=41431; /* description: Far heavier than it looks. */
 UPDATE locales_item SET description_loc6='So soft that it crumbles in your hands.' WHERE entry=41503; /* description: So soft that it crumbles in your hands. */
-UPDATE locales_item SET description_loc6='Stretchy!' WHERE entry=41504; /* description: Stretchy! */
 UPDATE locales_item SET description_loc6='You couldn\'t possibly carry more than one...' WHERE entry=41506; /* description: You couldn\'t possibly carry more than one... */
 UPDATE locales_item SET description_loc6='Size XXXL' WHERE entry=41507; /* description: Size XXXL */
 UPDATE locales_item SET description_loc6='Teaches you how to ride this sweet hog.' WHERE entry=41508; /* description: Teaches you how to ride this sweet hog. */
@@ -1885,7 +1863,6 @@ UPDATE locales_item SET description_loc6='Teaches you how to cut a Stormy Dragon
 UPDATE locales_item SET description_loc6='Teaches you how to cut a Subtle Dragon\'s Eye' WHERE entry=42314; /* description: Teaches you how to cut a Subtle Dragon\'s Eye */
 UPDATE locales_item SET description_loc6='Medal awarded for fighting in Strand of the Ancients' WHERE entry=42425; /* description: Medal awarded for fighting in Strand of the Ancients */
 UPDATE locales_item SET description_loc6='A remnant of a lost age.' WHERE entry=42541; /* description: A remnant of a lost age. */
-UPDATE locales_item SET description_loc6='Failsafe.' WHERE entry=42546; /* description: Failsafe. */
 UPDATE locales_item SET description_loc6='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=42597; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc6='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=42598; /* description: Counts as an Air, Earth, Fire, and Water totem. */
 UPDATE locales_item SET description_loc6='Counts as an Air, Earth, Fire, and Water totem.' WHERE entry=42599; /* description: Counts as an Air, Earth, Fire, and Water totem. */
@@ -1903,7 +1880,6 @@ UPDATE locales_item SET description_loc6='Teaches you how to craft a Titanium Ea
 UPDATE locales_item SET description_loc6='Teaches you how to craft a Titanium Spellshock Necklace' WHERE entry=42653; /* description: Teaches you how to craft a Titanium Spellshock Necklace */
 UPDATE locales_item SET description_loc6='Matches any Socket.  Maximum of one socketed in your equipment' WHERE entry=42701; /* description: Matches any Socket.  Maximum of one socketed in your equipment */
 UPDATE locales_item SET description_loc6='Matches any Socket.  Maximum of one socketed in your equipment' WHERE entry=42702; /* description: Matches any Socket.  Maximum of one socketed in your equipment */
-UPDATE locales_item SET description_loc6='Gooey.' WHERE entry=42770; /* description: Gooey. */
 UPDATE locales_item SET description_loc6='This large tome contains the doctor\'s notes for the construction of a flesh giant from the pieces of vargul' WHERE entry=42772; /* description: This large tome contains the doctor\'s notes for the construction of a flesh giant from the pieces of vargul */
 UPDATE locales_item SET description_loc6='Just the thing for a cold crusader.' WHERE entry=42779; /* description: Just the thing for a cold crusader. */
 UPDATE locales_item SET description_loc6='There are certain to be individuals who place value in these.' WHERE entry=42780; /* description: There are certain to be individuals who place value in these. */
@@ -2127,6 +2103,7 @@ UPDATE locales_item SET description_loc6='Teaches you how to make a Mechano-hog.
 UPDATE locales_item SET description_loc6='Teaches you how to make a Mekgineer\'s Chopper.' WHERE entry=44503; /* description: Teaches you how to make a Mekgineer\'s Chopper. */
 UPDATE locales_item SET description_loc6='Blade of the Crimson Landlord.' WHERE entry=44505; /* description: Blade of the Crimson Landlord. */
 UPDATE locales_item SET description_loc6='Accidents from using this device are down by nearly 17%!' WHERE entry=44507; /* description: Accidents from using this device are down by nearly 17%! */
+UPDATE locales_item SET description_loc6='Randomly discover a new Alchemy recipe.' WHERE entry=44508; /* description: Randomly discover a new Alchemy recipe. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Trapper\'s Traveling Pack.' WHERE entry=44509; /* description: Teaches you how to make a Trapper\'s Traveling Pack. */
 UPDATE locales_item SET description_loc6='Teaches you how to make a Mammoth Mining Bag.' WHERE entry=44510; /* description: Teaches you how to make a Mammoth Mining Bag. */
 UPDATE locales_item SET description_loc6='Teaches you how to make an Eviscerator\'s Facemask.' WHERE entry=44513; /* description: Teaches you how to make an Eviscerator\'s Facemask. */
