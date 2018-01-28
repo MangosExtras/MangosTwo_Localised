@@ -2,16 +2,21 @@
 SET NAMES 'utf8';
 UPDATE locales_item SET description_loc9='Teaches you how to cook Westfall Stew.' WHERE entry=728; /* description: Teaches you how to cook Westfall Stew. */
 UPDATE locales_item SET description_loc9='This large crate is sealed tight, but it reeks of dead things.' WHERE entry=1349; /* description: This large crate is sealed tight, but it reeks of dead things. */
+UPDATE locales_item SET description_loc9='Morgan Ladimore\'s sword.' WHERE entry=2000; /* description: Morgan Ladimore\'s sword. */
 UPDATE locales_item SET name_loc9='The First Troll Legend',description_loc9='Moon over the Vale' WHERE entry=2005; /* name: The First Troll Legend */ .* description: Moon over the Vale */
 UPDATE locales_item SET name_loc9='The Second Troll Legend',description_loc9='Gri\'lek the Wanderer' WHERE entry=2006; /* name: The Second Troll Legend */ .* description: Gri\'lek the Wanderer */
 UPDATE locales_item SET name_loc9='The Third Troll Legend',description_loc9='Fall of Gurubashi' WHERE entry=2007; /* name: The Third Troll Legend */ .* description: Fall of Gurubashi */
 UPDATE locales_item SET name_loc9='The Fourth Troll Legend',description_loc9='The Emperor\'s Tomb' WHERE entry=2008; /* name: The Fourth Troll Legend */ .* description: The Emperor\'s Tomb */
 UPDATE locales_item SET description_loc9='Miners need a mining pick for digging.' WHERE entry=2901; /* description: Miners need a mining pick for digging. */
+UPDATE locales_item SET description_loc9='It must be carried very, very carefully.' WHERE entry=5173; /* description: It must be carried very, very carefully. */
 UPDATE locales_item SET description_loc9='In remarkably good condition all things considered.' WHERE entry=5424; /* description: In remarkably good condition all things considered. */
+UPDATE locales_item SET description_loc9='Vile like their former owner.' WHERE entry=5481; /* description: Vile like their former owner. */
 UPDATE locales_item SET description_loc9='Something doesn\'t seem quite right about the soot-covered stone.' WHERE entry=5493; /* description: Something doesn\'t seem quite right about the soot-covered stone. */
 UPDATE locales_item SET description_loc9='Venture Company Supplies' WHERE entry=6357; /* description: Venture Company Supplies */
 UPDATE locales_item SET description_loc9='By Magus Tirth' WHERE entry=7274; /* description: By Magus Tirth */
 UPDATE locales_item SET description_loc9='Use near a mana rift disturbance' WHERE entry=7308; /* description: Use near a mana rift disturbance */
+UPDATE locales_item SET name_loc9='Delivery to Mathias',description_loc9='Sealed' WHERE entry=7674; /* name: Delivery to Mathias */ .* description: Sealed */
+UPDATE locales_item SET description_loc9='Enormous Chemically Altered Cracker' WHERE entry=7970; /* description: Enormous Chemically Altered Cracker */
 UPDATE locales_item SET description_loc9='Robust Operational Imbue Derived From Snickerfang' WHERE entry=8410; /* description: Robust Operational Imbue Derived From Snickerfang */
 UPDATE locales_item SET description_loc9='100% Grade A Lung Juice - Freshly Squeezed' WHERE entry=8411; /* description: 100% Grade A Lung Juice - Freshly Squeezed */
 UPDATE locales_item SET description_loc9='Best Served Chilled' WHERE entry=8423; /* description: Best Served Chilled */
@@ -25,6 +30,7 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this compani
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=10392; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=10393; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=10398; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='The flame burns eternally' WHERE entry=10509; /* description: The flame burns eternally */
 UPDATE locales_item SET description_loc9='The flame never falters' WHERE entry=10515; /* description: The flame never falters */
 UPDATE locales_item SET description_loc9='Bears the mark of Kalaran the Deceiver' WHERE entry=10569; /* description: Bears the mark of Kalaran the Deceiver */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=10822; /* description: Teaches you how to summon this companion. */
@@ -34,13 +40,21 @@ UPDATE locales_item SET description_loc9='Gor\'tesh\'s severed head, propped up 
 UPDATE locales_item SET description_loc9='Squishy, Smelly, Slimy' WHERE entry=11080; /* description: Squishy, Smelly, Slimy */
 UPDATE locales_item SET description_loc9='Property of Marshal Expeditions.' WHERE entry=11112; /* description: Property of Marshal Expeditions. */
 UPDATE locales_item SET description_loc9='Property of Marshal Expeditions.' WHERE entry=11113; /* description: Property of Marshal Expeditions. */
+UPDATE locales_item SET name_loc9='Helendis Riverhorn\'s Letter',description_loc9='Sealed' WHERE entry=11366; /* name: Helendis Riverhorn\'s Letter */ .* description: Sealed */
 UPDATE locales_item SET name_loc9='Marshal Windsor\'s Lost Information',description_loc9='-General Angerforge' WHERE entry=11464; /* name: Marshal Windsor\'s Lost Information */ .* description: -General Angerforge */
+UPDATE locales_item SET description_loc9='Dark runes skitter across the surface.' WHERE entry=11732; /* description: Dark runes skitter across the surface. */
+UPDATE locales_item SET description_loc9='Dark runes skitter across the surface.' WHERE entry=11733; /* description: Dark runes skitter across the surface. */
+UPDATE locales_item SET description_loc9='Dark runes skitter across the surface.' WHERE entry=11734; /* description: Dark runes skitter across the surface. */
+UPDATE locales_item SET description_loc9='Dark runes skitter across the surface.' WHERE entry=11736; /* description: Dark runes skitter across the surface. */
+UPDATE locales_item SET description_loc9='Dark runes skitter across the surface.' WHERE entry=11737; /* description: Dark runes skitter across the surface. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=11825; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=11826; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Draconic runes appear and disappear along the inner band.' WHERE entry=12344; /* description: Draconic runes appear and disappear along the inner band. */
 UPDATE locales_item SET description_loc9='Something seems to shake from within' WHERE entry=12467; /* description: Something seems to shake from within */
 UPDATE locales_item SET description_loc9='Bears the seal of the K.E.F.' WHERE entry=12563; /* description: Bears the seal of the K.E.F. */
+UPDATE locales_item SET description_loc9='Equipping this badge is an indication of service to the Argent Dawn.' WHERE entry=12846; /* description: Equipping this badge is an indication of service to the Argent Dawn. */
 UPDATE locales_item SET description_loc9='A ritual candle from the depths of Jaedenar, new home of the Shadow Council.' WHERE entry=12924; /* description: A ritual candle from the depths of Jaedenar, new home of the Shadow Council. */
+UPDATE locales_item SET description_loc9='Blade of the Scarlet Highlord' WHERE entry=13262; /* description: Blade of the Scarlet Highlord */
 UPDATE locales_item SET description_loc9='The pages are tattered and worn...' WHERE entry=13313; /* description: The pages are tattered and worn... */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=13326; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=13327; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
@@ -57,13 +71,19 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this compani
 UPDATE locales_item SET description_loc9='All of the pages are torn out.' WHERE entry=13585; /* description: All of the pages are torn out. */
 UPDATE locales_item SET description_loc9='Not to be confused with gloom weed, womb weed, or broom weed.  Or doom seed.' WHERE entry=13702; /* description: Not to be confused with gloom weed, womb weed, or broom weed.  Or doom seed. */
 UPDATE locales_item SET description_loc9='Order of the Silver Hand' WHERE entry=14625; /* description: Order of the Silver Hand */
+UPDATE locales_item SET description_loc9='The picture brings a smile to your face.' WHERE entry=14679; /* description: The picture brings a smile to your face. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=15292; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=15293; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Keep away from fire.' WHERE entry=15736; /* description: Keep away from fire. */
 UPDATE locales_item SET description_loc9='This book emits a faint glow.' WHERE entry=15847; /* description: This book emits a faint glow. */
 UPDATE locales_item SET description_loc9='The Blood of Drakkisath Flows Within...' WHERE entry=16309; /* description: The Blood of Drakkisath Flows Within... */
 UPDATE locales_item SET description_loc9='Magic stirs deep inside.' WHERE entry=16581; /* description: Magic stirs deep inside. */
+UPDATE locales_item SET description_loc9='The aura permeating the charm\'s wood makes your skin crawl.' WHERE entry=16602; /* description: The aura permeating the charm\'s wood makes your skin crawl. */
+UPDATE locales_item SET name_loc9='Silithid Goo',description_loc9='Ewww...' WHERE entry=17345; /* name: Silithid Goo */ .* description: Ewww... */
+UPDATE locales_item SET description_loc9='Return to your base blacksmith to help upgrade troops' WHERE entry=17422; /* description: Return to your base blacksmith to help upgrade troops */
 UPDATE locales_item SET description_loc9='For when the weather outside is frightful...' WHERE entry=17712; /* description: For when the weather outside is frightful... */
+UPDATE locales_item SET name_loc9='Stormpike Insignia Rank 6',description_loc9='The Eye of Command' WHERE entry=17904; /* name: Stormpike Insignia Rank 6 */ .* description: The Eye of Command */
+UPDATE locales_item SET name_loc9='Frostwolf Insignia Rank 6',description_loc9='The Eye of Command' WHERE entry=17909; /* name: Frostwolf Insignia Rank 6 */ .* description: The Eye of Command */
 UPDATE locales_item SET description_loc9='The mystery remains unsolved.' WHERE entry=18228; /* description: The mystery remains unsolved. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18243; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18244; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
@@ -71,13 +91,17 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this mount. 
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18248; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Tastes better going down than coming up!' WHERE entry=18287; /* description: Tastes better going down than coming up! */
 UPDATE locales_item SET description_loc9='Do not consume near open flames.' WHERE entry=18288; /* description: Do not consume near open flames. */
+UPDATE locales_item SET description_loc9='The High Blade' WHERE entry=18348; /* description: The High Blade */
 UPDATE locales_item SET name_loc9='The Light and How to Swing It',description_loc9='-By Uther' WHERE entry=18359; /* name: The Light and How to Swing It */ .* description: -By Uther */
-UPDATE locales_item SET name_loc9='Holy Bologna: What the Light Won\'t Tell You',description_loc9='-By Shadow Priest Allister' WHERE entry=18362; /* name: Holy Bologna: What the Light Won\'t Tell You */ .* description: -By Shadow Priest Allister */
+UPDATE locales_item SET description_loc9='Tales from the Blasted Lands as told by Lady Sevine.' WHERE entry=18360; /* description: Tales from the Blasted Lands as told by Lady Sevine. */
+UPDATE locales_item SET description_loc9='A Tale of a Female Troll and Her Tiger' WHERE entry=18361; /* description: A Tale of a Female Troll and Her Tiger */
 UPDATE locales_item SET name_loc9='Frost Shock and You',description_loc9='-By Drek\'Thar' WHERE entry=18363; /* name: Frost Shock and You */ .* description: -By Drek\'Thar */
+UPDATE locales_item SET description_loc9='Fact or Carefully Planned Out Farce Perpetrated By My Brother -By Illidan' WHERE entry=18364; /* description: Fact or Carefully Planned Out Farce Perpetrated By My Brother -By Illidan */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18788; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18789; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=18790; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Keep away from Thorium Brotherhood.' WHERE entry=18922; /* description: Keep away from Thorium Brotherhood. */
+UPDATE locales_item SET description_loc9='A letter of command from Rend Blackhand.' WHERE entry=18987; /* description: A letter of command from Rend Blackhand. */
 UPDATE locales_item SET name_loc9='Nat Pagle\'s Extreme Angler FC-5000',description_loc9='Limited Edition' WHERE entry=19022; /* name: Nat Pagle\'s Extreme Angler FC-5000 */ .* description: Limited Edition */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=19030; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='From the mountain springs of Alterac!' WHERE entry=19318; /* description: From the mountain springs of Alterac! */
@@ -93,15 +117,17 @@ UPDATE locales_item SET description_loc9='It looks like Nat Pagle himself used t
 UPDATE locales_item SET description_loc9='Blessed with the mojo of Zanza!' WHERE entry=20079; /* description: Blessed with the mojo of Zanza! */
 UPDATE locales_item SET description_loc9='Blessed with the mojo of Zanza!' WHERE entry=20080; /* description: Blessed with the mojo of Zanza! */
 UPDATE locales_item SET description_loc9='Blessed with the mojo of Zanza!' WHERE entry=20081; /* description: Blessed with the mojo of Zanza! */
+UPDATE locales_item SET description_loc9='Woe to those who oppose.' WHERE entry=20082; /* description: Woe to those who oppose. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=20371; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='This arcane sliver glows with an eerie luster.' WHERE entry=20483; /* description: This arcane sliver glows with an eerie luster. */
 UPDATE locales_item SET description_loc9='Crisp, delicious and hopefully worm-free.' WHERE entry=20516; /* description: Crisp, delicious and hopefully worm-free. */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in Warsong Gulch' WHERE entry=20558; /* description: Medal awarded for fighting in Warsong Gulch */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in Arathi Basin' WHERE entry=20559; /* description: Medal awarded for fighting in Arathi Basin */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in Alterac Valley' WHERE entry=20560; /* description: Medal awarded for fighting in Alterac Valley */
+UPDATE locales_item SET description_loc9='The totem is thick with the taint of corruption.' WHERE entry=20741; /* description: The totem is thick with the taint of corruption. */
+UPDATE locales_item SET description_loc9='The totem is thick with the taint of corruption.' WHERE entry=20742; /* description: The totem is thick with the taint of corruption. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=20769; /* description: Teaches you how to summon this companion. */
-UPDATE locales_item SET description_loc9='Chapter I' WHERE entry=21103; /* description: Chapter I */
 UPDATE locales_item SET description_loc9='Chapter II' WHERE entry=21104; /* description: Chapter II */
-UPDATE locales_item SET description_loc9='Chapter III' WHERE entry=21105; /* description: Chapter III */
 UPDATE locales_item SET description_loc9='Chapter IV' WHERE entry=21106; /* description: Chapter IV */
 UPDATE locales_item SET description_loc9='Chapter V' WHERE entry=21107; /* description: Chapter V */
 UPDATE locales_item SET description_loc9='Chapter VI' WHERE entry=21108; /* description: Chapter VI */
@@ -111,10 +137,29 @@ UPDATE locales_item SET name_loc9='Fragment of the Nightmare\'s Corruption',desc
 UPDATE locales_item SET name_loc9='Fragment of the Nightmare\'s Corruption',description_loc9='-Ashenvale' WHERE entry=21147; /* name: Fragment of the Nightmare\'s Corruption */ .* description: -Ashenvale */
 UPDATE locales_item SET name_loc9='Fragment of the Nightmare\'s Corruption',description_loc9='-Feralas' WHERE entry=21148; /* name: Fragment of the Nightmare\'s Corruption */ .* description: -Feralas */
 UPDATE locales_item SET name_loc9='Fragment of the Nightmare\'s Corruption',description_loc9='-Duskwood' WHERE entry=21149; /* name: Fragment of the Nightmare\'s Corruption */ .* description: -Duskwood */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Protector' WHERE entry=21196; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Protector */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Protector' WHERE entry=21197; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Protector */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Protector' WHERE entry=21198; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Protector */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Protector' WHERE entry=21199; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Protector */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Protector' WHERE entry=21200; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Protector */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Conqueror' WHERE entry=21201; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Conqueror */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Conqueror' WHERE entry=21202; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Conqueror */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Conqueror' WHERE entry=21203; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Conqueror */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Conqueror' WHERE entry=21204; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Conqueror */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Conqueror' WHERE entry=21205; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Conqueror */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Invoker' WHERE entry=21206; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Invoker */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Invoker' WHERE entry=21207; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Invoker */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Invoker' WHERE entry=21208; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Invoker */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Invoker' WHERE entry=21209; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Invoker */
+UPDATE locales_item SET name_loc9='Signet Ring of the Bronze Dragonflight',description_loc9='The Path of the Invoker' WHERE entry=21210; /* name: Signet Ring of the Bronze Dragonflight */ .* description: The Path of the Invoker */
 UPDATE locales_item SET description_loc9='Preserved with Graccu\'s special spices!  It\'ll be a very long time before these turn bad...' WHERE entry=21215; /* description: Preserved with Graccu\'s special spices!  It\'ll be a very long time before these turn bad... */
+UPDATE locales_item SET description_loc9='Ceremonial Armaments of the Qiraji Lords. Used by Qiraji infantry.' WHERE entry=21232; /* description: Ceremonial Armaments of the Qiraji Lords. Used by Qiraji infantry. */
+UPDATE locales_item SET description_loc9='Regalia of Qiraji Nobility. Used by Qiraji spell casters.' WHERE entry=21237; /* description: Regalia of Qiraji Nobility. Used by Qiraji spell casters. */
 UPDATE locales_item SET description_loc9='Fresh from the oven' WHERE entry=21254; /* description: Fresh from the oven */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=21277; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This mount may only be summoned in the Temple of Ahn\'Qiraj.' WHERE entry=21321; /* description: Teaches you how to summon this mount.  This mount may only be summoned in the Temple of Ahn\'Qiraj. */
+UPDATE locales_item SET name_loc9='Fetish of Chitinous Spikes',description_loc9='Ouch' WHERE entry=21488; /* name: Fetish of Chitinous Spikes */ .* description: Ouch */
+UPDATE locales_item SET description_loc9='Luckily they were kept in a waterproofed case.' WHERE entry=21776; /* description: Luckily they were kept in a waterproofed case. */
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='Be mine!' WHERE entry=21816; /* name: Heart Candy */ .* description: Be mine! */
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='I LOVE YOU' WHERE entry=21817; /* name: Heart Candy */ .* description: I LOVE YOU */
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='I\'ll follow you all around Azeroth.' WHERE entry=21818; /* name: Heart Candy */ .* description: I\'ll follow you all around Azeroth. */
@@ -123,11 +168,14 @@ UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='You\'re the be
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='I\'m all yours!' WHERE entry=21821; /* name: Heart Candy */ .* description: I\'m all yours! */
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='You are mine!' WHERE entry=21822; /* name: Heart Candy */ .* description: You are mine! */
 UPDATE locales_item SET name_loc9='Heart Candy',description_loc9='Hot lips.' WHERE entry=21823; /* name: Heart Candy */ .* description: Hot lips. */
+UPDATE locales_item SET description_loc9='Its red juice can leave an indelible stain on your clothing, so be careful.' WHERE entry=22094; /* description: Its red juice can leave an indelible stain on your clothing, so be careful. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon Peddlefeet.' WHERE entry=22235; /* description: Teaches you how to summon Peddlefeet. */
 UPDATE locales_item SET description_loc9='Amazingly, between the ghouls and the corrosive slime, it appears undamaged.' WHERE entry=22583; /* description: Amazingly, between the ghouls and the corrosive slime, it appears undamaged. */
 UPDATE locales_item SET description_loc9='These contain a detailed map and tactical situation for An\'daroth.' WHERE entry=22590; /* description: These contain a detailed map and tactical situation for An\'daroth. */
 UPDATE locales_item SET description_loc9='These contain a detailed map and tactical situation for An\'owyn.' WHERE entry=22591; /* description: These contain a detailed map and tactical situation for An\'owyn. */
 UPDATE locales_item SET description_loc9='These plans talk of using the high elf moon crystals to scry upon the blood elves!' WHERE entry=22592; /* description: These plans talk of using the high elf moon crystals to scry upon the blood elves! */
+UPDATE locales_item SET description_loc9='There\'s an inscription, which reads: To Sylvanas. Love always, Alleria.' WHERE entry=22597; /* description: There\'s an inscription, which reads: To Sylvanas. Love always, Alleria. */
+UPDATE locales_item SET description_loc9='There\'s an inscription, which reads: To Sylvanas. Love always, Alleria.' WHERE entry=22627; /* description: There\'s an inscription, which reads: To Sylvanas. Love always, Alleria. */
 UPDATE locales_item SET description_loc9='An entity of great evil is imprisoned within the staff.' WHERE entry=22737; /* description: An entity of great evil is imprisoned within the staff. */
 UPDATE locales_item SET description_loc9='The light passing through the bottle reveals a magical property to the wine.' WHERE entry=22775; /* description: The light passing through the bottle reveals a magical property to the wine. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=23007; /* description: Teaches you how to summon this companion. */
@@ -141,17 +189,26 @@ UPDATE locales_item SET description_loc9='Succulent and tasty!' WHERE entry=2349
 UPDATE locales_item SET description_loc9='For those warm days in the sun!' WHERE entry=23585; /* description: For those warm days in the sun! */
 UPDATE locales_item SET description_loc9='An unhatched gryphon egg rescued from the Witherbark trolls.' WHERE entry=23694; /* description: An unhatched gryphon egg rescued from the Witherbark trolls. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=23713; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='The smoldering ember emits faint purple sparks, but no heat. Its coolness belies the immense power held within.' WHERE entry=23726; /* description: The smoldering ember emits faint purple sparks, but no heat. Its coolness belies the immense power held within. */
 UPDATE locales_item SET description_loc9='A shimmering silver vessel somehow untarnished by its long exposure to corrupt influences.' WHERE entry=23760; /* description: A shimmering silver vessel somehow untarnished by its long exposure to corrupt influences. */
+UPDATE locales_item SET description_loc9='The ink appears to be dried blood.' WHERE entry=23780; /* description: The ink appears to be dried blood. */
+UPDATE locales_item SET description_loc9='The ink appears to be dried blood.' WHERE entry=23798; /* description: The ink appears to be dried blood. */
 UPDATE locales_item SET description_loc9='They just don\'t make \'em like this anymore...' WHERE entry=23822; /* description: They just don\'t make \'em like this anymore... */
 UPDATE locales_item SET description_loc9='They just don\'t make \'em like this anymore...' WHERE entry=23823; /* description: They just don\'t make \'em like this anymore... */
 UPDATE locales_item SET description_loc9='The equipment appears unharmed, if a bit slimy.' WHERE entry=23830; /* description: The equipment appears unharmed, if a bit slimy. */
+UPDATE locales_item SET description_loc9='A small patch of white fur belonging to Gurf of the Stillpine.' WHERE entry=23850; /* description: A small patch of white fur belonging to Gurf of the Stillpine. */
 UPDATE locales_item SET description_loc9='A bright, juicy fruit favored by the elekk.' WHERE entry=23927; /* description: A bright, juicy fruit favored by the elekk. */
+UPDATE locales_item SET name_loc9='The Exarch\'s Orders',description_loc9='Sealed.' WHERE entry=23928; /* name: The Exarch\'s Orders */ .* description: Sealed. */
 UPDATE locales_item SET description_loc9='A little rusty, but it appears to be in working order.' WHERE entry=23981; /* description: A little rusty, but it appears to be in working order. */
 UPDATE locales_item SET description_loc9='These mushroom remains are desiccated and have likely been here a while.' WHERE entry=24233; /* description: These mushroom remains are desiccated and have likely been here a while. */
 UPDATE locales_item SET description_loc9='It certainly has a \'passionate\' fragrance.' WHERE entry=24246; /* description: It certainly has a \'passionate\' fragrance. */
+UPDATE locales_item SET description_loc9='This plant is not listed in Lauranna\'s manual.' WHERE entry=24407; /* description: This plant is not listed in Lauranna\'s manual. */
 UPDATE locales_item SET description_loc9='The liquid in this vial bubbles softly.' WHERE entry=24428; /* description: The liquid in this vial bubbles softly. */
 UPDATE locales_item SET description_loc9='A soft, spongy fungus that can explode into a toxic cloud if not handled properly.' WHERE entry=24468; /* description: A soft, spongy fungus that can explode into a toxic cloud if not handled properly. */
 UPDATE locales_item SET description_loc9='A cage filled with baby murlocs.' WHERE entry=24470; /* description: A cage filled with baby murlocs. */
+UPDATE locales_item SET description_loc9='A piece of a withered boglord from the Dead Mire.' WHERE entry=24483; /* description: A piece of a withered boglord from the Dead Mire. */
+UPDATE locales_item SET description_loc9='A piece of a withered boglord from the Dead Mire.' WHERE entry=24484; /* description: A piece of a withered boglord from the Dead Mire. */
+UPDATE locales_item SET name_loc9='Pair of Ivory Tusks',description_loc9='Pristine!' WHERE entry=25463; /* name: Pair of Ivory Tusks */ .* description: Pristine! */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount.' WHERE entry=25477; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=25535; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Soft blue light pulses within the crystal.' WHERE entry=25635; /* description: Soft blue light pulses within the crystal. */
@@ -170,10 +227,12 @@ UPDATE locales_item SET description_loc9='Don\'t ask what it\'s made of.' WHERE 
 UPDATE locales_item SET description_loc9='Pets love sporeling snacks!' WHERE entry=27656; /* description: Pets love sporeling snacks! */
 UPDATE locales_item SET description_loc9='Seared to perfection!' WHERE entry=27657; /* description: Seared to perfection! */
 UPDATE locales_item SET name_loc9='Air Elemental Gas',description_loc9='Frozen solid!' WHERE entry=27807; /* name: Air Elemental Gas */ .* description: Frozen solid! */
+UPDATE locales_item SET name_loc9='Duron\'s Report',description_loc9='Sealed' WHERE entry=28105; /* name: Duron\'s Report */ .* description: Sealed */
 UPDATE locales_item SET description_loc9='You wonder if it\'s safe to handle these while they\'re still glowing?' WHERE entry=28364; /* description: You wonder if it\'s safe to handle these while they\'re still glowing? */
 UPDATE locales_item SET description_loc9='You aren\'t really going to eat that, are you?' WHERE entry=28501; /* description: You aren\'t really going to eat that, are you? */
 UPDATE locales_item SET description_loc9='There\'s no place like home.' WHERE entry=28585; /* description: There\'s no place like home. */
 UPDATE locales_item SET description_loc9='Legend tells of this axe being wielded by Draenei exarchs since the time of their banishment from Argus.' WHERE entry=28587; /* description: Legend tells of this axe being wielded by Draenei exarchs since the time of their banishment from Argus. */
+UPDATE locales_item SET description_loc9='The axe of Grom Hellscream has sown terror across hundreds of battlefields.' WHERE entry=28773; /* description: The axe of Grom Hellscream has sown terror across hundreds of battlefields. */
 UPDATE locales_item SET description_loc9='For Heroism at the Battle for the Dark Portal' WHERE entry=28788; /* description: For Heroism at the Battle for the Dark Portal */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in the Eye of the Storm' WHERE entry=29024; /* description: Medal awarded for fighting in the Eye of the Storm */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=29363; /* description: Teaches you how to summon this companion. */
@@ -183,6 +242,7 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this mount. 
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=29470; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Emanates with a sickly, evil aura.' WHERE entry=29477; /* description: Emanates with a sickly, evil aura. */
 UPDATE locales_item SET description_loc9='Drinking may cause brain damage.' WHERE entry=29482; /* description: Drinking may cause brain damage. */
+UPDATE locales_item SET description_loc9='These glowing runes are used in Scryer inscriptions.' WHERE entry=29736; /* description: These glowing runes are used in Scryer inscriptions. */
 UPDATE locales_item SET description_loc9='Contains a small amount of water from the Well of Eternity.' WHERE entry=29906; /* description: Contains a small amount of water from the Well of Eternity. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=29953; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=29956; /* description: Teaches you how to summon this companion. */
@@ -192,12 +252,28 @@ UPDATE locales_item SET description_loc9='This ring was formerly held by Sylvana
 UPDATE locales_item SET description_loc9='Chewy and Delicious!' WHERE entry=30155; /* description: Chewy and Delicious! */
 UPDATE locales_item SET description_loc9='You can\'t quite make out what is etched upon this old Thunderlord clan tablet.' WHERE entry=30434; /* description: You can\'t quite make out what is etched upon this old Thunderlord clan tablet. */
 UPDATE locales_item SET description_loc9='The large spear vibrates with immense power.' WHERE entry=30435; /* description: The large spear vibrates with immense power. */
+UPDATE locales_item SET description_loc9='This ancient bow appears destroyed.' WHERE entry=30451; /* description: This ancient bow appears destroyed. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon Attumen the Huntsman\'s steed.  This is a very fast mount.' WHERE entry=30480; /* description: Teaches you how to summon Attumen the Huntsman\'s steed.  This is a very fast mount. */
+UPDATE locales_item SET name_loc9='Rotten Arakkoa Egg',description_loc9='Disgusting...' WHERE entry=30500; /* name: Rotten Arakkoa Egg */ .* description: Disgusting... */
+UPDATE locales_item SET description_loc9='A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan.' WHERE entry=30579; /* description: A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely mount.' WHERE entry=30609; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely mount. */
 UPDATE locales_item SET description_loc9='It\'s no JD\'s, but it\'ll do.' WHERE entry=30615; /* description: It\'s no JD\'s, but it\'ll do. */
+UPDATE locales_item SET description_loc9='Herein lies the words of the eternal.' WHERE entry=30657; /* description: Herein lies the words of the eternal. */
+UPDATE locales_item SET description_loc9='How to care for and operate your fel reaver.' WHERE entry=30713; /* description: How to care for and operate your fel reaver. */
+UPDATE locales_item SET description_loc9='*WARNING* Ghosts don\'t like to be seen.' WHERE entry=30719; /* description: *WARNING* Ghosts don\'t like to be seen. */
+UPDATE locales_item SET description_loc9='*WARNING* Ghosts don\'t like to be seen.' WHERE entry=30721; /* description: *WARNING* Ghosts don\'t like to be seen. */
+UPDATE locales_item SET description_loc9='A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan.' WHERE entry=30756; /* description: A fragment of a weapon that seems to be enchanted with spells conveying power in combat against demons serving Illidan. */
+UPDATE locales_item SET name_loc9='Extra Sharp Daggermaw Tooth',description_loc9='Ouch!' WHERE entry=30798; /* name: Extra Sharp Daggermaw Tooth */ .* description: Ouch! */
+UPDATE locales_item SET description_loc9='A gift from a forgotten friend...' WHERE entry=31072; /* description: A gift from a forgotten friend... */
 UPDATE locales_item SET description_loc9='Whatever\'s in it, it feels powerful.' WHERE entry=31349; /* description: Whatever\'s in it, it feels powerful. */
+UPDATE locales_item SET description_loc9='The Felsworn stench is gone.' WHERE entry=31366; /* description: The Felsworn stench is gone. */
+UPDATE locales_item SET description_loc9='The Felsworn stench burns the eyes.' WHERE entry=31384; /* description: The Felsworn stench burns the eyes. */
+UPDATE locales_item SET description_loc9='The Felsworn stench still burns the eyes.' WHERE entry=31387; /* description: The Felsworn stench still burns the eyes. */
 UPDATE locales_item SET description_loc9='A trophy commemorating a victory over Illidan Stormrage.' WHERE entry=31404; /* description: A trophy commemorating a victory over Illidan Stormrage. */
+UPDATE locales_item SET description_loc9='A crystalline key that is seemingly held together by beams of light.' WHERE entry=31704; /* description: A crystalline key that is seemingly held together by beams of light. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=31760; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='An ancient drum.' WHERE entry=31810; /* description: An ancient drum. */
+UPDATE locales_item SET description_loc9='An ancient drum.' WHERE entry=31825; /* description: An ancient drum. */
 UPDATE locales_item SET description_loc9='An old bootleg recipe from the Arathi Basin farm.' WHERE entry=31838; /* description: An old bootleg recipe from the Arathi Basin farm. */
 UPDATE locales_item SET description_loc9='Extracted from the frozen waters of Alterac Valley.' WHERE entry=31839; /* description: Extracted from the frozen waters of Alterac Valley. */
 UPDATE locales_item SET description_loc9='An old bootleg recipe from the Arathi Basin farm.' WHERE entry=31840; /* description: An old bootleg recipe from the Arathi Basin farm. */
@@ -206,18 +282,24 @@ UPDATE locales_item SET description_loc9='Sifted from the twisting nether of the
 UPDATE locales_item SET description_loc9='Distilled only within the hollow log of Warsong Gulch.' WHERE entry=31853; /* description: Distilled only within the hollow log of Warsong Gulch. */
 UPDATE locales_item SET description_loc9='Sifted from the twisting nether of the Eye of the Storm.' WHERE entry=31854; /* description: Sifted from the twisting nether of the Eye of the Storm. */
 UPDATE locales_item SET description_loc9='Distilled only within the hollow log of Warsong Gulch.' WHERE entry=31855; /* description: Distilled only within the hollow log of Warsong Gulch. */
+UPDATE locales_item SET description_loc9='A skeleton key that will open Nexus-Prince Shaffar\'s personal stasis chamber.' WHERE entry=32092; /* description: A skeleton key that will open Nexus-Prince Shaffar\'s personal stasis chamber. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=32233; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='A plain-looking stone imbued with powerful magic.' WHERE entry=32244; /* description: A plain-looking stone imbued with powerful magic. */
+UPDATE locales_item SET description_loc9='Darn, it\'s empty.' WHERE entry=32380; /* description: Darn, it\'s empty. */
+UPDATE locales_item SET name_loc9='Skulloc\'s Soul',description_loc9='EVIL!' WHERE entry=32383; /* name: Skulloc\'s Soul */ .* description: EVIL! */
 UPDATE locales_item SET description_loc9='Carefully extracted for warfare use.' WHERE entry=32453; /* description: Carefully extracted for warfare use. */
 UPDATE locales_item SET description_loc9='Carefully extracted for warfare use.' WHERE entry=32455; /* description: Carefully extracted for warfare use. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Nothrend.  This is an extremely fast mount.' WHERE entry=32458; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Nothrend.  This is an extremely fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=32616; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=32617; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=32622; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='The rune hums with power.' WHERE entry=32643; /* description: The rune hums with power. */
 UPDATE locales_item SET description_loc9='No self-respecting ogre goes into battle sober.' WHERE entry=32667; /* description: No self-respecting ogre goes into battle sober. */
 UPDATE locales_item SET description_loc9='Finally, a brew both your heads will love!' WHERE entry=32668; /* description: Finally, a brew both your heads will love! */
+UPDATE locales_item SET description_loc9='This is your booterang. There are many like it but this one is yours.' WHERE entry=32680; /* description: This is your booterang. There are many like it but this one is yours. */
 UPDATE locales_item SET description_loc9='Less a finger than a whole arm.' WHERE entry=32685; /* description: Less a finger than a whole arm. */
 UPDATE locales_item SET description_loc9='Find your fortune inside! Bask in the wisdom of Ogri\'la, win a prize, or learn about your destiny!' WHERE entry=32686; /* description: Find your fortune inside! Bask in the wisdom of Ogri\'la, win a prize, or learn about your destiny! */
+UPDATE locales_item SET description_loc9='Just sludge.' WHERE entry=32728; /* description: Just sludge. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=32768; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Insert into nearest energy receptacle.' WHERE entry=32902; /* description: Insert into nearest energy receptacle. */
 UPDATE locales_item SET description_loc9='Inhale deeply.' WHERE entry=32905; /* description: Inhale deeply. */
@@ -240,10 +322,14 @@ UPDATE locales_item SET description_loc9='This doesn\'t do a body good....' WHER
 UPDATE locales_item SET description_loc9='This old banner is tattered and foul-smelling, but nonetheless embodies Stonemaul pride.' WHERE entry=33095; /* description: This old banner is tattered and foul-smelling, but nonetheless embodies Stonemaul pride. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=33154; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='It seems to have survived the crash intact... mostly.' WHERE entry=33163; /* description: It seems to have survived the crash intact... mostly. */
-UPDATE locales_item SET description_loc9='Chilling!' WHERE entry=33234; /* description: Chilling! */
 UPDATE locales_item SET description_loc9='Because, Let\'s Face it, \'New Fizzy Faire Drink\' Was Awful' WHERE entry=33236; /* description: Because, Let\'s Face it, \'New Fizzy Faire Drink\' Was Awful */
 UPDATE locales_item SET description_loc9='It\'s... HUGE!' WHERE entry=33254; /* description: It\'s... HUGE! */
+UPDATE locales_item SET description_loc9='Detailing plans of an attack upon Westguard Keep by Glacion the frost wyrm.' WHERE entry=33289; /* description: Detailing plans of an attack upon Westguard Keep by Glacion the frost wyrm. */
 UPDATE locales_item SET description_loc9='There\'s a hole for your head...' WHERE entry=33292; /* description: There\'s a hole for your head... */
+UPDATE locales_item SET name_loc9='Ram Racing Reins',description_loc9='Giddyup!' WHERE entry=33306; /* name: Ram Racing Reins */ .* description: Giddyup! */
+UPDATE locales_item SET description_loc9='Detailing plans of an attack upon Camp Winterhoof by Glacion the frost wyrm.' WHERE entry=33347; /* description: Detailing plans of an attack upon Camp Winterhoof by Glacion the frost wyrm. */
+UPDATE locales_item SET description_loc9='You know this blade...' WHERE entry=33492; /* description: You know this blade... */
+UPDATE locales_item SET name_loc9='Balanced Concoction',description_loc9='Success!' WHERE entry=33617; /* name: Balanced Concoction */ .* description: Success! */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=33809; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Can only be used at the Ancestral Grounds in Nagrand.' WHERE entry=33851; /* description: Can only be used at the Ancestral Grounds in Nagrand. */
 UPDATE locales_item SET description_loc9='Requires the smoldering corpse of an Abyssal Flamebringer.' WHERE entry=33852; /* description: Requires the smoldering corpse of an Abyssal Flamebringer. */
@@ -252,45 +338,81 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.'
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=33977; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=33993; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount.' WHERE entry=33999; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount. */
-UPDATE locales_item SET description_loc9='Drop it then rock it!' WHERE entry=34051; /* description: Drop it then rock it! */
+UPDATE locales_item SET description_loc9='Though dead, the eyes seemingly look right through you.' WHERE entry=34027; /* description: Though dead, the eyes seemingly look right through you. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount.' WHERE entry=34092; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=34129; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
+UPDATE locales_item SET description_loc9='Electricity arcs out from the head of the staff.' WHERE entry=34236; /* description: Electricity arcs out from the head of the staff. */
+UPDATE locales_item SET description_loc9='The heart is freezing to the touch.' WHERE entry=34237; /* description: The heart is freezing to the touch. */
+UPDATE locales_item SET description_loc9='The shield houses an ancient evil.' WHERE entry=34238; /* description: The shield houses an ancient evil. */
+UPDATE locales_item SET description_loc9='Touching this armor makes you gasp for air.' WHERE entry=34239; /* description: Touching this armor makes you gasp for air. */
 UPDATE locales_item SET description_loc9='The energy of the Sunwell courses through Thori\'dal.' WHERE entry=34334; /* description: The energy of the Sunwell courses through Thori\'dal. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=34425; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='It reads \'Capissen 38\' on the bottom.' WHERE entry=34469; /* description: It reads \'Capissen 38\' on the bottom. */
+UPDATE locales_item SET description_loc9='It reads \'Capissen 38\' on the bottom.' WHERE entry=34474; /* description: It reads \'Capissen 38\' on the bottom. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=34478; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='The legendary uncatchable fish of Ironforge.  Just holding this scaly old monster makes you feel tough.' WHERE entry=34484; /* description: The legendary uncatchable fish of Ironforge.  Just holding this scaly old monster makes you feel tough. */
 UPDATE locales_item SET description_loc9='Said to be the craftiest fish in Orgrimmar, it appears he was outsmarted at last.' WHERE entry=34486; /* description: Said to be the craftiest fish in Orgrimmar, it appears he was outsmarted at last. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=34492; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=34493; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=34535; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET name_loc9='Claw of Claximus',description_loc9='Click-clack!' WHERE entry=34621; /* name: Claw of Claximus */ .* description: Click-clack! */
+UPDATE locales_item SET description_loc9='A feat of mechanimagicological engineering.' WHERE entry=34669; /* description: A feat of mechanimagicological engineering. */
+UPDATE locales_item SET name_loc9='Pneumatic Tank Transjigamarig',description_loc9='P.T.T.' WHERE entry=34785; /* name: Pneumatic Tank Transjigamarig */ .* description: P.T.T. */
+UPDATE locales_item SET description_loc9='An ancient horn carved from whale bone.' WHERE entry=34813; /* description: An ancient horn carved from whale bone. */
+UPDATE locales_item SET description_loc9='An ancient horn carved from whale bone.' WHERE entry=34844; /* description: An ancient horn carved from whale bone. */
+UPDATE locales_item SET description_loc9='This is some fancy gnomish engineering right here!' WHERE entry=34984; /* description: This is some fancy gnomish engineering right here! */
 UPDATE locales_item SET description_loc9='This little fish is charged with arcane energy.' WHERE entry=35287; /* description: This little fish is charged with arcane energy. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=35504; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon the mount of Kael\'thas Sunstrider.  This is a very fast mount.' WHERE entry=35513; /* description: Teaches you how to summon the mount of Kael\'thas Sunstrider.  This is a very fast mount. */
+UPDATE locales_item SET name_loc9='Stolen Moa\'ki Goods',description_loc9='Heavy.' WHERE entry=35686; /* name: Stolen Moa\'ki Goods */ .* description: Heavy. */
 UPDATE locales_item SET description_loc9='A large, bulky boulder from the hills above Thor Modan.' WHERE entry=35734; /* description: A large, bulky boulder from the hills above Thor Modan. */
+UPDATE locales_item SET description_loc9='Bears the Insignia of the Horde' WHERE entry=35784; /* description: Bears the Insignia of the Horde */
 UPDATE locales_item SET description_loc9='Summons the image of Drakuru for a short time.' WHERE entry=35797; /* description: Summons the image of Drakuru for a short time. */
-UPDATE locales_item SET description_loc9='Ribbit!' WHERE entry=35803; /* description: Ribbit! */
+UPDATE locales_item SET name_loc9='Tua\'kea Crab Trap',description_loc9='Clickety-clack!' WHERE entry=35802; /* name: Tua\'kea Crab Trap */ .* description: Clickety-clack! */
+UPDATE locales_item SET name_loc9='The Flesh of "Two Huge Pincers"',description_loc9='Succulent!' WHERE entry=35831; /* name: The Flesh of "Two Huge Pincers" */ .* description: Succulent! */
+UPDATE locales_item SET name_loc9='Letter from Saurfang',description_loc9='Sealed' WHERE entry=35941; /* name: Letter from Saurfang */ .* description: Sealed */
+UPDATE locales_item SET description_loc9='This gem seems to be pulsating.' WHERE entry=36739; /* description: This gem seems to be pulsating. */
 UPDATE locales_item SET description_loc9='The stopper appears to be stuck...' WHERE entry=36769; /* description: The stopper appears to be stuck... */
+UPDATE locales_item SET description_loc9='There is an inscription on this.' WHERE entry=36958; /* description: There is an inscription on this. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.' WHERE entry=37012; /* description: Teaches you how to summon this mount. */
+UPDATE locales_item SET description_loc9='Gun for the Ethical and Humane Treatment of Animals' WHERE entry=37018; /* description: Gun for the Ethical and Humane Treatment of Animals */
+UPDATE locales_item SET description_loc9='The motherlode!' WHERE entry=37580; /* description: The motherlode! */
 UPDATE locales_item SET description_loc9='Gnomish Nutritional Effervescent Remarkably Delicious Sweets' WHERE entry=37583; /* description: Gnomish Nutritional Effervescent Remarkably Delicious Sweets */
 UPDATE locales_item SET description_loc9='Note: Contains no actual demonic energy.' WHERE entry=37585; /* description: Note: Contains no actual demonic energy. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount.' WHERE entry=37676; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount. */
+UPDATE locales_item SET description_loc9='Needs more carrot.' WHERE entry=37708; /* description: Needs more carrot. */
 UPDATE locales_item SET description_loc9='A second test token for the Currency Token system' WHERE entry=37742; /* description: A second test token for the Currency Token system */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=37828; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Nothing ventured, nothing gained.' WHERE entry=37836; /* description: Nothing ventured, nothing gained. */
+UPDATE locales_item SET description_loc9='Beautiful and perfect in every way.' WHERE entry=37880; /* description: Beautiful and perfect in every way. */
 UPDATE locales_item SET description_loc9='Barleybrew brew, when you want the very best.' WHERE entry=37893; /* description: Barleybrew brew, when you want the very best. */
 UPDATE locales_item SET description_loc9='You\'ve called down the thunder!' WHERE entry=37894; /* description: You\'ve called down the thunder! */
 UPDATE locales_item SET description_loc9='T\'chali\'s Voodoo Brew has magic you don\'t want to understand.' WHERE entry=37895; /* description: T\'chali\'s Voodoo Brew has magic you don\'t want to understand. */
 UPDATE locales_item SET description_loc9='Drohn\'s Distillery, a wise choice.' WHERE entry=37896; /* description: Drohn\'s Distillery, a wise choice. */
 UPDATE locales_item SET description_loc9='Gordok brew, it\'s wet.' WHERE entry=37897; /* description: Gordok brew, it\'s wet. */
 UPDATE locales_item SET description_loc9='A weak alcohol, but a technological triumph in brewing technology.' WHERE entry=37906; /* description: A weak alcohol, but a technological triumph in brewing technology. */
+UPDATE locales_item SET description_loc9='A thoroughly read copy.' WHERE entry=37931; /* description: A thoroughly read copy. */
+UPDATE locales_item SET description_loc9='The Magnataur Slayer.' WHERE entry=38154; /* description: The Magnataur Slayer. */
+UPDATE locales_item SET description_loc9='Dancer\'s Integrated Sonic Celebration Oscillator' WHERE entry=38301; /* description: Dancer\'s Integrated Sonic Celebration Oscillator */
+UPDATE locales_item SET description_loc9='The decanter shimmers with an unearthly glow.' WHERE entry=38321; /* description: The decanter shimmers with an unearthly glow. */
+UPDATE locales_item SET description_loc9='Main ingredient in Popped-Abysmal.' WHERE entry=38338; /* description: Main ingredient in Popped-Abysmal. */
+UPDATE locales_item SET description_loc9='Mmmmm.... Amberseed!' WHERE entry=38340; /* description: Mmmmm.... Amberseed! */
+UPDATE locales_item SET description_loc9='Origin unknown.' WHERE entry=38342; /* description: Origin unknown. */
+UPDATE locales_item SET name_loc9='Muddy Mire Maggot',description_loc9='Mmmm!' WHERE entry=38386; /* name: Muddy Mire Maggot */ .* description: Mmmm! */
+UPDATE locales_item SET name_loc9='Spiky Spider Egg',description_loc9='Half-hatched.' WHERE entry=38393; /* name: Spiky Spider Egg */ .* description: Half-hatched. */
 UPDATE locales_item SET description_loc9='It\'ll knock your socks off... and then set your feet on fire.' WHERE entry=38466; /* description: It\'ll knock your socks off... and then set your feet on fire. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=38628; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET name_loc9='Treasure of Chulo the Mad',description_loc9='Candybars?!' WHERE entry=38638; /* name: Treasure of Chulo the Mad */ .* description: Candybars?! */
+UPDATE locales_item SET name_loc9='Treasure of Gawanil',description_loc9='Gold!' WHERE entry=38639; /* name: Treasure of Gawanil */ .* description: Gold! */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=38658; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Num, num!' WHERE entry=38706; /* description: Num, num! */
+UPDATE locales_item SET name_loc9='Blood of Mam\'toth',description_loc9='It\'s alive!' WHERE entry=39167; /* name: Blood of Mam\'toth */ .* description: It\'s alive! */
+UPDATE locales_item SET name_loc9='Prince Valanar\'s Report',description_loc9='Sealed' WHERE entry=39269; /* name: Prince Valanar\'s Report */ .* description: Sealed */
 UPDATE locales_item SET description_loc9='Teaches you how to summon Frosty!' WHERE entry=39286; /* description: Teaches you how to summon Frosty! */
 UPDATE locales_item SET description_loc9='A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe.' WHERE entry=39505; /* description: A set of precision quills and fine crystalline bottles to inspire and empower the truly dedicated scribe. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=39656; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Bulbous, bluish and somewhat bitter.' WHERE entry=39668; /* description: Bulbous, bluish and somewhat bitter. */
+UPDATE locales_item SET name_loc9='Ghoul Drool',description_loc9='Mouthwatering!' WHERE entry=39669; /* name: Ghoul Drool */ .* description: Mouthwatering! */
 UPDATE locales_item SET description_loc9='This egg is hatching into something.' WHERE entry=39878; /* description: This egg is hatching into something. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon and dismiss this companion.' WHERE entry=39896; /* description: Teaches you how to summon and dismiss this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon and dismiss this companion.' WHERE entry=39898; /* description: Teaches you how to summon and dismiss this companion. */
@@ -300,14 +422,22 @@ UPDATE locales_item SET description_loc9='Fresh from the bush.' WHERE entry=4035
 UPDATE locales_item SET description_loc9='Filled with pulp.' WHERE entry=40357; /* description: Filled with pulp. */
 UPDATE locales_item SET description_loc9='A unappealing, ragged chunk of meat.' WHERE entry=40358; /* description: A unappealing, ragged chunk of meat. */
 UPDATE locales_item SET description_loc9='There are still some feathers on the meat.' WHERE entry=40359; /* description: There are still some feathers on the meat. */
+UPDATE locales_item SET description_loc9='Unstable D16 Explosive Device' WHERE entry=40686; /* description: Unstable D16 Explosive Device */
+UPDATE locales_item SET description_loc9='Imperial Sword' WHERE entry=40703; /* description: Imperial Sword */
+UPDATE locales_item SET description_loc9='Mobile Oversized Letter and Literary Extractor' WHERE entry=40768; /* description: Mobile Oversized Letter and Literary Extractor */
 UPDATE locales_item SET description_loc9='Includes Gyromatic Micro-Adjuster, Arclight Spanner, Flint and Tinder, Blacksmithing Hammer, Mining Pick, and a Skinning Knife.' WHERE entry=40772; /* description: Includes Gyromatic Micro-Adjuster, Arclight Spanner, Flint and Tinder, Blacksmithing Hammer, Mining Pick, and a Skinning Knife. */
 UPDATE locales_item SET description_loc9='Used as a mining pick or blacksmith hammer.' WHERE entry=40892; /* description: Used as a mining pick or blacksmith hammer. */
 UPDATE locales_item SET description_loc9='Used as a mining pick or skinning knife.' WHERE entry=40893; /* description: Used as a mining pick or skinning knife. */
+UPDATE locales_item SET description_loc9='The interior of the stone shell is filled with grooves, apparently to secure the other half of the keystone.' WHERE entry=41258; /* description: The interior of the stone shell is filled with grooves, apparently to secure the other half of the keystone. */
+UPDATE locales_item SET name_loc9='Banshee Essence',description_loc9='Stretchy!' WHERE entry=41504; /* name: Banshee Essence */ .* description: Stretchy! */
 UPDATE locales_item SET description_loc9='Teaches you how to ride this sweet hog.' WHERE entry=41508; /* description: Teaches you how to ride this sweet hog. */
 UPDATE locales_item SET description_loc9='Redeem at Cartier & Co. Fine Jewelry shop in Dalaran.' WHERE entry=41596; /* description: Redeem at Cartier & Co. Fine Jewelry shop in Dalaran. */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in Strand of the Ancients' WHERE entry=42425; /* description: Medal awarded for fighting in Strand of the Ancients */
+UPDATE locales_item SET name_loc9='Mana Injector Kit',description_loc9='Failsafe.' WHERE entry=42546; /* name: Mana Injector Kit */ .* description: Failsafe. */
 UPDATE locales_item SET description_loc9='Matches any Socket.  Maximum of one socketed in your equipment' WHERE entry=42701; /* description: Matches any Socket.  Maximum of one socketed in your equipment */
+UPDATE locales_item SET name_loc9='Forgotten Depths Venom Sac',description_loc9='Gooey.' WHERE entry=42770; /* name: Forgotten Depths Venom Sac */ .* description: Gooey. */
 UPDATE locales_item SET description_loc9='Just the thing for a cold crusader.' WHERE entry=42779; /* description: Just the thing for a cold crusader. */
+UPDATE locales_item SET description_loc9='A feeling of hope washes over you as you touch the flower.' WHERE entry=43084; /* description: A feeling of hope washes over you as you touch the flower. */
 UPDATE locales_item SET description_loc9='Best not to ask.' WHERE entry=43086; /* description: Best not to ask. */
 UPDATE locales_item SET description_loc9='Those infused mushrooms add quite a kick.' WHERE entry=43099; /* description: Those infused mushrooms add quite a kick. */
 UPDATE locales_item SET description_loc9='Arena Points are gained by being victorious in arena combat. You can trade in these arena points for fabulous prizes!' WHERE entry=43307; /* description: Arena Points are gained by being victorious in arena combat. You can trade in these arena points for fabulous prizes! */
@@ -376,8 +506,11 @@ UPDATE locales_item SET description_loc9='You mages refuse to provide me that wh
 UPDATE locales_item SET description_loc9='Asto\'re da shan\'re. Turus Fulo Il\'amare, A\'Talah Adore. Isera\'duna...' WHERE entry=43722; /* description: Asto\'re da shan\'re. Turus Fulo Il\'amare, A\'Talah Adore. Isera\'duna... */
 UPDATE locales_item SET description_loc9='I wish Captain Sanders would hurry up with my shipment of wine.' WHERE entry=43723; /* description: I wish Captain Sanders would hurry up with my shipment of wine. */
 UPDATE locales_item SET description_loc9='Scales on for added crunch!' WHERE entry=44071; /* description: Scales on for added crunch! */
+UPDATE locales_item SET description_loc9='The most powerful surface-to-gnome missile available!' WHERE entry=44212; /* description: The most powerful surface-to-gnome missile available! */
 UPDATE locales_item SET description_loc9='Teaches you how to ride this chopper.' WHERE entry=44413; /* description: Teaches you how to ride this chopper. */
 UPDATE locales_item SET name_loc9='Elementium-plated Exhaust Pipe',description_loc9='Limited Edition' WHERE entry=44500; /* name: Elementium-plated Exhaust Pipe */ .* description: Limited Edition */
+UPDATE locales_item SET description_loc9='Blade of the Crimson Landlord.' WHERE entry=44505; /* description: Blade of the Crimson Landlord. */
+UPDATE locales_item SET description_loc9='Randomly discover a new Alchemy recipe.' WHERE entry=44508; /* description: Randomly discover a new Alchemy recipe. */
 UPDATE locales_item SET description_loc9='Improved with age.' WHERE entry=44618; /* description: Improved with age. */
 UPDATE locales_item SET description_loc9='Aged to perfection.' WHERE entry=44619; /* description: Aged to perfection. */
 UPDATE locales_item SET description_loc9='Herring seeks your life!' WHERE entry=44703; /* description: Herring seeks your life! */
@@ -387,6 +520,7 @@ UPDATE locales_item SET description_loc9='Smells a little funny...' WHERE entry=
 UPDATE locales_item SET description_loc9='Who knew he was so into books?' WHERE entry=44738; /* description: Who knew he was so into books? */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=44819; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=44822; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='Sold by Pilgrim\'s Bounty vendors in capital cities.' WHERE entry=44853; /* description: Sold by Pilgrim\'s Bounty vendors in capital cities. */
 UPDATE locales_item SET description_loc9='...on a stick!' WHERE entry=44940; /* description: ...on a stick! */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=44965; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=44970; /* description: Teaches you how to summon this companion. */
@@ -405,17 +539,25 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this mount. 
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=45606; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Just holding this heavy and unwieldy tome makes you feel a little clumsy....' WHERE entry=45849; /* description: Just holding this heavy and unwieldy tome makes you feel a little clumsy.... */
 UPDATE locales_item SET description_loc9='Unnaturally cold to the touch.' WHERE entry=45876; /* description: Unnaturally cold to the touch. */
+UPDATE locales_item SET description_loc9='So good it\'s scary!' WHERE entry=45904; /* description: So good it\'s scary! */
+UPDATE locales_item SET description_loc9='Not really safe for drinking.' WHERE entry=46004; /* description: Not really safe for drinking. */
+UPDATE locales_item SET description_loc9='Not really safe for drinking.' WHERE entry=46005; /* description: Not really safe for drinking. */
 UPDATE locales_item SET description_loc9='The power of creation courses through this weapon.' WHERE entry=46017; /* description: The power of creation courses through this weapon. */
+UPDATE locales_item SET description_loc9='The blade carries with it a sense of deep sorrow.' WHERE entry=46024; /* description: The blade carries with it a sense of deep sorrow. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon a Sea Turtle mount.  This mount can\'t move very quiclky on land, but she\'s a great swimmer.' WHERE entry=46109; /* description: Teaches you how to summon a Sea Turtle mount.  This mount can\'t move very quiclky on land, but she\'s a great swimmer. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=46398; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=46544; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=46545; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount.' WHERE entry=46708; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount. */
 UPDATE locales_item SET description_loc9='An official Red Rider Carbine-Action 200-Shot Range Model Air Rifle!' WHERE entry=46725; /* description: An official Red Rider Carbine-Action 200-Shot Range Model Air Rifle! */
+UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=46747; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
+UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=46763; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=46820; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=46821; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='Tiffany Cartier of Dalaran would be very interested in this fine powder.' WHERE entry=46849; /* description: Tiffany Cartier of Dalaran would be very interested in this fine powder. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  This is a very fast mount.' WHERE entry=47180; /* description: Teaches you how to summon this mount.  This is a very fast mount. */
 UPDATE locales_item SET description_loc9='Medal awarded for fighting in Isle of Conquest' WHERE entry=47395; /* description: Medal awarded for fighting in Isle of Conquest */
+UPDATE locales_item SET description_loc9='Smells faintly of raspberries.' WHERE entry=47521; /* description: Smells faintly of raspberries. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount.' WHERE entry=47840; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount.' WHERE entry=47840; /* description: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is an extremely fast mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=48112; /* description: Teaches you how to summon this companion. */
@@ -426,6 +568,8 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this compani
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=48122; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=48124; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=48126; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='Worth a handful of Dalaran Cooking Tokens from the right person.' WHERE entry=48679; /* description: Worth a handful of Dalaran Cooking Tokens from the right person. */
+UPDATE locales_item SET description_loc9='Worth a handful of Dalaran Cooking Tokens from the right person.' WHERE entry=48681; /* description: Worth a handful of Dalaran Cooking Tokens from the right person. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49287; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49343; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49362; /* description: Teaches you how to summon this companion. */
@@ -433,11 +577,16 @@ UPDATE locales_item SET description_loc9='Teaches you how to summon this compani
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49662; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49663; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49665; /* description: Teaches you how to summon this companion. */
+UPDATE locales_item SET description_loc9='Worth a handful of Dalaran Cooking Tokens from the right person.' WHERE entry=49667; /* description: Worth a handful of Dalaran Cooking Tokens from the right person. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=49912; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.' WHERE entry=50250; /* description: Teaches you how to summon this mount. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=50446; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.' WHERE entry=50818; /* description: Teaches you how to summon this mount. */
+UPDATE locales_item SET description_loc9='The locket opens to reveal an engraved image of Jaina Proudmoore.' WHERE entry=51318; /* description: The locket opens to reveal an engraved image of Jaina Proudmoore. */
+UPDATE locales_item SET description_loc9='Once it held her image.  He always wore it close to his heart.' WHERE entry=52251; /* description: Once it held her image.  He always wore it close to his heart. */
 UPDATE locales_item SET description_loc9='May you always bring light into dark places.' WHERE entry=52252; /* description: May you always bring light into dark places. */
+UPDATE locales_item SET description_loc9='Measures radiation levels, temperature, and makes neat sounds too!' WHERE entry=52541; /* description: Measures radiation levels, temperature, and makes neat sounds too! */
+UPDATE locales_item SET description_loc9='Point, Shoot, Motivate!' WHERE entry=52566; /* description: Point, Shoot, Motivate! */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=54436; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this companion.' WHERE entry=54847; /* description: Teaches you how to summon this companion. */
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.' WHERE entry=54860; /* description: Teaches you how to summon this mount. */
