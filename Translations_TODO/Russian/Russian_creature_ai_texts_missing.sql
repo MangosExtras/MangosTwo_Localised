@@ -10,7 +10,7 @@ UPDATE trans_words SET content_loc8='Your corpse will nourish the soil!' WHERE w
 UPDATE trans_words SET content_loc8='How easy it was to manipulate you into recovering the last Suntara stone from those imbeciles of the Twilight\'s Hammer..' WHERE word_id = 5899;
 UPDATE trans_words SET content_loc8='%s\'s laughter trails off..' WHERE word_id = 5903;
 UPDATE trans_words SET content_loc8='Foolish druid! Dividing your essence has weakened you, opening the door for my master to dominate the Emerald Dream. Your spirit and body will die here!' WHERE word_id = 6632;
-UPDATE trans_words SET content_loc8='%s faces southeast and whimpers before looking back at you. ' WHERE word_id = 5788;
+UPDATE trans_words SET content_loc8='%s faces southeast and whimpers before looking back at you.' WHERE word_id = 5788;
 UPDATE trans_words SET content_loc8='Obsidion, Rise and Serve your Master!' WHERE word_id = 5905;
 UPDATE trans_words SET content_loc8='What? How dare you!' WHERE word_id = 5897;
 UPDATE trans_words SET content_loc8='At last: one among you is worthy of my knowledge. Worry not: I have probed your thoughts, no harm will come to you.' WHERE word_id = 5906;
@@ -24,7 +24,7 @@ UPDATE trans_words SET content_loc8='I PROMISE I WON\'T KILL YOUR CREW THIS TIME
 UPDATE trans_words SET content_loc8='HAVE YOU RUN OUT OF SHIPS TO SEND? WHERE IS YOUR COURAGE?' WHERE word_id = 5914;
 UPDATE trans_words SET content_loc8='I HAVE YOUR LITTLE BELT TIED AROUND MY FINGER, SMOTTS. DON\'T YOU WANT IT BACK?' WHERE word_id = 5916;
 UPDATE trans_words SET content_loc8='SMOTTS, I HAVE YOUR LITTLE BELT....COME GET IT!' WHERE word_id = 5909;
-UPDATE trans_words SET content_loc8='Wait... WAIT! What is it that you want to know? I know you\'re the $c named $N.' WHERE word_id = 6692;
+UPDATE trans_words SET content_loc8='Wait... WAIT! What is it that you want to know? I know you\'re the $C named $N.' WHERE word_id = 6692;
 UPDATE trans_words SET content_loc8='Never underestimate the other ethereal\'s greed.' WHERE word_id = 6162;
 UPDATE trans_words SET content_loc8='%s attacks Karang\'s Banner!' WHERE word_id = 5624;
 UPDATE trans_words SET content_loc8='%s shimmers and becomes intangible.' WHERE word_id = 6159;
@@ -33,7 +33,7 @@ UPDATE trans_words SET content_loc8='I\'m flesh and blood again! Thank you!' WHE
 UPDATE trans_words SET content_loc8='Welcome to the world of the unliving!' WHERE word_id = 6747;
 UPDATE trans_words SET content_loc8='%s grabs the back of his neck and his eyes go wide.' WHERE word_id = 5609;
 UPDATE trans_words SET content_loc8='Off with you, $N.' WHERE word_id = 6126;
-UPDATE trans_words SET content_loc8='Move along, $c.' WHERE word_id = 6125;
+UPDATE trans_words SET content_loc8='Move along, $C.' WHERE word_id = 6125;
 UPDATE trans_words SET content_loc8='Looks like today was the wrong day to quit mana tapping...' WHERE word_id = 6110;
 UPDATE trans_words SET content_loc8='Oh, would you please stop checking your nails and spanking yourself, for one moment? Really, no one cares!' WHERE word_id = 6098;
 UPDATE trans_words SET content_loc8='Are you hungry? I\'m hungry. I just can\'t stand the thought of cured ham steak from Thultash again. If only we could get some of that succulent roasted quail!' WHERE word_id = 6097;
@@ -52,11 +52,11 @@ UPDATE trans_words SET content_loc8='T\'chali\'s Voodoo Brewery has the best bre
 UPDATE trans_words SET content_loc8='Whoah! Walk by again girl!' WHERE word_id = 6080;
 UPDATE trans_words SET content_loc8='Hey, hey sweet thing! Looking good!' WHERE word_id = 6078;
 UPDATE trans_words SET content_loc8='Hey, hey! Nice build you got there honey!' WHERE word_id = 6077;
-UPDATE trans_words SET content_loc8='Hey tough stuff! Hey, $c! Do you like money? I\'m loaded! How about you come over here and check out my gold coins?' WHERE word_id = 6075;
+UPDATE trans_words SET content_loc8='Hey tough stuff! Hey, $C! Do you like money? I\'m loaded! How about you come over here and check out my gold coins?' WHERE word_id = 6075;
 UPDATE trans_words SET content_loc8='The Dark Lady fought as many as she could, but in the end... I hope she survived. Please help!' WHERE word_id = 6770;
-UPDATE trans_words SET content_loc8='This will teach you to lay off the herb, $r.' WHERE word_id = 5600;
+UPDATE trans_words SET content_loc8='This will teach you to lay off the herb, $R.' WHERE word_id = 5600;
 UPDATE trans_words SET content_loc8='The Scarlet Crusade shall not fail in it\'s mission!' WHERE word_id = 5591;
-UPDATE trans_words SET content_loc8='The Agamand Mills is held by the Scourge, $c. Join us!' WHERE word_id = 5587;
+UPDATE trans_words SET content_loc8='The Agamand Mills is held by the Scourge, $C. Join us!' WHERE word_id = 5587;
 UPDATE trans_words SET content_loc8='You are in the presence of a god!' WHERE word_id = 5575;
 UPDATE trans_words SET content_loc8='%s seems to no longer be able to cast spells...' WHERE word_id = 5570;
 UPDATE trans_words SET content_loc8='Come on! These jokes are epic!' WHERE word_id = 6058;
@@ -82,7 +82,7 @@ UPDATE trans_words SET content_loc8='Your pathetic attempt to escape will be sho
 UPDATE trans_words SET content_loc8='Where in the Nether are these damnable lashers?' WHERE word_id = 6841;
 UPDATE trans_words SET content_loc8='I wonder what that little purple creature at the village is...It\'s certainly beautiful.' WHERE word_id = 6843;
 UPDATE trans_words SET content_loc8='I\'m supposed to be hunting infected nightstalkers...this should be easy.' WHERE word_id = 6844;
-UPDATE trans_words SET content_loc8='Deal with this interruption, Keldonus. After you are through, bring the head of the one they call $n. I will decorate my chambers with their skull.' WHERE word_id = 6847;
+UPDATE trans_words SET content_loc8='Deal with this interruption, Keldonus. After you are through, bring the head of the one they call $N. I will decorate my chambers with their skull.' WHERE word_id = 6847;
 UPDATE trans_words SET content_loc8='This transgression against the Blue Dragonsflight has been noted. I will take extra pleasure in separating the life energy from your body!' WHERE word_id = 6839;
 
 SET NAMES 'latin1';

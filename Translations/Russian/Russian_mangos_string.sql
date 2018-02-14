@@ -143,8 +143,7 @@ UPDATE mangos_string SET content_loc8='Таблица локаций для те
 UPDATE mangos_string SET content_loc8='Локация для телепортации не найдена!' WHERE entry=164;
 UPDATE mangos_string SET content_loc8='Требуется параметр поиска.' WHERE entry=165;
 UPDATE mangos_string SET content_loc8='Нет подходящих вашему запросу локаций для телепортации.' WHERE entry=166;
-UPDATE mangos_string SET content_loc8='Найденные локации:
-%s' WHERE entry=168;
+UPDATE mangos_string SET content_loc8='Найденные локации:$B%s' WHERE entry=168;
 UPDATE mangos_string SET content_loc8='Письмо отправлено к %s' WHERE entry=169;
 UPDATE mangos_string SET content_loc8='Вы пытаетесь прослушать звук %u но такого не существует.' WHERE entry=170;
 UPDATE mangos_string SET content_loc8='Вы не можете телепортироваться к себе!' WHERE entry=171;
@@ -205,6 +204,7 @@ UPDATE mangos_string SET content_loc8='НЕ ИСПОЛЬЗУЕТСЯ' WHERE entr
 UPDATE mangos_string SET content_loc8='Они исчезнут после перезапуска сервера.' WHERE entry=245;
 UPDATE mangos_string SET content_loc8='Точка пути %d: Информация для существа: %s, GUID: %d' WHERE entry=246;
 UPDATE mangos_string SET content_loc8='Время ожидания: %d' WHERE entry=247;
+UPDATE mangos_string SET content_loc8='Время ожидания: %d' WHERE entry=247;
 UPDATE mangos_string SET content_loc8='Модель %d: %d' WHERE entry=248;
 UPDATE mangos_string SET content_loc8='Эмоция: %d' WHERE entry=249;
 UPDATE mangos_string SET content_loc8='Заклинание: %d' WHERE entry=250;
@@ -246,8 +246,7 @@ UPDATE mangos_string SET content_loc8='Приём сообщений: включ
 UPDATE mangos_string SET content_loc8='Приём сообщений: выключено' WHERE entry=286;
 UPDATE mangos_string SET content_loc8='Существо (GUID: %u) не найдено' WHERE entry=287;
 UPDATE mangos_string SET content_loc8='Поступил новый запрос от %s' WHERE entry=289;
-UPDATE mangos_string SET content_loc8='Запрос от %s (обновлен: %s):
-%s' WHERE entry=290;
+UPDATE mangos_string SET content_loc8='Запрос от %s (обновлен: %s):$B%s' WHERE entry=290;
 UPDATE mangos_string SET content_loc8='Показ новых запросов: Вкл.' WHERE entry=291;
 UPDATE mangos_string SET content_loc8='Показ новых запросов: Выкл.' WHERE entry=292;
 UPDATE mangos_string SET content_loc8='Запрос %i не существует' WHERE entry=293;
@@ -269,7 +268,6 @@ UPDATE mangos_string SET content_loc8='Фракция не найдена!' WHER
 UPDATE mangos_string SET content_loc8='Фракция %i не известна!' WHERE entry=308;
 UPDATE mangos_string SET content_loc8='Неправильное значение %s' WHERE entry=309;
 UPDATE mangos_string SET content_loc8='дельта должна быть между 0 и %d (включительно)' WHERE entry=310;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hfaction:%d|h[%s]|h|r' WHERE entry=311;
 UPDATE mangos_string SET content_loc8='[видимый]' WHERE entry=312;
 UPDATE mangos_string SET content_loc8='[в войне]' WHERE entry=313;
 UPDATE mangos_string SET content_loc8='[мир]' WHERE entry=314;
@@ -294,7 +292,7 @@ UPDATE mangos_string SET content_loc8='Режим ГМ выключен' WHERE e
 UPDATE mangos_string SET content_loc8='ГМ тэг для чата включен' WHERE entry=334;
 UPDATE mangos_string SET content_loc8='ГМ тэг для чата выключен' WHERE entry=335;
 UPDATE mangos_string SET content_loc8='Вы починили все предметы %s .' WHERE entry=336;
-UPDATE mangos_string SET content_loc8='%s $gпочинил:починила; все ваши предметы.' WHERE entry=337;
+UPDATE mangos_string SET content_loc8='%s $Gпочинил:починила; все ваши предметы.' WHERE entry=337;
 UPDATE mangos_string SET content_loc8='Вы включили режим хождения по воде %s для %s.' WHERE entry=338;
 UPDATE mangos_string SET content_loc8='Вам включил(а) режим хождения по воде %s  %s.' WHERE entry=339;
 UPDATE mangos_string SET content_loc8='%s теперь следует за вами.' WHERE entry=340;
@@ -306,7 +304,6 @@ UPDATE mangos_string SET content_loc8='Изменения игрока %s буд
 UPDATE mangos_string SET content_loc8='Изменения игрока %s (GUID #%u) будет предложено при следующем входе в мир.' WHERE entry=346;
 UPDATE mangos_string SET content_loc8='Маршрут такси ID %u не найден!' WHERE entry=347;
 UPDATE mangos_string SET content_loc8='Игровой объект (Entry: %u) имеет некорректные данные и не может быть заспавнен.' WHERE entry=348;
-UPDATE mangos_string SET content_loc8='%d (idx:%d) - |cffffffff|Htitle:%d|h[%s %s]|h|r %s %s' WHERE entry=349;
 UPDATE mangos_string SET content_loc8='Звание не найдено!' WHERE entry=351;
 UPDATE mangos_string SET content_loc8='Недопустимое звание ID: %u' WHERE entry=352;
 UPDATE mangos_string SET content_loc8='Звание %u (%s) добавлено в список известных званий для игрока %s.' WHERE entry=353;
@@ -329,7 +326,7 @@ UPDATE mangos_string SET content_loc8='Нет достижения!' WHERE entry
 UPDATE mangos_string SET content_loc8='Ответ:
 %s' WHERE entry=373;
 UPDATE mangos_string SET content_loc8='Кол-во заявок: %i' WHERE entry=374;
-UPDATE mangos_string SET content_loc8='Игрок %s не $gподавал:подавала; заявок.' WHERE entry=375;
+UPDATE mangos_string SET content_loc8='Игрок %s не $Gподавал:подавала; заявок.' WHERE entry=375;
 UPDATE mangos_string SET content_loc8='Пул не найден' WHERE entry=395;
 UPDATE mangos_string SET content_loc8='Пулы с случайным шансом:' WHERE entry=397;
 UPDATE mangos_string SET content_loc8='Пулы с равным шансом:' WHERE entry=398;
@@ -341,8 +338,8 @@ UPDATE mangos_string SET content_loc8='Передвижение существа
 UPDATE mangos_string SET content_loc8='Передвижение существа разрешено.' WHERE entry=405;
 UPDATE mangos_string SET content_loc8='Погода не может быть изменена на этой территории.' WHERE entry=406;
 UPDATE mangos_string SET content_loc8='Погода отключена на сервере.' WHERE entry=407;
-UPDATE mangos_string SET content_loc8='%s $gполучил:получила; бан на %s. Причина: %s.' WHERE entry=408;
-UPDATE mangos_string SET content_loc8='%s $gполучил:получила; вечный бан за %s.' WHERE entry=409;
+UPDATE mangos_string SET content_loc8='%s $Gполучил:получила; бан на %s. Причина: %s.' WHERE entry=408;
+UPDATE mangos_string SET content_loc8='%s $Gполучил:получила; вечный бан за %s.' WHERE entry=409;
 UPDATE mangos_string SET content_loc8='%s %s не найден' WHERE entry=410;
 UPDATE mangos_string SET content_loc8='%s разбанен.' WHERE entry=411;
 UPDATE mangos_string SET content_loc8='Произошла ошибка удаления бана с %s.' WHERE entry=412;
@@ -356,12 +353,7 @@ UPDATE mangos_string SET content_loc8='Информация' WHERE entry=419;
 UPDATE mangos_string SET content_loc8='Никогда' WHERE entry=420;
 UPDATE mangos_string SET content_loc8='Да' WHERE entry=421;
 UPDATE mangos_string SET content_loc8='Нет' WHERE entry=422;
-UPDATE mangos_string SET content_loc8='IP: %s 
-Дата запрета: %s 
-Дата отмены запрета: %s 
-Осталось: %s 
-Причина: %s 
-Установлена: %s' WHERE entry=423;
+UPDATE mangos_string SET content_loc8='IP: %s $BДата запрета: %s $BДата отмены запрета: %s $BОсталось: %s $BПричина: %s $BУстановлена: %s' WHERE entry=423;
 UPDATE mangos_string SET content_loc8='Не найден такой забаненный IP.' WHERE entry=424;
 UPDATE mangos_string SET content_loc8='Нет подходящей учетной записи.' WHERE entry=425;
 UPDATE mangos_string SET content_loc8='Нет забаненого аккаунта, на котором есть такой персонаж.' WHERE entry=426;
@@ -449,16 +441,6 @@ UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u ак�
 UPDATE mangos_string SET content_loc8='%d - отправитель: %s (guid: %u аккаунт: %u ) получатель: %s (guid: %u аккаунт: %u ) %s' WHERE entry=509;
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=510;
 UPDATE mangos_string SET content_loc8='Неверный тип ссылки!' WHERE entry=511;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hitem:%d:0:0:0:0:0:0:0:0|h[%s]|h|r ' WHERE entry=512;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hquest:%d:%d|h[%s]|h|r %s' WHERE entry=513;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hcreature_entry:%d|h[%s]|h|r' WHERE entry=514;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE entry=515;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hgameobject_entry:%d|h[%s]|h|r' WHERE entry=516;
-UPDATE mangos_string SET content_loc8='%d (Entry: %d) - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE entry=517;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hitemset:%d|h[%s %s]|h|r' WHERE entry=518;
-UPDATE mangos_string SET content_loc8='|cffffffff|Htele:%s|h[%s]|h|r' WHERE entry=519;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hspell:%d|h[%s]|h|r' WHERE entry=520;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hskill:%d|h[%s %s]|h|r %s %s' WHERE entry=521;
 UPDATE mangos_string SET content_loc8='Игровой объект (Entry: %u) не найден' WHERE entry=522;
 UPDATE mangos_string SET content_loc8='>> Игровой объект %s (GUID: %u) у %f %f %f. Ориентация %f.' WHERE entry=523;
 UPDATE mangos_string SET content_loc8='Выбранный объект: |cffffffff|Hitemset:%d|h[%s]|h|r GUID: %u ID: %u X: %f Y: %f Z: %f MapId: %u Ориентация: %f' WHERE entry=524;
@@ -476,18 +458,11 @@ UPDATE mangos_string SET content_loc8='Следовать за игроком %s
 UPDATE mangos_string SET content_loc8='Следовать за существом %s (lowguid %u)' WHERE entry=533;
 UPDATE mangos_string SET content_loc8='Следовать за <NULL>' WHERE entry=534;
 UPDATE mangos_string SET content_loc8='Неизвестный генератор движения (%u)' WHERE entry=538;
-UPDATE mangos_string SET content_loc8='Игрок выбрал NPC
-DB GUID: %u, Текущий GUID: %u.
-Фракция: %u.
-нпцФлаг: %u.
-Entry: %u.
-ДисплейID: %u (Текущий: %u).' WHERE entry=539;
+UPDATE mangos_string SET content_loc8='Игрок выбрал NPC$BDB GUID: %u, Текущий GUID: %u.$BФракция: %u.$BнпцФлаг: %u.$BEntry: %u.$BДисплейID: %u (Текущий: %u).' WHERE entry=539;
 UPDATE mangos_string SET content_loc8='Уровень: %u.' WHERE entry=540;
 UPDATE mangos_string SET content_loc8='Здоровье (базовое): %u. (максимум): %u. (текущее): %u.' WHERE entry=541;
 UPDATE mangos_string SET content_loc8='Флаг цели: %u. Динамический флаг: %u.фракция: %u.' WHERE entry=542;
-UPDATE mangos_string SET content_loc8='Флаг цели: %u.
-Динамический флаг: %u.
-фракция: %u.' WHERE entry=542;
+UPDATE mangos_string SET content_loc8='Флаг цели: %u.$BДинамический флаг: %u.$Bфракция: %u.' WHERE entry=542;
 UPDATE mangos_string SET content_loc8='Лут: %u Карманный лут: %u Снятие шкур: %u' WHERE entry=543;
 UPDATE mangos_string SET content_loc8='Позиция: %f %f %f.' WHERE entry=544;
 UPDATE mangos_string SET content_loc8='*** Это продавец!' WHERE entry=545;
@@ -499,8 +474,8 @@ UPDATE mangos_string SET content_loc8='Игрок%s %s (GUID: %u) Аккаунт
 UPDATE mangos_string SET content_loc8='Команда .pinfo не поддерживает подкоманду \'rep\' для игроков не в сети.' WHERE entry=550;
 UPDATE mangos_string SET content_loc8='%s открыл все территории.' WHERE entry=551;
 UPDATE mangos_string SET content_loc8='%s больше не имеет территорий для исследования.' WHERE entry=552;
-UPDATE mangos_string SET content_loc8='%s $gоткрыл:открыла; все территории для вас.' WHERE entry=553;
-UPDATE mangos_string SET content_loc8='%s $gзакрыл:закрыла; все открытые территории у вас.' WHERE entry=554;
+UPDATE mangos_string SET content_loc8='%s $Gоткрыл:открыла; все территории для вас.' WHERE entry=553;
+UPDATE mangos_string SET content_loc8='%s $Gзакрыл:закрыла; все открытые территории у вас.' WHERE entry=554;
 UPDATE mangos_string SET content_loc8='%s повысил вас в уровне до (%i)' WHERE entry=557;
 UPDATE mangos_string SET content_loc8='%s понизил вас в уровне до (%i)' WHERE entry=558;
 UPDATE mangos_string SET content_loc8='%s сбросил ваш уровень.' WHERE entry=559;
@@ -516,12 +491,9 @@ UPDATE mangos_string SET content_loc8='Выбраный игрок или сущ
 UPDATE mangos_string SET content_loc8='Игрок %s выучил все стандартные заклинания для расы/класса и получил заклинания, дающиеся за выполнение квестов.' WHERE entry=580;
 UPDATE mangos_string SET content_loc8='Поиск ближайших игровых объектов (расстояние %f): %u' WHERE entry=581;
 UPDATE mangos_string SET content_loc8='Время перерождения: Полное:%s Остаток:%s' WHERE entry=582;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Hgameevent:%d|h[%s]|h|r%s' WHERE entry=583;
 UPDATE mangos_string SET content_loc8='Событие не найдено!' WHERE entry=584;
 UPDATE mangos_string SET content_loc8='События не существует!' WHERE entry=585;
-UPDATE mangos_string SET content_loc8='Событие %u: %s%s
-Начало: %s Конец: %s Время до повтора: %s Длина: %s
-Следующий раз будет в: %s' WHERE entry=586;
+UPDATE mangos_string SET content_loc8='Событие %u: %s%s$BНачало: %s Конец: %s Время до повтора: %s Длина: %s$BСледующий раз будет в: %s' WHERE entry=586;
 UPDATE mangos_string SET content_loc8='Событие %u уже активно!' WHERE entry=587;
 UPDATE mangos_string SET content_loc8='Событие %u ещё не активно!' WHERE entry=588;
 UPDATE mangos_string SET content_loc8='Вы выучили все умения в профессии: %s' WHERE entry=592;
@@ -537,14 +509,14 @@ UPDATE mangos_string SET content_loc8='Орда победила!' WHERE entry=6
 UPDATE mangos_string SET content_loc8='Битва за Ущелье Песни Войны начнется через 1 минуту.' WHERE entry=602;
 UPDATE mangos_string SET content_loc8='Битва за Ущелье Песни Войны начнется через 30 секунд. Приготовьтесь!' WHERE entry=603;
 UPDATE mangos_string SET content_loc8='Битва за Ущелье Песни Войны началась!' WHERE entry=604;
-UPDATE mangos_string SET content_loc8='$n $gзахватил:захватила; флаг Орды!' WHERE entry=605;
-UPDATE mangos_string SET content_loc8='$n $gзахватил:захватила; флаг Альянса!' WHERE entry=606;
-UPDATE mangos_string SET content_loc8='$n $gпотерял:потеряла; флаг Орды!' WHERE entry=607;
-UPDATE mangos_string SET content_loc8='$n $gпотерял:потеряла; флаг Альянса!' WHERE entry=608;
-UPDATE mangos_string SET content_loc8='$n $gвернул:вернула; флаг Альянса на свою базу!' WHERE entry=609;
-UPDATE mangos_string SET content_loc8='$n $gвернул:вернула; флаг Орды на свою базу!' WHERE entry=610;
-UPDATE mangos_string SET content_loc8='$n $gподобрал:подобрала; флаг Орды!' WHERE entry=611;
-UPDATE mangos_string SET content_loc8='$n $gподобрал:подобрала; флаг Альянса!' WHERE entry=612;
+UPDATE mangos_string SET content_loc8='$N $Gзахватил:захватила; флаг Орды!' WHERE entry=605;
+UPDATE mangos_string SET content_loc8='$N $Gзахватил:захватила; флаг Альянса!' WHERE entry=606;
+UPDATE mangos_string SET content_loc8='$N $Gпотерял:потеряла; флаг Орды!' WHERE entry=607;
+UPDATE mangos_string SET content_loc8='$N $Gпотерял:потеряла; флаг Альянса!' WHERE entry=608;
+UPDATE mangos_string SET content_loc8='$N $Gвернул:вернула; флаг Альянса на свою базу!' WHERE entry=609;
+UPDATE mangos_string SET content_loc8='$N $Gвернул:вернула; флаг Орды на свою базу!' WHERE entry=610;
+UPDATE mangos_string SET content_loc8='$N $Gподобрал:подобрала; флаг Орды!' WHERE entry=611;
+UPDATE mangos_string SET content_loc8='$N $Gподобрал:подобрала; флаг Альянса!' WHERE entry=612;
 UPDATE mangos_string SET content_loc8='Флаги расположены по своим базам.' WHERE entry=613;
 UPDATE mangos_string SET content_loc8='Флаг Альянса теперь расположен на своей базе.' WHERE entry=614;
 UPDATE mangos_string SET content_loc8='Флаг Орды теперь расположен на своей базе.' WHERE entry=615;
@@ -558,10 +530,10 @@ UPDATE mangos_string SET content_loc8='кузницу' WHERE entry=653;
 UPDATE mangos_string SET content_loc8='ферму' WHERE entry=654;
 UPDATE mangos_string SET content_loc8='лесопилку' WHERE entry=655;
 UPDATE mangos_string SET content_loc8='золотой рудник' WHERE entry=656;
-UPDATE mangos_string SET content_loc8='%s $gзахватил:захватила; %s' WHERE entry=657;
-UPDATE mangos_string SET content_loc8='$n $gзащитил:защитила; %s' WHERE entry=658;
-UPDATE mangos_string SET content_loc8='$n $gосадил:осадила; %s' WHERE entry=659;
-UPDATE mangos_string SET content_loc8='$n претендует на захват %s! Если никто не вмешается, то через 1 минуту %s получит контроль над точкой!' WHERE entry=660;
+UPDATE mangos_string SET content_loc8='%s $Gзахватил:захватила; %s' WHERE entry=657;
+UPDATE mangos_string SET content_loc8='$N $Gзащитил:защитила; %s' WHERE entry=658;
+UPDATE mangos_string SET content_loc8='$N $Gосадил:осадила; %s' WHERE entry=659;
+UPDATE mangos_string SET content_loc8='$N претендует на захват %s! Если никто не вмешается, то через 1 минуту %s получит контроль над точкой!' WHERE entry=660;
 UPDATE mangos_string SET content_loc8='Битва за Низину Арати начнется через 1 минуту!' WHERE entry=661;
 UPDATE mangos_string SET content_loc8='Битва за Низину Арати начнется через 30 секунд. Приготовьтесь!' WHERE entry=662;
 UPDATE mangos_string SET content_loc8='Битва за Низину Арати началась!' WHERE entry=663;
@@ -597,13 +569,11 @@ UPDATE mangos_string SET content_loc8='Бой на арене начинаетс
 UPDATE mangos_string SET content_loc8='Вы должны подождать %s , чтобы начать говорить снова.' WHERE entry=705;
 UPDATE mangos_string SET content_loc8='У предмета(-ов) имеются проблемы с хранением/размещением в инвентаре.' WHERE entry=706;
 UPDATE mangos_string SET content_loc8='Эта вещь имеет проблемы с одеванием/сохранением в сумке.' WHERE entry=706;
-UPDATE mangos_string SET content_loc8='%s желает, чтобы $gего:её; не беспокоили, и не может принимать сообщения: %s' WHERE entry=707;
-UPDATE mangos_string SET content_loc8='%s $gотошел:отошла;: %s' WHERE entry=708;
+UPDATE mangos_string SET content_loc8='%s желает, чтобы $Gего:её; не беспокоили, и не может принимать сообщения: %s' WHERE entry=707;
+UPDATE mangos_string SET content_loc8='%s $Gотошел:отошла;: %s' WHERE entry=708;
 UPDATE mangos_string SET content_loc8='Не беспокоить' WHERE entry=709;
-UPDATE mangos_string SET content_loc8='$gOтошел:Oтошла;' WHERE entry=710;
-UPDATE mangos_string SET content_loc8='Состояние очереди для %s (Уровень: с %u до %u)
-Альянса в очереди: %u (Нужно еще %u)
-Орды в очереди: %u (Нужно еще %u)' WHERE entry=711;
+UPDATE mangos_string SET content_loc8='$GOтошел:Oтошла;' WHERE entry=710;
+UPDATE mangos_string SET content_loc8='Состояние очереди для %s (Уровень: с %u до %u)$BАльянса в очереди: %u (Нужно еще %u)$BОрды в очереди: %u (Нужно еще %u)' WHERE entry=711;
 UPDATE mangos_string SET content_loc8='|cffff0000[Анонс БГ]:|r %s -- [%u-%u] Альянс: %u/%u, Орда: %u/%u|r' WHERE entry=712;
 UPDATE mangos_string SET content_loc8='Вы должны быть %u уровня, чтобы присоединиться к арена команде!' WHERE entry=713;
 UPDATE mangos_string SET content_loc8='У вас недостаточно высокий уровень для этого поля боя' WHERE entry=715;
@@ -698,7 +668,7 @@ UPDATE mangos_string SET content_loc8='Вы не знаете этот язык'
 UPDATE mangos_string SET content_loc8='Напишите имя персонажа' WHERE entry=807;
 UPDATE mangos_string SET content_loc8='Игрок %s не найден или его нет в игре' WHERE entry=808;
 UPDATE mangos_string SET content_loc8='Аккаунт персонажа %s не найдён' WHERE entry=809;
-UPDATE mangos_string SET content_loc8='|Hplayer:$N|h[$N]|h $gзаслужил:заслужила; достижение $a!' WHERE entry=810;
+UPDATE mangos_string SET content_loc8='|Hplayer:$N|h[$N]|h $Gзаслужил:заслужила; достижение $a!' WHERE entry=810;
 UPDATE mangos_string SET content_loc8='Мастер гильдии' WHERE entry=811;
 UPDATE mangos_string SET content_loc8='Офицер' WHERE entry=812;
 UPDATE mangos_string SET content_loc8='Ветеран' WHERE entry=813;
@@ -738,8 +708,7 @@ UPDATE mangos_string SET content_loc8='Все режимы фильтрации 
 UPDATE mangos_string SET content_loc8='Команда может быть вызвана только из удаленной консоли администратора.' WHERE entry=1029;
 UPDATE mangos_string SET content_loc8='Аккаунт %s (Ид: %u) обновил клиент игры до расширения %u.' WHERE entry=1100;
 UPDATE mangos_string SET content_loc8='Аккаунту %s (ID: %u) установлено %u версия аддона игры.' WHERE entry=1100;
-UPDATE mangos_string SET content_loc8='Сообщение дня изменено на:
-%s' WHERE entry=1101;
+UPDATE mangos_string SET content_loc8='Сообщение дня изменено на:$B%s' WHERE entry=1101;
 UPDATE mangos_string SET content_loc8='Сообщение отправлено игроку %s: %s' WHERE entry=1102;
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=1103;
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=1104;
@@ -747,8 +716,6 @@ UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u ак�
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=1106;
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=1107;
 UPDATE mangos_string SET content_loc8='%d - владелец: %s (guid: %u аккаунт: %u ) %s' WHERE entry=1108;
-UPDATE mangos_string SET content_loc8='%d - %s X:%f Y:%f Z:%f MapId:%d' WHERE entry=1110;
-UPDATE mangos_string SET content_loc8='%d - %s X:%f Y:%f Z:%f MapId:%d' WHERE entry=1111;
 UPDATE mangos_string SET content_loc8='Ошибка при открытии файла: %s' WHERE entry=1112;
 UPDATE mangos_string SET content_loc8='Аккаунт %s (%u) имеет максимальное количество персонажей (лимит клиента)' WHERE entry=1113;
 UPDATE mangos_string SET content_loc8='Файл дампа повреждён!' WHERE entry=1114;
@@ -765,8 +732,6 @@ UPDATE mangos_string SET content_loc8='Неверный тип питомца' W
 UPDATE mangos_string SET content_loc8='Ваш питомец выучил все таланты.' WHERE entry=1125;
 UPDATE mangos_string SET content_loc8='Таланты Вашего питомца были сброшены.' WHERE entry=1126;
 UPDATE mangos_string SET content_loc8='Таланты для %s питомца сброшены' WHERE entry=1127;
-UPDATE mangos_string SET content_loc8='%d - |cffffffff|Htaxinode:%u|h[%s %s]|h|r (Map:%u X:%f Y:%f Z:%f)' WHERE entry=1128;
-UPDATE mangos_string SET content_loc8='%d - %s %s (Map:%u X:%f Y:%f Z:%f)' WHERE entry=1129;
 UPDATE mangos_string SET content_loc8='событие стартовало %u "%s"' WHERE entry=1130;
 UPDATE mangos_string SET content_loc8='событие остановлено %u "%s"' WHERE entry=1131;
 UPDATE mangos_string SET content_loc8='Следовать за игроком %s (lowguid %u)' WHERE entry=1132;
@@ -778,7 +743,7 @@ UPDATE mangos_string SET content_loc8='Отправка тикетов не до
 UPDATE mangos_string SET content_loc8='Список известных талантов:' WHERE entry=1135;
 UPDATE mangos_string SET content_loc8='Отправка тикетов не разрешена.' WHERE entry=1135;
 UPDATE mangos_string SET content_loc8='(Найдено талантов: %u использовано очков талантов: %u)' WHERE entry=1136;
-UPDATE mangos_string SET content_loc8='Персонаж %s никогда не $gблокировался:блокировалась;!' WHERE entry=1136;
+UPDATE mangos_string SET content_loc8='Персонаж %s никогда не $Gблокировался:блокировалась;!' WHERE entry=1136;
 UPDATE mangos_string SET content_loc8='Следовать за игроком %s (lowguid %u)' WHERE entry=1139;
 UPDATE mangos_string SET content_loc8='| GUID       | Имя                   | Раса            | Класс           | Уровень |' WHERE entry=1139;
 UPDATE mangos_string SET content_loc8='Следовать за существом %s (lowguid %u)' WHERE entry=1140;
@@ -793,7 +758,6 @@ UPDATE mangos_string SET content_loc8='Мастер(пул) %u исчезает 
 UPDATE mangos_string SET content_loc8='(Пул %u)' WHERE entry=1149;
 UPDATE mangos_string SET content_loc8='(Событие %i)' WHERE entry=1150;
 UPDATE mangos_string SET content_loc8='(Пул %u Событие %i)' WHERE entry=1151;
-UPDATE mangos_string SET content_loc8='[usable]' WHERE entry=1152;
 UPDATE mangos_string SET content_loc8='|            | Альянс |  Орда   | Нейтральный  |  Всего   |' WHERE entry=1160;
 UPDATE mangos_string SET content_loc8='Альянс/Орда/Нейтральный/Всего' WHERE entry=1161;
 UPDATE mangos_string SET content_loc8='Критерии:' WHERE entry=1161;
@@ -811,11 +775,7 @@ UPDATE mangos_string SET content_loc8='Серый' WHERE entry=1168;
 UPDATE mangos_string SET content_loc8='Библиотека скриптов построена для другой версии ядра.' WHERE entry=1169;
 UPDATE mangos_string SET content_loc8='Белые' WHERE entry=1169;
 UPDATE mangos_string SET content_loc8='Зеленые' WHERE entry=1170;
-UPDATE mangos_string SET content_loc8='Игрок выделил: %s.
-Фракция: %u.
-нпцФлаг: %u.
-Base Entry: %u, Spawned Entry %u (Сложность %u).
-ДисплейID: %u (Текущий: %u).' WHERE entry=1170;
+UPDATE mangos_string SET content_loc8='Игрок выделил: %s.$BФракция: %u.$BнпцФлаг: %u.$BBase Entry: %u, Spawned Entry %u (Сложность %u).$BДисплейID: %u (Текущий: %u).' WHERE entry=1170;
 UPDATE mangos_string SET content_loc8='Все наcтройки перезагружены из файла конфигурации ahbot.' WHERE entry=1171;
 UPDATE mangos_string SET content_loc8='Синие' WHERE entry=1171;
 UPDATE mangos_string SET content_loc8='Ошибка при попытке перезагрузить файл конфигурации ahbot.' WHERE entry=1172;
