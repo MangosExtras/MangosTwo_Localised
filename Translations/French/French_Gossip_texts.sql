@@ -15,7 +15,7 @@ UPDATE gossip_texts SET content_loc2='Tournez la clé afin de démarrer la machi
 UPDATE gossip_texts SET content_loc2='Je suis prêt - sortons d\'ici.' WHERE entry=-3000112;
 UPDATE gossip_texts SET content_loc2='Vas-y, tu es libre. Sors d\'ici!' WHERE entry=-3000113;
 UPDATE gossip_texts SET content_loc2='Je suis prête à commencer la distillation, euh, Pompette.' WHERE entry=-3000114;
-UPDATE gossip_texts SET content_loc2='I am ready, Anchorite. Let us begin the exorcism.' WHERE entry=-3006669;
+UPDATE gossip_texts SET content_loc2='Je suis prête, anachorète. Commençons l\'exorcisme.' WHERE entry=-3006669;
 UPDATE gossip_texts SET content_loc2='Veuillez déverrouiller la porte de la cour.' WHERE entry=-3033000;
 UPDATE gossip_texts SET content_loc2='Que la cérémonie commence !' WHERE entry=-3043000;
 UPDATE gossip_texts SET content_loc2='Je peux commencer.' WHERE entry=-3090000;
