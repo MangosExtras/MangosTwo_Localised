@@ -34,7 +34,7 @@ UPDATE trans_words SET content_loc3='The password was changed' WHERE word_id = 4
 UPDATE trans_words SET content_loc3='The old password is wrong' WHERE word_id = 4190;
 UPDATE trans_words SET content_loc3='Your account is now locked.' WHERE word_id = 4191;
 UPDATE trans_words SET content_loc3='Your account is now unlocked.' WHERE word_id = 4192;
-UPDATE trans_words SET content_loc3=', rank ' WHERE word_id = 4193;
+UPDATE trans_words SET content_loc3=', rank' WHERE word_id = 4193;
 UPDATE trans_words SET content_loc3=' [known]' WHERE word_id = 4194;
 UPDATE trans_words SET content_loc3=' [learn]' WHERE word_id = 4195;
 UPDATE trans_words SET content_loc3=' [passive]' WHERE word_id = 4196;
@@ -44,7 +44,7 @@ UPDATE trans_words SET content_loc3=' [complete]' WHERE word_id = 4199;
 UPDATE trans_words SET content_loc3=' (offline)' WHERE word_id = 4200;
 UPDATE trans_words SET content_loc3='on' WHERE word_id = 4201;
 UPDATE trans_words SET content_loc3='You are: %s' WHERE word_id = 4203;
-UPDATE trans_words SET content_loc3=' <unknown> ' WHERE word_id = 4208;
+UPDATE trans_words SET content_loc3=' <unknown>' WHERE word_id = 4208;
 UPDATE trans_words SET content_loc3='<non-existing character>' WHERE word_id = 4210;
 UPDATE trans_words SET content_loc3='You must be at least level %u to enter.' WHERE word_id = 4440;
 UPDATE trans_words SET content_loc3='You must be at least level %u and have item %s to enter.' WHERE word_id = 4950;
@@ -53,14 +53,13 @@ UPDATE trans_words SET content_loc3='Invaid item count (%u) for item %u' WHERE w
 UPDATE trans_words SET content_loc3='Mail can\'t have more %u item stacks' WHERE word_id = 4216;
 UPDATE trans_words SET content_loc3='The new passwords do not match' WHERE word_id = 4217;
 UPDATE trans_words SET content_loc3='Your password can\'t be longer than 16 characters (client limit), password not changed!' WHERE word_id = 4218;
-UPDATE trans_words SET content_loc3='Current Message of the day: 
-%s' WHERE word_id = 4951;
+UPDATE trans_words SET content_loc3='Current Message of the day: $B%s' WHERE word_id = 4951;
 UPDATE trans_words SET content_loc3='Using World DB: %s' WHERE word_id = 4220;
 UPDATE trans_words SET content_loc3='Using script library: %s' WHERE word_id = 4952;
 UPDATE trans_words SET content_loc3='Using creature EventAI: %s' WHERE word_id = 4222;
-UPDATE trans_words SET content_loc3='Username: ' WHERE word_id = 4223;
+UPDATE trans_words SET content_loc3='Username:' WHERE word_id = 4223;
 UPDATE trans_words SET content_loc3='Up to %u expansion allowed now.' WHERE word_id = 5109;
-UPDATE trans_words SET content_loc3='Password: ' WHERE word_id = 4224;
+UPDATE trans_words SET content_loc3='Password:' WHERE word_id = 4224;
 UPDATE trans_words SET content_loc3='One on more parameters have incorrect values' WHERE word_id = 5325;
 UPDATE trans_words SET content_loc3='Accepts whispers' WHERE word_id = 4225;
 UPDATE trans_words SET content_loc3='Wrong parameter id: %u, does not exist' WHERE word_id = 5435;
@@ -70,7 +69,7 @@ UPDATE trans_words SET content_loc3='Using script library: <Unknown Script Libra
 UPDATE trans_words SET content_loc3='Account %u (%s) granted permissions:' WHERE word_id = 5448;
 UPDATE trans_words SET content_loc3='Using script library: <No Script Library Loaded>' WHERE word_id = 4228;
 UPDATE trans_words SET content_loc3='Account %u (%s) denied permissions:' WHERE word_id = 5449;
-UPDATE trans_words SET content_loc3='Global notify: ' WHERE word_id = 4229;
+UPDATE trans_words SET content_loc3='Global notify:' WHERE word_id = 4229;
 UPDATE trans_words SET content_loc3='Map: %u (%s) Zone: %u (%s) Area: %u (%s) Phase: %u
 X: %f Y: %f Z: %f Orientation: %f
 grid[%u,%u]cell[%u,%u] InstanceID: %u
@@ -198,6 +197,7 @@ UPDATE trans_words SET content_loc3='No waypoint number provided.' WHERE word_id
 UPDATE trans_words SET content_loc3='Argument required for \'%s\'.' WHERE word_id = 4327;
 UPDATE trans_words SET content_loc3='Added Waypoint %u to %s (PathId %i, path stored by %s)' WHERE word_id = 4326;
 UPDATE trans_words SET content_loc3='Waypoint %i added to GUID: %d' WHERE word_id = 5122;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='Waypoint %d added.' WHERE word_id = 5123;
 UPDATE trans_words SET content_loc3='Waypoint changed.' WHERE word_id = 4325;
 UPDATE trans_words SET content_loc3='Waypoint %s modified.' WHERE word_id = 4322;
@@ -205,19 +205,24 @@ UPDATE trans_words SET content_loc3='WP export successfull.' WHERE word_id = 432
 UPDATE trans_words SET content_loc3='No waypoints found inside the database.' WHERE word_id = 4321;
 UPDATE trans_words SET content_loc3='File imported.' WHERE word_id = 4320;
 UPDATE trans_words SET content_loc3='Waypoint removed.' WHERE word_id = 4928;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='Warning: Could not delete WP from the world with ID: %d' WHERE word_id = 5124;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='This happens if the waypoint is too far away from your char.' WHERE word_id = 5125;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='The WP is deleted from the database, but not from the world here.' WHERE word_id = 5126;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='They will disappear after a server restart.' WHERE word_id = 5127;
 UPDATE trans_words SET content_loc3='Waypoint %u for %s (from pathId %i, stored by %s)' WHERE word_id = 4929;
 UPDATE trans_words SET content_loc3='Waypoint %d: Info for creature: %s, GUID: %d' WHERE word_id = 5128;
 UPDATE trans_words SET content_loc3=' Waittime: %d' WHERE word_id = 4930;
-UPDATE trans_words SET content_loc3='Waittime: %d' WHERE word_id = 5129;
+UPDATE trans_words SET content_loc3=' Waittime: %d' WHERE word_id = 4930;
 UPDATE trans_words SET content_loc3=' Orientation: %f' WHERE word_id = 4931;
 UPDATE trans_words SET content_loc3='Model %d: %d' WHERE word_id = 5130;
 UPDATE trans_words SET content_loc3='Emote: %d' WHERE word_id = 5131;
 UPDATE trans_words SET content_loc3='ScriptID set to non-existing id %u, add it to DBScriptsEngine and reload the table.' WHERE word_id = 4933;
 UPDATE trans_words SET content_loc3='Spell: %d' WHERE word_id = 5132;
+UPDATE trans_words SET content_loc3='UNUSED' WHERE word_id = 4324;
 UPDATE trans_words SET content_loc3='Text%d (ID: %i): %s' WHERE word_id = 5133;
 UPDATE trans_words SET content_loc3='AIScriptName: %s' WHERE word_id = 4934;
 UPDATE trans_words SET content_loc3='AIScript: %s' WHERE word_id = 5134;
@@ -311,7 +316,7 @@ UPDATE trans_words SET content_loc3='Forced customize for player %s will be requ
 UPDATE trans_words SET content_loc3='Forced customize for player %s (GUID #%u) will be requested at next login.' WHERE word_id = 5063;
 UPDATE trans_words SET content_loc3='TaxiNode ID %u not found!' WHERE word_id = 4428;
 UPDATE trans_words SET content_loc3='Game Object (Entry: %u) have invalid data and can\'t be spawned' WHERE word_id = 4429;
-UPDATE trans_words SET content_loc3='%d (idx:%d) - |cffffffff|Htitle:%d|h[%s %s]|h|r %s %s ' WHERE word_id = 4960;
+UPDATE trans_words SET content_loc3='%d (idx:%d) - |cffffffff|Htitle:%d|h[%s %s]|h|r %s %s' WHERE word_id = 4960;
 UPDATE trans_words SET content_loc3='No titles found!' WHERE word_id = 4962;
 UPDATE trans_words SET content_loc3='Invalid title id: %u' WHERE word_id = 4963;
 UPDATE trans_words SET content_loc3='Title %u (%s) added to known titles list for player %s.' WHERE word_id = 4964;
@@ -343,7 +348,7 @@ UPDATE trans_words SET content_loc3='Required heroic keys:' WHERE word_id = 4971
 UPDATE trans_words SET content_loc3='Required quest (heroic difficulty):' WHERE word_id = 5065;
 UPDATE trans_words SET content_loc3='No achievement!' WHERE word_id = 5066;
 UPDATE trans_words SET content_loc3='Response:
-%s ' WHERE word_id = 5067;
+%s' WHERE word_id = 5067;
 UPDATE trans_words SET content_loc3='Tickets count: %i
 ' WHERE word_id = 4442;
 UPDATE trans_words SET content_loc3='Player %s not have tickets.' WHERE word_id = 4443;
@@ -390,6 +395,7 @@ UPDATE trans_words SET content_loc3='There is no such IP in banlist.' WHERE word
 UPDATE trans_words SET content_loc3='Account %s has never been banned' WHERE word_id = 4479;
 UPDATE trans_words SET content_loc3='Ban history for account %s:' WHERE word_id = 4480;
 UPDATE trans_words SET content_loc3='Ban Date: %s Bantime: %s Still active: %s  Reason: %s Set by: %s' WHERE word_id = 4481;
+UPDATE trans_words SET content_loc3='Inf.' WHERE word_id = 4482;
 UPDATE trans_words SET content_loc3='IP: %s
 Ban Date: %s
 Unban Date: %s
@@ -411,9 +417,9 @@ UPDATE trans_words SET content_loc3='Invalid item id: %u' WHERE word_id = 4498;
 UPDATE trans_words SET content_loc3='No items found!' WHERE word_id = 4499;
 UPDATE trans_words SET content_loc3='Invalid gameobject id: %u' WHERE word_id = 4500;
 UPDATE trans_words SET content_loc3='Found items %u: %u ( inventory %u mail %u auction %u guild %u)' WHERE word_id = 4501;
-UPDATE trans_words SET content_loc3='Found gameobjects %u: %u ' WHERE word_id = 4502;
+UPDATE trans_words SET content_loc3='Found gameobjects %u: %u' WHERE word_id = 4502;
 UPDATE trans_words SET content_loc3='Invalid creature id: %u' WHERE word_id = 4503;
-UPDATE trans_words SET content_loc3='Found creatures %u: %u ' WHERE word_id = 4504;
+UPDATE trans_words SET content_loc3='Found creatures %u: %u' WHERE word_id = 4504;
 UPDATE trans_words SET content_loc3='No area found!' WHERE word_id = 4505;
 UPDATE trans_words SET content_loc3='No item sets found!' WHERE word_id = 4506;
 UPDATE trans_words SET content_loc3='No skills found!' WHERE word_id = 4507;
@@ -484,17 +490,17 @@ UPDATE trans_words SET content_loc3='%d - sender: %s (guid: %u account: %u ) rec
 UPDATE trans_words SET content_loc3='%d - owner: %s (guid: %u account: %u ) %s' WHERE word_id = 4568;
 UPDATE trans_words SET content_loc3='Wrong link type!' WHERE word_id = 4570;
 UPDATE trans_words SET content_loc3='%d - |cffffffff|Hitem:%d:0:0:0:0:0:0:0:0|h[%s]|h|r %s' WHERE word_id = 5068;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hitem:%d:0:0:0:0:0:0:0:0|h[%s]|h|r ' WHERE word_id = 5142;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hitem:%d:0:0:0:0:0:0:0:0|h[%s]|h|r' WHERE word_id = 5142;
 UPDATE trans_words SET content_loc3='%d - |cffffffff|Hquest:%d:%d|h[%s]|h|r %s' WHERE word_id = 4572;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hcreature_entry:%d|h[%s]|h|r ' WHERE word_id = 4573;
-UPDATE trans_words SET content_loc3='%d%s - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE word_id = 4574;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE word_id = 5143;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hgameobject_entry:%d|h[%s]|h|r ' WHERE word_id = 4575;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hcreature_entry:%d|h[%s]|h|r' WHERE word_id = 4573;
+UPDATE trans_words SET content_loc3='%d%s - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r' WHERE word_id = 4574;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hcreature:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r' WHERE word_id = 5143;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hgameobject_entry:%d|h[%s]|h|r' WHERE word_id = 4575;
 UPDATE trans_words SET content_loc3='%d%s, Entry %d - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r' WHERE word_id = 4576;
-UPDATE trans_words SET content_loc3='%d (Entry: %d) - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE word_id = 5144;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hitemset:%d|h[%s %s]|h|r ' WHERE word_id = 4577;
-UPDATE trans_words SET content_loc3='|cffffffff|Htele:%s|h[%s]|h|r ' WHERE word_id = 4578;
-UPDATE trans_words SET content_loc3='%d - |cffffffff|Hspell:%d|h[%s]|h|r ' WHERE word_id = 4579;
+UPDATE trans_words SET content_loc3='%d (Entry: %d) - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r' WHERE word_id = 5144;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hitemset:%d|h[%s %s]|h|r' WHERE word_id = 4577;
+UPDATE trans_words SET content_loc3='|cffffffff|Htele:%s|h[%s]|h|r' WHERE word_id = 4578;
+UPDATE trans_words SET content_loc3='%d - |cffffffff|Hspell:%d|h[%s]|h|r' WHERE word_id = 4579;
 UPDATE trans_words SET content_loc3='%d - |cffffffff|Hskill:%d|h[%s %s]|h|r %s %s' WHERE word_id = 4580;
 UPDATE trans_words SET content_loc3='Game Object (Entry: %u) not found' WHERE word_id = 4581;
 UPDATE trans_words SET content_loc3='>> Game Object %s (GUID: %u) at %f %f %f. Orientation %f.' WHERE word_id = 4582;
@@ -526,20 +532,13 @@ Faction: %u.
 npcFlags: %u.
 Entry: %u.
 DisplayID: %u (Native: %u).' WHERE word_id = 4598;
-UPDATE trans_words SET content_loc3='Player selected NPC
-DB GUID: %u, current GUID: %u.
-Faction: %u.
-npcFlags: %u.
-Entry: %u.
-DisplayID: %u (Native: %u).' WHERE word_id = 5146;
+UPDATE trans_words SET content_loc3='Player selected NPC$BDB GUID: %u, current GUID: %u.$BFaction: %u.$BnpcFlags: %u.$BEntry: %u.$BDisplayID: %u (Native: %u).' WHERE word_id = 5146;
 UPDATE trans_words SET content_loc3='Level: %u.' WHERE word_id = 4599;
 UPDATE trans_words SET content_loc3='Health (base): %u. (max): %u. (current): %u.' WHERE word_id = 4600;
 UPDATE trans_words SET content_loc3='Unit Flags: %u.
 Dynamic Flags: %u.
 Faction Template: %u.' WHERE word_id = 4601;
-UPDATE trans_words SET content_loc3='Unit Flags 2: %u.
-Dynamic Flags: %u.
-Faction Template: %u.' WHERE word_id = 5147;
+UPDATE trans_words SET content_loc3='Unit Flags 2: %u.$BDynamic Flags: %u.$BFaction Template: %u.' WHERE word_id = 5147;
 UPDATE trans_words SET content_loc3='Loot: %u Pickpocket: %u Skinning: %u' WHERE word_id = 4602;
 UPDATE trans_words SET content_loc3='Position: %f %f %f.' WHERE word_id = 4603;
 UPDATE trans_words SET content_loc3='*** Is a vendor!' WHERE word_id = 4604;
@@ -588,7 +587,7 @@ UPDATE trans_words SET content_loc3='You are now invisible.' WHERE word_id = 463
 UPDATE trans_words SET content_loc3='You are now visible.' WHERE word_id = 4631;
 UPDATE trans_words SET content_loc3='Selected player or creature not have victim.' WHERE word_id = 4632;
 UPDATE trans_words SET content_loc3='Player %s learned all default spells for race/class and completed quests rewarded spells.' WHERE word_id = 4976;
-UPDATE trans_words SET content_loc3='Found near gameobjects (distance %f): %u ' WHERE word_id = 4634;
+UPDATE trans_words SET content_loc3='Found near gameobjects (distance %f): %u' WHERE word_id = 4634;
 UPDATE trans_words SET content_loc3='SpawnTime: Full:%s Remain:%s' WHERE word_id = 4635;
 UPDATE trans_words SET content_loc3='%d - |cffffffff|Hgameevent:%d|h[%s]|h|r%s' WHERE word_id = 4636;
 UPDATE trans_words SET content_loc3='No event found!' WHERE word_id = 4637;
@@ -615,9 +614,9 @@ UPDATE trans_words SET content_loc3='The Battle for Eye of the Storm begins in 1
 UPDATE trans_words SET content_loc3='The Battle for Eye of the Storm begins in 30 seconds.' WHERE word_id = 4979;
 UPDATE trans_words SET content_loc3='The Battle for Eye of the Storm has begun!' WHERE word_id = 4980;
 UPDATE trans_words SET content_loc3='The %s has taken the %s' WHERE word_id = 4674;
-UPDATE trans_words SET content_loc3='$n has defended the %s' WHERE word_id = 4675;
-UPDATE trans_words SET content_loc3='$n has assaulted the %s' WHERE word_id = 4676;
-UPDATE trans_words SET content_loc3='$n claims the %s! If left unchallenged, the %s will control it in 1 minute!' WHERE word_id = 4677;
+UPDATE trans_words SET content_loc3='$N has defended the %s' WHERE word_id = 4675;
+UPDATE trans_words SET content_loc3='$N has assaulted the %s' WHERE word_id = 4676;
+UPDATE trans_words SET content_loc3='$N claims the %s! If left unchallenged, the %s will control it in 1 minute!' WHERE word_id = 4677;
 UPDATE trans_words SET content_loc3='The Battle for Arathi Basin begins in 1 minute.' WHERE word_id = 4678;
 UPDATE trans_words SET content_loc3='The Battle for Arathi Basin begins in 30 seconds. Prepare yourselves!' WHERE word_id = 4679;
 UPDATE trans_words SET content_loc3='The Battle for Arathi Basin has begun!' WHERE word_id = 4680;
@@ -708,6 +707,7 @@ UPDATE trans_words SET content_loc3='Please provide character name' WHERE word_i
 UPDATE trans_words SET content_loc3='Player %s not found or offline' WHERE word_id = 4747;
 UPDATE trans_words SET content_loc3='Account for character %s not found' WHERE word_id = 4748;
 UPDATE trans_words SET content_loc3='|Hplayer:$N|h[$N]|h has earned the achievement $a!' WHERE word_id = 5070;
+UPDATE trans_words SET content_loc3='Veteran' WHERE word_id = 4751;
 UPDATE trans_words SET content_loc3='Your body is too exhausted to travel to the Spectral Realm.' WHERE word_id = 5025;
 UPDATE trans_words SET content_loc3='Entry %u not found in creature_template table.' WHERE word_id = 5321;
 UPDATE trans_words SET content_loc3='You can\'t enter Black Morass until you rescue Thrall from Durnholde Keep.' WHERE word_id = 5026;
@@ -723,11 +723,9 @@ UPDATE trans_words SET content_loc3='Account %s NOT created (probably sql file f
 UPDATE trans_words SET content_loc3='Account %s NOT created (unknown error)' WHERE word_id = 4762;
 UPDATE trans_words SET content_loc3='Player %s (Guid: %u) Account %s (Id: %u) deleted.' WHERE word_id = 4763;
 UPDATE trans_words SET content_loc3='| ID         |    Account    |       Character      |       IP        | GM | Expansion |' WHERE word_id = 4764;
-UPDATE trans_words SET content_loc3='-[         Account][   Character][             IP][Map][Zone][Exp][GMLev]-' WHERE word_id = 5184;
 UPDATE trans_words SET content_loc3='| %10u |%15s| %20s | %15s |%4d| %9d |' WHERE word_id = 4766;
 UPDATE trans_words SET content_loc3='No online players.' WHERE word_id = 4767;
 UPDATE trans_words SET content_loc3='Can only quit from a Remote Admin console or the quit command was not entered in full (quit).' WHERE word_id = 4768;
-UPDATE trans_words SET content_loc3='-======================== Characters Online =======================-' WHERE word_id = 5301;
 UPDATE trans_words SET content_loc3='| GUID       | Name                 | Account                      | Delete Date         |' WHERE word_id = 4769;
 UPDATE trans_words SET content_loc3='| %10u | %20s | %15s (%10u) | %19s |' WHERE word_id = 4770;
 UPDATE trans_words SET content_loc3='No characters found.' WHERE word_id = 4772;
@@ -748,8 +746,7 @@ UPDATE trans_words SET content_loc3='SQL driver query logging disabled.' WHERE w
 UPDATE trans_words SET content_loc3='Command can only be called from a Remote Admin console.' WHERE word_id = 4782;
 UPDATE trans_words SET content_loc3='Account %s (Id: %u) has been granted %u expansion rights.' WHERE word_id = 4783;
 UPDATE trans_words SET content_loc3='Account %s (Id: %u) have up to %u expansion allowed now.' WHERE word_id = 5185;
-UPDATE trans_words SET content_loc3='Message of the day changed to:
-%s' WHERE word_id = 5027;
+UPDATE trans_words SET content_loc3='Message of the day changed to:$B%s' WHERE word_id = 5027;
 UPDATE trans_words SET content_loc3='Message sent to %s: %s' WHERE word_id = 4785;
 UPDATE trans_words SET content_loc3='%d - owner: %s (guid: %u account: %u ) %s' WHERE word_id = 4568;
 UPDATE trans_words SET content_loc3='%d - owner: %s (guid: %u account: %u ) %s' WHERE word_id = 4568;
@@ -793,7 +790,7 @@ UPDATE trans_words SET content_loc3='List known talents:' WHERE word_id = 4806;
 UPDATE trans_words SET content_loc3='Sending tickets is not allowed.' WHERE word_id = 5340;
 UPDATE trans_words SET content_loc3='   (Found talents: %u used talent points: %u)' WHERE word_id = 4807;
 UPDATE trans_words SET content_loc3='Character %s has never been banned!' WHERE word_id = 5360;
-UPDATE trans_words SET content_loc3='%d%s - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r ' WHERE word_id = 4808;
+UPDATE trans_words SET content_loc3='%d%s - |cffffffff|Hgameobject:%d|h[%s X:%f Y:%f Z:%f MapId:%d]|h|r' WHERE word_id = 4808;
 UPDATE trans_words SET content_loc3='Dev mode is ON' WHERE word_id = 5361;
 UPDATE trans_words SET content_loc3='Dev mode is OFF' WHERE word_id = 5362;
 UPDATE trans_words SET content_loc3='   Follow player %s (lowguid %u)' WHERE word_id = 4803;
