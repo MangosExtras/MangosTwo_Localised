@@ -14,7 +14,7 @@ INSERT INTO `locales_gossip_menu_option` (`menu_id`,`id`) SELECT `menu_id`,`id` 
 INSERT INTO `locales_item` (`entry`) SELECT `entry` FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_item`);
 
 -- Create the Locales base entries from main table
-INSERT INTO locales_npc_text (`entry`) SELECT `ID` FROM `npc_text` WHERE `ID` NOT IN (SELECT `entry` FROM locales_npc_text);
+INSERT INTO `locales_npc_text` (`entry`) SELECT `ID` FROM `npc_text` WHERE `ID` NOT IN (SELECT `entry` FROM `locales_npc_text`);
 
 -- Create the Locales base entries from main table
 INSERT INTO `locales_page_text` (`entry`) SELECT `entry` FROM `page_text` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_page_text`);
