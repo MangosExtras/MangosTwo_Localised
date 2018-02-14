@@ -30,7 +30,6 @@ UPDATE gossip_texts SET content_loc9='Non ho commesso errori.' WHERE entry=-3469
 UPDATE gossip_texts SET content_loc9='Hai perso la testa, Nefarius. Stai parlando ad indovinelli.' WHERE entry=-3469001;
 UPDATE gossip_texts SET content_loc9='Fallo perfavore.' WHERE entry=-3469002;
 UPDATE gossip_texts SET content_loc9='Non posso, Vaelastrasz! Si può fare sicuramente qualcosa per guarirti!' WHERE entry=-3469003;
-UPDATE gossip_texts SET content_loc9='Vaelastrasz, no!!!' WHERE entry=-3469004;
 UPDATE gossip_texts SET content_loc9='Scopriamolo.' WHERE entry=-3509000;
 UPDATE gossip_texts SET content_loc9='Vediamo che cosa hai.' WHERE entry=-3509001;
 UPDATE gossip_texts SET content_loc9='Teletrasportami alla Guardian\'s Library' WHERE entry=-3532000;
@@ -66,7 +65,6 @@ UPDATE gossip_texts SET content_loc9='La situazione è alquanto complicata, Thra
 UPDATE gossip_texts SET content_loc9='Siamo pronti, Thrall.' WHERE entry=-3560004;
 UPDATE gossip_texts SET content_loc9='Strano mago?' WHERE entry=-3560005;
 UPDATE gossip_texts SET content_loc9='Ti porteremo via. Taretha. Non preoccuparti. Dubito che il mago voglia allontanarsi così tanto.' WHERE entry=-3560006;
-UPDATE gossip_texts SET content_loc9='Tarren Mill.' WHERE entry=-3560007;
 UPDATE gossip_texts SET content_loc9='Sono con te, Akama.' WHERE entry=-3564000;
 UPDATE gossip_texts SET content_loc9='Sono pronto, Akama.' WHERE entry=-3564001;
 UPDATE gossip_texts SET content_loc9='Siamo pronti per affrontare Illidan.' WHERE entry=-3564002;
@@ -77,7 +75,7 @@ UPDATE gossip_texts SET content_loc9='Molto bene, Chromie.' WHERE entry=-3595002
 UPDATE gossip_texts SET content_loc9='Perchè sono stato portato indietro in questo tempo e questo luogo in particolare?' WHERE entry=-3595003;
 UPDATE gossip_texts SET content_loc9='Qual\'è stata questa decisione?' WHERE entry=-3595004;
 UPDATE gossip_texts SET content_loc9='Quindi come possiamo interferire nel piano Infinite Dragonflight?' WHERE entry=-3595005;
-UPDATE gossip_texts SET content_loc9='Chromie, sappiamo entrambi cosa succedera in questa linea temporale. Abbiamo già visto tutto. $B$BPuoi portarci avanti fino al momento giusto?' WHERE entry=-3595006;
+UPDATE gossip_texts SET content_loc9='Chromie, sappiamo entrambi cosa succedera in questa linea temporale. Abbiamo già visto tutto. Puoi portarci avanti fino al momento giusto?' WHERE entry=-3595006;
 UPDATE gossip_texts SET content_loc9='Sì, per favore!' WHERE entry=-3595007;
 UPDATE gossip_texts SET content_loc9='Brann, sarebbe un nostro onore!' WHERE entry=-3599000;
 UPDATE gossip_texts SET content_loc9='Muoviamoci Brann, ne ho abbasanza delle lezioni di storia!' WHERE entry=-3599001;
