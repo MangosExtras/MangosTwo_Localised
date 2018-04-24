@@ -540,7 +540,6 @@ UPDATE trans_words SET content_loc3='Human Arrow' WHERE word_id = 117525;
 UPDATE trans_words SET content_loc3='Human Arrows' WHERE word_id = 117526;
 UPDATE trans_words SET content_loc3='Axe 2' WHERE word_id = 117528;
 UPDATE trans_words SET content_loc3='Bow 2' WHERE word_id = 117530;
-UPDATE trans_words SET content_loc3='Hammer' WHERE word_id = 9553;
 UPDATE trans_words SET content_loc3='Hammer 2' WHERE word_id = 117531;
 UPDATE trans_words SET content_loc3='Mace 2' WHERE word_id = 117532;
 UPDATE trans_words SET content_loc3='Spear 2' WHERE word_id = 117534;
@@ -1437,7 +1436,6 @@ UPDATE trans_words SET content_loc3='GO Text Missing:188584' WHERE word_id = 118
 UPDATE trans_words SET content_loc3='GO Text Missing:188585' WHERE word_id = 118601;
 UPDATE trans_words SET content_loc3='GO Text Missing:188586' WHERE word_id = 118602;
 UPDATE trans_words SET content_loc3='GO Text Missing:188587' WHERE word_id = 118603;
-UPDATE trans_words SET content_loc3='Element 115' WHERE word_id = 37302;
 UPDATE trans_words SET content_loc3='Silvermoon City Bench' WHERE word_id = 118347;
 UPDATE trans_words SET content_loc3='The Mystic Mage' WHERE word_id = 118348;
 UPDATE trans_words SET content_loc3='The Royal Exchange Auction House' WHERE word_id = 118351;
@@ -1446,11 +1444,9 @@ UPDATE trans_words SET content_loc3='The Paladian Blood Knights Order' WHERE wor
 UPDATE trans_words SET content_loc3='Silvermoon Hunter\'s Lodge' WHERE word_id = 118354;
 UPDATE trans_words SET content_loc3='Nexus Magic Orb Blue 01' WHERE word_id = 118621;
 UPDATE trans_words SET content_loc3='Doodad_Meetingstone01' WHERE word_id = 120514;
-UPDATE trans_words SET content_loc3='D.I.S.C.O.' WHERE word_id = 34669;
 UPDATE trans_words SET content_loc3='Pirate Day Music Doodad' WHERE word_id = 120852;
 UPDATE trans_words SET content_loc3='Zul\'Drak Stoneface 01' WHERE word_id = 119201;
 UPDATE trans_words SET content_loc3='Zul\'Drak Skull Pile 02' WHERE word_id = 119204;
-UPDATE trans_words SET content_loc3='Papaya' WHERE word_id = 38032;
 UPDATE trans_words SET content_loc3='Western Zeppelin Tower - Northrend & Mulgore' WHERE word_id = 118890;
 UPDATE trans_words SET content_loc3='WotLK Light Altar' WHERE word_id = 119244;
 UPDATE trans_words SET content_loc3='WotLK Light Banner, Hanging' WHERE word_id = 119245;
@@ -1665,7 +1661,6 @@ UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple01' WHERE wo
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
-UPDATE trans_words SET content_loc3='Krolmir' WHERE word_id = 55697;
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc3='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
@@ -2340,7 +2335,6 @@ UPDATE trans_words SET content_loc3='GO Text Missing:193894' WHERE word_id = 119
 UPDATE trans_words SET content_loc3='GO Text Missing:193895' WHERE word_id = 119073;
 UPDATE trans_words SET content_loc3='GO Text Missing:193940' WHERE word_id = 120063;
 UPDATE trans_words SET content_loc3='Cloak Dome (Aura Generator 2)' WHERE word_id = 119075;
-UPDATE trans_words SET content_loc3='Hammer' WHERE word_id = 9553;
 UPDATE trans_words SET content_loc3='GO Text Missing:193994' WHERE word_id = 118885;
 UPDATE trans_words SET content_loc3='Doodad_org_arena_elevator03' WHERE word_id = 120071;
 UPDATE trans_words SET content_loc3='Doodad_org_arena_yellow_elevator01' WHERE word_id = 120072;
