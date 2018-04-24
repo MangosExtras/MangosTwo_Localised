@@ -409,7 +409,6 @@ UPDATE trans_words SET content_loc9='%s laughs.' WHERE word_id = 688;
 UPDATE trans_words SET content_loc9='Does it frighten you to know that there are those that would serve the Legion with such devotion as to remain unwavering citizens of your pointless civilizations until called upon?' WHERE word_id = 7800;
 UPDATE trans_words SET content_loc9='Live in fear, die by the will of Kael\'thas... It\'s all the same.' WHERE word_id = 7801;
 UPDATE trans_words SET content_loc9='And now, I cut you!' WHERE word_id = 7802;
-UPDATE trans_words SET content_loc9='DIE!' WHERE word_id = 7803;
 UPDATE trans_words SET content_loc9='Grek try!' WHERE word_id = 6388;
 UPDATE trans_words SET content_loc9='This oil no good for Grek! What Grek look like to you, some weakling in robes?' WHERE word_id = 6387;
 UPDATE trans_words SET content_loc9='It\'s good that I managed to make copies of the Felsworn Gas Mask...' WHERE word_id = 7804;
@@ -506,7 +505,6 @@ UPDATE trans_words SET content_loc9='%s calls upon the mighty armies of the Scou
 UPDATE trans_words SET content_loc9='Armies of the Scourge, hear my call! The scarlet apocalypse has begun! Tear this land asunder and leave only death in your wake!' WHERE word_id = 7876;
 UPDATE trans_words SET content_loc9='It\'s just you and me, Twinkle. Daddy\'s not going to be coming home.' WHERE word_id = 7622;
 UPDATE trans_words SET content_loc9='You\'re such a good friend, Twinkle. You\'d never leave me, would you?' WHERE word_id = 7877;
-UPDATE trans_words SET content_loc9='Did you find something fun to chase around, Twinkle?' WHERE word_id = 7878;
 UPDATE trans_words SET content_loc9='I\'m workin\' as fast as I can, cap\'n!' WHERE word_id = 7879;
 UPDATE trans_words SET content_loc9='I can\'t keep this pace up, sir! If the Scourge don\'t get me, exhaustion will!' WHERE word_id = 7880;
 UPDATE trans_words SET content_loc9='Suffer well, death knight...' WHERE word_id = 7881;
@@ -1006,7 +1004,6 @@ UPDATE trans_words SET content_loc9='%s begins to manipulate the Stone of Relu o
 UPDATE trans_words SET content_loc9='Who hath summoned forth Aman?' WHERE word_id = 7166;
 UPDATE trans_words SET content_loc9='Ah, I see you toil with relics of the past.' WHERE word_id = 7167;
 UPDATE trans_words SET content_loc9='Be warned that even your creators are fallible.' WHERE word_id = 7168;
-UPDATE trans_words SET content_loc9='Digging too deep into your past might bring an abrupt end to your future.' WHERE word_id = 7169;
 UPDATE trans_words SET content_loc9='Aman dissipates before your eyes.' WHERE word_id = 7998;
 UPDATE trans_words SET content_loc9='Hail, Gezhe!  Seventeen more orders have been placed in the Hara\'samid Sector.  The markets of heavy veldarite have all but collapsed, as you predicted.' WHERE word_id = 7459;
 UPDATE trans_words SET content_loc9='Heraazi exports are on the rise, sir.  We\'ve already bribed the appropriate taxation officers and contraband will begin to arrive within days.' WHERE word_id = 7458;
@@ -1106,7 +1103,6 @@ UPDATE trans_words SET content_loc9='I\'ve rigged a few control consoles down th
 UPDATE trans_words SET content_loc9='If you want the key, you\'ll have to catch me!' WHERE word_id = 7197;
 UPDATE trans_words SET content_loc9='Chase me if you dare! I run without a care!' WHERE word_id = 7198;
 UPDATE trans_words SET content_loc9='Why would you ever want to harm me!? Come. Friends we can be!' WHERE word_id = 7199;
-UPDATE trans_words SET content_loc9='DIE?! You make Pusillin cry!' WHERE word_id = 7200;
 UPDATE trans_words SET content_loc9='Say hello to my little friends!' WHERE word_id = 7201;
 UPDATE trans_words SET content_loc9='As you command, Sir!' WHERE word_id = 8050;
 UPDATE trans_words SET content_loc9='Lend us the strength of the giants of Shadowmoon, Corok. The master is a just ruler. He will be sure to take care of those that assisted in subduing the dissidents of this world.' WHERE word_id = 8051;
@@ -1451,7 +1447,6 @@ UPDATE trans_words SET content_loc9='Prince Arthas, may the light be praised! Ma
 UPDATE trans_words SET content_loc9='I can only help you with a clean death.' WHERE word_id = 8313;
 UPDATE trans_words SET content_loc9='What? This can\'t be!' WHERE word_id = 8314;
 UPDATE trans_words SET content_loc9='Oh, no...' WHERE word_id = 8315;
-UPDATE trans_words SET content_loc9='Did you see that?' WHERE word_id = 8316;
 UPDATE trans_words SET content_loc9='That was just the beginning.' WHERE word_id = 8317;
 UPDATE trans_words SET content_loc9='Yes, this is the beginning. I\'ve been waiting for you, young prince. I am Mal\'Ganis.' WHERE word_id = 6866;
 UPDATE trans_words SET content_loc9='As you can see, your people are now mine. I will now turn this city household by household, until the flame of life has been snuffed out... forever.' WHERE word_id = 8318;

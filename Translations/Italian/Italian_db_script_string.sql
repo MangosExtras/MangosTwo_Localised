@@ -18,6 +18,7 @@ UPDATE db_script_string SET content_loc9='Un nome? Oh, si, il nome! Credo che fo
 UPDATE db_script_string SET content_loc9='Inutile ...' WHERE entry=2000000356;
 UPDATE db_script_string SET content_loc9='Patetico ...' WHERE entry=2000000368;
 UPDATE db_script_string SET content_loc9='Bene! Birdies be dat way! Mug\'gok trovare nuovi amici!' WHERE entry=2000000394;
+UPDATE db_script_string SET content_loc9='Hai trovato qualcosa di divertente da inseguire, Twinkle?' WHERE entry=2000000406;
 UPDATE db_script_string SET content_loc9='\'Ci piacciono gli alberi, Fenrick. Ci danno protezione.\' Non me li faranno abbattere.' WHERE entry=2000000468;
 UPDATE db_script_string SET content_loc9='Una storia ... Hmmmm ... Lasciatemi esaminare questo per un momento.' WHERE entry=2000000523;
 UPDATE db_script_string SET content_loc9='Una grande perversione giace sulla nostra terra! Cresce ogni giorno. Il nostro bisogno di magia ci indebolisce e ci porterà alla distruzione, proprio come prima!' WHERE entry=2000000581;
@@ -31,9 +32,11 @@ UPDATE db_script_string SET content_loc9='Hmm ...' WHERE entry=2000005176;
 UPDATE db_script_string SET content_loc9='Carica!' WHERE entry=2000005200;
 UPDATE db_script_string SET content_loc9='Una bella presa è così! Tu porti onore al ragazzo dell\'Orda, Ti ringraziamo! ' WHERE entry=2000005313;
 UPDATE db_script_string SET content_loc9='SILENZIO!' WHERE entry=2000005349;
+UPDATE db_script_string SET content_loc9='Scavare troppo in profondità nel tuo passato potrebbe portare una brusca fine al tuo futuro.' WHERE entry=2000005360;
 UPDATE db_script_string SET content_loc9='Interessante ...' WHERE entry=2000005401;
 UPDATE db_script_string SET content_loc9='NOOOOO !!!' WHERE entry=2000005415;
 UPDATE db_script_string SET content_loc9='Si?' WHERE entry=2000005423;
+UPDATE db_script_string SET content_loc9='DIE ?! Fai piangere Pusillin!' WHERE entry=2000005463;
 UPDATE db_script_string SET content_loc9='Alt!' WHERE entry=2000005479;
 UPDATE db_script_string SET content_loc9='Fuoco a volontà!' WHERE entry=2000005635;
 UPDATE db_script_string SET content_loc9='Il tuo tempo è notte ...' WHERE entry=2000005640;
@@ -41,5 +44,6 @@ UPDATE db_script_string SET content_loc9='Uomini!' WHERE entry=2000005681;
 UPDATE db_script_string SET content_loc9='Donne!' WHERE entry=2000005682;
 UPDATE db_script_string SET content_loc9='Madre!' WHERE entry=2000005691;
 UPDATE db_script_string SET content_loc9='Cosa?' WHERE entry=2000005791;
+UPDATE db_script_string SET content_loc9='Hai visto che?' WHERE entry=2000005815;
 
 SET NAMES 'latin1';

@@ -562,7 +562,7 @@ Text0_1_loc9='Taurahe?$B$BThe tauren druid looks at you expectantly, but it is c
 Text0_1_loc9='These once beautiful woods suffer under a terrible curse!  Corrupting forces twist the life here into shadows of their former selves.  If you are not an agent of this corruption, then perhaps you can aid me in reclaiming Felwood!'
 Text0_1_loc9='"Darnassae?"$B$BThe night elf druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the north.$B$BPerhaps she is indicating that there is a druid you can speak to further up the road?'
 Text0_0_loc9='HELP!!!!'
-Text0_0_loc9='Did Crest send you?'
+UPDATE locales_npc_text SET Text0_1_loc9='' WHERE entry=2847;
 Text0_1_loc9='There are plants in Felwood that may be saved from corruption when Cenarion plant salve is applied to them.  I know how to make the salve from several different kinds of items; based on your skill set, you may find that you have multiple options to assist me.$B$BYou will also need a Cenarion beacon for your work here; it is a device that allows you to see the taint and corruption of nature that the naked eye will miss.'
 Text0_1_loc9='There are plants in Felwood that may be saved from corruption when Cenarion plant salve is applied to them.  I know how to make the salve from several different kinds of items; based on your skill set, you may find that you have multiple options to assist me.$B$BYou will also need a Cenarion beacon for your work here; it is a device that allows you to see the taint and corruption of nature that the naked eye will miss.'
 Text0_0_loc9='The remains are covered in flies and maggots.'
@@ -653,7 +653,7 @@ Text0_1_loc9='Ah, a fellow warlock who has proven $Ghis:her; worth to some degre
 Text0_0_loc9='In decades past - of now ancient wars and conflicts - our kind was driven to the brink of extinction. Much we have endured, $R.$B$BThe onslaught of the Burning Legion. The Demon Soul. The Aspects divided. The ascension of Deathwing. The enslavement of our Queen, Alexstrasza, by the Dragonmaw.$B$BThrough it all, we have been the unshakable will of the dragons - the undaunted force that has fought to represent our waning existence in this world.'
 Text0_0_loc9='Indeed. I stand before you in a form that you can comprehend, mortal. Surely, you could not bear to stand in the presence of the dragon known as Vaelastrasz.$B$B<Vaelan laughs.>$B$BShall I continue?'
 Text0_0_loc9='Perhaps I should tell you why I am here.$B$BDo you know of the Aspect, Deathwing? Or of his progeny, Nefarian and Onyxia?'
-Text0_0_loc9='Deathwing, or Neltharion as he was once known, was the Aspect that embodied the strength of the world - granted almost limitless power over this mortal realm by the Titan shaper known as Khaz\'goroth: Forger of the world.$B$BThrough treachery and deceit, the foul one convinced the four other Aspects to imbue an item, known as the Demon Soul, with their powers - greatly weakening them, forcing a division among the once great Aspects. $B'
+Text0_0_loc9='Deathwing, or Neltharion as he was once known, was the Aspect that embodied the strength of the world - granted almost limitless power over this mortal realm by the Titan shaper known as Khaz\'goroth: Forger of the world.$B$BThrough treachery and deceit, the foul one convinced the four other Aspects to imbue an item, known as the Demon Soul, with their powers - greatly weakening them, forcing a division among the once great Aspects. $B$B'
 Text0_0_loc9='Indeed. The item was ultimately destroyed and Deathwing nearly slain by the combined and renewed power of the four remaining Aspects. Where Deathwing is now is unknown. What we do know, however, is that one of his progeny, Nefarian, rules this citadel and wishes to continue where his father left off.'
 Text0_0_loc9='Before his banishment, Deathwing was attempting to create impure offspring. Half breeds that would not only be immune to the innate natural powers and abilities of their Aspects but also under the complete control of Deathwing.$B$BIt seems that where his father failed, Nefarian may have succeeded - at least partially.$B$BIt was Ysera, Aspect of Dreams, who saw the abominations and forced us to act. If these \'Chromatic\' dragonkin exist, they must be destroyed.'
 Text0_0_loc9='It is not our way, nor would it be possible. Nefarian is guarded by ancient wards, as old as the Aspects themselves. It is what prevents me from entering the inner sanctum of this citadel. The dark magic prevents any of the other flight to enter without being ordained... unless.'
@@ -1117,7 +1117,8 @@ Text0_0_loc9='I be a messenger from the Eastern Kingdoms, $N. I be sent here to 
 UPDATE locales_npc_text SET Text0_0_loc9='Be quiet!  Can\'t you see the master is speaking?',Text0_1_loc9='Be quiet!  Can\'t you see the master is speaking?',Text1_0_loc9='Spend less time rattling and more time listening.',Text1_1_loc9='Spend less time rattling and more time listening.' WHERE entry=4445;
 UPDATE locales_npc_text SET Text2_0_loc9='We must focus if we are to spawn our dragonflight!',Text2_1_loc9='We must focus if we are to spawn our dragonflight!',Text3_0_loc9='Be silent!  I cannot afford to miss even a moment of this lecture!',Text3_1_loc9='Be silent!  I cannot afford to miss even a moment of this lecture!' WHERE entry=4445;
 UPDATE locales_npc_text SET Text4_0_loc9='Did you forget your student\'s attire?  Do you think fashion is more vital than the Scourge\'s domination?',Text4_1_loc9='Did you forget your student\'s attire?  Do you think fashion is more vital than the Scourge\'s domination?',Text5_0_loc9='Did you finish yesterday\'s assignment?  If so, then sit by me!',Text5_1_loc9='Did you finish yesterday\'s assignment?  If so, then sit by me!' WHERE entry=4445;
-UPDATE locales_npc_text SET Text6_0_loc9='Watch your step in here, $Gboy:girl;.  The master sees all...',Text6_1_loc9='Watch your step in here, $Gboy:girl;.  The master sees all...',Text7_0_loc9='Did you bring your text books?  Can I look on with you?',Text7_1_loc9='Did you bring your text books?  Can I look on with you?' WHERE entry=4445;
+UPDATE locales_npc_text SET Text6_0_loc9='Watch your step in here, $Gboy:girl;.  The master sees all...',Text6_1_loc9='Watch your step in here, $Gboy:girl;.  The master sees all...' WHERE entry=4445;
+UPDATE locales_npc_text SET Text6_1_loc9='Watch your step in here, $Gboy:girl;.  The master sees all...', Text7_0_loc9='Did you bring your text books?  Can I look on with you?',, Text7_1_loc9='Did you bring your text books?  Can I look on with you?' WHERE entry=4445;
 Text0_0_loc9='What, may I ask, are you doing here?  Put on your student\'s attire, and study!',Text1_0_loc9='Be silent!  Do you think our plagued dragons will hatch and train themselves?'
 Text2_0_loc9='Have you come from the Burning Steppes?  Do you have my black dragon eggs?'
 Text0_0_loc9='Your mind is unfocused.  Are you hiding something from me?',Text1_0_loc9='I sense a disturbance, lurking around you...'
@@ -1297,7 +1298,7 @@ Text0_1_loc9='Unfortunately, there is little I can teach someone with your exper
 Text0_1_loc9='Elune-adore, my $Gbrother:sister;. You are welcome here. Speak, and I will do what I can to aid you.'
 Text0_1_loc9='Is it not astonishing what one can create from the plants of the forest? Truly, Elune has blessed us with her bounty.'
 Text0_1_loc9='You are kind to seek me out, but your skills are beyond my own. Have a word with Sylvanna Forestmoon, just over there. She\'s been looking for another student.'
-Text0_0_loc9='Did my sweet lass Kali send you down to me? The apple of my eye, she is.'
+UPDATE locales_npc_text SET Text0_1_loc9='' WHERE entry=5028;
 Text0_0_loc9='I don\'t suppose you\'re here to talk about my lovely Kali. Fine, then. Potions it is. Anyone ever tell ye you\'ve got a one-track mind?'
 Text0_0_loc9='Ye\'re beyond my skill to teach, $N. Go pester Tally Berryfizz; she\'s a gnome living in Tinker Town of Ironforge. Oh, and since you\'re headed up anyway, give Kali my love.'
 Text0_0_loc9='Don\'t let those big, innocent eyes fool ye. Tally\'s an expert, all right: I learn something new every day. Why d\'you think I\'m here in Tinker Town? Do I look like an engineer to you? Aye, I didn\'t think so.'
@@ -2090,7 +2091,7 @@ UPDATE locales_npc_text SET Text0_0_loc9='The Syndicate keeps many locked boxes 
 Text0_0_loc9='I study the known and unknown elements of our world.'
 Text0_0_loc9='There comes a time when the life we know falls short.  We are trapped and look for answers, and we find hope burning in dark places.$B$BOnly then, $N, do we take our first steps to freedom.'
 Text0_0_loc9='Do you have any spiders or beetles, $C?  They scurry fast, but if you\'re faster then you\'ll find them quite a treat!'
-Text0_0_loc9='Did you just come out of a dungeon?  Did you get me anything?',Text1_0_loc9='When I grow up, I wanna be the king of Stormwind!'
+UPDATE locales_npc_text SET Text0_1_loc9='', Text1_0_loc9='When I grow up, I wanna be the king of Stormwind!', WHERE entry=6992;
 Text2_0_loc9='I\'ve been to Ironforge before.  It smells funny there.',Text3_0_loc9='Mushrooms always grow in damp places and so they look like umbrellas.'
 Text4_0_loc9='If overalls are held up by the snaps at the top, then why do they have belt loops?',Text5_0_loc9='What happens if your snot freezes in your nose?'
 Text6_0_loc9='Do fish ever get thirsty?',Text7_0_loc9='If you try to fail and succeed, what did you just do?'
@@ -2114,7 +2115,6 @@ Text0_0_loc9='Greetings young one, and welcome to Thunder Bluff.  You\'ll find s
 Text0_0_loc9='Ah, a young warrior to be no doubt!  I take it you are participating in Children\'s Week, yes?  It warms these weary bones to hear that you are setting the example by which others will be sure to follow.$B$BI\'d be delighted to oblige you and the young lad.  Hrmm... what advice should I give to him?  Listen to the spirits, yes... maybe something about eating all of his vegetables too...'
 UPDATE locales_npc_text SET Text0_0_loc9='Cooking is a life long pursuit and I see we share the same passion!',Text0_1_loc9='Cooking is a life long pursuit and I see we share the same passion!',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7015;
 UPDATE locales_npc_text SET Text0_0_loc9='Seek out Shandrina in Silverwind Refuge.  She can sell you the "Expert Cookbook".',Text0_1_loc9='Seek out Shandrina in Silverwind Refuge.  She can sell you the "Expert Cookbook".',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7016;
-UPDATE locales_npc_text SET Text0_0_loc9='Dirge Quikcleave of Gadgetzan is a master of the culinary arts.  To better yourself you will need to seek him out.',Text0_1_loc9='Dirge Quikcleave of Gadgetzan is a master of the culinary arts.  To better yourself you will need to seek him out.',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7017;
 UPDATE locales_npc_text SET Text0_0_loc9='Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.',Text0_1_loc9='Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7019;
 UPDATE locales_npc_text SET Text0_0_loc9='I can teach you how to cook!',Text0_1_loc9='I can teach you how to cook!',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7021;
 UPDATE locales_npc_text SET Text0_0_loc9='Only the renowned Doctor Gregory Victor can improve your skill now.  He can be found in Arathi Highlands at Hammerfall.',Text0_1_loc9='Only the renowned Doctor Gregory Victor can improve your skill now.  He can be found in Arathi Highlands at Hammerfall.',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=7024;
@@ -3080,7 +3080,7 @@ Text0_1_loc9='It is my fervent hope that we will be able to bring the Light to t
 Text0_0_loc9='I am far too busy to be wasting time on idle chatter. If you are looking for work as a huntsman, speak with Diktynna at the river\'s edge -- to the east. No doubt she\'s behind on her duties...'
 Text0_1_loc9='This is going to be such fun!  Don\'t you think, my dear?'
 Text0_0_loc9='Gaze upon the Exodar, young $R. It is hard to imagine that we survived such a catastrophe.$B$B<Menelaous sighs.>$B$BThe Prophet states that it is here that our fate will finally be known. Ten lifetimes spent fleeing from the madness of the Burning Legion... here we finally make a stand.$B$BNo more running... I am ready to die.'
-Text0_1_loc9='Did Balandar Brightstar send you to rescue me?'
+
 Text0_1_loc9='Oh, most excellent!  That was great fun, was it not?  Little by little I\'ve been cursing more of those disgusting Lost Ones.  Soon enough I\'ll be ready to try it on the draenei!'
 Text0_1_loc9='May the spirits guide you, $R.'
 ,Text0_1_loc9='Strength to the Clans, $C!  What brings you here?'
@@ -3437,7 +3437,8 @@ Text0_0_loc9='They have no respect for the dead, $R. The ogres must be taught a 
 Text0_0_loc9='We must search for survivors. If anyone is still alive, we must at least try and get them back...'
 Text0_0_loc9='Who are you?  What do you want here?',Text1_0_loc9='Why did you do this to us?'
 Text2_0_loc9='There are FOUR lights!',Text3_0_loc9='My vicious teromoths will avenge me!'
-Text4_0_loc9='Where did everyone go?',Text5_0_loc9='Dinner guests should show more respect!'
+Text4_0_loc9='Where did everyone go?'
+UPDATE locales_npc_text SET Text4_1_loc9='', Text5_0_loc9='Dinner guests should show more respect!', WHERE entry=9383;
 Text6_0_loc9='Oh, what a sacred place is here overthrown!',Text7_0_loc9='Anoint my head with a healing balm.  Do you like my crown of thorns?'
 UPDATE locales_npc_text SET Text0_0_loc9='I can instruct you in mining.  Interested?',Text0_1_loc9='I can instruct you in mining.  Interested?',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=9384;
 UPDATE locales_npc_text SET Text0_0_loc9='I can instruct you in herbalism.  Interested?',Text0_1_loc9='I can instruct you in herbalism.  Interested?',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=9385;
@@ -3518,7 +3519,6 @@ Text0_0_loc9='I\'m going to figure out what this shadowy group is up to no matte
 Text0_1_loc9='We need to figure out what this shadowy group is doing here at Grangol\'var Village!'
 Text0_0_loc9='We\'ve a duty out here, $G boy : girl;, to see to it that we don\'t let anyone surprise us.$B$BThat means proactive action!'
 Text0_1_loc9='I must have made a misstep somewhere to be assigned here.'
-UPDATE locales_npc_text SET Text0_0_loc9='Did you hear that they lost total control of Murmur in the Shadow Labyrinth?!',Text0_1_loc9='Did you hear that they lost total control of Murmur in the Shadow Labyrinth?!',Text1_0_loc9='They don\'t pay us enough for this.  But this ruined village sure beats skulking around inside of Auchindoun.',Text1_1_loc9='They don\'t pay us enough for this.  But this ruined village sure beats skulking around inside of Auchindoun.' WHERE entry=9523;
 UPDATE locales_npc_text SET Text2_0_loc9='I joined up because they said they\'d pay my way into the academy.  My uncle says that I can go next season!',Text2_1_loc9='I joined up because they said they\'d pay my way into the academy.  My uncle says that I can go next season!',Text3_0_loc9='Hey there, you must be the new recruit!  Good to meet you!$B$BAny word from the Shadow Labyrinth in Auchindoun on whether we\'ve regained control of Murmur yet?',Text3_1_loc9='Hey there, you must be the new recruit!  Good to meet you!$B$BAny word from the Shadow Labyrinth in Auchindoun on whether we\'ve regained control of Murmur yet?' WHERE entry=9523;
 UPDATE locales_npc_text SET Text4_0_loc9='If you\'re interested, a couple of us are going into Shattrath for drinks later.',Text4_1_loc9='If you\'re interested, a couple of us are going into Shattrath for drinks later.',Text5_0_loc9='Interested in joining up for the leather ball league?  We play Monday through Wednesday, mostly. $B$BYou\'re welcome to join us after this shift.  We\'re going to toss it around.',Text5_1_loc9='Interested in joining up for the leather ball league?  We play Monday through Wednesday, mostly. $B$BYou\'re welcome to join us after this shift.  We\'re going to toss it around.' WHERE entry=9523;
 UPDATE locales_npc_text SET Text6_0_loc9='I hope this place pans out as a forward base for Shadow Council operations.  I know it sounds weird, but I kind of miss the Shadow Labyrinth.',Text6_1_loc9='I hope this place pans out as a forward base for Shadow Council operations.  I know it sounds weird, but I kind of miss the Shadow Labyrinth.',Text7_0_loc9='<He leans in closer.>$B$BJust between you and me, I\'m thinking about \'mustering\' out one of these nights.  You know what I mean?',Text7_1_loc9='<She leans in closer.>$B$BJust between you and me, I\'m thinking about \'mustering\' out one of these nights.  You know what I mean?' WHERE entry=9523;
@@ -3902,7 +3902,7 @@ UPDATE locales_npc_text SET Text0_0_loc9='The good sempstress is of late occupie
 UPDATE locales_npc_text SET Text0_0_loc9='What are you after? Speak up.',Text0_1_loc9='What are you after? Speak up.',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=10208;
 Text0_0_loc9='In a different time and place I would\'ve been considered but a youngling.  Here I am a seasoned combatant ready to live and die for the glory of the naaru.$B$BTen of us went into Manaforge Ara.  All the others fell to the Legion.'
 Text0_0_loc9='It is time to face Socrethar, $N.  Are you ready?'
-Text0_0_loc9='Did the Scryers send you to contact me?  You do not look like a Scryer at all.'
+UPDATE locales_npc_text SET Text0_1_loc9='' WHERE entry=10211;
 Text0_1_loc9='Speak quickly; I don\'t have time to waste on idle chatter. The Forsaken have become a force to be reckoned with, but there is still much to do in a given day. This city doesn\'t run itself.$B$BWhat do you want?'
 UPDATE locales_npc_text SET Text0_0_loc9='You don\'t have what it takes to fight in the Steamwheedle Fighting Circuit, $C. Stop wasting my time.',Text0_1_loc9='You don\'t have what it takes to fight in the Steamwheedle Fighting Circuit, $C. Stop wasting my time.',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=10214;
 UPDATE locales_npc_text SET Text0_0_loc9='All right, $C. You think you have what it takes to make it in the Steamwheedle Fighting Circuit\'s arena battlegrounds?',Text0_1_loc9='All right, $C. You think you have what it takes to make it in the Steamwheedle Fighting Circuit\'s arena battlegrounds?',Text1_0_loc9='MISSING ENGLISH Text1:',Text1_1_loc9='MISSING ENGLISH Text1:' WHERE entry=10215;
@@ -4809,7 +4809,6 @@ Text2_0_loc9='I don\'t have time to talk right now.',Text2_1_loc9='I don\'t have
 Text0_1_loc9='The flight from Grom\'gol to Undercity is beautiful, though uneventful.  Though that is no excuse to fall asleep on the job.'
 Text0_0_loc9='Come in out of the ash and muck. Dry yourself a spell.'
 Text0_0_loc9='The Tauren Chieftains are staying in Silvermoon while I arrange their next tour. They often lounge on the balcony above me when they\'re not practicing. Feel free to wave... they love the attention.$B$BWe\'re not currently hiring for the show or the crew, but you can always check back later. Who knows what will arise?'
-UPDATE locales_npc_text SET Text0_0_loc9='Did you manage to see their show in Terokkar Forest? It was amazing!',Text0_1_loc9='Did you manage to see their show in Terokkar Forest? It was amazing!',Text1_0_loc9='The Tauren Chieftains must be the best-known minstrels in all of Azeroth!',Text1_1_loc9='The Tauren Chieftains must be the best-known minstrels in all of Azeroth!' WHERE entry=12336;
 UPDATE locales_npc_text SET Text2_0_loc9='I wonder how much longer they\'ll be in Silvermoon City. I hope they play here!',Text2_1_loc9='I wonder how much longer they\'ll be in Silvermoon City. I hope they play here!',Text3_0_loc9='I\'d give nearly anything for a chance to go up there and speak with them...',Text3_1_loc9='I\'d give nearly anything for a chance to go up there and speak with them...' WHERE entry=12336;
 Text0_1_loc9='Do not fight the enemy unprepared, $N.  I can provide you with very powerful items... provided you have proven yourself to us.'
 Text0_0_loc9='Kael\'s lackeys are about to be taught a lesson in humility.  We will crush the Dawnblade army and take Sun\'s Reach Harbor from them.$B$BWe are $3238w percent done with our goal.'
@@ -5238,7 +5237,7 @@ Text0_1_loc9='If you\'ve got somewhere to go, I can get you there.'
 Text0_0_loc9='Bg\'grrml brgl brm!'
 Text0_0_loc9='Let me out of here, $R!'
 Text0_0_loc9='Vekjik no want to be bothered.'
-Text0_0_loc9='Disgusting big-tongue friend, you no belong here. Go from Frenzyheart land or I call magic stuffs to kill you!'
+UPDATE locales_npc_text SET Text0_1_loc9='' WHERE entry=13137;
 Text0_0_loc9='Frenzyheart never be friends of big-tongues. You dumb to come back here traitor thing!'
 Text0_1_loc9='You will be my salvation.$B$BYou may yet be my demise.'
 Text0_0_loc9='Have you ever seen drakes like the ones around here? Makes for perfect hunting.'
@@ -5509,7 +5508,7 @@ Text0_1_loc9='It is always a pleasure to meet heroes such as yourself in this fo
 Text0_0_loc9='Greetings, mage.  Shall I provide you with further insight into the world of magic?',Text0_1_loc9='Greetings, mage.  Shall I provide you with further insight into the world of magic?'
 Text0_0_loc9='Well met, $C.  My advice to you is this: as you travel the world, be wary of magic for it will burn the untrained.',Text0_1_loc9='Well met, $C.  My advice to you is this: as you travel the world, be wary of magic for it will burn the untrained.'
 Text0_1_loc9='Of course! Go with Elune\'s blessing.'
-Text0_0_loc9='Dis be a dark day in troll history, mon.',Text1_0_loc9='Dis be horrible, mon. I cannot bear to be watchin\'.'
+UPDATE locales_npc_text SET Text0_1_loc9='', Text1_0_loc9='Dis be horrible, mon. I cannot bear to be watchin\'.', WHERE entry=13848;
 Text0_1_loc9='It be my duty to record these tragic events for the good of generations to come.'
 Text0_0_loc9='We mustn\'t lose our focus. The dangers inherent in getting lost in the moment could put us in peril. Alas, the soldiers need a respite from this madness.$B$BBask in the victory, $N. If not for you we might have lost the Vanguard.'
 Text0_1_loc9='Reinforcements, finally! The prison guards can\'t hold out against this invasion for much longer! You\'ll have to relieve my men and try to hold out for as long as you can. There\'s still some power in the defense system available. Use the activation crystals located around the prison to trigger a discharge if the situation worsens.'
@@ -5769,7 +5768,7 @@ Text0_0_loc9='I do not judge others by their stature, $R, but by their courage a
 Text0_0_loc9='This is a fine mess we\'ve gotten ourselves into. We\'re overdue to join up with our forces in Icecrown and now we\'re entangled in this debacle, stuck between the Scourge and the Drakkari.$B$BI told the highlord it was a mistake to come here.$B$BSee what you can do to help out there.'
 Text0_0_loc9='Can you hear it, $C? The elements cry out that this land is almost dead. The Drakkari are stealing the power of their gods by killing them just to defend themselves against the Scourge.$B$BThey are short-sighted and will be their own undoing in the end.'
 Text0_1_loc9='After the Plaguelands and the Battle for Light\'s Hope Chapel, I didn\'t think that we would witness anything more horrible.$B$BI was wrong.'
-Text0_0_loc9='Dig rats make some surprisingly tasty stew.'
+UPDATE locales_npc_text SET Text0_1_loc9='' WHERE entry=14313;
 Text0_0_loc9='Welcome, champions! All of our attempts at bringing her down have failed. We could use a hand in bringing her down with these harpoon guns.',Text0_1_loc9='Welcome, champions! All of our attempts at bringing her down have failed. We could use a hand in bringing her down with these harpoon guns.'
 Text0_1_loc9='I thought I\'d never be free from that terrible curse. You have my gratitude, stranger.'
 Text0_1_loc9='Take it with my gratitude, $C.'

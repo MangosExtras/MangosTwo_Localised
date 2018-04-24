@@ -199,7 +199,6 @@ UPDATE trans_words SET content_loc9='Help a poor bloke out?' WHERE word_id = 581
 UPDATE trans_words SET content_loc9='Some coin?' WHERE word_id = 5810;
 UPDATE trans_words SET content_loc9='I have a special message for $N. And it says you must die!' WHERE word_id = 5809;
 UPDATE trans_words SET content_loc9='I\'ll deliver you, weak $C, to the afterlife!' WHERE word_id = 5808;
-UPDATE trans_words SET content_loc9='Die in the name of Edwin van Cleef!' WHERE word_id = 5807;
 UPDATE trans_words SET content_loc9='%s fortifies nearby allies with runic might!' WHERE word_id = 6551;
 UPDATE trans_words SET content_loc9='Crush!' WHERE word_id = 5805;
 UPDATE trans_words SET content_loc9='All of your efforts have been in vain, for the draining of the World Tree has already begun! Soon, the heart of your world shall beat no more!' WHERE word_id = 6409;
@@ -306,7 +305,6 @@ UPDATE trans_words SET content_loc9='Last time someone went out to try and colle
 UPDATE trans_words SET content_loc9='Maybe I should gather up some other agents and head out there after this shift?' WHERE word_id = 6316;
 UPDATE trans_words SET content_loc9='Mortals have no place here!' WHERE word_id = 3072;
 UPDATE trans_words SET content_loc9='Iman m t\'ief fu Fus\'obeah italaf' WHERE word_id = 5795;
-UPDATE trans_words SET content_loc9='Dim wha Siame cyaa fi so yudo' WHERE word_id = 5794;
 UPDATE trans_words SET content_loc9='So ju weh siame is fus nehjo skam worl Uptfeel' WHERE word_id = 5793;
 UPDATE trans_words SET content_loc9='Time to bash!' WHERE word_id = 5792;
 UPDATE trans_words SET content_loc9='Er... \'Moke?' WHERE word_id = 6315;
@@ -356,7 +354,6 @@ UPDATE trans_words SET content_loc9='Bash it!' WHERE word_id = 5772;
 UPDATE trans_words SET content_loc9='A $C called $N? You\'ll make a fine breakfast!' WHERE word_id = 5771;
 UPDATE trans_words SET content_loc9='Die $R! These lands belong to the Stonesplinter Tribe!' WHERE word_id = 5770;
 UPDATE trans_words SET content_loc9='The Loch belongs to the Stonesplinter Tribe now, $N! Now die!' WHERE word_id = 5769;
-UPDATE trans_words SET content_loc9='Die in the name of Ragnaros!' WHERE word_id = 5768;
 UPDATE trans_words SET content_loc9='[Dwarvish] Dum mos' WHERE word_id = 5767;
 UPDATE trans_words SET content_loc9='%s\'s eyes glow red as he lights his dynamite and begins to cackle madly!' WHERE word_id = 5766;
 UPDATE trans_words SET content_loc9='[Orcish] Ogg kaz ko zugas kil mog Tov\'nokaz Kagg' WHERE word_id = 5765;
@@ -503,7 +500,6 @@ UPDATE trans_words SET content_loc9='%s begins to summon in a Blackhand Veteran!
 UPDATE trans_words SET content_loc9='%s summons a Blackhand Dreadweaver to his aid!' WHERE word_id = 5705;
 UPDATE trans_words SET content_loc9='%s summons a Blackhand Veteran to his aid!' WHERE word_id = 5704;
 UPDATE trans_words SET content_loc9='The Great One will smash you!' WHERE word_id = 5703;
-UPDATE trans_words SET content_loc9='Die!  You will not free Myzrael!' WHERE word_id = 5702;
 UPDATE trans_words SET content_loc9='Stand firm, brothers.  And don\'t worry!  Size is on our side!' WHERE word_id = 5701;
 UPDATE trans_words SET content_loc9='No!  Leave us!  We must not fail our task!' WHERE word_id = 5700;
 UPDATE trans_words SET content_loc9='Take that!  The Drywhiskers will prevail!' WHERE word_id = 5699;
@@ -1077,7 +1073,6 @@ UPDATE trans_words SET content_loc9='What a pitiful choice of an ally Crok.' WHE
 UPDATE trans_words SET content_loc9='Come, $N. See what the Nightmare brings...' WHERE word_id = 5567;
 UPDATE trans_words SET content_loc9='The Nightmare cannot be stopped!' WHERE word_id = 5566;
 UPDATE trans_words SET content_loc9='%s squeezes the last bit of life out of $N and swallows their soul.' WHERE word_id = 5565;
-UPDATE trans_words SET content_loc9='Dig faster, wretch!  Do not force me to show you the true meaning of pain!' WHERE word_id = 6008;
 UPDATE trans_words SET content_loc9='Do not stop!  I promise you a thousand deaths if you even think about putting down that pick!' WHERE word_id = 6007;
 UPDATE trans_words SET content_loc9='Faster, scum!  The Master won\'t be pleased if we don\'t find the Ata\'mal crystal he\'s after.' WHERE word_id = 6006;
 UPDATE trans_words SET content_loc9='Slay these intruders, filthy Dreghood!  I promise you neverending pain if you disobey me!' WHERE word_id = 6005;
@@ -1171,7 +1166,6 @@ UPDATE trans_words SET content_loc9='Cabal Summoner summons a Cabal Acolyte to h
 UPDATE trans_words SET content_loc9='You\'re a slave. That\'s all you\'ll ever be.' WHERE word_id = 5967;
 UPDATE trans_words SET content_loc9='I don\'t know what Blackmoore sees in you. For my money, you\'re just another ignorant savage!' WHERE word_id = 5966;
 UPDATE trans_words SET content_loc9='Thrall will never be free!' WHERE word_id = 5965;
-UPDATE trans_words SET content_loc9='Did you really think you would leave here alive?' WHERE word_id = 5964;
 UPDATE trans_words SET content_loc9='Guards! Urgh..Guards..!' WHERE word_id = 5963;
 UPDATE trans_words SET content_loc9='You there, fetch water quickly! Get these flames out before they spread to the rest of the keep! Hurry, damn you!' WHERE word_id = 5962;
 UPDATE trans_words SET content_loc9='I know what you\'re up to, and I mean to put an end to it, permanently!' WHERE word_id = 5961;
