@@ -416,7 +416,7 @@ UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3297;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3301;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3302;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3303;
-Text0_0_loc8='Deathwing, or Neltharion as he was once known, was the Aspect that embodied the strength of the world - granted almost limitless power over this mortal realm by the Titan shaper known as Khaz\'goroth: Forger of the world.$B$BThrough treachery and deceit, the foul one convinced the four other Aspects to imbue an item, known as the Demon Soul, with their powers - greatly weakening them, forcing a division among the once great Aspects. $B'
+UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3304;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3305;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3306;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=3307;
@@ -1776,7 +1776,7 @@ Text0_0_loc8='You show wisdom beyond your years $C.  Thank you.  You can find ou
 Text0_0_loc8='The Silverwing Sentinels shall be in your debt $C.  You will find Elfarran, our battlemaster, inside Stormwind Keep, attending the boy-king\'s audience.  Goddess watch over you!',Text0_1_loc8='The Silverwing Sentinels shall be in your debt $C.  You will find Elfarran, our battlemaster, inside Stormwind Keep, attending the boy-king\'s audience.  Goddess watch over you!',Text1_1_loc8='MISSING ENGLISH Text1:'
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7712;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7713;
-Text0_0_loc8='We already have a winner for our contest, but Jang is willing to purchase any Tastyfish that you have fished up!$B$BThere is always next Sunday for you to show your Angling skill!'
+UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7714;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7717;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7720;
 UPDATE locales_npc_text SET Text0_1_loc8='' WHERE entry=7721;

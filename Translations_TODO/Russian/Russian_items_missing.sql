@@ -2,11 +2,11 @@
 SET NAMES 'utf8';
 UPDATE locales_item SET description_loc8='The initials are faded and unreadable.' WHERE entry=3985;
 UPDATE locales_item SET description_loc8='Teaches Ritual of Doom.' WHERE entry=4213;
-UPDATE locales_item SET name_loc8='Goblin Prize Box',description_loc8='Open for a prize!' WHERE entry=5858;
+UPDATE locales_item SET description_loc8='Open for a prize!' WHERE entry=5858;
 UPDATE locales_item SET name_loc8='Mystical Powder',description_loc8='Used by Enchanters to enchant items.' WHERE entry=6216;
-UPDATE locales_item SET name_loc8='Enchanted Powder',description_loc8='Used by Enchanters to enchant items.' WHERE entry=6374;
+UPDATE locales_item SET description_loc8='Used by Enchanters to enchant items.' WHERE entry=6374;
 UPDATE locales_item SET name_loc8='Formula: Enchant Boots - Minor Stamina',description_loc8='Teaches you how to permanently enchant a pair of boots to grant +1 Stamina.' WHERE entry=6376;
-UPDATE locales_item SET name_loc8='Recipe: Herb Baked Egg',description_loc8='Teaches you how to cook a Herb Baked Egg.' WHERE entry=6891;
+UPDATE locales_item SET description_loc8='Teaches you how to cook a Herb Baked Egg.' WHERE entry=6891;
 UPDATE locales_item SET description_loc8='It doesn\'t appear to work anymore.  Might as well sell it for scrap.' WHERE entry=9173;
 UPDATE locales_item SET description_loc8='An ancient, brittle horn.' WHERE entry=10000;
 UPDATE locales_item SET description_loc8='Looks great. Less filling.' WHERE entry=12947;
