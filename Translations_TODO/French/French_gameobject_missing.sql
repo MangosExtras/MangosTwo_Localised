@@ -613,7 +613,6 @@ UPDATE trans_words SET content_loc2='ArenaGate02' WHERE word_id = 115143;
 UPDATE trans_words SET content_loc2='ArenaGate04' WHERE word_id = 115144;
 UPDATE trans_words SET content_loc2='ArenaGate03' WHERE word_id = 115145;
 UPDATE trans_words SET content_loc2='ArenaGate01' WHERE word_id = 115146;
-UPDATE trans_words SET content_loc2='Samophlange' WHERE word_id = 11947;
 UPDATE trans_words SET content_loc2='Doodad_PortcullisActive01' WHERE word_id = 115156;
 UPDATE trans_words SET content_loc2='Aura 1 - Linken' WHERE word_id = 115160;
 UPDATE trans_words SET content_loc2='Aura 2 - Linken' WHERE word_id = 115161;
@@ -906,7 +905,6 @@ UPDATE trans_words SET content_loc2='Grand Widow Faerlina Door' WHERE word_id = 
 UPDATE trans_words SET content_loc2='Doodad_Nox_door_slime01' WHERE word_id = 116454;
 UPDATE trans_words SET content_loc2='Doodad_Nox_door_slime02' WHERE word_id = 116455;
 UPDATE trans_words SET content_loc2='Necropolis critter spawner' WHERE word_id = 120871;
-UPDATE trans_words SET content_loc2='Terocone' WHERE word_id = 24982;
 UPDATE trans_words SET content_loc2='Midsummer Bonfire Spawn Trap' WHERE word_id = 120872;
 UPDATE trans_words SET content_loc2='Doodad_kelthuzad_window_portal01' WHERE word_id = 116522;
 UPDATE trans_words SET content_loc2='Doodad_kelthuzad_window_portal02' WHERE word_id = 116523;
@@ -1148,7 +1146,6 @@ UPDATE trans_words SET content_loc2='GO Text Missing:188585' WHERE word_id = 118
 UPDATE trans_words SET content_loc2='GO Text Missing:188586' WHERE word_id = 118602;
 UPDATE trans_words SET content_loc2='GO Text Missing:188587' WHERE word_id = 118603;
 UPDATE trans_words SET content_loc2='Table' WHERE word_id = 116414;
-UPDATE trans_words SET content_loc2='Element 115' WHERE word_id = 37302;
 UPDATE trans_words SET content_loc2='Silvermoon City Bench' WHERE word_id = 118347;
 UPDATE trans_words SET content_loc2='The Mystic Mage' WHERE word_id = 118348;
 UPDATE trans_words SET content_loc2='The Royal Exchange Auction House' WHERE word_id = 118351;
@@ -1156,7 +1153,6 @@ UPDATE trans_words SET content_loc2='Trade & Training Organization for Jewelers'
 UPDATE trans_words SET content_loc2='The Paladian Blood Knights Order' WHERE word_id = 118353;
 UPDATE trans_words SET content_loc2='Silvermoon Hunter\'s Lodge' WHERE word_id = 118354;
 UPDATE trans_words SET content_loc2='Doodad_Meetingstone01' WHERE word_id = 120514;
-UPDATE trans_words SET content_loc2='D.I.S.C.O.' WHERE word_id = 34669;
 UPDATE trans_words SET content_loc2='Western Zeppelin Tower - Northrend & Mulgore' WHERE word_id = 118890;
 UPDATE trans_words SET content_loc2='WotLK Light Altar' WHERE word_id = 119244;
 UPDATE trans_words SET content_loc2='WotLK Light Banner, Hanging' WHERE word_id = 119245;
@@ -1354,7 +1350,6 @@ UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple01' WHERE wo
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
-UPDATE trans_words SET content_loc2='Krolmir' WHERE word_id = 55697;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
@@ -1910,9 +1905,6 @@ UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Green_Skull01' WHE
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Green01' WHERE word_id = 119013;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc2='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
-UPDATE trans_words SET content_loc2='Barricade' WHERE word_id = 59647;
-UPDATE trans_words SET content_loc2='Barricade' WHERE word_id = 59647;
-UPDATE trans_words SET content_loc2='Barricade' WHERE word_id = 59647;
 UPDATE trans_words SET content_loc2='GO Text Missing:193795' WHERE word_id = 120059;
 UPDATE trans_words SET content_loc2='GO Text Missing:193796' WHERE word_id = 120060;
 UPDATE trans_words SET content_loc2='GO Text Missing:193797' WHERE word_id = 120316;

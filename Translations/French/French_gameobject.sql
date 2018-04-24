@@ -8303,6 +8303,7 @@ UPDATE locales_gameobject SET name_loc2='Glaurier' WHERE entry=181272;
 UPDATE locales_gameobject SET name_loc2='Cercle d\'invocation' WHERE entry=181273;
 UPDATE locales_gameobject SET name_loc2='Voile-misère' WHERE entry=181275;
 UPDATE locales_gameobject SET name_loc2='Chapeflamme' WHERE entry=181276;
+UPDATE locales_gameobject SET name_loc2='Terocône' WHERE entry=181277;
 UPDATE locales_gameobject SET name_loc2='Lichen ancien' WHERE entry=181278;
 UPDATE locales_gameobject SET name_loc2='Néantine' WHERE entry=181279;
 UPDATE locales_gameobject SET name_loc2='Cauchemardelle' WHERE entry=181280;
@@ -13092,6 +13093,7 @@ UPDATE locales_gameobject SET name_loc2='Discombobulateur du Fléau' WHERE entry
 UPDATE locales_gameobject SET name_loc2='Tombe sans nom' WHERE entry=189971;
 UPDATE locales_gameobject SET name_loc2='Boule de cristal de Ruuna' WHERE entry=189972;
 UPDATE locales_gameobject SET name_loc2='Trèfle doré' WHERE entry=189973;
+UPDATE locales_gameobject SET name_loc2='Elément 115' WHERE entry=189976;
 UPDATE locales_gameobject SET name_loc2='Cage fragile' WHERE entry=189977;
 UPDATE locales_gameobject SET name_loc2='Gisement de cobalt' WHERE entry=189978;
 UPDATE locales_gameobject SET name_loc2='Riche gisement de cobalt' WHERE entry=189979;
