@@ -1584,10 +1584,8 @@ UPDATE trans_words SET content_loc6='The Paladian Blood Knights Order' WHERE wor
 UPDATE trans_words SET content_loc6='Silvermoon Hunter\'s Lodge' WHERE word_id = 118354;
 UPDATE trans_words SET content_loc6='Nexus Magic Orb Blue 01' WHERE word_id = 118621;
 UPDATE trans_words SET content_loc6='Doodad_Meetingstone01' WHERE word_id = 120514;
-UPDATE trans_words SET content_loc6='D.I.S.C.O.' WHERE word_id = 34669;
 UPDATE trans_words SET content_loc6='Pirate Day Music Doodad' WHERE word_id = 120852;
 UPDATE trans_words SET content_loc6='Zul\'Drak Stoneface 01' WHERE word_id = 119201;
-UPDATE trans_words SET content_loc6='Papaya' WHERE word_id = 38032;
 UPDATE trans_words SET content_loc6='Orange (Display)' WHERE word_id = 118801;
 UPDATE trans_words SET content_loc6='Bananas (Display)' WHERE word_id = 118802;
 UPDATE trans_words SET content_loc6='Papaya (Display)' WHERE word_id = 118803;
@@ -1803,7 +1801,6 @@ UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple01' WHERE wo
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
-UPDATE trans_words SET content_loc6='Krolmir' WHERE word_id = 55697;
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple01' WHERE word_id = 118644;
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;
 UPDATE trans_words SET content_loc6='Doodad_InstanceNewPortal_Purple_Skull01' WHERE word_id = 118643;

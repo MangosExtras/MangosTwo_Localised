@@ -447,7 +447,7 @@ UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3297;
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3301;
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3302;
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3303;
-Text0_0_loc6='Deathwing, or Neltharion as he was once known, was the Aspect that embodied the strength of the world - granted almost limitless power over this mortal realm by the Titan shaper known as Khaz\'goroth: Forger of the world.$B$BThrough treachery and deceit, the foul one convinced the four other Aspects to imbue an item, known as the Demon Soul, with their powers - greatly weakening them, forcing a division among the once great Aspects. $B'
+Text0_0_loc6='Deathwing, or Neltharion as he was once known, was the Aspect that embodied the strength of the world - granted almost limitless power over this mortal realm by the Titan shaper known as Khaz\'goroth: Forger of the world.$B$BThrough treachery and deceit, the foul one convinced the four other Aspects to imbue an item, known as the Demon Soul, with their powers - greatly weakening them, forcing a division among the once great Aspects. $B$B'
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3305;
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3306;
 UPDATE locales_npc_text SET Text0_1_loc6='' WHERE entry=3307;
