@@ -274,8 +274,8 @@ UPDATE trans_words SET content_loc9='Finally, free at last... I must be going no
 UPDATE trans_words SET content_loc9='Stay close, $N. I\'ll need all the help I can get to break out of here. Let\'s go!' WHERE word_id = 264;
 UPDATE trans_words SET content_loc9='At last! Free from Northwatch Hold! I need a moment to catch my breath...' WHERE word_id = 265;
 UPDATE trans_words SET content_loc9='Now i feel better. Let\'s get back to Ratchet. Come on, $N.' WHERE word_id = 266;
-UPDATE trans_words SET content_loc9='Looks like the Southsea Freeboters are heavily entrenched on the coast. This could get rough.' WHERE word_id = 1341;
 UPDATE trans_words SET content_loc9='Looks like the Southsea Freebooters are heavily entrenched on the coast. This could get rough.' WHERE word_id = 267;
+UPDATE trans_words SET content_loc9='Looks like the Southsea Freeboters are heavily entrenched on the coast. This could get rough.' WHERE word_id = 1341;
 UPDATE trans_words SET content_loc9='Help! $C attacking!' WHERE word_id = 268;
 UPDATE trans_words SET content_loc9='$C heading this way fast! Time for revenge!' WHERE word_id = 269;
 UPDATE trans_words SET content_loc9='$C coming right at us!' WHERE word_id = 270;

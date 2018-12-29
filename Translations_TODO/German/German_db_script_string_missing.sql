@@ -250,8 +250,6 @@ UPDATE trans_words SET content_loc3='Aaahhh... Another glorious victory for The 
 UPDATE trans_words SET content_loc3='When is pappa comming back from the fights in Warsong? It has been so long...' WHERE word_id = 7263;
 UPDATE trans_words SET content_loc3='I thank you, $N. And my brother thanks you.' WHERE word_id = 8280;
 UPDATE trans_words SET content_loc3='%s listens to Sigilbringer\'s report...' WHERE word_id = 7252;
-UPDATE trans_words SET content_loc3='What?? The Burning Blade is spreading! We must investigate!' WHERE word_id = 7253;
-UPDATE trans_words SET content_loc3='%s smashes the dead, twisted claw.' WHERE word_id = 7254;
 UPDATE trans_words SET content_loc3='We won. Dimensius no more. Report this proffesor Dabiri.' WHERE word_id = 8285;
 UPDATE trans_words SET content_loc3='Lord Uther...' WHERE word_id = 8287;
 UPDATE trans_words SET content_loc3='Jaina?' WHERE word_id = 8303;
