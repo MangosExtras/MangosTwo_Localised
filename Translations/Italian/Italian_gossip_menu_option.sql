@@ -2451,6 +2451,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc9='Teletrasportami alla Ant
 UPDATE locales_gossip_menu_option SET option_text_loc9='Teletrasportami allo Shattered Walkway.' WHERE menu_id=10389 AND id=6;
 UPDATE locales_gossip_menu_option SET option_text_loc9='Voglio curiosare tra le tue merci.' WHERE menu_id=10408 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc9='Allenami.' WHERE menu_id=10408 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc9='Tharnariun, la trappola è persa. Ne avresti un\'altra?' WHERE menu_id=10482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc9='Voglio curiosare tra le tue merci.' WHERE menu_id=10598 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc9='Si. Siamo pronti per le sfide che ci si pareranno davanti.' WHERE menu_id=10599 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc9='Iniziamo con la prima sfida!' WHERE menu_id=10600 AND id=0;

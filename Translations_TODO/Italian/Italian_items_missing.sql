@@ -4915,6 +4915,7 @@ UPDATE locales_item SET name_loc9='Technique: Glyph of Rapid Rejuvenation',descr
 UPDATE locales_item SET name_loc9='Technique: Glyph of Quick Decay',description_loc9='Teaches you how to inscribe a Glyph of Quick Decay.' WHERE entry=50168;
 UPDATE locales_item SET description_loc9='Teaches you how to summon this mount.' WHERE entry=50250;
 UPDATE locales_item SET description_loc9='The sword\'s compulsion has been overcome... for now.' WHERE entry=50254;
+UPDATE locales_item SET description_loc9='NOTE: Not Guaranteed to Contain an Actual Pet' WHERE entry=50301;
 UPDATE locales_item SET description_loc9='When you dislike enough to make the very worst!' WHERE entry=50320;
 UPDATE locales_item SET description_loc9='Incapable of Scribing the Truth' WHERE entry=50357;
 UPDATE locales_item SET description_loc9='This scratched and dented hilt once belonged to an ancient sword.' WHERE entry=50379;

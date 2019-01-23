@@ -3675,6 +3675,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc8='Я готов к бит�
 UPDATE locales_gossip_menu_option SET option_text_loc8='Я готов к битве!' WHERE menu_id=10461 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc8='Я полечу туда' WHERE menu_id=10478 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc8='Я полечу туда' WHERE menu_id=10478 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc8='Тарнариун, ловушка потерялась. Нет ли у вас еще одной?' WHERE menu_id=10482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc8='Позвольте взглянуть на ваши товары.' WHERE menu_id=10598 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc8='Мы готовы к грядущим испытаниям.' WHERE menu_id=10599 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc8='Начинайте первое испытание!' WHERE menu_id=10600 AND id=0;

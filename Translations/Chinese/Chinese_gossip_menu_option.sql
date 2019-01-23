@@ -3275,6 +3275,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc4='我准备好了！' WHER
 UPDATE locales_gossip_menu_option SET option_text_loc4='我准备好了！' WHERE menu_id=10461 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc4='我要飞过去。' WHERE menu_id=10478 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc4='我要飞过去。' WHERE menu_id=10478 AND id=1;
+UPDATE locales_gossip_menu_option SET option_text_loc4='萨纳瑞恩，陷阱丢失了。你有另一个吗？' WHERE menu_id=10482 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc4='我想购买你的货物。' WHERE menu_id=10598 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc4='是的，我们已经准备好了迎接即将到来的挑战。' WHERE menu_id=10599 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc4='开始第一场挑战吧！' WHERE menu_id=10600 AND id=0;

@@ -2732,7 +2732,6 @@ UPDATE locales_creature SET name_loc9='Cavaliere della Morte' WHERE entry=29031;
 UPDATE locales_creature SET name_loc9='',subname_loc9='Orda' WHERE entry=29045;
 UPDATE locales_creature SET name_loc9='',subname_loc9='Orda' WHERE entry=29046;
 UPDATE locales_creature SET name_loc9='',subname_loc9='Barista' WHERE entry=29049;
-UPDATE locales_creature SET  WHERE entry=29093;
 UPDATE locales_creature SET name_loc9='' WHERE entry=29095;
 UPDATE locales_creature SET name_loc9='Principe Valanar' WHERE entry=29107;
 UPDATE locales_creature SET name_loc9='Principe Keleseth' WHERE entry=29108;

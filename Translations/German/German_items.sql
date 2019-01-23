@@ -4226,7 +4226,6 @@ UPDATE locales_item SET name_loc3='Muster: Mondscheinweste' WHERE entry=6710;
 UPDATE locales_item SET name_loc3='Aufziehkiste' WHERE entry=6712;
 UPDATE locales_item SET name_loc3='Zerfetzte Hose' WHERE entry=6713;
 UPDATE locales_item SET name_loc3='EZ-Thro-Dynamit' WHERE entry=6714;
-UPDATE locales_item SET name_loc3='Defekte Überbrückungskabel' WHERE entry=6715;
 UPDATE locales_item SET name_loc3='Bauplan: EZ-Thro-Dynamit' WHERE entry=6716;
 UPDATE locales_item SET name_loc3='Klemmmuffen' WHERE entry=6717;
 UPDATE locales_item SET name_loc3='Elektropeller' WHERE entry=6718;
@@ -6461,7 +6460,6 @@ UPDATE locales_item SET name_loc3='Schwurstein von Yseras Drachenschwarm' WHERE 
 UPDATE locales_item SET name_loc3='Zerdellter Flugschreiber' WHERE entry=10590;
 UPDATE locales_item SET name_loc3='Katzenaugenelixier' WHERE entry=10592;
 UPDATE locales_item SET name_loc3='Unvollständiges Draenethystfragment' WHERE entry=10593;
-UPDATE locales_item SET name_loc3='Kum\'ishas Plunder' WHERE entry=10595;
 UPDATE locales_item SET name_loc3='Kopf von Magus Rimtori' WHERE entry=10597;
 UPDATE locales_item SET name_loc3='Blutiger Kopf Hetaeras' WHERE entry=10598;
 UPDATE locales_item SET name_loc3='Geschlagener Kopf Hetaeras' WHERE entry=10599;
@@ -11356,7 +11354,6 @@ UPDATE locales_item SET name_loc3='Tumulttoffee aus Mondbruch' WHERE entry=18632
 UPDATE locales_item SET name_loc3='Styleens Sauerlolly' WHERE entry=18633;
 UPDATE locales_item SET name_loc3='Gyrofrosteisreflektor' WHERE entry=18634;
 UPDATE locales_item SET name_loc3='Bellaras Nussriegel' WHERE entry=18635;
-UPDATE locales_item SET name_loc3='Defekte Überbrückungskabel XL' WHERE entry=18636;
 UPDATE locales_item SET name_loc3='Großer Rekombobulator' WHERE entry=18637;
 UPDATE locales_item SET name_loc3='Hyperstrahlender Flammenreflektor' WHERE entry=18638;
 UPDATE locales_item SET name_loc3='Ultrablendender Schattenreflektor' WHERE entry=18639;
@@ -35148,6 +35145,7 @@ UPDATE locales_item SET name_loc3='Knochenbruststück der Frostanbeter' WHERE en
 UPDATE locales_item SET name_loc3='Ulmaas\' blinde Krone' WHERE entry=50298;
 UPDATE locales_item SET name_loc3='Verdächtig weiche Handschuhe' WHERE entry=50299;
 UPDATE locales_item SET name_loc3='Erstickende Halsberge' WHERE entry=50300;
+UPDATE locales_item SET name_loc3='Landros Haustiertransporter',description_loc3='WARNUNG: Ohne Gewähr. Enthält möglicherweise kein tatsächliches Haustier.' WHERE entry=50301;
 UPDATE locales_item SET name_loc3='Lügnerzunge' WHERE entry=50302;
 UPDATE locales_item SET name_loc3='Schwarzer Eiszapfen' WHERE entry=50303;
 UPDATE locales_item SET name_loc3='Raureifstulpen' WHERE entry=50304;

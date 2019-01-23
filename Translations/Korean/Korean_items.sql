@@ -4241,7 +4241,6 @@ UPDATE locales_item SET name_loc1='도안: 달빛 조끼',description_loc1='달�
 UPDATE locales_item SET name_loc1='태엽장치 상자' WHERE entry=6712;
 UPDATE locales_item SET name_loc1='찢어진 바지' WHERE entry=6713;
 UPDATE locales_item SET name_loc1='초보자용 다이너마이트' WHERE entry=6714;
-UPDATE locales_item SET name_loc1='망가진 점퍼 케이블' WHERE entry=6715;
 UPDATE locales_item SET name_loc1='설계도: 초보자용 다이너마이트',description_loc1='초보자용 다이너마이트 만드는 법을 배웁니다.' WHERE entry=6716;
 UPDATE locales_item SET name_loc1='개퍼 잭' WHERE entry=6717;
 UPDATE locales_item SET name_loc1='전력추진기' WHERE entry=6718;
@@ -6478,7 +6477,6 @@ UPDATE locales_item SET name_loc1='이세라 용군단의 서약의 돌',descrip
 UPDATE locales_item SET name_loc1='구멍 난 블랙박스' WHERE entry=10590;
 UPDATE locales_item SET name_loc1='고양이눈 비약' WHERE entry=10592;
 UPDATE locales_item SET name_loc1='불완전한 드레니시스트 조각' WHERE entry=10593;
-UPDATE locales_item SET name_loc1='굼이샤의 잡동사니',description_loc1='잡동사니로 가득 찬 자루입니다.' WHERE entry=10595;
 UPDATE locales_item SET name_loc1='학자 림토리의 머리카락' WHERE entry=10597;
 UPDATE locales_item SET name_loc1='헤타에라의 피묻은 머리' WHERE entry=10598;
 UPDATE locales_item SET name_loc1='헤타에라의 훼손된 머리' WHERE entry=10599;
@@ -11380,7 +11378,6 @@ UPDATE locales_item SET name_loc1='달빛시내 무지개사탕' WHERE entry=186
 UPDATE locales_item SET name_loc1='스틸린의 막대 사탕' WHERE entry=18633;
 UPDATE locales_item SET name_loc1='회전냉각식 냉기 반사기' WHERE entry=18634;
 UPDATE locales_item SET name_loc1='벨라라의 땅콩초코바' WHERE entry=18635;
-UPDATE locales_item SET name_loc1='망가진 점퍼 케이블 XL' WHERE entry=18636;
 UPDATE locales_item SET name_loc1='일급 유전자 역결합기' WHERE entry=18637;
 UPDATE locales_item SET name_loc1='극고온 화염 반사기' WHERE entry=18638;
 UPDATE locales_item SET name_loc1='초광자 암흑 반사기' WHERE entry=18639;
@@ -35206,6 +35203,7 @@ UPDATE locales_item SET name_loc1='서리혈맹 뼈 가슴보호구' WHERE entry
 UPDATE locales_item SET name_loc1='울마아스의 보이지 않는 왕관' WHERE entry=50298;
 UPDATE locales_item SET name_loc1='수상하게 부드러운 장갑' WHERE entry=50299;
 UPDATE locales_item SET name_loc1='질식의 갑옷' WHERE entry=50300;
+UPDATE locales_item SET name_loc1='랜드로의 애완동물 상자',description_loc1='주의: 실제 애완동물과 다를 수도 있습니다.' WHERE entry=50301;
 UPDATE locales_item SET name_loc1='거짓말쟁이의 간교함' WHERE entry=50302;
 UPDATE locales_item SET name_loc1='검은 고드름' WHERE entry=50303;
 UPDATE locales_item SET name_loc1='흰 서리 건틀릿' WHERE entry=50304;

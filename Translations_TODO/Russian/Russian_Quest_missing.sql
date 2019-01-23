@@ -4682,7 +4682,6 @@ UPDATE locales_quest SET RequestItemsText_loc8='You\'re back, little one. I was 
 UPDATE locales_quest SET offerrewardtext_loc8='<Debaar accepts the sandfern fronds from you and starts bending them around your body.>$B$BYes, this should work. Stand still! We\'ll make a bush of you yet.' WHERE entry=12560;
 UPDATE locales_quest SET offerrewardtext_loc8='Excellent work, $Gsir:ma\'am;!$B$BI\'ll see to it that the commander is apprised of your mission results.' WHERE entry=12562;
 UPDATE locales_quest SET offerrewardtext_loc8='<If Zim\'Abwa could move his face, Zim\'Abwa would make a vicious grin.>' WHERE entry=12565;
-UPDATE locales_quest SET offerrewardtext_loc8='<You sense Zim\'Abwa\'s approval. Somehow you know that Zim\'Abwa wants more tribute!>' WHERE entry=12567;
 UPDATE locales_quest SET offerrewardtext_loc8='You help us? You welcome then, $N.' WHERE entry=12570;
 UPDATE locales_quest SET RequestItemsText_loc8='Who you? You stink of puppy-men.' WHERE entry=12570;
 UPDATE locales_quest SET offerrewardtext_loc8='Snake gone?$B$BGood $R. We thank you.' WHERE entry=12571;

@@ -4224,7 +4224,6 @@ UPDATE locales_item SET name_loc2='Patron : Gilet Lueur-de-lune' WHERE entry=67
 UPDATE locales_item SET name_loc2='Boîte mécanique' WHERE entry=6712;
 UPDATE locales_item SET name_loc2='Pantalon déchiré' WHERE entry=6713;
 UPDATE locales_item SET name_loc2='Dynamite Ev-Lan' WHERE entry=6714;
-UPDATE locales_item SET name_loc2='Défibrillateur abîmé' WHERE entry=6715;
 UPDATE locales_item SET name_loc2='Schéma : Dynamite Ev-Lan' WHERE entry=6716;
 UPDATE locales_item SET name_loc2='Rouage électrique' WHERE entry=6717;
 UPDATE locales_item SET name_loc2='Ceinture des vents' WHERE entry=6719;
@@ -6461,7 +6460,6 @@ UPDATE locales_item SET name_loc2='Pierre de vœu des dragons d\'Ysera' WHERE en
 UPDATE locales_item SET name_loc2='Boîte noire corrodée' WHERE entry=10590;
 UPDATE locales_item SET name_loc2='Elixir d\'œil de chat' WHERE entry=10592;
 UPDATE locales_item SET name_loc2='Fragment de draenéthyste imparfait' WHERE entry=10593;
-UPDATE locales_item SET name_loc2='Camelote de Kum\'isha' WHERE entry=10595;
 UPDATE locales_item SET name_loc2='Tête du magus Rimtori' WHERE entry=10597;
 UPDATE locales_item SET name_loc2='Tête ensanglantée d\'Hetaera' WHERE entry=10598;
 UPDATE locales_item SET name_loc2='Tête battue d\'Hetaera' WHERE entry=10599;
@@ -11366,7 +11364,6 @@ UPDATE locales_item SET name_loc2='Caramel de Ruisselune' WHERE entry=18632;
 UPDATE locales_item SET name_loc2='Sucette amère de Styleen' WHERE entry=18633;
 UPDATE locales_item SET name_loc2='Réflectoglace gyrogivre' WHERE entry=18634;
 UPDATE locales_item SET name_loc2='Barre aux noisettes de Bellara' WHERE entry=18635;
-UPDATE locales_item SET name_loc2='Défibrillateur abîmé XL' WHERE entry=18636;
 UPDATE locales_item SET name_loc2='Recombobulateur majeur' WHERE entry=18637;
 UPDATE locales_item SET name_loc2='Réflectoflamme hyper-radiant' WHERE entry=18638;
 UPDATE locales_item SET name_loc2='Réflectombre ultra-flash' WHERE entry=18639;
@@ -35167,6 +35164,7 @@ UPDATE locales_item SET name_loc2='Plastron en os de lige-du-givre' WHERE entry=
 UPDATE locales_item SET name_loc2='Couronne aveugle d\'Ulmaas' WHERE entry=50298;
 UPDATE locales_item SET name_loc2='Gants anormalement doux' WHERE entry=50299;
 UPDATE locales_item SET name_loc2='Haubert d\'étouffement' WHERE entry=50300;
+UPDATE locales_item SET name_loc2='Boîte à familiers de Landro',description_loc2='NOTE : Il n\'y a aucune garantie que cette boîte contienne réellement un familier.' WHERE entry=50301;
 UPDATE locales_item SET name_loc2='Langue-de-vipère' WHERE entry=50302;
 UPDATE locales_item SET name_loc2='Stalagmite noire' WHERE entry=50303;
 UPDATE locales_item SET name_loc2='Gantelets de gelée blanche' WHERE entry=50304;

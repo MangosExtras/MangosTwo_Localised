@@ -436,7 +436,6 @@ UPDATE locales_item SET description_loc3='The symbol emanates old magic' WHERE e
 UPDATE locales_item SET description_loc3='Bears the mark of Kalaran the Deceiver' WHERE entry=10569;
 UPDATE locales_item SET description_loc3='A dull and gray patch of black dragon skin' WHERE entry=10575;
 UPDATE locales_item SET description_loc3='Using this stone binds someone to aid Ysera\'s Dragonflight.' WHERE entry=10589;
-UPDATE locales_item SET description_loc3='A chest full of "junk"' WHERE entry=10595;
 UPDATE locales_item SET description_loc3='Teaches you how to make Bright-Eye Goggles.' WHERE entry=10601;
 UPDATE locales_item SET description_loc3='Teaches you how to make a Deadly Scope.' WHERE entry=10602;
 UPDATE locales_item SET description_loc3='Teaches you how to make Catseye Ultra Goggles.' WHERE entry=10603;
