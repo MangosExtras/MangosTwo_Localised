@@ -104,4 +104,9 @@
             ADD COLUMN `ObjectiveText4_loc0` LONGTEXT AFTER `ObjectiveText3_loc9`,
             ADD COLUMN `ObjectiveText4_loc9` LONGTEXT AFTER `ObjectiveText4_loc8`;
 
+        ALTER TABLE `locales_achievement_reward`
+            ADD COLUMN `subject_loc0` VARCHAR(100) NOT NULL DEFAULT '' AFTER `gender`,
+            ADD COLUMN `subject_loc9` VARCHAR(100) NOT NULL DEFAULT '' AFTER `subject_loc8`,
+            ADD COLUMN `text_loc0` TEXT NOT NULL AFTER `subject_loc9`,
+            ADD COLUMN `text_loc9` TEXT NOT NULL AFTER `text_loc8`;
 

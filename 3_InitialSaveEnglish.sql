@@ -1,50 +1,50 @@
--- 1/13
+-- 1/14
 UPDATE `locales_creature`
 INNER JOIN `creature_template` ON `locales_creature`.`entry` = creature_template.`Entry`
 SET `locales_creature`.`name_loc0` = creature_template.`Name`,`locales_creature`.`subname_loc0` = COALESCE(creature_template.`subName`,'');
 
--- 2/13
+-- 2/14
 UPDATE `creature_ai_texts`
 SET `content_loc0` = `content_default`;
 
--- 3/13
+-- 3/14
 UPDATE `db_script_string`
 SET `content_loc0` = `content_default`;
 
--- 4/13
+-- 4/14
 UPDATE `locales_gameobject`
 INNER JOIN `gameobject_template` ON `locales_gameobject`.`entry` = gameobject_template.`Entry`
 SET `locales_gameobject`.`name_loc0` = gameobject_template.`Name`;
 
--- 5/13
+-- 5/14
 UPDATE `gossip_texts`
 SET `content_loc0` = `content_default`;
 
--- 6/13
+-- 6/14
 UPDATE `locales_gossip_menu_option`
 INNER JOIN `gossip_menu_option` ON `locales_gossip_menu_option`.`menu_id` = gossip_menu_option.`menu_id` AND `locales_gossip_menu_option`.`id` = gossip_menu_option.`id`
 SET `locales_gossip_menu_option`.`option_text_loc0` = gossip_menu_option.`option_text`,`locales_gossip_menu_option`.`box_text_loc0` = gossip_menu_option.`box_text`;
 
--- 7/13
+-- 7/14
 UPDATE `locales_item`
 INNER JOIN `item_template` ON `locales_item`.`entry` = item_template.`Entry`
 SET `locales_item`.`name_loc0` = item_template.`Name`,`locales_item`.`description_loc0` = COALESCE(item_template.`description`,'');
  
--- 8/13 
+-- 8/14 
 UPDATE `mangos_string`
 SET `content_loc0` = `content_default`;
 
--- 9/13
+-- 9/14
 UPDATE `locales_page_text`
 INNER JOIN `page_text` ON `locales_page_text`.`entry` = page_text.`entry`
 SET `locales_page_text`.`Text_loc0` = page_text.`Text`;
 
--- 10/13
+-- 10/14
 UPDATE `locales_points_of_interest`
 INNER JOIN `points_of_interest` ON `locales_points_of_interest`.`entry` = points_of_interest.`entry`
 SET `locales_points_of_interest`.`icon_name_loc0` = points_of_interest.`icon_name`;
 
--- 11/13
+-- 11/14
 UPDATE `locales_quest`
 INNER JOIN `quest_template` ON `locales_quest`.`entry` = quest_template.`entry`
 SET `locales_quest`.`Title_loc0` = quest_template.`Title`,
@@ -58,11 +58,11 @@ SET `locales_quest`.`Title_loc0` = quest_template.`Title`,
     `locales_quest`.`ObjectiveText3_loc0` = quest_template.`ObjectiveText3`,
     `locales_quest`.`ObjectiveText4_loc0` = quest_template.`ObjectiveText4`;
 
--- 12/13
+-- 12/14
 UPDATE `script_texts`
 SET `content_loc0` = `content_default`;
 
--- 13/13 
+-- 13/14 
 UPDATE `locales_npc_text`
 INNER JOIN `npc_text` ON `locales_npc_text`.`entry` = npc_text.`id`
 SET `locales_npc_text`.`Text0_0_loc0` = npc_text.`Text0_0`,
@@ -82,3 +82,7 @@ SET `locales_npc_text`.`Text0_0_loc0` = npc_text.`Text0_0`,
     `locales_npc_text`.`Text7_0_loc0` = npc_text.`Text7_0`,
     `locales_npc_text`.`Text7_1_loc0` = npc_text.`Text7_1`;
 
+-- 14/14
+UPDATE `locales_achievement_reward`
+INNER JOIN `achievement_reward` ON `locales_achievement_reward`.`entry` = achievement_reward.`Entry`
+SET `locales_achievement_reward`.`subject_loc0` = COALESCE(achievement_reward.`subject`,''),`locales_achievement_reward`.`text_loc0` = COALESCE(achievement_reward.`text`,'');

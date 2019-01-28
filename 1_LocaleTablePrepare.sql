@@ -25,3 +25,5 @@ INSERT INTO `locales_points_of_interest` (`entry`) SELECT `entry` FROM `points_o
 -- Create the Locales base entries from main table
 INSERT INTO `locales_quest` (`entry`) SELECT `entry` FROM `quest_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_quest`);
 
+-- Create the Locales base entries from main table
+INSERT INTO `locales_achievement_reward` (`entry`) SELECT `entry` FROM `achievement_reward` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_achievement_reward`);
