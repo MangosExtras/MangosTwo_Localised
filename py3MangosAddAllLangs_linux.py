@@ -43,7 +43,7 @@ print(declaraction1)
 
 
 # setting other
-path = input("enter your MangosZero_Localised folder PATH(like: /root/MangosTwo_Localised/ ) : ")
+path = input("enter your MangosTwo_Localised folder PATH(like: /root/MangosTwo_Localised/ ) : ")
 path = path.strip()
 if path[-1] != "/":
     path = path + "/"
@@ -52,7 +52,7 @@ selectSqlType = input("select you sql type Number(1=mysql, 2=mariaDB) (enter: 1 
 sqlHost = input("database connect Address is(like: 192.168.1.1 or 127.0.0.1) : ")
 sqlPort = input("database connect Port is(like: 3306) : ")
 sqlUserName = input("database connect UserName is(like: mangos or root) : ")
-two_worldDBName = input("input worldDB in SQL's name(like: one_world or mangos1)  : ")
+two_worldDBName = input("input worldDB in SQL's name(like: two_world or mangos2)  : ")
 
 if len(path) < 2 or len(selectSqlType) == 0 or len(sqlHost) == 0 or len(sqlPort) == 0 or len(sqlUserName) == 0 or len(two_worldDBName) == 0:
     raise TypeError("all select must enter")
@@ -60,13 +60,13 @@ if len(path) < 2 or len(selectSqlType) == 0 or len(sqlHost) == 0 or len(sqlPort)
 
 # get sql connect secert and set sqlExecCMD
 if selectSqlType == "1":
-    print("enter your sql coneect PASSWORD ")
+    print("enter your sql connect PASSWORD ")
     secretCMD = "mysql_config_editor set --login-path=local --host={sqlHost} --port={sqlPort} --user={sqlUserName} --password --skip-warn".format(sqlHost=sqlHost, sqlPort=sqlPort, sqlUserName=sqlUserName)
     os.system(secretCMD)
     print(secretCMD)
     sqlExecCMD = "mysql --login-path=local -q -s " + two_worldDBName + " <  "
 elif selectSqlType == "2":
-    mariaPassword = intput ( "input your sql coneect PASSWORD : ")
+    mariaPassword = intput ( "input your sql connect PASSWORD : ")
     sqlExecCMD = "mysql -h{sqlHost} -P{sqlPort} -u{sqlUserName} -p{mariaPassword}  {zero_worldDBName}  <  ".format(sqlHost=sqlHost, sqlPort=sqlPort, mariaPassword=mariaPassword, two_worldDBName=two_worldDBName)
 else:
     raise TypeError("dbType Fail , when select sql Type must input 1 or 2 only")
