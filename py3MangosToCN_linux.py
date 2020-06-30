@@ -3,10 +3,10 @@ import os
 
 # select setting :
 declaraction1 = """
-did you already have MangosOne_Localised.git?
+did you already have MangosTwo_Localised.git?
 if haven't .
     please Ctrl+C then:
-    git clone --recurse-submodules https://github.com/MangosExtras/MangosOne_Localised.git
+    git clone --recurse-submodules https://github.com/MangosExtras/MangosTwo_Localised.git
 
 test environment : debian10, mysql8.0, python3, chinese, 2018-10-06; other not test,good luck >_<
 bug : QQ32686647; skype:fevefun@hotmail.com
