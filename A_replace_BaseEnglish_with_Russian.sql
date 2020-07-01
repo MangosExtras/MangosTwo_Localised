@@ -93,6 +93,6 @@ SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc8`,
     npc_text.`Text7_1`=`locales_npc_text`.`Text7_1_loc8`;
 
 -- 14/14
--- UPDATE `command`
--- INNER JOIN `locales_command` ON `command`.`id`=`locales_command`.`id`
--- SET `command`.`help_text`=COALESCE(`locales_command`.`help_text_loc8`,`locales_command`.`help_text_loc0`);
+UPDATE `command`
+INNER JOIN `locales_command` ON `command`.`id`=`locales_command`.`id`
+SET `command`.`help_text`=COALESCE(`locales_command`.`help_text_loc8`,`locales_command`.`help_text_loc0`);

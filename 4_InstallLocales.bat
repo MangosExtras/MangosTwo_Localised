@@ -264,8 +264,8 @@ goto done:
 
 :LoadFR
 echo  Loading French Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\French\French_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\French\French_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\French\French_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -296,8 +296,8 @@ goto WorldDB1:
 
 :LoadDE
 echo  Loading German Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\German\German_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\German\German_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\German\German_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -328,8 +328,8 @@ goto WorldDB2:
 
 :LoadKO
 echo  Loading Korean Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Korean\Korean_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Korean\Korean_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Korean\Korean_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -360,8 +360,8 @@ goto WorldDB3:
 
 :LoadCH
 echo  Loading Chinese Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Chinese\Chinese_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Chinese\Chinese_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Chinese\Chinese_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -392,8 +392,8 @@ goto WorldDB4:
 
 :LoadTW
 echo  Loading Taiwanese Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Taiwanese\Taiwanese_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Taiwanese\Taiwanese_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Taiwanese\Taiwanese_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -424,8 +424,8 @@ goto WorldDB5:
 
 :LoadES
 echo  Loading Spanish Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish\Spanish_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish\Spanish_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish\Spanish_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -456,8 +456,8 @@ goto WorldDB6:
 
 :LoadMX
 echo  Loading Spanish (south American) Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish_South_American\SpanishSA_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish_South_American\SpanishSA_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Spanish_South_American\SpanishSA_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -488,8 +488,8 @@ goto WorldDB7:
 
 :LoadRU
 echo  Loading Russian Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Russian\Russian_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Russian\Russian_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Russian\Russian_Creature.sql
 echo  .... Creature AI Texts (3/14)
@@ -520,8 +520,8 @@ goto WorldDB8:
 
 :LoadIT
 echo Loading Italian Locale into World Database %wdb%
-REM echo  .... Command (1/14)
-REM %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Italian\Italian_CommandHelp.sql
+echo  .... Command (1/14)
+%mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Italian\Italian_CommandHelp.sql
 echo  .... Creatures (2/14)
 %mysql%mysql -q -s -h %svr% --user=%user% --password=%pass% --port=%port% %wdb% < Translations\Italian\Italian_Creature.sql
 echo  .... Creature AI Texts (3/14)

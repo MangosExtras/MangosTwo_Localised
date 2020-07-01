@@ -88,7 +88,7 @@ INNER JOIN `achievement_reward` ON `locales_achievement_reward`.`entry` = achiev
 SET `locales_achievement_reward`.`subject_loc0` = COALESCE(achievement_reward.`subject`,''),`locales_achievement_reward`.`text_loc0` = COALESCE(achievement_reward.`text`,'');
 
 -- 15/15
--- UPDATE `locales_command`
--- INNER JOIN `command` ON `locales_command`.`id` = `command`.`id`
--- SET `locales_command`.`help_text_loc0` = `command`.`help_text`;
+UPDATE `locales_command`
+INNER JOIN `command` ON `locales_command`.`id` = `command`.`id`
+SET `locales_command`.`help_text_loc0` = `command`.`help_text`;
 
