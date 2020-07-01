@@ -31,9 +31,10 @@ This will populate the localised tables with empty entries ready for the languag
 
 2) Import the language pack you want from \Translations\<Language>
 
-The language pack currently consists of 14 files:
+The language pack currently consists of 15 files:
 
     <Language>_achievement_reward.sql
+    <Language>_commandHelp.sql
     <Language>_Creature.sql
     <Language>_Creature_AI_Texts.sql
     <Language>_db_script_string.sql
@@ -49,7 +50,7 @@ The language pack currently consists of 14 files:
     <Language>_Script_texts.sql
 
 
-The 14 files ending in `_missing.sql` are entries that need to be translated.
+The 15 files ending in `_missing.sql` are entries that need to be translated.
 
 ### Using the Translated Locale on a different language client than the Locale
 
@@ -61,9 +62,10 @@ The 14 files ending in `_missing.sql` are entries that need to be translated.
 
 2) Then Import the language pack you want from \Translations\<Language>
 
-The language pack currently consists of 14 files:
+The language pack currently consists of 15 files:
 
     <Language>_achievement_reward.sql
+    <Language>_commandHelp.sql
     <Language>_Creature.sql
     <Language>_Creature_AI_Texts.sql
     <Language>_db_script_string.sql

@@ -2,10 +2,20 @@
 -- It will only add entries in the locale table for tables which are missing
 
 -- Create the Locales base entries from main table
+TRUNCATE TABLE `locales_achievement_reward`;
+INSERT INTO `locales_achievement_reward` (`entry`,`gender`) SELECT `entry`,`gender` FROM `achievement_reward`;
+
+-- Create the Locales base entries from main table
 INSERT INTO `locales_command` (`id`)  SELECT `id` FROM `command` WHERE `id` NOT IN (SELECT `id` FROM `locales_command`);
 
 -- Create the Locales base entries from main table
 INSERT INTO `locales_creature` (`entry`) SELECT `entry` FROM `creature_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_creature`);
+
+-- creatureai
+-- SAME TABLE, NOTHNG TO DO
+
+-- db_script_string
+-- SAME TABLE, NOTHNG TO DO
 
 -- Create the Locales base entries from main table
 INSERT INTO `locales_gameobject` (`entry`) SELECT `entry` FROM `gameobject_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_gameobject`);
@@ -15,6 +25,9 @@ INSERT INTO `locales_gossip_menu_option` (`menu_id`,`id`) SELECT `menu_id`,`id` 
 
 -- Create the Locales base entries from main table
 INSERT INTO `locales_item` (`entry`) SELECT `entry` FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_item`);
+
+-- mangos_string
+-- SAME TABLE, NOTHNG TO DO
 
 -- Create the Locales base entries from main table
 INSERT INTO `locales_npc_text` (`entry`) SELECT `ID` FROM `npc_text` WHERE `ID` NOT IN (SELECT `entry` FROM `locales_npc_text`);
@@ -28,5 +41,5 @@ INSERT INTO `locales_points_of_interest` (`entry`) SELECT `entry` FROM `points_o
 -- Create the Locales base entries from main table
 INSERT INTO `locales_quest` (`entry`) SELECT `entry` FROM `quest_template` WHERE `entry` NOT IN (SELECT `entry` FROM `locales_quest`);
 
--- Create the Locales base entries from main table
-INSERT IGNORE INTO `locales_achievement_reward` (`entry`,`gender`) SELECT `entry`,2 FROM `achievement_reward`;
+-- script_texts
+-- SAME TABLE, NOTHNG TO DO

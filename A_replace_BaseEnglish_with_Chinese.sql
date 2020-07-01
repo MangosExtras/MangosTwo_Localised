@@ -1,5 +1,3 @@
--- TODO: NEED TO LOAD ACHIEVEMENT LOCALE DATA
-
 -- ----------------------------------------------------------------------------------------------------------------
 -- WARNING: Running this script will replace the English text in the base World Database with the localised version
 -- ----------------------------------------------------------------------------------------------------------------
@@ -8,53 +6,53 @@
 -- 警告：运行该脚本将用本地化版本替换数据库中的英文文本
 -- ------------------------------------------------
 
--- 1/14
+-- 1/15
 UPDATE `creature_template`
 INNER JOIN `locales_creature` ON `creature_template`.`entry` = `locales_creature`.`Entry`
 SET creature_template.`Name`=`locales_creature`.`name_loc4`,creature_template.`subName`=`locales_creature`.`subname_loc4`;
 
--- 2/14
+-- 2/15
 UPDATE `creature_ai_texts`
 SET `content_default` = `content_loc4`;
 
--- 3/14
+-- 3/15
 UPDATE `db_script_string`
 SET `content_default` = `content_loc4` ;
 
--- 4/14
+-- 4/15
 UPDATE `gameobject_template`
 INNER JOIN `locales_gameobject` ON `gameobject_template`.`entry` = `locales_gameobject`.`Entry`
 SET gameobject_template.`Name` = `locales_gameobject`.`name_loc4`;
 
--- 5/14
+-- 5/15
 UPDATE `gossip_texts`
 SET `content_default` = `content_loc4` ;
 
--- 6/14
+-- 6/15
 UPDATE `gossip_menu_option`
 INNER JOIN `locales_gossip_menu_option` ON gossip_menu_option.`menu_id`=`locales_gossip_menu_option`.`menu_id` AND gossip_menu_option.`id`=`locales_gossip_menu_option`.`id`
 SET gossip_menu_option.`option_text`=`locales_gossip_menu_option`.`option_text_loc4`, gossip_menu_option.`box_text`=`locales_gossip_menu_option`.`box_text_loc4`;
 
--- 7/14
+-- 7/15
 UPDATE `item_template`
 INNER JOIN `locales_item` ON item_template.`Entry`=`locales_item`.`entry`
 SET item_template.`Name`=`locales_item`.`name_loc4`,item_template.`description`=COALESCE(`locales_item`.`description_loc4`,'');
  
--- 8/14 
+-- 8/15 
 UPDATE `mangos_string`
 SET `content_default` = `content_loc4` ; 
 
--- 9/14
+-- 9/15
 UPDATE `page_text`
 INNER JOIN `locales_page_text` ON page_text.`entry`=`locales_page_text`.`entry`
 SET page_text.`Text`=COALESCE(`locales_page_text`.`Text_loc4`,'');
 
--- 10/14
+-- 10/15
 UPDATE `points_of_interest`
 INNER JOIN `locales_points_of_interest` ON points_of_interest.`entry`=`locales_points_of_interest`.`entry`
 SET points_of_interest.`icon_name`=COALESCE(`locales_points_of_interest`.`icon_name_loc4`,`locales_points_of_interest`.`icon_name_loc0`);
 
--- 11/14
+-- 11/15
 UPDATE `quest_template`
 INNER JOIN `locales_quest` ON quest_template.`entry`=`locales_quest`.`entry` 
 SET quest_template.`Title`=`locales_quest`.`Title_loc4`,
@@ -68,11 +66,11 @@ SET quest_template.`Title`=`locales_quest`.`Title_loc4`,
     quest_template.`ObjectiveText3`=`locales_quest`.`ObjectiveText3_loc4`,
     quest_template.`ObjectiveText4`=`locales_quest`.`ObjectiveText4_loc4`;
 
--- 12/14
+-- 12/15
 UPDATE `script_texts`
 SET `content_default` = `content_loc4`;
 
--- 13/14
+-- 13/15
 UPDATE `npc_text`
 INNER JOIN `locales_npc_text` ON npc_text.`id`=`locales_npc_text`.`entry` 
 SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc4`,
@@ -92,7 +90,13 @@ SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc4`,
     npc_text.`Text7_0`=`locales_npc_text`.`Text7_0_loc4`,
     npc_text.`Text7_1`=`locales_npc_text`.`Text7_1_loc4`;
 
--- 14/14
+-- 14/15
 UPDATE `command`
 INNER JOIN `locales_command` ON `command`.`id`=`locales_command`.`id`
 SET `command`.`help_text`=COALESCE(`locales_command`.`help_text_loc4`,`locales_command`.`help_text_loc0`);
+
+-- 15/15
+UPDATE `achievement_reward`
+INNER JOIN `achievement_reward`.`entry`=`locales_achievement_reward`.`entry`
+SET `achievement_reward`.`subject`=COALESCE(`locales_achievement_reward`.`subject_loc4`,`locales_achievement_reward`.`subject_loc0`),
+SET `achievement_reward`.`text`=COALESCE(`locales_achievement_reward`.`text_loc4`,`locales_achievement_reward`.`text_loc0`);
