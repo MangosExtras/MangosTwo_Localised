@@ -1310,7 +1310,6 @@ UPDATE `script_texts` SET `content_loc8`='Нападайте, но вы запл
 UPDATE `script_texts` SET `content_loc8`='Держать строй! Ни шагу назад!' WHERE `entry`=-1534012;
 UPDATE `script_texts` SET `content_loc8`='Победа или смерть!' WHERE `entry`=-1534013;
 UPDATE `script_texts` SET `content_loc8`='Не отступать ни на шаг!' WHERE `entry`=-1534014;
-UPDATE `script_texts` SET `content_loc8`='Uraaa ...' WHERE `entry`=-1534017;
 UPDATE `script_texts` SET `content_loc8`='Ваше сопротивление смехотворно.' WHERE `entry`=-1534019;
 UPDATE `script_texts` SET `content_loc8`='Этот мир сгорит в огне!' WHERE `entry`=-1534020;
 UPDATE `script_texts` SET `content_loc8`='Манакх шеек-триш!' WHERE `entry`=-1534021;
@@ -1567,7 +1566,6 @@ UPDATE `script_texts` SET `content_loc8`='Тарета! Что это за ме�
 UPDATE `script_texts` SET `content_loc8`='Что это было?' WHERE `entry`=-1560031;
 UPDATE `script_texts` SET `content_loc8`='Нет!' WHERE `entry`=-1560032;
 UPDATE `script_texts` SET `content_loc8`='Прощай, Тарета. Я никогда не забуду твоей доброты.' WHERE `entry`=-1560033;
-UPDATE `script_texts` SET `content_loc8`='Taretha ...' WHERE `entry`=-1560036;
 UPDATE `script_texts` SET `content_loc8`='Отличный день... для смерти.' WHERE `entry`=-1560037;
 UPDATE `script_texts` SET `content_loc8`='Я заслужил свободу!' WHERE `entry`=-1560038;
 UPDATE `script_texts` SET `content_loc8`='Я больше не раб!' WHERE `entry`=-1560040;

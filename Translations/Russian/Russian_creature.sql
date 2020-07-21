@@ -1291,19 +1291,12 @@ UPDATE `locales_creature` SET `name_loc8`='Разбойник 30' WHERE `entry`=
 UPDATE `locales_creature` SET `name_loc8`='Тест разбойник' WHERE `entry`=1601;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 1' WHERE `entry`=1602;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 5' WHERE `entry`=1603;
-UPDATE `locales_creature` SET `name_loc8`='Друид 1' WHERE `entry`=1604;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 10' WHERE `entry`=1605;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 15' WHERE `entry`=1606;
-UPDATE `locales_creature` SET `name_loc8`='Друид 5' WHERE `entry`=1607;
-UPDATE `locales_creature` SET `name_loc8`='Друид 10' WHERE `entry`=1608;
-UPDATE `locales_creature` SET `name_loc8`='Друид 15' WHERE `entry`=1609;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 20' WHERE `entry`=1613;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 30' WHERE `entry`=1614;
 UPDATE `locales_creature` SET `name_loc8`='Паладин 40' WHERE `entry`=1615;
-UPDATE `locales_creature` SET `name_loc8`='Друид 20' WHERE `entry`=1616;
-UPDATE `locales_creature` SET `name_loc8`='Друид 30' WHERE `entry`=1617;
 UPDATE `locales_creature` SET `name_loc8`='Охотник 1' WHERE `entry`=1618;
-UPDATE `locales_creature` SET `name_loc8`='Друид 40' WHERE `entry`=1619;
 UPDATE `locales_creature` SET `name_loc8`='Охотник 5' WHERE `entry`=1620;
 UPDATE `locales_creature` SET `name_loc8`='Охотник 10' WHERE `entry`=1621;
 UPDATE `locales_creature` SET `name_loc8`='Жрец 1' WHERE `entry`=1622;
@@ -1330,7 +1323,6 @@ UPDATE `locales_creature` SET `name_loc8`='[UNUSED] Страж Элвиннск�
 UPDATE `locales_creature` SET `name_loc8`='[UNUSED] Страж Красных гор' WHERE `entry`=1644;
 UPDATE `locales_creature` SET `name_loc8`='Интендант Хикс',`subname_loc8`='Оружейник' WHERE `entry`=1645;
 UPDATE `locales_creature` SET `name_loc8`='Барос Алекстон',`subname_loc8`='Городской архитектор' WHERE `entry`=1646;
-UPDATE `locales_creature` SET `subname_loc8`='Используй меня повторно' WHERE `entry`=1649;
 UPDATE `locales_creature` SET `name_loc8`='Терри Палин',`subname_loc8`='Дровосек' WHERE `entry`=1650;
 UPDATE `locales_creature` SET `name_loc8`='Ли Браун',`subname_loc8`='Учитель рыбной ловли' WHERE `entry`=1651;
 UPDATE `locales_creature` SET `name_loc8`='Страж смерти Буржес' WHERE `entry`=1652;
@@ -4307,12 +4299,12 @@ UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - перва�
 UPDATE `locales_creature` SET `subname_loc8`='Учитель верховой езды' WHERE `entry`=5026;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - вскрытие замков',`subname_loc8`='Учитель вскрытия замков' WHERE `entry`=5027;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - езда на баранах',`subname_loc8`='Учитель езды на баранах' WHERE `entry`=5028;
-UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - выживание',`subname_loc8`='Поставщица призов АйКока' WHERE `entry`=5029;
+UPDATE `locales_creature` SET `subname_loc8`='Поставщица призов АйКока' WHERE `entry`=5029;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - езда на тиграх',`subname_loc8`='Учитель верховой езды на тиграх' WHERE `entry`=5030;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - езда на волках',`subname_loc8`='Учитель езды на волках' WHERE `entry`=5031;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - алхимия',`subname_loc8`='Великий алхимик' WHERE `entry`=5032;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - кузнечное дело',`subname_loc8`='Учитель кузнечного дела' WHERE `entry`=5033;
-UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - пивовар',`subname_loc8`='Учитель пивоварения' WHERE `entry`=5034;
+UPDATE `locales_creature` SET `subname_loc8`='Учитель пивоварения' WHERE `entry`=5034;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - картография',`subname_loc8`='Учитель картографии' WHERE `entry`=5035;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - кулинарное искусство',`subname_loc8`='Учитель кулинарии' WHERE `entry`=5036;
 UPDATE `locales_creature` SET `name_loc8`='Мир - учитель - инженерное дело',`subname_loc8`='Учитель инженерного дела' WHERE `entry`=5037;
@@ -6944,7 +6936,6 @@ UPDATE `locales_creature` SET `name_loc8`='Гвеннид Блай\'Леггон
 UPDATE `locales_creature` SET `name_loc8`='Халикон' WHERE `entry`=10220;
 UPDATE `locales_creature` SET `name_loc8`='Щенок ворга легиона Кровавого Топора' WHERE `entry`=10221;
 UPDATE `locales_creature` SET `name_loc8`='Уэп' WHERE `entry`=10236;
-UPDATE `locales_creature` SET `name_loc8`='Йор *НЕ ИСПОЛЬЗУЕТСЯ*' WHERE `entry`=10237;
 UPDATE `locales_creature` SET `name_loc8`='Олеон' WHERE `entry`=10238;
 UPDATE `locales_creature` SET `name_loc8`='Теполар' WHERE `entry`=10239;
 UPDATE `locales_creature` SET `name_loc8`='[UNUSED] Мир -учитель - мастер - оружие',`subname_loc8`='Эксперт по оружию' WHERE `entry`=10256;
@@ -9108,7 +9099,6 @@ UPDATE `locales_creature` SET `name_loc8`='Цель дикого полимор�
 UPDATE `locales_creature` SET `name_loc8`='Ящер Раззаши' WHERE `entry`=14821;
 UPDATE `locales_creature` SET `name_loc8`='Воржей' WHERE `entry`=14822;
 UPDATE `locales_creature` SET `name_loc8`='Сайлас Новолуний' WHERE `entry`=14823;
-UPDATE `locales_creature` SET `name_loc8`='ГГУДМЕН' WHERE `entry`=14824;
 UPDATE `locales_creature` SET `name_loc8`='Иссохшая наложница' WHERE `entry`=14825;
 UPDATE `locales_creature` SET `name_loc8`='Пожертвованный тролль' WHERE `entry`=14826;
 UPDATE `locales_creature` SET `name_loc8`='Бурт' WHERE `entry`=14827;
@@ -9251,7 +9241,6 @@ UPDATE `locales_creature` SET `name_loc8`='Риггл Мормыш',`subname_loc
 UPDATE `locales_creature` SET `name_loc8`='Джанг',`subname_loc8`='Ученик опытного рыбака' WHERE `entry`=15078;
 UPDATE `locales_creature` SET `name_loc8`='Рыбобот 5000' WHERE `entry`=15079;
 UPDATE `locales_creature` SET `name_loc8`='Слуга Длани',`subname_loc8`='Длань Растахана' WHERE `entry`=15080;
-UPDATE `locales_creature` SET `name_loc8`='Гри\'лек [UNUSED]' WHERE `entry`=15081;
 UPDATE `locales_creature` SET `name_loc8`='Гри\'лек' WHERE `entry`=15082;
 UPDATE `locales_creature` SET `name_loc8`='Хазза\'рах' WHERE `entry`=15083;
 UPDATE `locales_creature` SET `name_loc8`='Ренатаки' WHERE `entry`=15084;
@@ -10102,7 +10091,6 @@ UPDATE `locales_creature` SET `name_loc8`='[PH] Гуляка Валентино�
 UPDATE `locales_creature` SET `name_loc8`='[PH] Гуляка Валентинова дня - женщина' WHERE `entry`=15983;
 UPDATE `locales_creature` SET `name_loc8`='Королевский страж Сартуры' WHERE `entry`=15984;
 UPDATE `locales_creature` SET `name_loc8`='Тестовый парень Эрика Малуфа' WHERE `entry`=15985;
-UPDATE `locales_creature` SET `name_loc8`='Сапфирон' WHERE `entry`=15989;
 UPDATE `locales_creature` SET `name_loc8`='Кел\'Тузад' WHERE `entry`=15990;
 UPDATE `locales_creature` SET `name_loc8`='Леди Дена Кеннеди' WHERE `entry`=15991;
 UPDATE `locales_creature` SET `name_loc8`='Тестовый манекен Сэма 1' WHERE `entry`=15992;
@@ -12018,7 +12006,6 @@ UPDATE `locales_creature` SET `name_loc8`='Работяга резервуара
 UPDATE `locales_creature` SET `name_loc8`='Раб-бродяга пустошей' WHERE `entry`=17963;
 UPDATE `locales_creature` SET `name_loc8`='Рабочий-бродяга пустошей' WHERE `entry`=17964;
 UPDATE `locales_creature` SET `name_loc8`='Цель Темного портала UNUSED' WHERE `entry`=17965;
-UPDATE `locales_creature` SET `name_loc8`='[UNUSED] Вызванная бомбочка' WHERE `entry`=17966;
 UPDATE `locales_creature` SET `name_loc8`='Некрорахнид-скарабей' WHERE `entry`=17967;
 UPDATE `locales_creature` SET `name_loc8`='Архимонд' WHERE `entry`=17968;
 UPDATE `locales_creature` SET `name_loc8`='Кайра Длинная Грива' WHERE `entry`=17969;
@@ -12227,7 +12214,6 @@ UPDATE `locales_creature` SET `name_loc8`='Нечистый тотем земн�
 UPDATE `locales_creature` SET `name_loc8`='Нечистый тотем каменной кожи' WHERE `entry`=18177;
 UPDATE `locales_creature` SET `name_loc8`='Тотем нечистого огня' WHERE `entry`=18178;
 UPDATE `locales_creature` SET `name_loc8`='Оскверненный тотем вспышки' WHERE `entry`=18179;
-UPDATE `locales_creature` SET `name_loc8`='Хеминг Эрнестуэй' WHERE `entry`=18180;
 UPDATE `locales_creature` SET `name_loc8`='Прислужник Гурока' WHERE `entry`=18181;
 UPDATE `locales_creature` SET `name_loc8`='Гурок Узурпатор' WHERE `entry`=18182;
 UPDATE `locales_creature` SET `name_loc8`='Арехрон' WHERE `entry`=18183;
@@ -12624,7 +12610,6 @@ UPDATE `locales_creature` SET `name_loc8`='Чернокнижник Долины
 UPDATE `locales_creature` SET `name_loc8`='Чаротворец Долины Призрачной Луны (1)' WHERE `entry`=18620;
 UPDATE `locales_creature` SET `name_loc8`='Созидатель (1)' WHERE `entry`=18621;
 UPDATE `locales_creature` SET `name_loc8`='Из\'зард' WHERE `entry`=18622;
-UPDATE `locales_creature` SET `name_loc8`='Неубиваемый тестовый манекен 70 Воин' WHERE `entry`=18623;
 UPDATE `locales_creature` SET `name_loc8`='Неубиваемый тестовый манекен 73 Воин' WHERE `entry`=18624;
 UPDATE `locales_creature` SET `name_loc8`='Шаблон Темного портала' WHERE `entry`=18625;
 UPDATE `locales_creature` SET `name_loc8`='Ученик Алькор' WHERE `entry`=18626;
@@ -17321,12 +17306,6 @@ UPDATE `locales_creature` SET `name_loc8`='Самуро',`subname_loc8`='Вож�
 UPDATE `locales_creature` SET `name_loc8`='Сиг Шивес',`subname_loc8`='Вожди тауренов' WHERE `entry`=23626;
 UPDATE `locales_creature` SET `name_loc8`='Бекан Ячменовар' WHERE `entry`=23627;
 UPDATE `locales_creature` SET `name_loc8`='Даран Громовар' WHERE `entry`=23628;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ A' WHERE `entry`=23629;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ B' WHERE `entry`=23630;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ С' WHERE `entry`=23631;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ D' WHERE `entry`=23632;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ E' WHERE `entry`=23633;
-UPDATE `locales_creature` SET `name_loc8`='[PH] Зазывала Ярмарки Новолуния, ВНЕШНОСТЬ F' WHERE `entry`=23634;
 UPDATE `locales_creature` SET `name_loc8`='Крикс',`subname_loc8`='Механик дирижабля' WHERE `entry`=23635;
 UPDATE `locales_creature` SET `name_loc8`='Костолом Шестермути' WHERE `entry`=23636;
 UPDATE `locales_creature` SET `name_loc8`='Лейтенант-дезертир' WHERE `entry`=23637;
@@ -20973,7 +20952,6 @@ UPDATE `locales_creature` SET `name_loc8`='Кованый железный дв�
 UPDATE `locales_creature` SET `name_loc8`='Заступник клана Темных Рун' WHERE `entry`=27983;
 UPDATE `locales_creature` SET `name_loc8`='Буревестник клана Темных Рун' WHERE `entry`=27984;
 UPDATE `locales_creature` SET `name_loc8`='Комендант железных големов' WHERE `entry`=27985;
-UPDATE `locales_creature` SET `name_loc8`='Хеминг Эрнестуэй' WHERE `entry`=27986;
 UPDATE `locales_creature` SET `name_loc8`='Монти Мушкетон' WHERE `entry`=27987;
 UPDATE `locales_creature` SET `name_loc8`='Т.А.Н.Э.Ц.' WHERE `entry`=27989;
 UPDATE `locales_creature` SET `name_loc8`='Крас',`subname_loc8`='Супруг Королевы' WHERE `entry`=27990;
@@ -21316,7 +21294,6 @@ UPDATE `locales_creature` SET `name_loc8`='Кольтира Ткач Смерт�
 UPDATE `locales_creature` SET `name_loc8`='Орбаз Кровопорч' WHERE `entry`=28448;
 UPDATE `locales_creature` SET `name_loc8`='Тассариан' WHERE `entry`=28449;
 UPDATE `locales_creature` SET `name_loc8`='Непривязанный скакун' WHERE `entry`=28450;
-UPDATE `locales_creature` SET `name_loc8`='Хеминг Эрнестуэй' WHERE `entry`=28451;
 UPDATE `locales_creature` SET `name_loc8`='Портал элементалей' WHERE `entry`=28452;
 UPDATE `locales_creature` SET `name_loc8`='Труп сектанта' WHERE `entry`=28464;
 UPDATE `locales_creature` SET `name_loc8`='Хеб\'драккарский гарпунщик' WHERE `entry`=28465;
