@@ -1309,7 +1309,6 @@ UPDATE `script_texts` SET `content_loc6`='¡Traed la batalla ante mí y pagadlo 
 UPDATE `script_texts` SET `content_loc6`='¡Retenedlos! ¡No vaciléis!' WHERE `entry`=-1534012;
 UPDATE `script_texts` SET `content_loc6`='¡Victoria o muerte!' WHERE `entry`=-1534013;
 UPDATE `script_texts` SET `content_loc6`='¡No cedáis ni un ápice!' WHERE `entry`=-1534014;
-UPDATE `script_texts` SET `content_loc6`='Uraaa ...' WHERE `entry`=-1534017;
 UPDATE `script_texts` SET `content_loc6`='Vuestra resistencia es insignificante.' WHERE `entry`=-1534019;
 UPDATE `script_texts` SET `content_loc6`='¡Este mundo arderá!' WHERE `entry`=-1534020;
 UPDATE `script_texts` SET `content_loc6`='¡Manach sheek-thrish!' WHERE `entry`=-1534021;
@@ -1562,7 +1561,6 @@ UPDATE `script_texts` SET `content_loc6`='¡Taretha! ¿Qué clase de magia repug
 UPDATE `script_texts` SET `content_loc6`='¿Qué o quién era eso?' WHERE `entry`=-1560031;
 UPDATE `script_texts` SET `content_loc6`='¡No!' WHERE `entry`=-1560032;
 UPDATE `script_texts` SET `content_loc6`='Adiós, Taretha. Jamás olvidaré tu bondad.' WHERE `entry`=-1560033;
-UPDATE `script_texts` SET `content_loc6`='Taretha ...' WHERE `entry`=-1560036;
 UPDATE `script_texts` SET `content_loc6`='Un buen día... para morir.' WHERE `entry`=-1560037;
 UPDATE `script_texts` SET `content_loc6`='¡Me he ganado mi libertad!' WHERE `entry`=-1560038;
 UPDATE `script_texts` SET `content_loc6`='¡Ya no soy un esclavo!' WHERE `entry`=-1560040;
