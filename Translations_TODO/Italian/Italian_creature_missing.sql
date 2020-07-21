@@ -969,12 +969,12 @@ UPDATE `locales_creature` SET `name_loc9`='World First Aid Trainer',`subname_loc
 UPDATE `locales_creature` SET `name_loc9`='World Horse Riding Trainer',`subname_loc9`='Horse Riding Trainer' WHERE `entry`=5026;
 UPDATE `locales_creature` SET `name_loc9`='World Lockpicking Trainer',`subname_loc9`='Lockpicking Trainer' WHERE `entry`=5027;
 UPDATE `locales_creature` SET `name_loc9`='World Ram Riding Trainer',`subname_loc9`='Ram Riding Trainer' WHERE `entry`=5028;
-UPDATE `locales_creature` SET `name_loc9`='World Survival Trainer',`subname_loc9`='Survival Trainer' WHERE `entry`=5029;
+UPDATE `locales_creature` SET `subname_loc9`='Survival Trainer' WHERE `entry`=5029;
 UPDATE `locales_creature` SET `name_loc9`='World Tiger Riding Trainer',`subname_loc9`='Tiger Riding Trainer' WHERE `entry`=5030;
 UPDATE `locales_creature` SET `name_loc9`='World Wolf Riding Trainer',`subname_loc9`='Wolf Riding Trainer' WHERE `entry`=5031;
 UPDATE `locales_creature` SET `name_loc9`='World Alchemy Trainer',`subname_loc9`='Grand Master Alchemy Trainer' WHERE `entry`=5032;
 UPDATE `locales_creature` SET `name_loc9`='World Blacksmith Trainer',`subname_loc9`='Blacksmith Trainer' WHERE `entry`=5033;
-UPDATE `locales_creature` SET `name_loc9`='World Brewing Trainer',`subname_loc9`='Brewing Trainer' WHERE `entry`=5034;
+UPDATE `locales_creature` SET `subname_loc9`='Brewing Trainer' WHERE `entry`=5034;
 UPDATE `locales_creature` SET `name_loc9`='World Cartography Trainer',`subname_loc9`='Cartography Trainer' WHERE `entry`=5035;
 UPDATE `locales_creature` SET `name_loc9`='World Cooking Trainer',`subname_loc9`='Cooking Trainer' WHERE `entry`=5036;
 UPDATE `locales_creature` SET `name_loc9`='World Engineering Trainer',`subname_loc9`='Engineering Trainer' WHERE `entry`=5037;

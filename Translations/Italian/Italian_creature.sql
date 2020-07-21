@@ -1322,7 +1322,6 @@ UPDATE `locales_creature` SET `name_loc9`='Guardaboschi Sareyn' WHERE `entry`=15
 UPDATE `locales_creature` SET `name_loc9`='Faerlina la Vedova Nera' WHERE `entry`=15953;
 UPDATE `locales_creature` SET `name_loc9`='Noth l\'Araldo della Piaga' WHERE `entry`=15954;
 UPDATE `locales_creature` SET `name_loc9`='Anub\'rekhan' WHERE `entry`=15956;
-UPDATE `locales_creature` SET `name_loc9`='Zaffirion' WHERE `entry`=15989;
 UPDATE `locales_creature` SET `name_loc9`='Martellaccio del Gladiatore Malvagio' WHERE `entry`=16015;
 UPDATE `locales_creature` SET `name_loc9`='Scienziato Pazzo' WHERE `entry`=16020;
 UPDATE `locales_creature` SET `name_loc9`='Veleno Vivente' WHERE `entry`=16027;
@@ -2864,7 +2863,7 @@ UPDATE `locales_creature` SET `name_loc9`='',`subname_loc9`='Beni Comuni' WHERE 
 UPDATE `locales_creature` SET `name_loc9`='Brann Barbabronzea' WHERE `entry`=30107;
 UPDATE `locales_creature` SET `name_loc9`='Vereesa Ventolesto' WHERE `entry`=30115;
 UPDATE `locales_creature` SET `name_loc9`='Arcimago Aethas il Predatore del Sole' WHERE `entry`=30116;
-UPDATE `locales_creature` SET `name_loc9`='',`subname_loc9`='Stalliere' WHERE `entry`=30155;
+UPDATE `locales_creature` SET `subname_loc9`='Stalliere' WHERE `entry`=30155;
 UPDATE `locales_creature` SET `name_loc9`='',`subname_loc9`='Maestro di Guerra' WHERE `entry`=30171;
 UPDATE `locales_creature` SET `name_loc9`='Guardiano di Ahn\'kahar' WHERE `entry`=30176;
 UPDATE `locales_creature` SET `name_loc9`='Brulicatore di Ahn\'kahar' WHERE `entry`=30178;

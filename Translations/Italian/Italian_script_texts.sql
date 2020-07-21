@@ -68,7 +68,6 @@ UPDATE `script_texts` SET `content_loc9`='Il tuo sangue ungerà il mio cerchio.'
 UPDATE `script_texts` SET `content_loc9`='UCCIDI!' WHERE `entry`=-1533030;
 UPDATE `script_texts` SET `content_loc9`='Non troverai pace nella morte.' WHERE `entry`=-1533068;
 UPDATE `script_texts` SET `content_loc9`='Un guardiano di Icecrown entra nel combattimento!' WHERE `entry`=-1533134;
-UPDATE `script_texts` SET `content_loc9`='Uraaa ...' WHERE `entry`=-1534017;
 UPDATE `script_texts` SET `content_loc9`='Lo vuoi? Molto bene, prendilo!' WHERE `entry`=-1540004;
 UPDATE `script_texts` SET `content_loc9`='Spiaccica!' WHERE `entry`=-1540018;
 UPDATE `script_texts` SET `content_loc9`='H\'ey ...' WHERE `entry`=-1540034;
@@ -91,7 +90,6 @@ UPDATE `script_texts` SET `content_loc9`='Servo con orgoglio.' WHERE `entry`=-15
 UPDATE `script_texts` SET `content_loc9`='La tua morte è per la causa più grande!' WHERE `entry`=-1555034;
 UPDATE `script_texts` SET `content_loc9`='Pagherai con la tua vita!' WHERE `entry`=-1558002;
 UPDATE `script_texts` SET `content_loc9`='NO!' WHERE `entry`=-1560032;
-UPDATE `script_texts` SET `content_loc9`='Taretha ...' WHERE `entry`=-1560036;
 UPDATE `script_texts` SET `content_loc9`='Un buon giorno ... morire ...' WHERE `entry`=-1560037;
 UPDATE `script_texts` SET `content_loc9`='Morirai nel nome di Lady Vashj!' WHERE `entry`=-1564000;
 UPDATE `script_texts` SET `content_loc9`='Aaaahrg ...' WHERE `entry`=-1564036;
