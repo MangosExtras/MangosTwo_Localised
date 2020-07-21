@@ -1615,7 +1615,6 @@ UPDATE `script_texts` SET `content_loc3`='Bringt den Kampf zu mir und bezahlt mi
 UPDATE `script_texts` SET `content_loc3`='Haltet sie zurück! Nicht nachgeben!' WHERE `entry`=-1534012;
 UPDATE `script_texts` SET `content_loc3`='Sieg oder Tod!' WHERE `entry`=-1534013;
 UPDATE `script_texts` SET `content_loc3`='Weicht keinen Schritt zurück!' WHERE `entry`=-1534014;
-UPDATE `script_texts` SET `content_loc3`='Uraaa ...' WHERE `entry`=-1534017;
 UPDATE `script_texts` SET `content_loc3`='Euer Widerstand ist sinnlos!' WHERE `entry`=-1534019;
 UPDATE `script_texts` SET `content_loc3`='Diese Welt wird brennen!' WHERE `entry`=-1534020;
 UPDATE `script_texts` SET `content_loc3`='Eure Seele wird bis in alle Ewigkeit leiden.' WHERE `entry`=-1534025;
@@ -1861,7 +1860,6 @@ UPDATE `script_texts` SET `content_loc3`='Taretha! Welch fauler Zauber ist das?'
 UPDATE `script_texts` SET `content_loc3`='Wer oder was ist das?' WHERE `entry`=-1560031;
 UPDATE `script_texts` SET `content_loc3`='Nein!' WHERE `entry`=-1560032;
 UPDATE `script_texts` SET `content_loc3`='Lebe wohl, Taretha. Niemals werde ich deine Güte vergessen.' WHERE `entry`=-1560033;
-UPDATE `script_texts` SET `content_loc3`='Taretha ...' WHERE `entry`=-1560036;
 UPDATE `script_texts` SET `content_loc3`='Ein guter Tag zum Sterben.' WHERE `entry`=-1560037;
 UPDATE `script_texts` SET `content_loc3`='Ich habe meine Freiheit verdient!' WHERE `entry`=-1560038;
 UPDATE `script_texts` SET `content_loc3`='Ich bin nicht länger ein Sklave!' WHERE `entry`=-1560040;
