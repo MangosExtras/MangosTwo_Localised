@@ -538,7 +538,6 @@ UPDATE `trans_words` SET `content_loc4`='I will lie down for no one!' WHERE `wor
 UPDATE `trans_words` SET `content_loc4`='Make ready for another wave! LOK-TAR OGAR!' WHERE `word_id` = 1555;
 UPDATE `trans_words` SET `content_loc4`='It is over. Withdraw! We have failed.' WHERE `word_id` = 1559;
 UPDATE `trans_words` SET `content_loc4`='We have played our part and done well. It is up to the others now.' WHERE `word_id` = 1560;
-UPDATE `trans_words` SET `content_loc4`='Uraaa...' WHERE `word_id` = 1561;
 UPDATE `trans_words` SET `content_loc4`='All of your efforts have been in vain, for the draining of the World Tree has already begun. Soon the heart of your world will beat no more.' WHERE `word_id` = 1562;
 UPDATE `trans_words` SET `content_loc4`='Away vermin!' WHERE `word_id` = 1567;
 UPDATE `trans_words` SET `content_loc4`='All creation will be devoured!' WHERE `word_id` = 1568;
@@ -764,7 +763,6 @@ UPDATE `trans_words` SET `content_loc4`='Ah, there you are. I had hoped to accom
 UPDATE `trans_words` SET `content_loc4`='A rider approaches!' WHERE `word_id` = 1998;
 UPDATE `trans_words` SET `content_loc4`='Things are looking grim...' WHERE `word_id` = 2006;
 UPDATE `trans_words` SET `content_loc4`='I will fight to the last!' WHERE `word_id` = 2007;
-UPDATE `trans_words` SET `content_loc4`='Taretha...' WHERE `word_id` = 2008;
 UPDATE `trans_words` SET `content_loc4`='This day is long overdue. Out of my way!' WHERE `word_id` = 2011;
 UPDATE `trans_words` SET `content_loc4`='You have done a great thing. Alas, the young warchief\'s memory of these events must be as they originally were ... Andormu awaits you in the master\'s lair.' WHERE `word_id` = 2030;
 UPDATE `trans_words` SET `content_loc4`='I\'ll deal with you later!' WHERE `word_id` = 2033;
