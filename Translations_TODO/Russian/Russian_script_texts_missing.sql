@@ -265,7 +265,6 @@ UPDATE `trans_words` SET `content_loc8`='Ah, I have been waiting for a real chal
 UPDATE `trans_words` SET `content_loc8`='Hah, is that all?' WHERE `word_id` = 861; -- script_texts - content : entry=-1189003
 UPDATE `trans_words` SET `content_loc8`='What, Mograine has fallen? You shall pay for this treachery!' WHERE `word_id` = 865; -- script_texts - content : entry=-1189008
 UPDATE `trans_words` SET `content_loc8`='The monster got what he deserved.' WHERE `word_id` = 868; -- script_texts - content : entry=-1189015
-UPDATE `trans_words` SET `content_loc8`='It is over, your search is done! Let fate choose now, the righteous one.' WHERE `word_id` = 1370; -- script_texts - content : entry=-1189022
 UPDATE `trans_words` SET `content_loc8`='So eager you are for my blood to spill, yet to vanquish me this my head you must kill!' WHERE `word_id` = 1372; -- script_texts - content : entry=-1189024
 UPDATE `trans_words` SET `content_loc8`='Over here, you idiot!' WHERE `word_id` = 1373; -- script_texts - content : entry=-1189025
 UPDATE `trans_words` SET `content_loc8`='Harken, cur! Tis you I spurn! Now, $N, feel the burn!' WHERE `word_id` = 1374; -- script_texts - content : entry=-1189026
@@ -1026,7 +1025,6 @@ UPDATE `trans_words` SET `content_loc8`='Ha, pathetic!' WHERE `word_id` = 3046; 
 UPDATE `trans_words` SET `content_loc8`='Life from the lifelessness... death for you.' WHERE `word_id` = 3051; -- script_texts - content : entry=-1602039
 UPDATE `trans_words` SET `content_loc8`='Elders, grant me your strength!' WHERE `word_id` = 3056; -- script_texts - content : entry=-1603001
 UPDATE `trans_words` SET `content_loc8`='You have strayed too far, wasted too much time!' WHERE `word_id` = 3063; -- script_texts - content : entry=-1603008
-UPDATE `trans_words` SET `content_loc8`='Your corpse will nourish the soil!' WHERE `word_id` = 3070; -- script_texts - content : entry=-1603016
 UPDATE `trans_words` SET `content_loc8`='<Angry roar>' WHERE `word_id` = 3077; -- script_texts - content : entry=-1603023
 UPDATE `trans_words` SET `content_loc8`='Such a waste.' WHERE `word_id` = 3078; -- script_texts - content : entry=-1603024
 UPDATE `trans_words` SET `content_loc8`='More scraps for the scrapheap!' WHERE `word_id` = 3085; -- script_texts - content : entry=-1603031

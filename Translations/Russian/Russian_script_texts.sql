@@ -944,6 +944,7 @@ UPDATE `script_texts` SET `content_loc8`='Свет изрек свое слов�
 UPDATE `script_texts` SET `content_loc8`='Восстань, защитник мой!' WHERE `entry`=-1189010;
 UPDATE `script_texts` SET `content_loc8`='Вы не оскверните наши таинства!' WHERE `entry`=-1189019;
 UPDATE `script_texts` SET `content_loc8`='Сгорите в праведном огне!' WHERE `entry`=-1189020;
+UPDATE `script_texts` SET `content_loc8`='Несчастный, ты достиг конца пути! Судьба решит, кому вперед идти!' WHERE `entry`=-1189022;
 UPDATE `script_texts` SET `content_loc8`='Вот мое тело, красиво и смело! Черные души карает умело!' WHERE `entry`=-1189023;
 UPDATE `script_texts` SET `content_loc8`='Восстаньте слуги, устремитесь в бой! Пусть павший рыцарь обретет покой!' WHERE `entry`=-1189027;
 UPDATE `script_texts` SET `content_loc8`='%s смеется.' WHERE `entry`=-1189030;
@@ -2025,6 +2026,7 @@ UPDATE `script_texts` SET `content_loc8`='%s падает на землю и н�
 UPDATE `script_texts` SET `content_loc8`='Как пожелаешь, $N.' WHERE `entry`=-1603012;
 UPDATE `script_texts` SET `content_loc8`='Госпожа, враг прорвался в Оранжерею!' WHERE `entry`=-1603014;
 UPDATE `script_texts` SET `content_loc8`='Удобритель' WHERE `entry`=-1603015;
+UPDATE `script_texts` SET `content_loc8`='Яйцо ползучего силитида раскалывается...' WHERE `entry`=-1603016;
 UPDATE `script_texts` SET `content_loc8`='Госпожа, я умираю.' WHERE `entry`=-1603017;
 UPDATE `script_texts` SET `content_loc8`='Смертным здесь не место!' WHERE `entry`=-1603018;
 UPDATE `script_texts` SET `content_loc8`='Отправляйся восвояси!' WHERE `entry`=-1603019;
