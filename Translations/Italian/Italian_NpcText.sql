@@ -41,6 +41,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc9`='Volevo urlare ma solo un lieve sus
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Che l\'entità di Sironas avesse piani per Saruan ...$B$B<La scrittura si interrompe bruscamente e una lunga riga scorre fuori dalla pagina. Questo draenei è morto mentre faceva l\'entrata.>$B$' WHERE `entry`=9082;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Hai sentito che hanno perso il controllo totale di Murmur nel Shadow Labyrinth?!',`Text0_1_loc9`='Hai sentito che hanno perso il controllo totale di Murmur nel Shadow Labyrinth?!' WHERE `entry`=9523;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Troverete una serie di formatori di sciamani nella Sala dei cristalli. Forse dovresti visitare il Farseer Nobundo lì, e mostrare ai Rotti un po\'di pietà. La luce sia con te.' WHERE `entry`=9556;
+UPDATE `locales_npc_text` SET `Text0_0_loc9`='"L\'armatura è la mia passione! Non darmi da mangiare, lasciami aggiustare qualcosa! Dopo la morte, nulla è cambiato, quindi immagina di essere un vero Draenei vivente, $Gstranger:straniero;. Fammi ricordare com\'è vivere ... E fammi l\'onore di riparare la tua armatura."' WHERE `entry`=9936;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Testo IT mancante' WHERE `entry`=10059;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Testo IT mancante' WHERE `entry`=10061;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='I Scryer ti hanno mandato a contattarmi? Non assomigli affatto a un phon.' WHERE `entry`=10211;
@@ -74,6 +75,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc9`='Mi dispiace, le nostre birre sono 
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Come posso esserti d\'aiuto?' WHERE `entry`=13702;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Dis essere un giorno oscuro nella storia del troll, mon.' WHERE `entry`=13848;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Come posso essere d\'aiuto?' WHERE `entry`=14040;
+UPDATE `locales_npc_text` SET `Text0_0_loc9`='Ho vagato per il resto della mia vita naturale alla ricerca della conoscenza, vedendo più meraviglia e incontrando razze più strane e misteriose di chiunque altro prima di me. Ho viaggiato in lungo e in largo per l\'antica Kalimdor fino a quando non c\'era più niente da vedere, nessuna nuova terra all\'orizzonte. $B$BYet ... c\'erano ancora così tante cose che non sapevo mentre sentivo il mio ultimo viaggio avvicinarsi e io pianse per cose che non avrei mai saputo. $B$BAs Sono caduto, la mia vita è finita, è allora che mi hanno trovato.' WHERE `entry`=14121;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Come posso esserti d\'aiuto?',`Text1_0_loc9`='Come posso esserti d\'aiuto?' WHERE `entry`=14128;
 UPDATE `locales_npc_text` SET `Text2_0_loc9`='Come posso esserti d\'aiuto?' WHERE `entry`=14128;
 UPDATE `locales_npc_text` SET `Text0_0_loc9`='Dig rats produce uno stufato sorprendentemente gustoso.' WHERE `entry`=14313;
