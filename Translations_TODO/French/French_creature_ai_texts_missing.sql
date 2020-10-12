@@ -138,7 +138,6 @@ UPDATE `trans_words` SET `content_loc2`='Aku\'mai is dead! At last, I can leave 
 UPDATE `trans_words` SET `content_loc2`='You... are nothing!' WHERE `word_id` = 6249; -- creature_ai_texts - content : entry=-573
 UPDATE `trans_words` SET `content_loc2`='No! You must no do this!' WHERE `word_id` = 5679; -- creature_ai_texts - content : entry=-579
 UPDATE `trans_words` SET `content_loc2`='By the Light, you will leave this tomb!' WHERE `word_id` = 5677; -- creature_ai_texts - content : entry=-581
-UPDATE `trans_words` SET `content_loc2`='They all go to the Spire but none never come back... just like Bijou.' WHERE `word_id` = 5673; -- creature_ai_texts - content : entry=-585
 UPDATE `trans_words` SET `content_loc2`='When do we eat again?' WHERE `word_id` = 6246; -- creature_ai_texts - content : entry=-588
 UPDATE `trans_words` SET `content_loc2`='Don\'t feel.....so good.....' WHERE `word_id` = 6245; -- creature_ai_texts - content : entry=-589
 UPDATE `trans_words` SET `content_loc2`='That one where thousands of people are all watching us up from the sky...' WHERE `word_id` = 6237; -- creature_ai_texts - content : entry=-598

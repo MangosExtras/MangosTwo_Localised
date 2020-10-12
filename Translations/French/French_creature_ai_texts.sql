@@ -445,6 +445,7 @@ UPDATE `creature_ai_texts` SET `content_loc2`='MOUREZ, MORTELS !' WHERE `entry`
 UPDATE `creature_ai_texts` SET `content_loc2`='Bijou sait où les trésors sont cachés.' WHERE `entry`=-582;
 UPDATE `creature_ai_texts` SET `content_loc2`='GROA !! *tousse* *tousse* Faut que j\'arrête de fumer.' WHERE `entry`=-583;
 UPDATE `creature_ai_texts` SET `content_loc2`='Demandez à Kibler pour le trésor ! GROA !' WHERE `entry`=-584;
+UPDATE `creature_ai_texts` SET `content_loc2`='Ils vont tous au Pic mais aucun ne revient jamais ... comme Bijou.' WHERE `entry`=-585;
 UPDATE `creature_ai_texts` SET `content_loc2`='Opus veut l\'or de Cuergo... avec des vers.' WHERE `entry`=-586;
 UPDATE `creature_ai_texts` SET `content_loc2`='La SgPA mène une enquête sur Kibler.' WHERE `entry`=-587;
 UPDATE `creature_ai_texts` SET `content_loc2`='Hal…' WHERE `entry`=-590;
