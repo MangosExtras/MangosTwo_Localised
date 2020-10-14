@@ -402,6 +402,7 @@ UPDATE `db_script_string` SET `content_loc8`='Какой отличный выс
 UPDATE `db_script_string` SET `content_loc8`='Ха! В яблочко!' WHERE `entry`=2000000483;
 UPDATE `db_script_string` SET `content_loc8`='Ох... даже холодок по спине пробежал.' WHERE `entry`=2000000484;
 UPDATE `db_script_string` SET `content_loc8`='Надеюсь, они увидят свет.' WHERE `entry`=2000000485;
+UPDATE `db_script_string` SET `content_loc8`='Шейн Дабири, Ли, Алекс Т., Роб Ф., Дж. А. Б., Э. Мэйберри!' WHERE `entry`=2000000489;
 UPDATE `db_script_string` SET `content_loc8`='Джеффри Каплан! Том Чилтон! Роб Пардо!' WHERE `entry`=2000000490;
 UPDATE `db_script_string` SET `content_loc8`='Джастин Тевайрет! Роман Кенней! Вся наша неповторимая команда графики и анимации!' WHERE `entry`=2000000491;
 UPDATE `db_script_string` SET `content_loc8`='Кевин Джордан и Джонатан Лекрафт!' WHERE `entry`=2000000492;

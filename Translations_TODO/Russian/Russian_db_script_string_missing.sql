@@ -19,7 +19,6 @@ UPDATE `trans_words` SET `content_loc8`='Who... who are you? Who.. what am I?' W
 UPDATE `trans_words` SET `content_loc8`='I have awoken to a nightmare?' WHERE `word_id` = 7851; -- db_script_string - content : entry=2000000367
 UPDATE `trans_words` SET `content_loc8`='Havenshire is lost.' WHERE `word_id` = 7884; -- db_script_string - content : entry=2000000412
 UPDATE `trans_words` SET `content_loc8`='%s reads from the book of the dead.' WHERE `word_id` = 268248; -- db_script_string - content : entry=2000000488
-UPDATE `trans_words` SET `content_loc8`='Shane Dabiri, Lee, Alex T., Rob F., J. A. B., A. Mayberry!' WHERE `word_id` = 268221; -- db_script_string - content : entry=2000000489
 UPDATE `trans_words` SET `content_loc8`='Freedom at last! I must return to Warsong at once!' WHERE `word_id` = 7897; -- db_script_string - content : entry=2000000560
 UPDATE `trans_words` SET `content_loc8`='BY THE LIGHT OF ELUNE! Eredar! Cursed demons, what have you to me? I have not come alone, we will fight you as we have in the past! I...' WHERE `word_id` = 7636; -- db_script_string - content : entry=2000000660
 UPDATE `trans_words` SET `content_loc8`='Yes right away momma!' WHERE `word_id` = 7066; -- db_script_string - content : entry=2000005011
