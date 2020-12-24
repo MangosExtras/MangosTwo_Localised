@@ -4,19 +4,10 @@ UPDATE `trans_words` SET `content_loc2`='Stormwind Inscription' WHERE `word_id` 
 UPDATE `trans_words` SET `content_loc2`='Stormwind Locksmith' WHERE `word_id` = 127250; -- locales_points_of_interest - icon_name : entry=25
 UPDATE `trans_words` SET `content_loc2`='Stormwind Barber' WHERE `word_id` = 127378; -- locales_points_of_interest - icon_name : entry=30
 UPDATE `trans_words` SET `content_loc2`='Stormwind Inscription' WHERE `word_id` = 127377; -- locales_points_of_interest - icon_name : entry=31
-UPDATE `trans_words` SET `content_loc2`='Hunter Lodge' WHERE `word_id` = 127173; -- locales_points_of_interest - icon_name : entry=33
-UPDATE `trans_words` SET `content_loc2`='Stonefire Tavern' WHERE `word_id` = 127180; -- locales_points_of_interest - icon_name : entry=55
-UPDATE `trans_words` SET `content_loc2`='Battlemasters Ironforge' WHERE `word_id` = 127183; -- locales_points_of_interest - icon_name : entry=59
 UPDATE `trans_words` SET `content_loc2`='Ironforge Barber' WHERE `word_id` = 127379; -- locales_points_of_interest - icon_name : entry=60
-UPDATE `trans_words` SET `content_loc2`='Ironforge Rogue Trainer' WHERE `word_id` = 127184; -- locales_points_of_interest - icon_name : entry=63
-UPDATE `trans_words` SET `content_loc2`='Ironforge Warlock Trainer' WHERE `word_id` = 127185; -- locales_points_of_interest - icon_name : entry=64
 UPDATE `trans_words` SET `content_loc2`='Ironforge Shaman Trainer' WHERE `word_id` = 127251; -- locales_points_of_interest - icon_name : entry=65
 UPDATE `trans_words` SET `content_loc2`='Ironforge Inscription' WHERE `word_id` = 127380; -- locales_points_of_interest - icon_name : entry=72
-UPDATE `trans_words` SET `content_loc2`='Darnassus Inn' WHERE `word_id` = 127191; -- locales_points_of_interest - icon_name : entry=93
-UPDATE `trans_words` SET `content_loc2`='Battlemasters Darnassus' WHERE `word_id` = 127193; -- locales_points_of_interest - icon_name : entry=97
 UPDATE `trans_words` SET `content_loc2`='Darnassus Inscription' WHERE `word_id` = 127381; -- locales_points_of_interest - icon_name : entry=107
-UPDATE `trans_words` SET `content_loc2`='Darnassus Tailor' WHERE `word_id` = 127205; -- locales_points_of_interest - icon_name : entry=110
-UPDATE `trans_words` SET `content_loc2`='Dolanaar Inn' WHERE `word_id` = 127206; -- locales_points_of_interest - icon_name : entry=111
 UPDATE `trans_words` SET `content_loc2`='Dalaran Eastern Sewer Entrance' WHERE `word_id` = 127382; -- locales_points_of_interest - icon_name : entry=126
 UPDATE `trans_words` SET `content_loc2`='Dalaran Western Sewer Entrance' WHERE `word_id` = 127383; -- locales_points_of_interest - icon_name : entry=127
 UPDATE `trans_words` SET `content_loc2`='Dalaran Silver Enclave' WHERE `word_id` = 127384; -- locales_points_of_interest - icon_name : entry=129
@@ -65,11 +56,8 @@ UPDATE `trans_words` SET `content_loc2`='Dalaran Melee Weapons' WHERE `word_id` 
 UPDATE `trans_words` SET `content_loc2`='Dalaran Ranged Weapons' WHERE `word_id` = 127427; -- locales_points_of_interest - icon_name : entry=173
 UPDATE `trans_words` SET `content_loc2`='Dalaran Staves & Wands' WHERE `word_id` = 127428; -- locales_points_of_interest - icon_name : entry=174
 UPDATE `trans_words` SET `content_loc2`='Dalaran Wine & Cheese' WHERE `word_id` = 127429; -- locales_points_of_interest - icon_name : entry=175
-UPDATE `trans_words` SET `content_loc2`='Orgrimmar Inn' WHERE `word_id` = 127208; -- locales_points_of_interest - icon_name : entry=179
 UPDATE `trans_words` SET `content_loc2`='Orgrimmar Eastern Zeppelin Tower' WHERE `word_id` = 127252; -- locales_points_of_interest - icon_name : entry=182
 UPDATE `trans_words` SET `content_loc2`='Orgrimmar Western Zeppelin Tower' WHERE `word_id` = 127253; -- locales_points_of_interest - icon_name : entry=183
-UPDATE `trans_words` SET `content_loc2`='Sayoc & Hanashi' WHERE `word_id` = 127211; -- locales_points_of_interest - icon_name : entry=184
-UPDATE `trans_words` SET `content_loc2`='Battlemasters Orgrimmar' WHERE `word_id` = 127212; -- locales_points_of_interest - icon_name : entry=187
 UPDATE `trans_words` SET `content_loc2`='Orgrimmar Barber' WHERE `word_id` = 127430; -- locales_points_of_interest - icon_name : entry=188
 UPDATE `trans_words` SET `content_loc2`='Orgrimmar Inscription' WHERE `word_id` = 127431; -- locales_points_of_interest - icon_name : entry=189
 UPDATE `trans_words` SET `content_loc2`='Exodar, Auctioneer' WHERE `word_id` = 127254; -- locales_points_of_interest - icon_name : entry=190
@@ -120,24 +108,12 @@ UPDATE `trans_words` SET `content_loc2`='Stillpine Hold, Leatherworker' WHERE `w
 UPDATE `trans_words` SET `content_loc2`='Azure Watch, Mining Trainer' WHERE `word_id` = 127298; -- locales_points_of_interest - icon_name : entry=235
 UPDATE `trans_words` SET `content_loc2`='Stillpine Hold, Skinner' WHERE `word_id` = 127299; -- locales_points_of_interest - icon_name : entry=236
 UPDATE `trans_words` SET `content_loc2`='Odesyus\' Landing, Tailor' WHERE `word_id` = 127300; -- locales_points_of_interest - icon_name : entry=237
-UPDATE `trans_words` SET `content_loc2`='Razor Hill Inn' WHERE `word_id` = 127213; -- locales_points_of_interest - icon_name : entry=253
-UPDATE `trans_words` SET `content_loc2`='Undercity Skinning Trainer' WHERE `word_id` = 127215; -- locales_points_of_interest - icon_name : entry=255
-UPDATE `trans_words` SET `content_loc2`='Undercity Leatherworking Trainer' WHERE `word_id` = 127217; -- locales_points_of_interest - icon_name : entry=257
 UPDATE `trans_words` SET `content_loc2`='Undercity Inscription' WHERE `word_id` = 127435; -- locales_points_of_interest - icon_name : entry=258
-UPDATE `trans_words` SET `content_loc2`='Undercity Engineering Trainer' WHERE `word_id` = 127221; -- locales_points_of_interest - icon_name : entry=262
-UPDATE `trans_words` SET `content_loc2`='Undercity Cooking Trainer' WHERE `word_id` = 127223; -- locales_points_of_interest - icon_name : entry=264
-UPDATE `trans_words` SET `content_loc2`='Undercity Rogue Trainers' WHERE `word_id` = 127227; -- locales_points_of_interest - icon_name : entry=269
-UPDATE `trans_words` SET `content_loc2`='Undercity Zeppelin' WHERE `word_id` = 127230; -- locales_points_of_interest - icon_name : entry=273
 UPDATE `trans_words` SET `content_loc2`='Undercity Locksmith' WHERE `word_id` = 127301; -- locales_points_of_interest - icon_name : entry=277
-UPDATE `trans_words` SET `content_loc2`='Undercity Inn' WHERE `word_id` = 127232; -- locales_points_of_interest - icon_name : entry=278
 UPDATE `trans_words` SET `content_loc2`='Undercity Barber' WHERE `word_id` = 127434; -- locales_points_of_interest - icon_name : entry=282
 UPDATE `trans_words` SET `content_loc2`='Thunder Bluff Zeppelin' WHERE `word_id` = 127302; -- locales_points_of_interest - icon_name : entry=300
 UPDATE `trans_words` SET `content_loc2`='Thunder Bluff Inscription' WHERE `word_id` = 127433; -- locales_points_of_interest - icon_name : entry=305
-UPDATE `trans_words` SET `content_loc2`='Battlemasters Thunder Bluff' WHERE `word_id` = 127240; -- locales_points_of_interest - icon_name : entry=317
-UPDATE `trans_words` SET `content_loc2`='Thunder Bluff Inn' WHERE `word_id` = 127243; -- locales_points_of_interest - icon_name : entry=322
-UPDATE `trans_words` SET `content_loc2`='Wind Rider Roost' WHERE `word_id` = 127244; -- locales_points_of_interest - icon_name : entry=324
 UPDATE `trans_words` SET `content_loc2`='Thunder Bluff Inscription' WHERE `word_id` = 127433; -- locales_points_of_interest - icon_name : entry=328
-UPDATE `trans_words` SET `content_loc2`='Bloodhoof Village Inn' WHERE `word_id` = 127245; -- locales_points_of_interest - icon_name : entry=338
 UPDATE `trans_words` SET `content_loc2`='Shattrath Cantina' WHERE `word_id` = 127303; -- locales_points_of_interest - icon_name : entry=340
 UPDATE `trans_words` SET `content_loc2`='Shattrath Taxi' WHERE `word_id` = 127304; -- locales_points_of_interest - icon_name : entry=341
 UPDATE `trans_words` SET `content_loc2`='Shattrath Alchemist' WHERE `word_id` = 127305; -- locales_points_of_interest - icon_name : entry=342
@@ -213,7 +189,6 @@ UPDATE `trans_words` SET `content_loc2`='Saltheril\'s Haven, Herbalist' WHERE `w
 UPDATE `trans_words` SET `content_loc2`='Falconwing Square, Jewelcrafter' WHERE `word_id` = 127370; -- locales_points_of_interest - icon_name : entry=415
 UPDATE `trans_words` SET `content_loc2`='Eversong Woods, Leatherworker' WHERE `word_id` = 127371; -- locales_points_of_interest - icon_name : entry=416
 UPDATE `trans_words` SET `content_loc2`='Eversong Woods, Skinner' WHERE `word_id` = 127372; -- locales_points_of_interest - icon_name : entry=417
-UPDATE `trans_words` SET `content_loc2`='Saltheril\'s Haven, Tailor' WHERE `word_id` = 127247; -- locales_points_of_interest - icon_name : entry=418
 UPDATE `trans_words` SET `content_loc2`='Darnassus Mage Trainer' WHERE `word_id` = 127373; -- locales_points_of_interest - icon_name : entry=438
 UPDATE `trans_words` SET `content_loc2`='Darnassus Paladin Trainer' WHERE `word_id` = 127374; -- locales_points_of_interest - icon_name : entry=439
 UPDATE `trans_words` SET `content_loc2`='Exodar, Battlemasters' WHERE `word_id` = 127375; -- locales_points_of_interest - icon_name : entry=441

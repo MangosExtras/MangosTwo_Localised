@@ -145,7 +145,6 @@ UPDATE `trans_words` SET `content_loc3`='I am going to practice and become a war
 UPDATE `trans_words` SET `content_loc3`='Now go back home where you belong!' WHERE `word_id` = 7260; -- db_script_string - content : entry=2000005772
 UPDATE `trans_words` SET `content_loc3`='Aaahhh... Another glorious victory for The Horde!' WHERE `word_id` = 7261; -- db_script_string - content : entry=2000005773
 UPDATE `trans_words` SET `content_loc3`='When is pappa comming back from the fights in Warsong? It has been so long...' WHERE `word_id` = 7263; -- db_script_string - content : entry=2000005775
-UPDATE `trans_words` SET `content_loc3`='I thank you, $N. And my brother thanks you.' WHERE `word_id` = 8280; -- db_script_string - content : entry=2000005776
 UPDATE `trans_words` SET `content_loc3`='%s listens to Sigilbringer\'s report...' WHERE `word_id` = 7252; -- db_script_string - content : entry=2000005777
 UPDATE `trans_words` SET `content_loc3`='We won. Dimensius no more. Report this proffesor Dabiri.' WHERE `word_id` = 8285; -- db_script_string - content : entry=2000005784
 UPDATE `trans_words` SET `content_loc3`='Champion Vranesh arches a sculpted brow at the guards, a disapproving scowl on his face.' WHERE `word_id` = 8322; -- db_script_string - content : entry=2000005822

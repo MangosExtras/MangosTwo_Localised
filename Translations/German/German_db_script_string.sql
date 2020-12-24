@@ -1136,6 +1136,7 @@ UPDATE `db_script_string` SET `content_loc3`='Hier ist einer! Für die Horde!' W
 UPDATE `db_script_string` SET `content_loc3`='Nimm das, räudige Harpyie!' WHERE `entry`=2000005770;
 UPDATE `db_script_string` SET `content_loc3`='Einem Krieger der Horde könnt Ihr nicht entkommen! Nehmt das! Und das!' WHERE `entry`=2000005771;
 UPDATE `db_script_string` SET `content_loc3`='Mogg, sieh zu, dass du reinkommst. Hier draußen ist es nicht sicher, solange dein Vater weg ist.' WHERE `entry`=2000005774;
+UPDATE `db_script_string` SET `content_loc3`='Ich danke Euch, $N. Und mein Bruder dankt Euch.' WHERE `entry`=2000005776;
 UPDATE `db_script_string` SET `content_loc3`='Was?? Die Brennende Klinge breitet sich aus! Das müssen wir untersuchen!' WHERE `entry`=2000005778;
 UPDATE `db_script_string` SET `content_loc3`='%s zerschlägt die tote, verdrehte Klaue.' WHERE `entry`=2000005779;
 UPDATE `db_script_string` SET `content_loc3`='Ihr habt den Fleischling gehört! AUSRÜCKEN!' WHERE `entry`=2000005780;
