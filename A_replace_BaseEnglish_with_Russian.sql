@@ -13,11 +13,11 @@ SET creature_template.`Name`=`locales_creature`.`name_loc8`,creature_template.`s
 
 -- 2/15
 UPDATE `creature_ai_texts`
-SET `content_default` = `content_loc8`;
+SET `content_default` = COALESCE(`content_loc8`,`content_default`);
 
 -- 3/15
 UPDATE `db_script_string`
-SET `content_default` = `content_loc8` ;
+SET `content_default` = COALESCE(`content_loc8`,`content_default`) ;
 
 -- 4/15
 UPDATE `gameobject_template`
@@ -26,7 +26,7 @@ SET gameobject_template.`Name` = `locales_gameobject`.`name_loc8`;
 
 -- 5/15
 UPDATE `gossip_texts`
-SET `content_default` = `content_loc8` ;
+SET `content_default` = COALESCE(`content_loc8`,`content_default`) ;
 
 -- 6/15
 UPDATE `gossip_menu_option`
@@ -40,7 +40,7 @@ SET item_template.`Name`=`locales_item`.`name_loc8`,item_template.`description`=
  
 -- 8/15 
 UPDATE `mangos_string`
-SET `content_default` = `content_loc8` ; 
+SET `content_default` = COALESCE(`content_loc8`,`content_default`) ; 
 
 -- 9/15
 UPDATE `page_text`
@@ -50,7 +50,7 @@ SET page_text.`Text`=COALESCE(`locales_page_text`.`Text_loc8`,'');
 -- 10/15
 UPDATE `points_of_interest`
 INNER JOIN `locales_points_of_interest` ON points_of_interest.`entry`=`locales_points_of_interest`.`entry`
-SET points_of_interest.`icon_name`=COALESCE(`locales_points_of_interest`.`icon_name_loc8`,`locales_points_of_interest`.`icon_name_loc0`);
+SET points_of_interest.`icon_name`=COALESCE(`locales_points_of_interest`.`icon_name_loc8`,`points_of_interest`.`icon_name`);
 
 -- 11/15
 UPDATE `quest_template`
@@ -68,7 +68,7 @@ SET quest_template.`Title`=`locales_quest`.`Title_loc8`,
 
 -- 12/15
 UPDATE `script_texts`
-SET `content_default` = `content_loc8`;
+SET `content_default` = COALESCE(`content_loc8`,`content_default`);
 
 -- 13/15
 UPDATE `npc_text`
@@ -93,7 +93,7 @@ SET npc_text.`Text0_0`=`locales_npc_text`.`Text0_0_loc8`,
 -- 14/15
 UPDATE `command`
 INNER JOIN `locales_command` ON `command`.`id`=`locales_command`.`id`
-SET `command`.`help_text`=COALESCE(`locales_command`.`help_text_loc8`,`locales_command`.`help_text_loc0`);
+SET `command`.`help_text`=COALESCE(`locales_command`.`help_text_loc8`,`command`.`help_text`);
 
 -- 15/15
 UPDATE `achievement_reward`
