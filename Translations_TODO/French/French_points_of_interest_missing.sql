@@ -8,8 +8,6 @@ UPDATE `trans_words` SET `content_loc2`='Ironforge Barber' WHERE `word_id` = 127
 UPDATE `trans_words` SET `content_loc2`='Ironforge Shaman Trainer' WHERE `word_id` = 127251; -- locales_points_of_interest - icon_name : entry=65
 UPDATE `trans_words` SET `content_loc2`='Ironforge Inscription' WHERE `word_id` = 127380; -- locales_points_of_interest - icon_name : entry=72
 UPDATE `trans_words` SET `content_loc2`='Darnassus Inscription' WHERE `word_id` = 127381; -- locales_points_of_interest - icon_name : entry=107
-UPDATE `trans_words` SET `content_loc2`='Dalaran Eastern Sewer Entrance' WHERE `word_id` = 127382; -- locales_points_of_interest - icon_name : entry=126
-UPDATE `trans_words` SET `content_loc2`='Dalaran Western Sewer Entrance' WHERE `word_id` = 127383; -- locales_points_of_interest - icon_name : entry=127
 UPDATE `trans_words` SET `content_loc2`='Dalaran Silver Enclave' WHERE `word_id` = 127384; -- locales_points_of_interest - icon_name : entry=129
 UPDATE `trans_words` SET `content_loc2`='Dalaran Sunreaver\'s Sanctuary' WHERE `word_id` = 127385; -- locales_points_of_interest - icon_name : entry=130
 UPDATE `trans_words` SET `content_loc2`='Dalaran Northern Bank' WHERE `word_id` = 127386; -- locales_points_of_interest - icon_name : entry=131

@@ -10637,6 +10637,7 @@ UPDATE `locales_creature` SET `name_loc2`='Capitaine Korfang' WHERE `entry`=1759
 UPDATE `locales_creature` SET `name_loc2`='Péon mâche-les-os' WHERE `entry`=17595;
 UPDATE `locales_creature` SET `name_loc2`='Lieutenant des Flammes infernales' WHERE `entry`=17596;
 UPDATE `locales_creature` SET `name_loc2`='[PH] Capitaine Lévidence Junior' WHERE `entry`=17597;
+UPDATE `locales_creature` SET `subname_loc2`='Vendeur de munitions' WHERE `entry`=17598;
 UPDATE `locales_creature` SET `name_loc2`='Cartographe draeneï' WHERE `entry`=17600;
 UPDATE `locales_creature` SET `name_loc2`='Elekk de bât' WHERE `entry`=17601;
 UPDATE `locales_creature` SET `name_loc2`='Petit Chaperon rouge (transformation)' WHERE `entry`=17602;

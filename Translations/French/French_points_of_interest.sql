@@ -92,6 +92,8 @@ UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Malorne Feuillelame' W
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Nadyia Tissecrin' WHERE `entry`=123;
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Radnaal Tissecrin' WHERE `entry`=124;
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Nadyia Tissecrin' WHERE `entry`=125;
+UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Entrée Est des égouts de Dalaran' WHERE `entry`=126;
+UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Entrée Ouest des égouts de Dalaran' WHERE `entry`=127;
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Puits de Dalaran' WHERE `entry`=128;
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Accueil des visiteurs de Dalaran' WHERE `entry`=135;
 UPDATE `locales_points_of_interest` SET `icon_name_loc2`='Banque d\'Orgrimmar' WHERE `entry`=176;
