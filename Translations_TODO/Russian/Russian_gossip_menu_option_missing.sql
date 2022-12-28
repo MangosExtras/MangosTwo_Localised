@@ -21,13 +21,13 @@ UPDATE `trans_words` SET `content_loc8`='I need to fly to the Windrunner. Offici
 UPDATE `trans_words` SET `content_loc8`='Is there anything you would have of me?' WHERE `word_id`=128367; -- locales_gossip_menu_option - option_text : menu_id=20007-id=1
 UPDATE `trans_words` SET `content_loc8`='Learn about Dual Talent Specialization.' WHERE `word_id`=128981; -- locales_gossip_menu_option - option_text : menu_id=1403-id=3
 UPDATE `trans_words` SET `content_loc8`='Ner\'zhul' WHERE `word_id`=128151; -- locales_gossip_menu_option - option_text : menu_id=4764-id=2
-UPDATE `trans_words` SET `content_loc8`='Perhaps I can be of some assistance. I will make a deal with you, Satyr. I shall recover this unforged breastplate and slay the beast. In exchange for this task, you will teach me how to create the breastplate.' WHERE `word_id`=128373; -- locales_gossip_menu_option - option_text : menu_id=20019-id=0
+UPDATE `trans_words` SET `content_loc8`='Возможно, я смогу тебе помочь. Я заключу с тобой сделку, сатир. Я добуду этот распаянный нагрудник и убью Горалука Треснувшую Наковальню. А ты покажешь мне, как делать нагрудники.' WHERE `word_id`=128373; -- locales_gossip_menu_option - option_text : menu_id=20019-id=0
 UPDATE `trans_words` SET `content_loc8`='Take Blood Knight Insignia' WHERE `word_id`=129002; -- locales_gossip_menu_option - option_text : menu_id=7486-id=0
 UPDATE `trans_words` SET `content_loc8`='Thank you! I will be sure to notify you if I find anything else.' WHERE `word_id`=129146; -- locales_gossip_menu_option - option_text : menu_id=10213-id=0
 UPDATE `trans_words` SET `content_loc8`='This Dimensional Imploder sounds dangerous! How can I make one?' WHERE `word_id`=128186; -- locales_gossip_menu_option - option_text : menu_id=6092-id=0
-UPDATE `trans_words` SET `content_loc8`='Transcript the Tablet' WHERE `word_id`=128093; -- locales_gossip_menu_option - option_text : menu_id=2187-id=0
+UPDATE `trans_words` SET `content_loc8`='Пачка писем' WHERE `word_id`=128093; -- locales_gossip_menu_option - option_text : menu_id=2187-id=0
 UPDATE `trans_words` SET `content_loc8`='What Guardian? I don	 understand any of this.' WHERE `word_id`=128488; -- locales_gossip_menu_option - option_text : menu_id=86-id=0
-UPDATE `trans_words` SET `content_loc8`='Yes elder. Tell me more of the book.' WHERE `word_id`=128719; -- locales_gossip_menu_option - option_text : menu_id=8617-id=0
+UPDATE `trans_words` SET `content_loc8`='Да, старейшина. Расскажите мне еще о книге.' WHERE `word_id`=128719; -- locales_gossip_menu_option - option_text : menu_id=8617-id=0
 UPDATE `trans_words` SET `content_loc8`='Yes... yes, it\'s me.' WHERE `word_id`=128718; -- locales_gossip_menu_option - option_text : menu_id=8616-id=0
 UPDATE `trans_words` SET `content_loc8`='You gave the crew disguises?' WHERE `word_id`=128740; -- locales_gossip_menu_option - option_text : menu_id=8775-id=0
 

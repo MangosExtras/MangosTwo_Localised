@@ -156,7 +156,7 @@ UPDATE `trans_words` SET `content_loc8`='[ph] Argent Raid Spectator - Generic Bu
 UPDATE `trans_words` SET `content_loc8`='[PH] Captain (Orgrimmar)' WHERE `word_id` = 101474; -- locales_creature - name : entry=38164
 UPDATE `trans_words` SET `content_loc8`='[PH] Captain' WHERE `word_id` = 101294; -- locales_creature - name : entry=37831
 UPDATE `trans_words` SET `content_loc8`='[ph] cave ant [not used]' WHERE `word_id` = 89185; -- locales_creature - name : entry=22048
-UPDATE `trans_words` SET `content_loc8`='[PH] Citizen' WHERE `word_id` = 101281; -- locales_creature - name : entry=37787
+UPDATE `trans_words` SET `content_loc8`='Житель Штормграда' WHERE `word_id` = 101281; -- locales_creature - name : entry=37787
 UPDATE `trans_words` SET `content_loc8`='[ph] Coldarra Blue Dragon Patroller' WHERE `word_id` = 93147; -- locales_creature - name : entry=25723
 UPDATE `trans_words` SET `content_loc8`='[PH] Coldarra Leyliner' WHERE `word_id` = 93156; -- locales_creature - name : entry=25734
 UPDATE `trans_words` SET `content_loc8`='[PH] Dalaran Commoner' WHERE `word_id` = 94119; -- locales_creature - name : entry=27128
@@ -201,18 +201,18 @@ UPDATE `trans_words` SET `content_loc8`='[PH] New Hearthglen Scarlet Commander' 
 UPDATE `trans_words` SET `content_loc8`='[PH] New Hearthglen Scarlet Footman' WHERE `word_id` = 94191; -- locales_creature - name : entry=27205
 UPDATE `trans_words` SET `content_loc8`='[PH] New Hearthglen Scarlet Scout' WHERE `word_id` = 94200; -- locales_creature - name : entry=27218
 UPDATE `trans_words` SET `content_loc8`='[PH] Orc Firefighter' WHERE `word_id` = 101782; -- locales_creature - name : entry=39058
-UPDATE `trans_words` SET `content_loc8`='[PH] Orgrimmar Mage' WHERE `word_id` = 101470; -- locales_creature - name : entry=38158
+UPDATE `trans_words` SET `content_loc8`='Оргриммарский маг' WHERE `word_id` = 101470; -- locales_creature - name : entry=38158
 UPDATE `trans_words` SET `content_loc8`='[PH] Pilgrim\'s Bounty Table - Cranberry Sauce' WHERE `word_id` = 98960; -- locales_creature - name : entry=32827
 UPDATE `trans_words` SET `content_loc8`='[PH] Pilgrim\'s Bounty Table - Pie' WHERE `word_id` = 98962; -- locales_creature - name : entry=32829
 UPDATE `trans_words` SET `content_loc8`='[PH] Pilgrim\'s Bounty Table - Stuffing' WHERE `word_id` = 98964; -- locales_creature - name : entry=32831
 UPDATE `trans_words` SET `content_loc8`='[PH] Pilgrim\'s Bounty Table - Turkey' WHERE `word_id` = 98957; -- locales_creature - name : entry=32824
 UPDATE `trans_words` SET `content_loc8`='[PH] Pilgrim\'s Bounty Table - Yams' WHERE `word_id` = 98958; -- locales_creature - name : entry=32825
 UPDATE `trans_words` SET `content_loc8`='[PH] Runner Bunny' WHERE `word_id` = 101282; -- locales_creature - name : entry=37788
-UPDATE `trans_words` SET `content_loc8`='[PH] Scaling Air Elemental' WHERE `word_id` = 100791; -- locales_creature - name : entry=36964
-UPDATE `trans_words` SET `content_loc8`='[PH] Scaling Fire Elemental' WHERE `word_id` = 100787; -- locales_creature - name : entry=36949
+UPDATE `trans_words` SET `content_loc8`='Порывистый элементаль' WHERE `word_id` = 100791; -- locales_creature - name : entry=36964
+UPDATE `trans_words` SET `content_loc8`='Опаляющий элементаль' WHERE `word_id` = 100787; -- locales_creature - name : entry=36949
 UPDATE `trans_words` SET `content_loc8`='[PH] Slain Druid' WHERE `word_id` = 101748; -- locales_creature - name : entry=38846
 UPDATE `trans_words` SET `content_loc8`='[PH] Stabled Argent Hippogryph' WHERE `word_id` = 100073; -- locales_creature - name : entry=34893
-UPDATE `trans_words` SET `content_loc8`='[PH] Stormwind City Mage' WHERE `word_id` = 101257; -- locales_creature - name : entry=37732
+UPDATE `trans_words` SET `content_loc8`='Штормградский маг' WHERE `word_id` = 101257; -- locales_creature - name : entry=37732
 UPDATE `trans_words` SET `content_loc8`='[ph] test tournament charger' WHERE `word_id` = 99551; -- locales_creature - name : entry=33784
 UPDATE `trans_words` SET `content_loc8`='[ph] Tournament - Daily Combatant Summoner' WHERE `word_id` = 99305; -- locales_creature - name : entry=33501
 UPDATE `trans_words` SET `content_loc8`='[ph] Tournament - Mounted Combatant - Champion Test' WHERE `word_id` = 99320; -- locales_creature - name : entry=33521
@@ -247,7 +247,7 @@ UPDATE `trans_words` SET `content_loc8`='[UNUSED] Wrathstrike Gargoyle' WHERE `w
 UPDATE `trans_words` SET `content_loc8`='[UNUSED]Altar of Quetz\'lun Gateway - Real World' WHERE `word_id` = 95283; -- locales_creature - name : entry=28469
 UPDATE `trans_words` SET `content_loc8`='[UNUSED]Nazan Kill Credit' WHERE `word_id` = 90921; -- locales_creature - name : entry=24378
 UPDATE `trans_words` SET `content_loc8`='[UNUSED]Vazruden Kill Credit' WHERE `word_id` = 90920; -- locales_creature - name : entry=24377
-UPDATE `trans_words` SET `content_loc8`='<Hit Me!>' WHERE `word_id` = 95888; -- locales_creature - subname : entry=29265
+UPDATE `trans_words` SET `content_loc8`='Ударь меня!' WHERE `word_id` = 95888; -- locales_creature - subname : entry=29265
 UPDATE `trans_words` SET `content_loc8`='<NOT USED>Mystery Mask Summon Bunny' WHERE `word_id` = 89415; -- locales_creature - name : entry=22296
 UPDATE `trans_words` SET `content_loc8`='<TXT>Crown Guard Capture Quest Doodad' WHERE `word_id` = 81858; -- locales_creature - name : entry=17689
 UPDATE `trans_words` SET `content_loc8`='<TXT>Eastwall Capture Quest Doodad' WHERE `word_id` = 81859; -- locales_creature - name : entry=17690
@@ -403,7 +403,7 @@ UPDATE `trans_words` SET `content_loc8`='Azure Stalker (1)' WHERE `word_id` = 98
 UPDATE `trans_words` SET `content_loc8`='Azure Warder (1)' WHERE `word_id` = 96956; -- locales_creature - name : entry=30459
 UPDATE `trans_words` SET `content_loc8`='Bad Fish - Critter' WHERE `word_id` = 97640; -- locales_creature - name : entry=31252
 UPDATE `trans_words` SET `content_loc8`='Bad Fish - Rabbits' WHERE `word_id` = 97643; -- locales_creature - name : entry=31256
-UPDATE `trans_words` SET `content_loc8`='Baine Bloodhoof (Leader)' WHERE `word_id` = 100690; -- locales_creature - name : entry=36648
+UPDATE `trans_words` SET `content_loc8`='Бейн Кровавое Копыто' WHERE `word_id` = 100690; -- locales_creature - name : entry=36648
 UPDATE `trans_words` SET `content_loc8`='Baleheim Fire Bunny' WHERE `word_id` = 92350; -- locales_creature - name : entry=24193
 UPDATE `trans_words` SET `content_loc8`='Banner Bunny, Hanging, Alliance' WHERE `word_id` = 98478; -- locales_creature - name : entry=32217
 UPDATE `trans_words` SET `content_loc8`='Banner Bunny, Hanging, Horde' WHERE `word_id` = 98474; -- locales_creature - name : entry=32214
@@ -617,7 +617,7 @@ UPDATE `trans_words` SET `content_loc8`='Clayton\'s Test Creature (1)' WHERE `wo
 UPDATE `trans_words` SET `content_loc8`='Clayton\'s Test Creature' WHERE `word_id` = 92027; -- locales_creature - name : entry=23715
 UPDATE `trans_words` SET `content_loc8`='Cloak Dome Bunny' WHERE `word_id` = 98066; -- locales_creature - name : entry=31777
 UPDATE `trans_words` SET `content_loc8`='Cloak Dome Bunny, Large' WHERE `word_id` = 98551; -- locales_creature - name : entry=32298
-UPDATE `trans_words` SET `content_loc8`='Co\'man' WHERE `word_id` = 268302; -- locales_creature - name : entry=28827
+UPDATE `trans_words` SET `content_loc8`='Ко\'ман' WHERE `word_id` = 268302; -- locales_creature - name : entry=28827
 UPDATE `trans_words` SET `content_loc8`='CoD Eye Proxy' WHERE `word_id` = 100033; -- locales_creature - name : entry=34810
 UPDATE `trans_words` SET `content_loc8`='Coilfang Periodic Bat Trigger (1)' WHERE `word_id` = 87368; -- locales_creature - name : entry=20166
 UPDATE `trans_words` SET `content_loc8`='Coilfang Periodic Bat Trigger' WHERE `word_id` = 85087; -- locales_creature - name : entry=17867
@@ -1368,7 +1368,7 @@ UPDATE `trans_words` SET `content_loc8`='Ingvar Throw Dummy' WHERE `word_id` = 9
 UPDATE `trans_words` SET `content_loc8`='Ingvar Throw Target' WHERE `word_id` = 92184; -- locales_creature - name : entry=23996
 UPDATE `trans_words` SET `content_loc8`='Injured Soldier Waypoint 01' WHERE `word_id` = 94711; -- locales_creature - name : entry=27792
 UPDATE `trans_words` SET `content_loc8`='Innkeeper Sentinel Hill' WHERE `word_id` = 82898; -- locales_creature - name : entry=8999
-UPDATE `trans_words` SET `content_loc8`='Innocuous Scarab' WHERE `word_id` = 100590; -- locales_creature - name : entry=36173
+UPDATE `trans_words` SET `content_loc8`='Безобидный скарабей' WHERE `word_id` = 100590; -- locales_creature - name : entry=36173
 UPDATE `trans_words` SET `content_loc8`='Instructor Razuvious (1)' WHERE `word_id` = 96510; -- locales_creature - name : entry=29940
 UPDATE `trans_words` SET `content_loc8`='Invis Lightning Stalker' WHERE `word_id` = 95014; -- locales_creature - name : entry=28130
 UPDATE `trans_words` SET `content_loc8`='Invisible Burrowed Jormungar' WHERE `word_id` = 100238; -- locales_creature - name : entry=35228
